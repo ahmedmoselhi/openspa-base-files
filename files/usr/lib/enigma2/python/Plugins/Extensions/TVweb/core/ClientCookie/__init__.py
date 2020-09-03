@@ -1,3 +1,4 @@
+import sys
 
 try: True
 except NameError:

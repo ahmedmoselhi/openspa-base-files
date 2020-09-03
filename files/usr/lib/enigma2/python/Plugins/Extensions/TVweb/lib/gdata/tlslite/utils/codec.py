@@ -1,3 +1,4 @@
+"""Classes for reading/writing binary data (such as TLS records)."""
 
 from compat import *
 

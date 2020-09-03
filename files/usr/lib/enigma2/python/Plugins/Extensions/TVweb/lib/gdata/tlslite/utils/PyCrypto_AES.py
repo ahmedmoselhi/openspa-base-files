@@ -1,3 +1,4 @@
+"""PyCrypto AES implementation."""
 
 from cryptomath import *
 from AES import *

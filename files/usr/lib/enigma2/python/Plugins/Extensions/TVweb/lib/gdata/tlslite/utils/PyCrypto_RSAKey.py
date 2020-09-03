@@ -1,3 +1,4 @@
+"""PyCrypto RSA implementation."""
 
 from cryptomath import *
 

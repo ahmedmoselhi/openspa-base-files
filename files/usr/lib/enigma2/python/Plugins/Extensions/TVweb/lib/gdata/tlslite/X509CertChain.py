@@ -1,3 +1,4 @@
+"""Class representing an X.509 certificate chain."""
 
 from utils import cryptomath
 

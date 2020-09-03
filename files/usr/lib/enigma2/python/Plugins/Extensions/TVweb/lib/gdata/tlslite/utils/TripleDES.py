@@ -1,3 +1,4 @@
+"""Abstract class for 3DES."""
 
 from compat import * #For True
 

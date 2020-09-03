@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #------------------------------------------------------------
 # tvalacarta
 # http://blog.tvalacarta.info/plugin-xbmc/tvalacarta/

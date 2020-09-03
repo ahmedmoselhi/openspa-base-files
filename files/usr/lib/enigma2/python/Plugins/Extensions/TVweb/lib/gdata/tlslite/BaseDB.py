@@ -1,3 +1,4 @@
+"""Base class for SharedKeyDB and VerifierDB."""
 
 import anydbm
 import thread

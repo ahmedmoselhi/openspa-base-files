@@ -1,3 +1,4 @@
+"""Implementation of JSONDecoder
 """
 import re
 import sys

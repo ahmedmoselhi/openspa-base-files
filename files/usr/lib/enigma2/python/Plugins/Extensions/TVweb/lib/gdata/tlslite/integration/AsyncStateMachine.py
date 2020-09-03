@@ -1,3 +1,4 @@
+"""
 A state machine for using TLS Lite with asynchronous I/O.
 """
 

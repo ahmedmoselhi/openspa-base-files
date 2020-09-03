@@ -1,3 +1,4 @@
+"""Class for caching TLS sessions."""
 
 import thread
 import time

@@ -1,3 +1,4 @@
+from google.appengine.ext import db
 
 
 class PetModel(db.Model):

@@ -1,3 +1,4 @@
+# -*-*- encoding: utf-8 -*-*-
 #
 # This is gdata.photos.geo, implementing geological positioning in gdata structures
 #

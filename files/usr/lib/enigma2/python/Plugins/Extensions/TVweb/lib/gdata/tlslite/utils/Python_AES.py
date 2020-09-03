@@ -1,3 +1,4 @@
+"""Pure-Python AES implementation."""
 
 from cryptomath import *
 

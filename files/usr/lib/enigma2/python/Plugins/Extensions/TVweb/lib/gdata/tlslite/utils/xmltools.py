@@ -1,3 +1,4 @@
+"""Helper functions for XML.
 
 This module has misc. helper functions for working with XML DOM nodes."""
 

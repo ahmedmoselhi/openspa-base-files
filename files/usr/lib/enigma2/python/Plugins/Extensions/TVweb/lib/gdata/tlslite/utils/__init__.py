@@ -1,3 +1,4 @@
+"""Toolkit for crypto and other stuff."""
 
 __all__ = ["AES",
            "ASN1Parser",

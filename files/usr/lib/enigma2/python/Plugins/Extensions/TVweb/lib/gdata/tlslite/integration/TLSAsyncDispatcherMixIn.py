@@ -1,3 +1,4 @@
+"""TLS Lite + asyncore."""
 
 
 import asyncore

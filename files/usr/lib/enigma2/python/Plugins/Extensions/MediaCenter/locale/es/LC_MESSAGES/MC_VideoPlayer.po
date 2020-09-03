@@ -1,0 +1,384 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - MediaCenter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mpiero <azboxhd.es>\n"
+"Language-Team: www.azboxhd.es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/MediaCenter\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/MediaCenter\n"
+
+msgid "Use the Play/Pause button [>/||] for select files and press [OK] for play selected files. Press [0] for view PlayList and [MENU] for more options"
+msgstr "Pulsa [OK] sobre un archivo para reproducirlo. Utiliza el botón de Reproducir/Pausa [>/||] para seleccionar archivos, y pulsa la tecla [OK] sobre cualquiera para reproducir la lista. Pulsa [0] para ver/editar la lista de reproducción, o también para cargar una lista guardada o guardar la lista. Pulsa [MENU] para más opciones."
+
+msgid "Do you want to play selected files"
+msgstr "Quieres reproducir los videos seleccionados"
+
+msgid "If you chose NO only current file is played"
+msgstr "Si eliges NO solo se reproducirá el archivo actual"
+
+msgid "Add to playlist all files in folder"
+msgstr "Añadir a la Lista toda la carpeta"
+
+msgid "Stop play and exit to list movie?"
+msgstr "Parar reproducción y volver a la lista de películas?"
+
+msgid "Stop play"
+msgstr "Detener película"
+
+msgid "Records"
+msgstr "Grabaciones"
+
+msgid "PlayList"
+msgstr "Lista de repr."
+
+msgid "Add to list"
+msgstr "Añadir a Lista"
+
+msgid "Del from list"
+msgstr "Desmarcar"
+
+msgid "Show Playlist"
+msgstr "Mostrar Lista de reproducción"
+
+msgid "Clear playlist"
+msgstr "Borrar Lista de reproducción"
+
+msgid "Up"
+msgstr "Arriba"
+
+msgid "Down"
+msgstr "Abajo"
+
+msgid "First elements protected, unable to move"
+msgstr "Los primero elementos de la lista están protegidos."
+
+msgid "Set name"
+msgstr "Establecer nombre"
+
+msgid "Add directory to Bookmarks"
+msgstr "Añadir carpeta a Favoritos"
+
+msgid "Input"
+msgstr "Introduce"
+
+msgid "Delete current bookmark from list?"
+msgstr "Borrar el favoritos actual de la lista?"
+
+msgid "Protected element, unable to delete"
+msgstr "Elemento protegido, imposible borrar"
+
+msgid "Sort"
+msgstr "Orden"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Size"
+msgstr "Tamaño"
+
+msgid "Sort by name"
+msgstr "Ordenar por nombre"
+
+msgid "Sort by date"
+msgstr "Ordenar por fecha"
+
+msgid "Sort by size"
+msgstr "Ordenar por tamaño"
+
+msgid "Sort by"
+msgstr "Ordenar por"
+
+msgid "Orded by"
+msgstr "Ordenado por"
+
+msgid "List of Storage Devices"
+msgstr "Listar dispositivos de almacenamiento"
+
+msgid "Hard disk"
+msgstr "Disco Duro"
+
+msgid "Movies"
+msgstr "Películas"
+
+msgid "Music"
+msgstr "Música"
+
+msgid "Picture"
+msgstr "Imágenes"
+
+msgid "Yesterday"
+msgstr "Ayer"
+
+msgid "root folder"
+msgstr "Carpeta raíz"
+
+msgid "Bookmarks"
+msgstr "Favoritos"
+
+msgid "Delete from list"
+msgstr "Quitar de lista"
+
+msgid "Add current"
+msgstr "Añadir actual"
+
+msgid "File info"
+msgstr "Archivo info"
+
+msgid "Home"
+msgstr "Volver"
+
+msgid "delete directory"
+msgstr "Borrar carpeta"
+
+msgid "delete file"
+msgstr "Borrar archivo"
+
+msgid "Do you really want to delete this directory and it's content ?"
+msgstr "Estás seguro de borrar la carpeta y su contenido?"
+
+msgid "Do you really want to delete this file ?"
+msgstr "Estás seguro de borrar este archivo?"
+
+msgid "Press [INFO] for more"
+msgstr "Pulsa [INFO] para ver más"
+
+msgid "Recording Date"
+msgstr "Fecha de grabación"
+
+msgid "Duration"
+msgstr "Duración"
+
+msgid "Repeat mode ACTIVATED"
+msgstr "Modo repetir ACTIVADO"
+
+msgid "Repeat mode DEACTIVATED"
+msgstr "Modo repetir DESACTIVADO"
+
+msgid "Repeating title..."
+msgstr "Repitiendo título..."
+
+msgid "File not exists!"
+msgstr "El archivo no existe!"
+
+msgid "Select file for play"
+msgstr "Selecciona archivo para reproducir"
+
+msgid "Delete"
+msgstr "Borrar selección"
+
+msgid "Add files or load saved playlist with [BLUE] button"
+msgstr "Añade archivos o carga listas guardadas con el boton [AZUL]."
+
+msgid "Move Up"
+msgstr "Mover Arriba"
+
+msgid "Move Down"
+msgstr "Mover Abajo"
+
+msgid "item(s) in list"
+msgstr "elemento(s) en la lista"
+
+msgid "File not avaiable!"
+msgstr "Archivo no disponible!"
+
+msgid "Do you want to clear playlist?"
+msgstr ""
+"Se borrarán todos los elementos de la lista.\n"
+"Limpiar la lista?"
+
+msgid "Playlist loaded"
+msgstr "Lista cargada!"
+
+msgid "Overwrite playlist"
+msgstr "Desea sobreescribir la lista"
+
+msgid ""
+"The current playlist are loss.\n"
+"Load saved playlist?"
+msgstr ""
+"La lista actual se perderá.\n"
+"Cargar una lista guardada?"
+
+msgid "Clear"
+msgstr "Vaciar"
+
+msgid "Empty list. No file found in playlist."
+msgstr "Lista vacia. Esta lista no contiene ningún archivo."
+
+msgid "Repeat"
+msgstr "Repetir"
+
+msgid "Save playlist"
+msgstr "Guardar Lista"
+
+msgid "Load playlist"
+msgstr "Cargar Lista"
+
+msgid "Save to disk"
+msgstr "Guardar lista"
+
+msgid "PlayList saved to disk"
+msgstr "La lista de reproducción ha sido guardada"
+
+msgid "Saved PlayList is empty!!!"
+msgstr "La lista guardada está vacia!!!"
+
+msgid "PlayList loaded from disk"
+msgstr "Lista de reproducción cargada"
+
+msgid "Select playlist to"
+msgstr "Selecciona Lista para"
+
+msgid "PlayList File"
+msgstr "Lista de reproducción nº"
+
+msgid "Are you sure to clear all items in current list?"
+msgstr "Estás seguro de vaciar la lista actual?"
+
+msgid "Verify playlist. Press [MENU]"
+msgstr "Verifica la lista de reproducción. Pulsa [MENU]"
+
+msgid "load"
+msgstr "cargar"
+
+msgid "save"
+msgstr "guardar"
+
+msgid "of"
+msgstr "de"
+
+msgid "No"
+msgstr "No"
+
+msgid "Yes"
+msgstr "Sí"
+
+msgid "Monday"
+msgstr "Lunes"
+
+msgid "Tuesday"
+msgstr "Martes"
+
+msgid "Wednesday"
+msgstr "Miércoles"
+
+msgid "Thursday"
+msgstr "Jueves"
+
+msgid "Friday"
+msgstr "Viernes"
+
+msgid "Saturday"
+msgstr "Sábado"
+
+msgid "Sunday"
+msgstr "Domingo"
+
+msgid "January"
+msgstr "Enero"
+
+msgid "February"
+msgstr "Febrero"
+
+msgid "March"
+msgstr "Marzo"
+
+msgid "April"
+msgstr "Abril"
+
+msgid "May"
+msgstr "Mayo"
+
+msgid "June"
+msgstr "Junio"
+
+msgid "July"
+msgstr "Julio"
+
+msgid "August"
+msgstr "Agosto"
+
+msgid "September"
+msgstr "Septiembre"
+
+msgid "October"
+msgstr "Octubre"
+
+msgid "November"
+msgstr "Noviembre"
+
+msgid "December"
+msgstr "Diciembre"
+
+msgid "Stop Playback"
+msgstr "Detener reproducción"
+
+msgid "Show menu options"
+msgstr "Mostrar menu de opciones"
+
+msgid "Switch to the next angle"
+msgstr "Cambiar al siguiente ángulo"
+
+msgid "Seek forward with input box"
+msgstr "Buscar hacia adelante"
+
+msgid "Seek backward with input box"
+msgstr "Buscar hacia atrás"
+
+msgid "Pause / Resume"
+msgstr "Pausa / Continuar"
+
+msgid "Toggle time, chapter, audio, subtitle info"
+msgstr "Mostrar tiempo, capitulo, audio, subtitulos"
+
+msgid "Seek forward"
+msgstr "Buscar hacia adelante"
+
+msgid "Seek backward"
+msgstr "Buscar hacia atrás"
+
+msgid "Select audio track"
+msgstr "Seleccionar pista de audio"
+
+msgid "File"
+msgstr "Archivo"
+
+msgid "Folder"
+msgstr "Carpeta"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Movie Information"
+msgstr "Información del archivo"
+
+msgid "Media Center - Options"
+msgstr "MediaCenter - Opciones"
+
+msgid "Audio selection"
+msgstr "Seleccionar Audio"
+
+msgid "Subtitle selection"
+msgstr "Seleccionar Subtítulos"
+
+msgid "Select option for current movie"
+msgstr "Selecciona una opción"
+
+msgid "Scaling mode"
+msgstr "Modo de Pantalla"
+
+msgid "Go to position"
+msgstr "Ir posición"
+
+msgid "Subtitle Options"
+msgstr "Opciones de subtítulos"
+

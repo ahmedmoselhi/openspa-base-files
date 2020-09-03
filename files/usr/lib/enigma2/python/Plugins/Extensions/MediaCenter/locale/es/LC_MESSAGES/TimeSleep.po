@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - TimeSleep\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mpiero <www.azboxhd.es>\n"
+"Language-Team: www.azboxhd.es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/TimeSleep\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/TimeSleep\n"
+
+msgid "Go to position:"
+msgstr "Ir a la posicion:"
+
+msgid "<< Rewind:"
+msgstr "<< Rebobinar:"
+
+msgid ">> FastForward:"
+msgstr ">> Avanzar:"
+
+msgid "Activate with left and right buttons in movieplayer (need restart):"
+msgstr "Activar con teclas izq. y dch. en movieplayer (necesario reiniciar):"
+
+msgid "Activate with 1 and 3 buttons (need restart):"
+msgstr "Activar con teclas 1 y 3 (necesario reiniciar):"
+
+msgid "Seek"
+msgstr "Posicionar"
+
+msgid "TimeSleep"
+msgstr "TimeSleep"
+
+msgid "Cursor Sensibility in slider (1-30):"
+msgstr "Sensibilidad de desplazamiento (1-30):"
+
+msgid "Hour:"
+msgstr "Hora:"
+
+msgid "Minute:"
+msgstr "Minuto:"
+
+msgid "Second:"
+msgstr "Segundo:"
+
+msgid "Hours:"
+msgstr "Horas:"
+
+msgid "Minutes:"
+msgstr "Minutos:"
+
+msgid "Seconds:"
+msgstr "Segundos:"
+
+msgid "Default skip time:"
+msgstr "Tiempo a saltar por defecto:"
+
+msgid "Enable TimeSleep (need restart):"
+msgstr "Activar TimeSleep (necesario reiniciar):"
+
+msgid "Skip:"
+msgstr "Saltar:"
+
+msgid "sec."
+msgstr "segs."
+
+msgid "min."
+msgstr "min."
+

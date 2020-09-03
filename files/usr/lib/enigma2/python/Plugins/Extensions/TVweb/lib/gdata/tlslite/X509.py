@@ -1,3 +1,4 @@
+"""Class representing an X.509 certificate."""
 
 from utils.ASN1Parser import ASN1Parser
 from utils.cryptomath import *

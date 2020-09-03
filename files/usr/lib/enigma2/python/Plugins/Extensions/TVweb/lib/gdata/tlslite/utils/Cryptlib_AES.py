@@ -1,3 +1,4 @@
+"""Cryptlib AES implementation."""
 
 from cryptomath import *
 from AES import *

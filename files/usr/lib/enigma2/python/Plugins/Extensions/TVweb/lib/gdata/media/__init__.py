@@ -1,3 +1,4 @@
+# -*-*- encoding: utf-8 -*-*-
 #
 # This is gdata.photos.media, implementing parts of the MediaRSS spec in gdata structures
 #

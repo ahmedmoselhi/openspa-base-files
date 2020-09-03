@@ -1,3 +1,4 @@
+"""Constants used in various places."""
 
 class CertificateType:
     x509 = 0

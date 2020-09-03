@@ -1,3 +1,4 @@
+"""
 TLS Lite is a free python library that implements SSL v3, TLS v1, and
 TLS v1.1.  TLS Lite supports non-traditional authentication methods
 such as SRP, shared keys, and cryptoIDs, in addition to X.509

@@ -1,3 +1,4 @@
+"""Pure-Python RC4 implementation."""
 
 from RC4 import RC4
 from cryptomath import *

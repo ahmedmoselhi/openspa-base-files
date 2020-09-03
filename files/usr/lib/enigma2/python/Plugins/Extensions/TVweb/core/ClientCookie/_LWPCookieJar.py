@@ -1,3 +1,4 @@
+"""Load / save to libwww-perl (LWP) format files.
 
 Actually, the format is slightly extended from that used by LWP's
 (libwww-perl's) HTTP::Cookies, to avoid losing some RFC 2965 information

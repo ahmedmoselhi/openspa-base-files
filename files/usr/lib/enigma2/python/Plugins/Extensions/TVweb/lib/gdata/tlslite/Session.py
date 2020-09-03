@@ -1,3 +1,4 @@
+"""Class representing a TLS session."""
 
 from utils.compat import *
 from mathtls import *

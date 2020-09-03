@@ -1,3 +1,4 @@
+"""TLS Lite + SocketServer."""
 
 from gdata.tlslite.TLSConnection import TLSConnection
 

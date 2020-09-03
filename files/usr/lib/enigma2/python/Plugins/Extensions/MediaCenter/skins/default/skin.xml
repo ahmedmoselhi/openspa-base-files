@@ -1,0 +1,224 @@
+<skin>
+		<output id="0">
+			<resolution xres="1280" yres="720" bpp="32" />
+		</output>
+
+		<!-- DMC Main Menu -->
+		<screen name="DMC_MainMenu" position="441,174" size="400,370" backgroundColor="background" flags="wfBorder" title="Media Center">
+		  <widget source="menu" render="Listbox" position="10,10" size="380,350" scrollbarMode="showNever" enableWrapAround="1" transparent="1" itemHeight="50" zPosition="11" foregroundColor="foreground">
+			<convert type="TemplatedMultiContent">
+		{"template": [ MultiContentEntryText(pos = (0, 0), size = (380,  50), flags = RT_HALIGN_CENTER, text = 0) ],
+		"fonts": [gFont("Regular", 24)],
+		"itemHeight": 50
+		}
+		</convert>
+		  </widget>
+		</screen>
+		<!-- DMC Settings Menu -->
+		<screen name="MC_Settings" position="center,center" size="400,220" title="Media Center" flags="wfBorder" backgroundColor="background" >
+			<widget name="configlist" zPosition="2" transparent="1" position="10,10" size="380,200" />
+		</screen>
+
+		<!-- DMC Audio Player -->
+		<screen name="MC_AudioPlayer" position="0,0" size="1280,720" title="Music" flags="wfNoBorder" backgroundColor="#1f1f21" >
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/skins/default/images/musicbg.png" position="0,0" zPosition="1" size="1280,720" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/red.png" position="1065,164" zPosition="2" size="35,30" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/green.png" position="1065,226" zPosition="2" size="35,30" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/yellow.png" position="1065,290" zPosition="2" size="35,30" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/blue.png" position="1065,350" zPosition="2" size="35,30" transparent="1" alphatest="on" />
+			<widget name="key_red" position="1103,160" zPosition="3" size="150,30" font="Regular;18" valign="center" halign="left" transparent="1" />
+			<widget name="key_green" position="1103,223" zPosition="3" size="150,30" font="Regular;18" valign="center" halign="left" transparent="1" />
+			<widget name="key_yellow" position="1103,287" zPosition="3" size="350,30" font="Regular;18" valign="center" halign="left" transparent="1" />
+			<widget name="key_blue" position="1103,347" zPosition="3" size="150,30" font="Regular;18" valign="center" halign="left" transparent="1" />
+			<widget name="lalbum" transparent="1" position="280,335" zPosition="2" size="100,30" font="Regular; 20"/>
+			<widget name="lyear" transparent="1" position="280,365" zPosition="2" size="100,30" font="Regular; 20"/>
+			<widget name="lgenre" transparent="1" position="280,395" zPosition="2" size="100,30" font="Regular; 20"/>
+			<widget name="lmode" transparent="1" position="280,425" zPosition="2" size="100,30" font="Regular; 20"/>
+			<widget name="lbitrate" transparent="1" position="280,455" zPosition="2" size="100,30" font="Regular; 20"/>
+			<widget name="lduration" transparent="1" position="280,485" zPosition="2" size="100,30" font="Regular; 20"/>
+			<widget name="title" transparent="1" position="73,508" zPosition="2" size="967,30" font="Regular; 25" foregroundColor="#00ffffff" />
+			<widget name="artist" transparent="1" position="73,544" zPosition="2" size="650,25" font="Regular; 20"/>
+			<widget name="album" transparent="1" position="73,574" zPosition="2" size="650,25" font="Regular; 20"/>
+			<widget name="year" transparent="1" position="73,600" zPosition="2" size="200,25" font="Regular; 20"/>
+			<widget name="genre" transparent="1" position="740,528" halign="right" zPosition="2" size="280,25" font="Regular; 20"/>
+			<widget name="mode" transparent="1" position="740,553" halign="right" zPosition="2" size="280,25" font="Regular; 20"/>
+			<widget name="bitrate" transparent="1" position="740,578" halign="right" zPosition="2" size="280,25" font="Regular; 20"/>
+			<widget name="duration" transparent="1" position="740,600" halign="right" zPosition="2" size="280,30" font="Regular; 30"/>
+			<!-- added by spaze team -->
+			<widget name="filelist" transparent="1" position="76,72" zPosition="2" size="940,400" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="#ced0d5" backgroundColor="#000000" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/sellista-fs8.png" foregroundColorSelected="#ffffff"/>
+			<!-- added by spaze team -->
+			
+			<widget name="coverArt" position="1054,508" size="198,198" zPosition="5" alphatest="on" />
+			<widget name="curplayingtitle" zPosition="2" transparent="1" halign="left" position="400,60" size="700,25" font="Regular;15" foregroundColor="#f0f0f0"/>
+			<widget source="session.CurrentService" render="Label" position="500,600" size="120,30" zPosition="3" font="Regular;30" halign="left" transparent="1">
+				<convert type="ServicePosition">Position,InMinutes</convert>
+			</widget>
+			<widget source="session.CurrentService" render="Label" position="73,600" size="120,30" zPosition="3" font="Regular;30" halign="left" transparent="1">
+				<convert type="ServicePosition">Remaining,InMinutes</convert>
+			</widget>
+			<widget source="session.CurrentService" render="Label" position="740,600" size="280,30" zPosition="3" font="Regular;30" halign="right" transparent="1">
+				<convert type="ServicePosition">Length,InMinutes</convert>
+			</widget>
+			<widget source="session.CurrentService" render="Progress" position="73,635" size="947,8" zPosition="3" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/progresoa.png">
+				<convert type="ServicePosition">Position</convert>
+			</widget>
+		</screen>
+
+		<!-- DMC Audio Player -->
+		<screen name="MC_AudioPlaylist" position="0,0" size="1280,720" title="Music Playlist" flags="wfNoBorder" backgroundColor="#1f1f21" >
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/skins/default/images/musicbg.png" position="0,0" zPosition="1" size="1280,720" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/red.png" position="1065,164" zPosition="2" size="35,30" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/green.png" position="1065,226" zPosition="2" size="35,30" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/yellow.png" position="1065,290" zPosition="2" size="35,30" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/blue.png" position="1065,350" zPosition="2" size="35,30" transparent="1" alphatest="on" />
+			<widget name="key_red" position="1103,160" zPosition="3" size="150,30" font="Regular;18" valign="center" halign="left" transparent="1" />
+			<widget name="key_green" position="1103,223" zPosition="3" size="150,30" font="Regular;18" valign="center" halign="left" transparent="1" />
+			<widget name="key_yellow" position="1103,287" zPosition="3" size="350,30" font="Regular;18" valign="center" halign="left" transparent="1" />
+			<widget name="key_blue" position="1103,347" zPosition="3" size="150,30" font="Regular;18" valign="center" halign="left" transparent="1" />
+<!--			<widget name="coverArt" position="810,125" size="374,306" zPosition="5" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/skins/default/images/icons/aafcoverart.png" transparent="1" alphatest="blend" />
+	-->
+			<widget name="title" transparent="1" position="73,508" zPosition="2" size="967,30" font="Regular; 25" foregroundColor="#00ffffff" />
+			<widget name="artist" transparent="1" position="73,544" zPosition="2" size="650,25" font="Regular; 20"/>
+			<widget name="album" transparent="1" position="73,574" zPosition="2" size="650,25" font="Regular; 20"/>
+			<widget name="year" transparent="1" position="73,600" zPosition="2" size="200,25" font="Regular; 20"/>
+			<widget name="genre" transparent="1" position="740,528" halign="right" zPosition="2" size="280,25" font="Regular; 20"/>
+			<widget name="mode" transparent="1" position="740,553" halign="right" zPosition="2" size="280,25" font="Regular; 20"/>
+			<widget name="bitrate" transparent="1" position="740,578" halign="right" zPosition="2" size="280,25" font="Regular; 20"/>
+			<widget name="duration" transparent="1" position="740,600" halign="right" zPosition="2" size="280,30" font="Regular; 30"/>
+			<!-- added by spaze team -->
+			<widget name="playlist" transparent="1" position="76,72" zPosition="2" size="940,400" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="#ced0d5" backgroundColor="#000000" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/sellista-fs8.png" foregroundColorSelected="#ffffff"/>
+			<!-- added by spaze team -->
+			
+			<widget name="coverArt" position="1054,508" size="198,198" zPosition="5" alphatest="on" />
+			<widget name="curplayingtitle" zPosition="2" transparent="1" halign="left" position="400,60" size="700,25" font="Regular;15" foregroundColor="#f0f0f0"/>
+			<widget source="session.CurrentService" render="Label" position="500,600" size="120,30" zPosition="3" font="Regular;30" halign="left" transparent="1">
+				<convert type="ServicePosition">Position,InMinutes</convert>
+			</widget>
+			<widget source="session.CurrentService" render="Label" position="73,600" size="120,30" zPosition="3" font="Regular;30" halign="left" transparent="1">
+				<convert type="ServicePosition">Remaining,InMinutes</convert>
+			</widget>
+			<widget source="session.CurrentService" render="Label" position="740,600" size="280,30" zPosition="3" font="Regular;30" halign="right" transparent="1">
+				<convert type="ServicePosition">Length,InMinutes</convert>
+			</widget>
+			<widget source="session.CurrentService" render="Progress" position="73,635" size="947,8" zPosition="3" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/progresoa.png">
+				<convert type="ServicePosition">Position</convert>
+			</widget>
+			<widget name="playlistname" position="73,655" size="645,30" zPosition="3" font="Regular;25" halign="left" foregroundColor="#1130608f" transparent="1"/>
+			<widget name="track" position="740,655" size="280,30" zPosition="3" font="Regular;25" halign="right" foregroundColor="#1130608f" transparent="1"/>
+		</screen>
+
+		<!-- DMC Video Player by spaze team nov-2011 -->
+		<screen name="MC_VideoPlayer" position="0,0" size="1280,720" title="Movies" flags="wfNoBorder" backgroundColor="#050000">
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/info.png" position="1065,99" zPosition="2" size="35,30" transparent="1" alphatest="on" />
+			<widget name="key_info" position="1102,96" zPosition="3" size="150,30" font="Regular;18" valign="center" halign="left" transparent="1" />
+			<!--<widget name="imagen_fondo" position="0,0" zPosition="1" size="1280,720" alphatest="on" />-->
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/skins/default/images/videobg.png" position="0,0" zPosition="1" size="1280,720" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/skins/default/images/logospzfs8.png" position="1064,6" zPosition="2" size="179,78" transparent="1" alphatest="blend" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/red.png" position="1065,139" zPosition="2" size="35,30" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/green.png" position="1065,179" zPosition="2" size="35,30" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/yellow.png" position="1065,219" zPosition="2" size="35,30" transparent="1" alphatest="on" />
+			
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/blue.png" position="1065,259" zPosition="2" size="35,30" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/key0-fs8.png" position="1065,299" zPosition="2" size="35,25" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/keypause-fs8.png" position="1065,339" zPosition="2" size="35,25" transparent="1" alphatest="on" />			
+			<widget name="key_red" position="1103,136" zPosition="3" size="150,30" font="Regular;18" valign="center" halign="left" transparent="1" />
+			<widget name="key_green" position="1103,176" zPosition="3" size="150,30" font="Regular;18" valign="center" halign="left" transparent="1" />
+			<widget name="key_yellow" position="1103,216" zPosition="3" size="350,30" font="Regular;18" valign="center" halign="left" transparent="1" />
+			<widget name="key_blue" position="1103,256" zPosition="3" size="150,30" font="Regular;18" valign="center" halign="left" transparent="1" />
+			
+			<widget name="key_0" position="1103,296" zPosition="3" size="200,25" font="Regular;18" valign="center" halign="left" transparent="1" noWrap="1" />
+			<widget name="key_pause" position="1103,336" zPosition="3" size="200,25" font="Regular;18" valign="center" halign="left" transparent="1" noWrap="1" />
+			
+			<!-- added by spaze team -->
+			<widget name="filelist" transparent="1" position="76,72" zPosition="2" size="940,400" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="#ced0d5" backgroundColor="#000000" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/sellista-fs8.png" foregroundColorSelected="#ffffff"/>
+			<!-- added by spaze team -->
+			
+			<widget name="coverArt" position="1054,418" size="198,292" zPosition="5" alphatest="on" />
+			<widget name="title" transparent="1" position="73,508" zPosition="2" size="967,30" font="Regular; 22" foregroundColor="#00ffffff" />
+			<widget name="sinopsis" transparent="1" position="73,544" zPosition="2" size="969,157" font="Regular; 19" valign="top" foregroundColor="#00a1a1a1" />
+			<widget name="barrapix_arr" position="0,0" zPosition="19" size="20,20" alphatest="blend" transparent="1" />
+			<widget name="barrapix_abj" position="0,0" zPosition="19" size="20,20" alphatest="blend" transparent="1" />				
+		</screen>
+		
+		<!-- DMC Picture Player -->
+		<screen name="MC_PictureViewer" position="0,0" size="1280,720" title="Pictures" flags="wfNoBorder" backgroundColor="#1f1f21" >
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/skins/default/images/picturebg.jpg" position="0,0" zPosition="1" size="1280,720" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/skins/default/images/icons/key-red.png" position="136,630" zPosition="2" size="150,30" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/skins/default/images/icons/key-green.png" position="422,630" zPosition="2" size="150,30" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/skins/default/images/icons/key-yellow.png" position="708,630" zPosition="2" size="150,30" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/skins/default/images/icons/key-blue.png" position="994,630" zPosition="2" size="150,30" transparent="1" alphatest="on" />
+			<widget name="key_red" position="136,630" zPosition="3" size="150,30" font="Regular;19" valign="center" halign="center" transparent="1" />
+			<widget name="key_green" position="422,630" zPosition="3" size="150,30" font="Regular;19" valign="center" halign="center" transparent="1" />
+			<widget name="key_yellow" position="708,630" zPosition="3" size="150,30" font="Regular;19" valign="center" halign="center" transparent="1" />
+			<widget name="key_blue" position="994,630" zPosition="3" size="150,30" font="Regular;19" valign="center" halign="center" transparent="1" />
+			<widget name="thumbnail" position="890,161" size="150,220" zPosition="5" alphatest="on" />
+			<widget name="filelist" transparent="1" position="170,170" zPosition="2" size="940,400" scrollbarMode="showOnDemand" enableWrapAround="1"/>
+			  <widget source="datelabel" render="Label" position="158,105" size="120,30" font="Regular;17" transparent="1" zPosition="3" borderColor="black" borderWidth="2" halign="right" foregroundColor="#aeaeae" />
+			  <widget source="cameralabel" render="Label" position="158,69" size="120,30" font="Regular;17" transparent="1" zPosition="3" borderColor="black" borderWidth="2" halign="right" foregroundColor="#aeaeae"/>
+			  <widget source="sizelabel" render="Label" position="671,105" size="120,30" font="Regular;17" transparent="1" zPosition="3" borderColor="black" borderWidth="2" halign="right" foregroundColor="#aeaeae"/>
+			  <widget source="date" render="Label" position="284,105" size="320,30" font="Regular;17" transparent="1" zPosition="3" borderColor="black" borderWidth="2"  foregroundColor="#ffffff"/>
+			  <widget source="camera" render="Label" position="284,69" size="320,30" font="Regular;17" transparent="1" zPosition="3" borderColor="black" borderWidth="2"  foregroundColor="#ffffff"/>
+			  <widget source="size" render="Label" position="797,105" size="320,30" font="Regular;17" transparent="1" zPosition="3" borderColor="black" borderWidth="2"  foregroundColor="#ffffff" />
+		</screen>
+		<screen name="MC_PicThumbViewer" position="fill" title="Media Center - My Pictures Thumviewer" flags="wfNoBorder" backgroundColor="#777777">
+				<widget name="frame" position="50,80" size="300,300" pixmap="pic_frame.png" zPosition="3" alphatest="on" />
+				<widget name="thumb0" position="50,80" size="190,200" zPosition="2" transparent="1" alphatest="on" />
+				<widget name="thumb1" position="300,80" size="190,200" zPosition="2" transparent="1" alphatest="on" />
+				<widget name="thumb2" position="550,80" size="190,200" zPosition="2" transparent="1" alphatest="on" />
+				<widget name="thumb3" position="800,80" size="190,200" zPosition="2" transparent="1" alphatest="on" />
+				<widget name="thumb4" position="1050,80" size="190,200" zPosition="2" transparent="1" alphatest="on" />
+				<widget name="thumb5" position="50,360" size="190,200" zPosition="2" transparent="1" alphatest="on" />
+				<widget name="thumb6" position="300,360" size="190,200" zPosition="2" transparent="1" alphatest="on" />
+				<widget name="thumb7" position="550,360" size="190,200" zPosition="2" transparent="1" alphatest="on" />
+				<widget name="thumb8" position="800,360" size="190,200" zPosition="2" transparent="1" alphatest="on" />
+				<widget name="thumb9" position="1050,360" size="190,200" zPosition="2" transparent="1" alphatest="on" />
+
+				<widget name="label0" position="50,280" size="200,20" halign="center" font="Regular;14" zPosition="2" transparent="1" noWrap="1" borderColor="black" borderWidth="2"  foregroundColor="#ffffff"/>
+				<widget name="label1" position="300,280" size="200,20" halign="center" font="Regular;14" zPosition="2" transparent="1" noWrap="1" borderColor="black" borderWidth="2"  foregroundColor="#ffffff"/>
+				<widget name="label2" position="550,280" size="200,20" halign="center" font="Regular;14" zPosition="2" transparent="1" noWrap="1" borderColor="black" borderWidth="2"  foregroundColor="#ffffff"/>
+				<widget name="label3" position="800,280" size="200,20" halign="center" font="Regular;14" zPosition="2" transparent="1" noWrap="1" borderColor="black" borderWidth="2"  foregroundColor="#ffffff"/>
+				<widget name="label4" position="1050,280" size="200,20" halign="center" font="Regular;14" zPosition="2" transparent="1" noWrap="1" borderColor="black" borderWidth="2"  foregroundColor="#ffffff"/>
+				<widget name="label5" position="50,560" size="200,20" halign="center" font="Regular;14" zPosition="2" transparent="1" noWrap="1" borderColor="black" borderWidth="2"  foregroundColor="#ffffff"/>
+				<widget name="label6" position="300,560" size="200,20" halign="center" font="Regular;14" zPosition="2" transparent="1" noWrap="1" borderColor="black" borderWidth="2"  foregroundColor="#ffffff"/>
+				<widget name="label7" position="550,560" size="200,20" halign="center" font="Regular;14" zPosition="2" transparent="1" noWrap="1" borderColor="black" borderWidth="2"  foregroundColor="#ffffff"/>
+				<widget name="label8" position="800,560" size="200,20" halign="center" font="Regular;14" zPosition="2" transparent="1" noWrap="1" borderColor="black" borderWidth="2"  foregroundColor="#ffffff"/>
+				<widget name="label9" position="1050,560" size="200,20" halign="center" font="Regular;14" zPosition="2" transparent="1" noWrap="1" borderColor="black" borderWidth="2"  foregroundColor="#ffffff"/>
+
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/skins/default/images/icons/key-red.png" position="136,630" zPosition="2" size="150,30" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/skins/default/images/icons/key-green.png" position="422,630" zPosition="2" size="150,30" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/skins/default/images/icons/key-yellow.png" position="708,630" zPosition="2" size="150,30" transparent="1" alphatest="on" />
+			<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/skins/default/images/icons/key-blue.png" position="994,630" zPosition="2" size="150,30" transparent="1" alphatest="on" />
+
+				<widget name="key_red"    position="136,630"  size="150,30" valign="center" halign="center" zPosition="5"  font="Regular;19" foregroundColor="red"    backgroundColor="black" transparent="1" />
+				<widget name="key_green"  position="422,630" size="150,30" valign="center" halign="center" zPosition="5"  font="Regular;19" foregroundColor="green"  backgroundColor="black" transparent="1" />
+				<widget name="key_yellow" position="708,630" size="150,30" valign="center" halign="center" zPosition="5"  font="Regular;19" foregroundColor="yellow" backgroundColor="black" transparent="1" />
+				<widget name="key_blue"   position="994,630" size="150,30" valign="center" halign="center" zPosition="5"  font="Regular;19" foregroundColor="blue"   backgroundColor="black" transparent="1" />
+		</screen>	
+		<screen name="MC_PicView" position="fill" title="Media Center - Full Picture View" flags="wfNoBorder">
+			<widget source="session.VideoPicture" backgroundColor="transparent" position="-5,-5" render="Pig" size="5,5" zPosition="1" />
+			<eLabel position="0,0" zPosition="0" size="1280,720" backgroundColor="background" />
+			<widget name="pic" position="fill" zPosition="1" alphatest="on" />
+			<eLabel position="25,15" size="30,25" zPosition="2" backgroundColor="background" transparent="1" />
+			<widget name="point" position="27,17" size="21,21" zPosition="3" pixmap="skin_default/icons/epgclock.png" alphatest="on" />
+			<widget name="play_icon" position="30,20" size="16,16" zPosition="3" pixmap="skin_default/icons/ico_mp_play.png" alphatest="on" />
+			<widget source="file" render="Label" position="70,15" size="600,25" zPosition="3" font="Regular;22" halign="left" noWrap="1" transparent="1" foregroundColor="foreground" backgroundColor="background"/>
+		</screen>		
+		<!-- spazeTeamAdd for Bookmarks nov-2011 -->
+		<screen name="mc_azFavoritos" position="center,center" size="1002,567" title="Bookmarks" backgroundColor="#00000000" flags="wfNoBorder">
+		  <widget name="img_red" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/red.png" position="41,535" size="40,25" transparent="1" alphatest="on" />
+		  <widget name="img_green" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/green.png" position="270,535" size="40,25" transparent="1" alphatest="on" />
+		  <widget name="img_yellow" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/yellow.png" position="527,535" size="40,25" transparent="1" alphatest="on" />
+		  <widget name="img_blue" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/blue.png" position="734,535" size="40,25" transparent="1" alphatest="on" />
+		  <widget name="key_red" position="80,531" zPosition="1" size="183,30" font="Regular;16" valign="center" halign="left" backgroundColor="#000000" transparent="1" foregroundColor="#ffffff" />
+		  <widget name="key_green" position="309,531" zPosition="1" size="165,30" font="Regular;16" valign="center" halign="left" backgroundColor="#000000" transparent="1" foregroundColor="#ffffff" />
+		  <widget name="key_yellow" position="567,532" zPosition="1" size="156,30" font="Regular;16" valign="center" halign="left" backgroundColor="#000000" transparent="1" foregroundColor="#ffffff" />
+		  <widget name="key_blue" position="773,531" zPosition="1" size="212,30" font="Regular;16" valign="center" halign="left" backgroundColor="#000000" transparent="1" foregroundColor="#ffffff" />
+		  <widget name="list" position="48,62" size="930,448" scrollbarMode="showOnDemand" zPosition="10" transparent="1" foregroundColor="#ffffff" backgroundColor="#000000" />
+		  <widget name="linea" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/images/linea-fs8.png" position="298,60" size="661,151" alphatest="blend" zPosition="12" backgroundColor="#000000" transparent="0" />
+		<!--<widget name="imagen_fondo" position="0,0" zPosition="1" size="1280,720" alphatest="on" />-->
+
+		  <ePixmap name="new ePixmap" position="0,0" size="1002,527" zPosition="-1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MediaCenter/skins/default/images/videobgsel.png" alphatest="off" />
+		  <widget name="titulo" position="104,18" size="496,36" transparent="1" foregroundColor="#53a9ff" backgroundColor="#000000" text="Favoritos" font="Regular; 22" />
+		</screen>
+		
+</skin>

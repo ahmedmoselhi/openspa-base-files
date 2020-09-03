@@ -1,3 +1,4 @@
+"""TLS Lite + Twisted."""
 
 from twisted.protocols.policies import ProtocolWrapper, WrappingFactory
 from twisted.python.failure import Failure

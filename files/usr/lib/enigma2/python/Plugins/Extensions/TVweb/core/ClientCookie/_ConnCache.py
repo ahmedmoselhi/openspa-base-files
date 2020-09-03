@@ -1,3 +1,4 @@
+"""Generic connection cache manager.
 
 Example:
 

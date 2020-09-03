@@ -1,3 +1,4 @@
+"""Class for storing shared keys."""
 
 from utils.cryptomath import *
 from utils.compat import *

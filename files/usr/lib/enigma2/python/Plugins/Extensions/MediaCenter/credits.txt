@@ -1,0 +1,7 @@
+RTI Mediacenter by Sattommy:
+
+The Mediacenter is a fork of Mediacenter 0.9.2 plugin by Homey. Thanks goes out to him for giving me something to build on. Furthermore the dvd implementation code has been taken from project-valerie. Thanks to them as well.
+
+As for the skin, images from the jamanta 0.2 skin for original software are used for the main backgrounds.
+
+A special thanks goes out to RogerRabbit as he provided very nice images for the home screen.

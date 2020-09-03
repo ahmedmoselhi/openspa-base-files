@@ -1,3 +1,4 @@
+"""Integration with Python standard library module urllib2: Request class.
 
 Copyright 2004 John J Lee <jjl@pobox.com>
 

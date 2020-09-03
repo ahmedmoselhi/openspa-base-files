@@ -1,3 +1,4 @@
+# -*- coding: iso-8859-1 -*-
 #------------------------------------------------------------
 # pelisalacarta - XBMC Plugin
 # Conector para Veoh

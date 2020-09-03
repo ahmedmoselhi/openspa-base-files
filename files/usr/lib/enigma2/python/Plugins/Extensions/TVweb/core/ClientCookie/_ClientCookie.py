@@ -1,3 +1,4 @@
+"""HTTP cookie handling for web clients, plus some other stuff.
 
 This module originally developed from my port of Gisle Aas' Perl module
 HTTP::Cookies, from the libwww-perl library.

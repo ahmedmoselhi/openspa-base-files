@@ -1,3 +1,4 @@
+"""OpenSSL/M2Crypto RC4 implementation."""
 
 from cryptomath import *
 from RC4 import RC4

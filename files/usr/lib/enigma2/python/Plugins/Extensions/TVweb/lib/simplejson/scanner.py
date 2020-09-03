@@ -1,3 +1,4 @@
+"""JSON token scanner
 """
 import re
 try:

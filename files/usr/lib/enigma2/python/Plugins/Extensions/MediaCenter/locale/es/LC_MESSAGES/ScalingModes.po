@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - AspectRatio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mpiero <azboxhd.es>\n"
+"Language-Team: www.azboxhd.es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/AspectRatio\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/AspectRatio\n"
+
+msgid "Aspect Ratio"
+msgstr "Relación de Aspecto"
+
+msgid "SCALING MODE"
+msgstr "Relación de Aspecto"
+
+msgid "Scaling mode"
+msgstr "Relación de Aspecto"
+
+msgid "Scaling modes"
+msgstr "Modos de Pantalla"
+
+msgid "Screen modes setup for Enigma2 RCx"
+msgstr "Modo de Pantalla para Enigma2 RCx"
+
+msgid "Full Screen"
+msgstr "Pantalla completa"
+
+msgid "Pan & Scan"
+msgstr "Pan & Scan"
+
+msgid "Letterbox"
+msgstr "Letterbox"
+
+msgid "Pillarbox"
+msgstr "Pillarbox"
+
+msgid "Vertical center"
+msgstr "VerticalCenter"
+
+msgid ""
+"Enigma2 Screen mode selector\n"
+"\n"
+"by spazeTeam 2011"
+msgstr ""
+"Enigma2 selector de modo de pantalla\n"
+"\n"
+"por spazeTeam 2011"
+
+msgid "About..."
+msgstr "Acerca de..."
+
+msgid "Exit"
+msgstr "Salir"
+
+msgid "Aspect"
+msgstr "Aspecto"
+

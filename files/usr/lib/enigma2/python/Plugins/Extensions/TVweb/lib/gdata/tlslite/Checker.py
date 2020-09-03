@@ -1,3 +1,4 @@
+"""Class for post-handshake certificate checking."""
 
 from utils.cryptomath import hashAndBase64
 from X509 import X509

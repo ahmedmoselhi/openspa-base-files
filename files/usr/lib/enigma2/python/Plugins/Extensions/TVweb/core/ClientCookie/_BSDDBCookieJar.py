@@ -1,3 +1,4 @@
+"""Persistent CookieJar based on bsddb standard library module.
 
 Copyright 2003-2004 John J Lee <jjl@pobox.com>
 

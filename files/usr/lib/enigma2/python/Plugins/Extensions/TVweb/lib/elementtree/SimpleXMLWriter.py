@@ -1,3 +1,4 @@
+#
 # SimpleXMLWriter
 # $Id: SimpleXMLWriter.py 2312 2005-03-02 18:13:39Z fredrik $
 #

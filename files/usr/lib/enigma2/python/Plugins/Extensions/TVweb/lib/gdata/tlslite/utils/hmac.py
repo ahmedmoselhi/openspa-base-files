@@ -1,3 +1,4 @@
+"""HMAC (Keyed-Hashing for Message Authentication) Python module.
 
 Implements the HMAC algorithm as described by RFC 2104.
 

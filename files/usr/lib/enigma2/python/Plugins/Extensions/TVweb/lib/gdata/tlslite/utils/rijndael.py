@@ -1,3 +1,4 @@
+"""
 A pure python (slow) implementation of rijndael with a decent interface
 
 To include -

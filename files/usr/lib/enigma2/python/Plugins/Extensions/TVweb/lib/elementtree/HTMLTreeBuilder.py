@@ -1,3 +1,4 @@
+#
 # ElementTree
 # $Id: HTMLTreeBuilder.py 2325 2005-03-16 15:50:43Z fredrik $
 #

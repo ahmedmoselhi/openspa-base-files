@@ -1,3 +1,4 @@
+"""Integration with Python standard library module urllib2.
 
 Also includes a redirection bugfix, support for parsing HTML HEAD blocks for
 the META HTTP-EQUIV tag contents, and following Refresh header redirects.

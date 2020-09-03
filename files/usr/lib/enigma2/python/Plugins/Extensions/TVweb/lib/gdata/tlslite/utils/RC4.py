@@ -1,3 +1,4 @@
+"""Abstract class for RC4."""
 
 from compat import * #For False
 

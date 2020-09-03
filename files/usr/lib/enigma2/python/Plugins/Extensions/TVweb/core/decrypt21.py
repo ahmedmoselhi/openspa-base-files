@@ -1,3 +1,4 @@
+# -*- coding: iso-8859-1 -*-
 #------------------------------------------------------------
 # pelisalacarta - XBMC Plugin
 # Descriptor para canales peliculas21 y series21 by Bandavi

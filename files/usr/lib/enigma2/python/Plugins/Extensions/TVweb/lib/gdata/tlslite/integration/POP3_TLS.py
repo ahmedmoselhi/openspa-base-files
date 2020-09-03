@@ -1,3 +1,4 @@
+"""TLS Lite + poplib."""
 
 import socket
 from poplib import POP3

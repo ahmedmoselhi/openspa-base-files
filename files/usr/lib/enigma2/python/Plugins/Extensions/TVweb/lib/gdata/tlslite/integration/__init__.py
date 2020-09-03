@@ -1,3 +1,4 @@
+"""Classes for integrating TLS Lite with other packages."""
 
 __all__ = ["AsyncStateMachine",
            "HTTPTLSConnection",

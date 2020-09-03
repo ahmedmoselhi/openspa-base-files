@@ -1,3 +1,4 @@
+# -*- coding: iso-8859-1 -*-
 #------------------------------------------------------------
 # pelisalacarta - XBMC Plugin
 # Convierte una lista de vídeos en xml a una playlist PLS

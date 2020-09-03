@@ -1,3 +1,4 @@
+﻿# -*- coding: utf-8 -*-
 #------------------------------------------------------------
 # pelisalacarta - XBMC Plugin
 # Utilidades para detectar vídeos de los diferentes conectores

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 
 from thrift.transport.TTransport import TBufferedTransport
 

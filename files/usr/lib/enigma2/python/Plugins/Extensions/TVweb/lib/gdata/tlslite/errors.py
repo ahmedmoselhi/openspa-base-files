@@ -1,3 +1,4 @@
+"""Exception classes.
 @sort: TLSError, TLSAbruptCloseError, TLSAlert, TLSLocalAlert, TLSRemoteAlert,
 TLSAuthenticationError, TLSNoAuthenticationError, TLSAuthenticationTypeError,
 TLSFingerprintError, TLSAuthorizationError, TLSValidationError, TLSFaultError

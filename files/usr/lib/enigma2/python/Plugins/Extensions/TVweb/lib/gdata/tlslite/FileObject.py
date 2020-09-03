@@ -1,3 +1,4 @@
+"""Class returned by TLSConnection.makefile()."""
 
 class FileObject:
     """This class provides a file object interface to a

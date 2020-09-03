@@ -1,3 +1,4 @@
+"""Class for setting handshake parameters."""
 
 from constants import CertificateType
 from utils import cryptomath

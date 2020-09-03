@@ -1,3 +1,4 @@
+"""TLS Lite + httplib."""
 
 import socket
 import httplib

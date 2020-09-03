@@ -1,3 +1,4 @@
+# -*- coding: iso-8859-1 -*-
 #------------------------------------------------------------
 # pelisalacarta - XBMC Plugin
 # Lista de vídeos descargados

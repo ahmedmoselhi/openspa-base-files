@@ -1,3 +1,4 @@
+# s-*- coding: utf-8 -*-
 #------------------------------------------------------------
 # pelisalacarta - XBMC Plugin
 # Conector para Youtube

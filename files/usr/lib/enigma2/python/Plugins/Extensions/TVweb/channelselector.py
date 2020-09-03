@@ -1,3 +1,4 @@
+﻿# -*- coding: utf-8 -*-
 import urlparse,urllib2,urllib,re
 import os
 import sys

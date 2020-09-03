@@ -1,3 +1,4 @@
+"""Cryptlib 3DES implementation."""
 
 from cryptomath import *
 

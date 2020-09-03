@@ -1,3 +1,4 @@
+"""Abstract class for AES."""
 
 class AES:
     def __init__(self, key, mode, IV, implementation):

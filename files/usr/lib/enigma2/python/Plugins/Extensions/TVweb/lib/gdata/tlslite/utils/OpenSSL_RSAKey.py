@@ -1,3 +1,4 @@
+"""OpenSSL/M2Crypto RSA implementation."""
 
 from cryptomath import *
 

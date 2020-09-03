@@ -1,3 +1,4 @@
+"""Microsoft Internet Explorer cookie loading on Windows.
 
 Copyright 2002-2003 Johnny Lee <typo_pl@hotmail.com> (MSIE Perl code)
 Copyright 2002-2004 John J Lee <jjl@pobox.com> (The Python port)

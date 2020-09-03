@@ -1,3 +1,4 @@
+"""Factory functions for symmetric cryptography."""
 
 import os
 

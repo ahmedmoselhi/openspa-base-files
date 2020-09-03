@@ -1,3 +1,4 @@
+"""Class for storing SRP password verifiers."""
 
 from utils.cryptomath import *
 from utils.compat import *

@@ -1,3 +1,4 @@
+"""TLS Lite + imaplib."""
 
 import socket
 from imaplib import IMAP4

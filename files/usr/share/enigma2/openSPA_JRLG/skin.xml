@@ -135,6 +135,10 @@
     <color name="wm_napis" value="#00dfff00" />
     <color name="yellow" value="#00bab329" />
   </colors>
+  <switchpixmap>
+    <pixmap name="menu_on" filename="skin_default/icons/menu_on.png"/>
+    <pixmap name="menu_off" filename="skin_default/icons/menu_off.png"/>
+  </switchpixmap>
   <fonts>
     <font filename="/usr/share/enigma2/openSPA_JRLG/fonts/valis_lcd.ttf" name="LCD" scale="100" />
     <font filename="tuxtxt.ttf" name="Console" scale="100" />
@@ -741,7 +745,7 @@
       <convert type="ConditionalShowHide" />
     </widget>
   </screen>
-  <screen name="TimeshiftState" position="0,23" size="1285,59" flags="wfNoBorder" backgroundColor="azmed30">
+ <screen name="TimeshiftState" position="0,23" size="1285,59" flags="wfNoBorder" backgroundColor="azmed30">
     <widget name="state" position="160,9" size="162,27" font="Regular; 16" halign="right" backgroundColor="black" transparent="1" foregroundColor="frgr" />
     <widget source="session.CurrentService" render="Label" position="444,31" size="78,24" font="Regular; 16" halign="left" backgroundColor="black" transparent="1" foregroundColor="uncc" noWrap="1">
       <convert type="ServicePosition">Remaining</convert>
@@ -834,82 +838,84 @@
   </screen>
   <screen name="menu_setup" position="0,0" size="1280,720" title="Setup" backgroundColor="transparent2" flags="wfNoBorder">
     <!-- lista -->
-    <widget source="menu" render="Listbox" position="157,127" size="464,546" selectionPixmap="openSPA_JRLG/menu/etiqueta_setup.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" itemHeight="68" foregroundColor="black" zPosition="2">
+    <widget source="menu" render="Listbox" position="156,126" size="464,546" selectionPixmap="openSPA_JRLG/menu/etiqueta_setup.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1" itemHeight="68" foregroundColor="black" zPosition="2">
       <convert type="TemplatedMultiContent">
-{"template": [  MultiContentEntryText(pos = (50,15), size = (540,  42), flags = RT_HALIGN_LEFT, text = 0)  ],
-"fonts": [gFont("Droid", 28)],
-"itemHeight": 68
-}
-</convert>
-      <!-- 1er alt de linia/separacio entre linies, 2on alt sense efecte, size defineix alt etiqueta, pos per a posicio text -->
+ {"template": [  MultiContentEntryText(pos = (43,14), size = (360,55), flags = RT_HALIGN_LEFT, text = 0)  ],
+ "fonts": [gFont("Droid",30)],
+ "itemHeight": 68
+ }
+ </convert>
+      <!-- 1er alt de linia/separacio entre linies,2on alt sense efecte, size defineix alt etiqueta, pos per a posicio text -->
     </widget>
     <!--titulo-->
-    <widget source="title" render="Label" position="174,55" size="336,62" font="Regular; 46" halign="left" foregroundColor="black" backgroundColor="colorJR4" transparent="1" noWrap="1" zPosition="12" />
+    <widget source="title" render="Label" position="184,58" size="336,62" font="Regular; 46" halign="left" foregroundColor="black" backgroundColor="colorJR4" transparent="1" noWrap="1" zPosition="12" />
     <!-- ventana -->
-    <eLabel name="fondomenu" position="66,42" size="565,640" zPosition="-2" backgroundColor="colorJR4" />
+    <eLabel name="fondomenu" position="66,42" size="564,640" zPosition="-2" backgroundColor="colorJR4" />
     <!-- record -->
     <!-- Panel dreta -->
     <!--Iconos-->
-    <ePixmap name="logo setup" position="81,47" size="75,75" pixmap="openSPA_JRLG/menu/tools3.png" alphatest="blend" transparent="0" />
-    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/menu/system.png" position="74,127" size="80,70" alphatest="blend" zPosition="1">
-      <convert type="MenuEntryCompare">system_selection</convert>
+    <ePixmap name="logo setup" position="74,46" size="96,74" pixmap="openSPA_JRLG/menu/tools.png" alphatest="blend" transparent="0" />
+    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/JR/audio.png" position="72,602" size="80,70" alphatest="blend" zPosition="1">
+      <convert type="MenuEntryCompare">audio_menu</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/menu/satscan.png" position="74,196" size="80,70" alphatest="blend" zPosition="1">
+    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/JR/menuicon.png" position="72,602" size="80,70" alphatest="blend" zPosition="1">
+      <convert type="MenuEntryCompare">video_menu</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/menu/epg.png" position="74,602" size="80,70" alphatest="blend" zPosition="1">
+      <convert type="MenuEntryCompare">epg_menu</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/menu/system.png" position="72,602" size="80,70" alphatest="blend" zPosition="1">
+      <convert type="MenuEntryCompare">extended_selection</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/menu/satscan.png" position="72,602" size="80,70" alphatest="blend" zPosition="1">
       <convert type="MenuEntryCompare">service_searching_selection</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget alphatest="blend" pixmap="openSPA_JRLG/menu/cicard.png" position="74,265" render="Pixmap" size="80,70" source="menu" zPosition="1">
+    <widget alphatest="blend" pixmap="openSPA_JRLG/menu/cicard.png" position="72,602" render="Pixmap" size="80,70" source="menu" zPosition="1">
       <convert type="MenuEntryCompare">cam_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/menu/parental_control.png" position="74,332" size="80,70" alphatest="blend" zPosition="1">
+    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/menu/parental_control.png" position="72,602" size="80,70" alphatest="blend" zPosition="1">
       <convert type="MenuEntryCompare">parental_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/menu/reset.png" position="74,400" size="80,70" alphatest="blend" zPosition="1">
-      <convert type="MenuEntryCompare">factory_reset</convert>
+    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/JR/rec2.png" position="72,602" size="80,70" alphatest="blend" zPosition="1">
+      <convert type="MenuEntryCompare">rec_setup</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/menu/timer.png" halign="center" position="74,468" size="80,70" alphatest="blend" zPosition="1">
+    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/menu/system.png" position="72,602" size="80,70" alphatest="blend" zPosition="1">
+      <convert type="MenuEntryCompare">system_selection</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/JR/soft.png" position="72,602" size="80,70" alphatest="blend" zPosition="1">
+      <convert type="MenuEntryCompare">software_manager</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/menu/timer.png" halign="center" position="72,602" size="80,70" alphatest="blend" zPosition="1">
       <convert type="MenuEntryCompare">timer_menu</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/JR/dvbusb.png" halign="center" position="74,536" size="80,70" alphatest="blend" zPosition="1">
+    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/JR/dvbusb.png" halign="center" position="72,602" size="80,70" alphatest="blend" zPosition="1">
       <convert type="MenuEntryCompare">USBmngr</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/JR/plugins_openspa.png" halign="center" position="74,604" size="80,70" alphatest="blend" zPosition="1">
+    <widget source="menu" render="Pixmap" pixmap="openSPA_JRLG/JR/plugins_openspa.png" halign="center" position="72,602" size="80,70" alphatest="blend" zPosition="1">
       <convert type="MenuEntryCompare">OSPAplug</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <eLabel name="" position="72,126" size="552,549" zPosition="-1" backgroundColor="frgr" borderWidth="2" borderColor="white" />
-    <ePixmap name="" position="74,127" size="80,546" pixmap="openSPA_JRLG/JR/Menu_lateral.png" />
-  </screen>
-  <screen name="menu_scan" position="0,0" size="1280,720" title="Scan" backgroundColor="transparent2" flags="wfNoBorder">
-    <!-- lista -->
-    <widget source="menu" render="Listbox" position="521,177" size="416,480" scrollbarMode="showNever" selectionPixmap="openSPA_JRLG/menu/select40b.png" enableWrapAround="1" transparent="0" itemHeight="40" backgroundColor="colorJR4" foregroundColor="black" zPosition="3">
-      <convert type="TemplatedMultiContent">
-{"template": [  MultiContentEntryText(pos = (40, 5), size = (540,  40), flags = RT_HALIGN_LEFT, text = 0)  ],
-"fonts": [gFont("Droid", 22)],
-"itemHeight": 40
-}
-</convert>
-    </widget>
-    <!--titulo-->
-    <widget source="title" render="Label" position="170,207" size="336,48" font="Droid; 28" halign="left" backgroundColor="botred" transparent="1" noWrap="1" zPosition="-1" foregroundColor="white" />
-    <eLabel name="" position="158,194" size="431,69" zPosition="-2" backgroundColor="botred" />
-    <eLabel name="fondosetup" position="66,42" size="565,640" zPosition="-7" backgroundColor="colorJR4" />
-    <eLabel name="Setup" position="171,60" size="367,72" transparent="1" text="Setup" backgroundColor="colorJR4" font="Regular; 46" zPosition="-1" />
-    <ePixmap name="" position="66,42" size="565,640" zPosition="0" backgroundColor="rwhite07" transparent="1" pixmap="openSPA_JRLG/menu/fondosetup.png" alphatest="blend" />
-    <eLabel name="" position="72,126" size="552,549" zPosition="-6" backgroundColor="frgr" borderWidth="2" borderColor="white" />
-    <ePixmap name="" position="74,127" size="80,546" pixmap="openSPA_JRLG/JR/Menu_lateral.png" zPosition="-5" transparent="0" />
-    <ePixmap name="logo setup" position="81,47" size="75,75" pixmap="openSPA_JRLG/menu/tools3.png" alphatest="blend" transparent="0" zPosition="-1" />
-    <!-- Panel dreta -->
-    <ePixmap name="satscan" position="536,97" size="80,70" pixmap="openSPA_JRLG/menu/satscan.png" alphatest="blend" zPosition="4" />
-    <eLabel name="fondomenu" position="511,87" size="436,580" backgroundColor="frgr" zPosition="1" />
-    <eLabel name="bordelista" position="520,176" size="418,482" zPosition="2" backgroundColor="grey" />
-    <widget source="title" render="Label" position="624,112" size="312,48" font="Droid; 38" halign="left" backgroundColor="frgr" transparent="1" noWrap="1" zPosition="5" />
+    <eLabel name="" position="72,126" size="552,548" zPosition="-1" backgroundColor="frgr" borderWidth="2" borderColor="white" />
+    <eLabel name="" position="630,578" size="638,104" backgroundColor="metrixBackground" zPosition="-1" />
+    <widget name="key_blue" position="692,589" size="220,36" font="Regular;24" halign="left" valign="center" zPosition="1" backgroundColor="metrixBackground" foregroundColor="white" />
+    <widget name="key_green" position="694,639" size="250,36" font="Regular;24" halign="left" valign="center" zPosition="1" backgroundColor="metrixBackground" foregroundColor="white" />
+    <widget name="key_yellow" position="1001,640" size="250,36" font="Regular;24" halign="left" valign="center" zPosition="1" backgroundColor="metrixBackground" foregroundColor="white" />
+    <ePixmap name="" position="640,635" size="44,44" pixmap="openSPA_JRLG/menu/greenbutton.png" alphatest="blend" zPosition="1" />
+    <ePixmap name="" position="950,635" size="44,44" pixmap="openSPA_JRLG/menu/yellowbutton.png" alphatest="blend" />
+    <ePixmap name="" position="640,584" size="44,44" pixmap="openSPA_JRLG/menu/bluebutton.png" zPosition="1" alphatest="blend" />
+    <ePixmap name="" position="74,126" size="80,546" pixmap="openSPA_JRLG/JR/Menu_lateral.png" />
   </screen>
   <screen name="menu_system" position="0,0" size="1299,730" title="System" backgroundColor="transparent2" flags="wfNoBorder">
     <!-- lista -->
@@ -931,27 +937,40 @@
     <ePixmap name="" position="74,127" size="80,546" pixmap="openSPA_JRLG/JR/Menu_lateral.png" zPosition="-5" />
     <ePixmap name="logo setup" position="81,47" size="75,75" pixmap="openSPA_JRLG/menu/tools3.png" alphatest="blend" transparent="0" zPosition="-1" />
     <!-- Panel dreta -->
+    <widget name="key_blue" position="209,530" size="220,36" font="Regular;24" halign="left" valign="center" zPosition="5" backgroundColor="frgr" transparent="1" />
+    <widget name="key_green" position="208,580" size="250,36" font="Regular;24" halign="left" valign="center" zPosition="1" backgroundColor="frgr" transparent="1" />
+    <widget name="key_yellow" position="208,630" size="250,36" font="Regular;24" halign="left" valign="center" zPosition="1" backgroundColor="frgr" transparent="1" />
+    <ePixmap name="" position="160,576" size="44,44" pixmap="openSPA_JRLG/menu/greenbutton.png" alphatest="blend" zPosition="3" />
+    <ePixmap name="" position="160,626" size="44,44" pixmap="openSPA_JRLG/menu/yellowbutton.png" alphatest="blend" zPosition="3" />
+    <ePixmap name="" position="160,526" size="44,44" pixmap="openSPA_JRLG/menu/bluebutton.png" zPosition="3" alphatest="blend" />
     <ePixmap name="system" position="536,97" size="80,70" pixmap="openSPA_JRLG/menu/system.png" alphatest="blend" zPosition="4" />
     <eLabel name="fondomenu" position="511,87" size="436,580" backgroundColor="frgr" zPosition="1" />
     <eLabel name="bordelista" position="520,176" size="418,482" zPosition="2" backgroundColor="grey" />
     <widget source="title" render="Label" position="629,112" size="312,48" font="Droid; 38" halign="left" backgroundColor="frgr" transparent="1" noWrap="1" zPosition="5" foregroundColor="black" />
   </screen>
-  <screen name="menu_harddisk" position="0,0" size="1281,730" title="Hard Disk" backgroundColor="transparent2" flags="wfNoBorder">
+  <screen name="menu_harddisk" position="0,0" size="1280,730" title="Hard Disk" backgroundColor="transparent2" flags="wfNoBorder">
     <!-- lista -->
-    <widget source="menu" render="Listbox" position="321,177" size="416,480" selectionPixmap="openSPA_JRLG/menu/select40b.png" scrollbarMode="showNever" enableWrapAround="1" transparent="0" itemHeight="40" backgroundColor="frgr" foregroundColor="black" zPosition="3">
+    <widget source="menu" render="Listbox" position="320,176" size="482,480" selectionPixmap="openSPA_JRLG/menu/select40b.png" scrollbarMode="showNever" enableWrapAround="1" transparent="0" itemHeight="40" backgroundColor="frgr" foregroundColor="black" zPosition="3">
       <convert type="TemplatedMultiContent">
-{"template": [  MultiContentEntryText(pos = (50, 5), size = (540,  40), flags = RT_HALIGN_LEFT, text = 0)  ],
-"fonts": [gFont("Droid", 22)],
-"itemHeight": 40
-}
-</convert>
+ {"template": [  MultiContentEntryText(pos = (33,3), size = (426,26), flags = RT_HALIGN_LEFT, text = 0)  ],
+ "fonts": [gFont("Droid",22)],
+ "itemHeight": 26
+ }
+ </convert>
     </widget>
     <!-- Panel dreta -->
-    <ePixmap name="system" position="332,97" size="80,70" pixmap="openSPA_JRLG/JR/hdd.png" alphatest="blend" zPosition="4" />
-    <eLabel name="fondomenu" position="311,87" size="436,580" backgroundColor="colorJR4" zPosition="1" />
-    <eLabel name="bordelista" position="320,176" size="418,482" zPosition="2" backgroundColor="grey" />
-    <widget source="title" render="Label" position="424,112" size="312,48" font="Droid; 38" halign="left" backgroundColor="frgr" transparent="1" noWrap="1" zPosition="5" foregroundColor="black" />
+    <widget name="key_blue" position="376,510" size="220,36" font="Regular;24" halign="left" valign="center" zPosition="5" backgroundColor="frgr" transparent="1" />
+    <widget name="key_green" position="376,560" size="250,36" font="Regular;24" halign="left" valign="center" zPosition="5" backgroundColor="frgr" transparent="1" />
+    <widget name="key_yellow" position="376,610" size="250,36" font="Regular;24" halign="left" valign="center" zPosition="5" backgroundColor="frgr" transparent="1" />
+    <ePixmap name="" position="327,556" size="44,44" pixmap="openSPA_JRLG/menu/greenbutton.png" alphatest="blend" zPosition="5" />
+    <ePixmap name="" position="327,606" size="44,44" pixmap="openSPA_JRLG/menu/yellowbutton.png" alphatest="blend" zPosition="5" />
+    <ePixmap name="" position="327,506" size="44,44" pixmap="openSPA_JRLG/menu/bluebutton.png" zPosition="5" alphatest="blend" />
+    <ePixmap name="system" position="332,96" size="80,70" pixmap="openSPA_JRLG/JR/hdd.png" alphatest="blend" zPosition="4" />
+    <eLabel name="fondomenu" position="310,86" size="502,580" backgroundColor="colorJR4" zPosition="1" />
+    <eLabel name="bordelista" position="320,176" size="484,482" zPosition="2" backgroundColor="grey" />
+    <widget source="title" render="RunningTextSpa" options="movetype=running,startpoint=0,direction=left,steptime=10,repeat=5,always=0,startdelay=2000,wrap" position="424,112" size="312,48" font="Droid; 38" halign="left" backgroundColor="frgr" transparent="1" noWrap="1" zPosition="5" foregroundColor="black" />
   </screen>
+
   <screen name="menu_shutdown" position="0,0" size="1281,730" title="ShutDown" backgroundColor="transparent2" flags="wfNoBorder">
     <!-- lista -->
     <widget source="menu" render="Listbox" position="321,177" size="416,480" scrollbarMode="showNever" selectionPixmap="openSPA_JRLG/menu/select40b.png" enableWrapAround="1" transparent="0" itemHeight="40" backgroundColor="frgr" foregroundColor="black" zPosition="3">
@@ -963,7 +982,13 @@
 </convert>
     </widget>
     <!-- Panel dreta -->
-    <ePixmap name="system" position="328,98" size="80,70" pixmap="openSPA_JRLG/menu/shutdown_logo.png" alphatest="blend" zPosition="4" />
+    <widget name="key_blue" position="376,510" size="220,36" font="Regular;24" halign="left" valign="center" zPosition="5" backgroundColor="frgr" transparent="1" />
+    <widget name="key_green" position="376,560" size="250,36" font="Regular;24" halign="left" valign="center" zPosition="5" backgroundColor="frgr" transparent="1" />
+    <widget name="key_yellow" position="376,610" size="250,36" font="Regular;24" halign="left" valign="center" zPosition="5" backgroundColor="frgr" transparent="1" />
+    <ePixmap name="" position="327,556" size="44,44" pixmap="openSPA_JRLG/menu/greenbutton.png" alphatest="blend" zPosition="5" />
+    <ePixmap name="" position="327,606" size="44,44" pixmap="openSPA_JRLG/menu/yellowbutton.png" alphatest="blend" zPosition="5" />
+    <ePixmap name="" position="327,506" size="44,44" pixmap="openSPA_JRLG/menu/bluebutton.png" zPosition="5" alphatest="blend" />
+    <ePixmap name="system" position="320,98" size="96,70" pixmap="openSPA_JRLG/menu/shutdown_logo.png" alphatest="blend" zPosition="4" />
     <eLabel name="fondomenu" position="311,87" size="436,580" backgroundColor="colorJR4" zPosition="1" />
     <eLabel name="bordelista" position="320,176" size="418,482" zPosition="2" backgroundColor="grey" />
     <widget source="title" render="Label" position="424,112" size="312,48" font="Droid; 38" halign="left" backgroundColor="frgr" transparent="1" noWrap="1" zPosition="5" foregroundColor="black" />
@@ -1357,20 +1382,87 @@ MultiContentEntryPixmap(pos = (50, 5), size = (60, 40), png = 2),
     <eLabel name="linea horizontal" position="13,72" size="573,1" zPosition="2" />
     <widget source="Title" render="Label" position="25,15" size="362,56" font="Regular; 30" halign="left" foregroundColor="black" backgroundColor="frgr" transparent="1" zPosition="12" />
   </screen>
-  <screen name="MessageBox" position="0,0" size="1280,720" title="Message" flags="wfNoBorder" backgroundColor="transparent">
-    <widget render="Label" source="Title" backgroundColor="frgr" font="Regular5; 24" position="87,38" size="525,64" transparent="1" valign="center" zPosition="1" foregroundColor="black" halign="center" />
-    <widget name="text" position="93,112" size="525,106" font="Regular; 18" transparent="1" zPosition="1" foregroundColor="black" backgroundColor="colorJR4" halign="center" />
-    <widget name="ErrorPixmap" pixmap="openSPA_JRLG/icons/input_error2.png" position="110,230" size="54,54" alphatest="blend" />
-    <widget name="QuestionPixmap" pixmap="openSPA_JRLG/icons/input_question2.png" position="110,230" size="54,54" alphatest="blend" />
-    <widget name="InfoPixmap" pixmap="openSPA_JRLG/icons/input_info2.png" position="110,230" size="54,54" alphatest="blend" />
-    <widget name="list" position="377,230" size="55,60" selectionPixmap="openSPA_JRLG/menu/selectmes.png" transparent="1" itemHeight="30" backgroundColor="frgr" foregroundColor="black" halign="center" valign="center" />
-    <eLabel name="" position="85,106" size="540,116" backgroundColor="colorJR4" halign="left" />
-    <eLabel name="" position="72,34" size="570,264" zPosition="-2" backgroundColor="frgr" halign="center" />
-    <eLabel name="" position="68,30" size="580,272" backgroundColor="black" zPosition="-3" />
-    <eLabel name="" position="84,106" size="542,1" zPosition="1" backgroundColor="darkgrey" />
-    <eLabel name="" position="84,107" size="1,115" zPosition="1" backgroundColor="darkgrey" />
-  </screen>
-  <screen name="PVRState" position="975,27" size="120,81" backgroundColor="azcla30" zPosition="2" flags="wfNoBorder">
+  <screen name="MessageBox" position="0,0" size="1280,720" title="Message" flags="wfNoBorder" backgroundColor="frgr">
+  <widget name="text" position="64,8" size="520,0" font="Regular;22" />
+  <widget name="ErrorPixmap" pixmap="openSPA_JRLG/icons/input_error2.png" position="4,4" size="54,54" alphatest="blend" />
+  <widget name="QuestionPixmap" pixmap="openSPA_JRLG/icons/input_question2.png" position="4,4" size="54,54" alphatest="blend" />
+  <widget name="InfoPixmap" pixmap="openSPA_JRLG/icons/input_info2.png" position="4,4" size="54,54" alphatest="blend" />
+  <widget name="list" position="100,100" size="480,374" transparent="1" itemHeight="30" backgroundColor="frgr" foregroundColor="black" halign="center" valign="center" />
+<applet type="onLayoutFinish">
+from enigma import eSize,ePoint, getDesktop
+offset_listposx = 35
+offset_listposy = 25
+offset_listwidth = 10
+offset_listheight = 30
+offset_textwidth = 170
+offset_textheight = 20
+min_width = 400
+min_height = 50
+#----
+deskwidth = getDesktop(0).size().width()
+deskheight = getDesktop(0).size().height()
+textsize = self["text"].getSize()
+textwidth = textsize[0] + offset_textwidth
+textheight = textsize[1] + offset_textheight
+
+listwidth = 0
+listheight = 0
+
+if self.list:
+	try:
+		for i in self.list:
+			if len(i[0]) &gt; listwidth:
+				listwidth = len(i[0])
+		listwidth = listwidth * offset_listwidth
+		listheight = len(self.list) * offset_listheight
+	except:
+		pass
+
+if (min_height &gt; textheight):
+	textheight = min_height
+if (min_width &gt; textwidth):
+	textwidth = min_width
+if (listheight &gt; 0):
+	offset = 38
+else:
+	offset = 13
+if (textwidth &gt; listwidth):
+	wsizex = textwidth + offset_listposx * 2
+else:
+	textwidth = listwidth - offset_listposx
+	wsizex = listwidth + offset_listposx
+
+wsizey = textheight + listheight + offset
+
+if ((wsizey + offset_listposy - offset_listposx) &gt; deskheight):
+	textheight = deskheight - listheight - offset - offset_listposy + offset_listposx
+	wsizey = textheight + listheight + offset
+
+if (wsizex &gt; deskwidth):
+	textwidth = deskwidth - offset_listposx * 2
+	listwidth = wsizex = deskwidth
+
+wsize = (wsizex,wsizey + offset_listposy - offset_listposx)
+
+# resize
+self.instance.resize(eSize(*wsize))
+
+# resize label
+textsize = (textwidth,textheight)
+self["text"].instance.resize(eSize(*textsize))
+
+# move list
+listsize = (wsizex - offset_listposx * 2,listheight)
+self["list"].instance.move(ePoint(offset_listposx,textheight + offset_listposy))
+self["list"].instance.resize(eSize(*listsize))
+
+# center window
+newwidth = wsize[0]
+newheight = wsize[1]
+self.instance.move(ePoint(int(deskwidth - newwidth)/2,int(deskheight - newheight)/2))
+		</applet>
+</screen>
+<screen name="PVRState" position="975,27" size="120,81" backgroundColor="azcla30" zPosition="2" flags="wfNoBorder">
     <widget name="state" position="0,3" size="120,81" backgroundColor="azcla30" borderWidth="2" font="Regular; 25" borderColor="black" halign="center" valign="center" transparent="1" noWrap="1" />
   </screen>
   <screen name="MoviePlayer" position="0,0" size="1280,720" backgroundColor="transparent2" flags="wfNoBorder">
@@ -1684,15 +1776,15 @@ MultiContentEntryText(pos = (30, 42), size = (610, 60), font = 1, flags = RT_HAL
     <eLabel name="fondomenu" position="46,31" size="578,570" zPosition="-2" backgroundColor="colorJR4" />
     <!-- record -->
     <eLabel name="" position="46,31" size="578,55" backgroundColor="frgr" />
-    <ePixmap name="" position="427,648" size="44,44" pixmap="openSPA_JRLG/menu/greenbutton.png" alphatest="blend" zPosition="1" />
+    <ePixmap name="" position="427,648" size="94,44" pixmap="openSPA_JRLG/menu/greenbutton.png" alphatest="blend" zPosition="1" />
     <ePixmap name="" position="95,648" size="44,44" pixmap="openSPA_JRLG/menu/redbutton.png" zPosition="1" alphatest="blend" />
     <eLabel name="" position="0,620" size="1280,100" backgroundColor="metrixBackground" />
     <eLabel name="" position="42,27" size="586,578" zPosition="-3" />
     <eLabel name="" position="56,96" size="558,495" zPosition="-1" backgroundColor="frgr" />
     <eLabel name="" position="55,95" size="558,1" />
     <eLabel name="" position="55,95" size="1,495" />
-    <ePixmap name="" position="765,648" size="44,44" zPosition="1" pixmap="openSPA_JRLG/JR/exit_button.png" alphatest="blend" />
-    <eLabel name="" position="825,654" size="226,36" transparent="1" text="Salir" foregroundColor="white" backgroundColor="metrixBackground" font="Droid; 24" halign="left" zPosition="1" />
+    <ePixmap name="" position="815,648" size="44,44" zPosition="1" pixmap="openSPA_JRLG/JR/exit_button.png" alphatest="blend" />
+    <eLabel name="" position="875,654" size="226,36" transparent="1" text="Salir" foregroundColor="white" backgroundColor="metrixBackground" font="Droid; 24" halign="left" zPosition="1" />
   </screen>
   <screen name="RadioInfoBar" position="79,470" size="1122,192" title="Radio" backgroundColor="transparent" flags="wfNoBorder">
     <eLabel position="1,1" zPosition="-1" size="1120,190" backgroundColor="transpBlack" />
@@ -2036,44 +2128,36 @@ MultiContentEntryText(pos = (30, 42), size = (610, 60), font = 1, flags = RT_HAL
     </widget>
     <eLabel name="new eLabel" position="98,57" size="544,32" text="Timer Editor" transparent="1" font="Regular; 24" zPosition="15" />
   </screen>
-  <screen name="Menu" position="0,0" size="1281,721" title="Main menu" backgroundColor="transparent2" flags="wfNoBorder">
-    <widget name="menu" position="60,90" size="550,475" scrollbarMode="showAlways" render="Listbox" transparent="1">
-      <convert type="StringList" />
+  <screen name="Menu" position="0,0" size="1298,730" title="Main menu" backgroundColor="transparent2" flags="wfNoBorder">
+    <!-- lista -->
+    <widget source="menu" render="Listbox" position="520,176" size="416,480" selectionPixmap="openSPA_JRLG/menu/select40b.png" scrollbarMode="showNever" enableWrapAround="1" transparent="0" itemHeight="40" backgroundColor="colorJR4" foregroundColor="black" zPosition="3">
+      <convert type="TemplatedMultiContent">
+ {"template": [  MultiContentEntryText(pos = (33,4), size = (360,26), flags = RT_HALIGN_LEFT, text = 0)  ],
+ "fonts": [gFont("Droid",22)],
+ "itemHeight": 26
+ }
+ </convert>
     </widget>
-    <!--scroll-->
-    <ePixmap position="590,90" zPosition="9" size="20,445" pixmap="openSPA_JRLG/scroll.png" alphatest="blend" transparent="1" name="barrascroll1" />
-    <ePixmap name="barrascrollf1" position="590,535" zPosition="9" size="20,30" pixmap="openSPA_JRLG/scrollb.png" alphatest="blend" transparent="1" />
-    <!--titulo-->
-    <eLabel name="linea2" position="50,575" size="568,2" zPosition="-1" backgroundColor="white" />
-    <!--titulo-->
-    <widget source="title" render="Label" position="87,46" size="336,39" font="Regular; 28" halign="left" backgroundColor="bgsp" transparent="1" noWrap="1" zPosition="12" />
-    <eLabel name="" position="45,44" size="578,44" zPosition="-1" backgroundColor="colorJR1" />
-    <!-- ventana -->
-    <eLabel name="fondomenu" position="50,42" size="568,590" zPosition="-2" backgroundColor="colorJR2" />
-    <!-- record -->
-    <widget source="session.RecordState" render="FixedLabel" backgroundColor="botred" position="74,585" size="276,45" zPosition="2">
-      <convert type="ConditionalShowHide" />
-    </widget>
-    <widget source="session.RecordState" position="83,600" render="Label" size="256,20" valign="center" halign="left" zPosition="4" backgroundColor="un50090909" foregroundColor="frgr" font="Regular;14" transparent="1" borderColor="recfondop" borderWidth="1" noWrap="1">
-      <convert type="infoRecBm">Canal</convert>
-    </widget>
-    <widget source="session.RecordState" position="356,588" size="43,45" zPosition="15" render="FixedLabel" text="REC" halign="center" valign="center" backgroundColor="KeyRedBack" borderWidth="1" borderColor="black" font="Regular; 15">
-      <convert type="ConditionalShowHide" />
-    </widget>
-    <!--scroll-->
+    <!--Panel Setup-->
+    <widget source="title" render="Label" position="170,140" size="336,48" font="Droid; 28" halign="left" backgroundColor="botred" transparent="1" noWrap="1" zPosition="-1" foregroundColor="white" />
+    <eLabel name="seleccion" position="158,126" size="430,68" zPosition="-2" backgroundColor="botred" />
+    <eLabel name="fondosetup" position="66,42" size="564,640" zPosition="-7" backgroundColor="colorJR4" />
+    <eLabel name="Setup" position="184,58" size="366,72" transparent="1" text="Setup" foregroundColor="black" backgroundColor="colorJR4" font="Regular; 46" zPosition="-1" />
+    <ePixmap name="fondo gris transp" position="66,42" size="564,640" zPosition="0" backgroundColor="rwhite07" transparent="1" pixmap="openSPA_JRLG/menu/fondosetup.png" alphatest="blend" />
+    <eLabel name="Label setup" position="72,126" size="552,548" zPosition="-6" backgroundColor="frgr" borderWidth="2" borderColor="white" />
+    <ePixmap name="" position="74,126" size="80,546" pixmap="openSPA_JRLG/JR/Menu_lateral.png" zPosition="-5" />
+    <ePixmap name="logo setup" position="74,46" size="96,74" pixmap="openSPA_JRLG/menu/tools.png" alphatest="blend" transparent="0" zPosition="-1" />
     <!-- Panel dreta -->
-    <ePixmap name="satscan" position="846,169" size="140,120" pixmap="openSPA_JRLG/JR/menuicon2.png" alphatest="blend" />
-    <eLabel name="Fondo panel" position="763,44" size="308,279" zPosition="-2" foregroundColor="black" backgroundColor="colorJR4" />
-    <ePixmap name="logospa" position="816,58" size="200,90" pixmap="openSPA_JRLG/menu/openspa.png" alphatest="blend" />
-    <widget source="global.CurrentTime" render="Label" position="694,401" size="372,52" font="Regular; 27" halign="center" backgroundColor="transpBlack" foregroundColor="colorJR4" transparent="1" zPosition="23" noWrap="1">
-      <convert type="ClockToText">Format:%A, %d %B %y</convert>
-    </widget>
-    <widget source="global.CurrentTime" render="Label" position="885,452" size="151,42" font="Console; 30" halign="center" backgroundColor="transpBlack" transparent="1" zPosition="18" noWrap="1" foregroundColor="background">
-      <convert type="ClockToText">Default</convert>
-    </widget>
-    <eLabel name="Fondo data" position="696,387" size="368,63" backgroundColor="BlueSPA" zPosition="1" />
-    <eLabel name="Fondo rellotge" position="768,429" size="368,66" backgroundColor="colorJR3" />
-    <eLabel name="Borde panel" position="761,42" size="312,283" zPosition="-3" backgroundColor="colorJR1" />
+    <widget name="key_blue" position="209,530" size="220,36" font="Regular;24" halign="left" valign="center" zPosition="5" backgroundColor="frgr" transparent="1" />
+    <widget name="key_green" position="208,580" size="250,36" font="Regular;24" halign="left" valign="center" zPosition="1" backgroundColor="frgr" transparent="1" />
+    <widget name="key_yellow" position="208,630" size="250,36" font="Regular;24" halign="left" valign="center" zPosition="1" backgroundColor="frgr" transparent="1" />
+    <ePixmap name="" position="160,576" size="44,44" pixmap="openSPA_JRLG/menu/greenbutton.png" alphatest="blend" zPosition="3" />
+    <ePixmap name="" position="160,626" size="44,44" pixmap="openSPA_JRLG/menu/yellowbutton.png" alphatest="blend" zPosition="3" />
+    <ePixmap name="" position="160,526" size="44,44" pixmap="openSPA_JRLG/menu/bluebutton.png" zPosition="3" alphatest="blend" />
+    <ePixmap name="system" position="520,95" size="100,80" pixmap="openSPA_JRLG/menu/system.png" alphatest="blend" zPosition="4" />
+    <eLabel name="fondomenu" position="510,86" size="436,580" backgroundColor="frgr" zPosition="1" />
+    <eLabel name="bordelista" position="520,176" size="418,482" zPosition="2" backgroundColor="grey" />
+    <widget source="title" render="Label" position="628,112" size="312,48" font="Droid; 38" halign="left" backgroundColor="frgr" transparent="1" noWrap="1" zPosition="5" foregroundColor="black" />
   </screen>
   <screen name="menu_timermenu" position="0,0" size="1280,720" title="Timers" backgroundColor="transparent2" flags="wfNoBorder">
     <!-- lista -->
@@ -2087,7 +2171,7 @@ MultiContentEntryText(pos = (30, 42), size = (610, 60), font = 1, flags = RT_HAL
     </widget>
     <!--titulo-->
     <widget source="title" render="Label" position="629,111" size="304,48" font="Regular; 30" halign="left" backgroundColor="bgsp" transparent="1" noWrap="1" zPosition="12" />
-    <eLabel name="fondo select" position="158,467" size="431,69" zPosition="-2" backgroundColor="botred" />
+    <eLabel name="fondo select" position="158,126" size="431,69" zPosition="-2" backgroundColor="botred" />
     <eLabel name="fondosetup" position="66,42" size="565,640" zPosition="-7" backgroundColor="colorJR4" />
     <eLabel name="Setup" position="171,58" size="367,72" transparent="1" text="Setup" foregroundColor="black" backgroundColor="colorJR4" font="Regular; 46" zPosition="-1" />
     <ePixmap name="" position="66,42" size="565,640" zPosition="0" backgroundColor="rwhite07" transparent="1" pixmap="openSPA_JRLG/menu/fondosetup.png" alphatest="blend" />
@@ -2095,10 +2179,16 @@ MultiContentEntryText(pos = (30, 42), size = (610, 60), font = 1, flags = RT_HAL
     <ePixmap name="" position="74,127" size="80,546" pixmap="openSPA_JRLG/JR/Menu_lateral.png" zPosition="-5" transparent="0" />
     <ePixmap name="logo setup" position="81,47" size="75,75" pixmap="openSPA_JRLG/menu/tools3.png" alphatest="blend" transparent="0" zPosition="-1" />
     <!-- Panel dreta -->
+    <widget name="key_blue" position="209,530" size="220,36" font="Regular;24" halign="left" valign="center" zPosition="5" backgroundColor="frgr" transparent="1" />
+    <widget name="key_green" position="208,580" size="250,36" font="Regular;24" halign="left" valign="center" zPosition="1" backgroundColor="frgr" transparent="1" />
+    <widget name="key_yellow" position="208,630" size="250,36" font="Regular;24" halign="left" valign="center" zPosition="1" backgroundColor="frgr" transparent="1" />
+    <ePixmap name="" position="160,576" size="44,44" pixmap="openSPA_JRLG/menu/greenbutton.png" alphatest="blend" zPosition="3" />
+    <ePixmap name="" position="160,626" size="44,44" pixmap="openSPA_JRLG/menu/yellowbutton.png" alphatest="blend" zPosition="3" />
+    <ePixmap name="" position="160,526" size="44,44" pixmap="openSPA_JRLG/menu/bluebutton.png" zPosition="3" alphatest="blend" />
     <ePixmap name="satscan" position="536,97" size="80,70" pixmap="openSPA_JRLG/menu/satscan.png" alphatest="blend" zPosition="4" />
     <eLabel name="fondomenu" position="511,87" size="436,580" backgroundColor="frgr" zPosition="1" />
     <eLabel name="bordelista" position="520,176" size="416,481" zPosition="2" backgroundColor="grey" />
-    <widget source="title" render="Label" position="170,485" size="336,48" font="Droid; 28" halign="left" backgroundColor="botred" transparent="1" noWrap="1" zPosition="-1" foregroundColor="white" />
+    <widget source="title" render="Label" position="170,140" size="336,48" font="Droid; 28" halign="left" backgroundColor="botred" transparent="1" noWrap="1" zPosition="-1" foregroundColor="white" />
   </screen>
   <screen name="menu_network" position="0,0" size="1281,730" title="Network" backgroundColor="transparent2" flags="wfNoBorder">
     <!-- lista -->
@@ -2662,8 +2752,8 @@ MultiContentEntryText(pos = (342, 12), size = (45, 22),  font = 2, flags = RT_HA
     </widget>
     <!--titulo-->
     <widget source="Title" render="Label" position="157,71" size="283,45" font="Regular; 24" halign="center" foregroundColor="black" backgroundColor="frgr" transparent="1" noWrap="1" zPosition="12" />
-    <ePixmap name="tecla0" position="97,315" size="35,25" alphatest="blend" pixmap="openSPA_JRLG/skin_default/buttons/key_blue.png" />
-    <ePixmap name="menu" position="97,344" size="35,25" alphatest="blend" pixmap="openSPA_JRLG/skin_default/buttons/key_menu.png" />
+    <ePixmap name="tecla0" position="97,315" size="35,25" alphatest="blend" pixmap="openSPA_JRLG/buttons/key_blue.png" />
+    <ePixmap name="menu" position="97,344" size="35,25" alphatest="blend" pixmap="openSPA_JRLG/buttons/key_menu.png" />
     <widget name="key_info" position="140,316" size="202,24" transparent="1" valign="center" noWrap="1" font="Regular; 17" foregroundColor="black" backgroundColor="frgr" />
     <widget name="key_infos" position="140,345" size="125,24" transparent="1" valign="center" noWrap="1" font="Regular; 17" backgroundColor="frgr" foregroundColor="black" />
     <eLabel name="bordenegro" position="64,41" size="467,650" zPosition="-4" backgroundColor="black" />
@@ -2828,10 +2918,10 @@ MultiContentEntryText(pos = (342, 12), size = (45, 22),  font = 2, flags = RT_HA
     <widget source="Title" render="Label" position="424,112" size="372,48" font="Droid; 38" halign="left" backgroundColor="frgr" transparent="1" noWrap="1" zPosition="5" foregroundColor="black" />
   </screen>
   <screen name="picshow" position="0,0" size="1281,721" title="Picture player" flags="wfNoBorder" backgroundColor="frgr">
-    <ePixmap pixmap="skin_default/buttons/red.png" position="869,474" size="140,40" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/green.png" position="869,530" size="140,40" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/yellow.png" position="1061,474" size="140,40" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/blue.png" position="1061,530" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/red.png" position="869,474" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/green.png" position="869,530" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/yellow.png" position="1061,474" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/blue.png" position="1061,530" size="140,40" alphatest="on" />
     <widget source="key_red" render="Label" position="869,477" zPosition="1" size="140,40" font="Regular; 18" halign="center" valign="center" transparent="1" backgroundColor="black" borderColor="black" borderWidth="1" foregroundColor="rwhite" />
     <widget source="key_green" render="Label" position="869,533" zPosition="1" size="140,40" font="Regular; 18" halign="center" valign="center" transparent="1" backgroundColor="black" borderColor="black" borderWidth="1" foregroundColor="rwhite" />
     <widget source="key_yellow" render="Label" position="1061,477" zPosition="1" size="140,40" font="Regular;18" halign="center" valign="center" transparent="1" backgroundColor="black" borderColor="black" borderWidth="1" foregroundColor="rwhite" />
@@ -2845,7 +2935,7 @@ MultiContentEntryText(pos = (342, 12), size = (45, 22),  font = 2, flags = RT_HA
   <screen name="Pic_Exif" position="0,0" size="1281,721" title="Exif" flags="wfNoBorder" backgroundColor="black">
     <widget source="Title" render="Label" position="140,79" size="588,35" transparent="1" foregroundColor="azudst" font="Regular; 24" backgroundColor="black" zPosition="15" noWrap="1" valign="center" borderColor="black" borderWidth="2" />
     <ePixmap name="new ePixmap" position="0, 0" size="1280,720" pixmap="openSPA_JRLG/picturebg.jpg" zPosition="-1" />
-    <ePixmap pixmap="skin_default/buttons/red.png" position="870,475" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/red.png" position="870,475" size="140,40" alphatest="on" />
     <widget source="key_red" render="Label" position="869,477" zPosition="1" size="140,40" font="Regular; 18" halign="center" valign="center" transparent="1" backgroundColor="black" borderColor="black" borderWidth="1" foregroundColor="rwhite" />
     <widget source="menu" render="Listbox" position="74,129" size="705,500" scrollbarMode="showOnDemand" selectionDisabled="1" transparent="1">
       <convert type="TemplatedMultiContent">
@@ -3444,8 +3534,8 @@ MultiContentEntryText(pos = (342, 12), size = (45, 22),  font = 2, flags = RT_HA
     <eLabel name="" position="194,76" size="594,458" zPosition="-2" />
   </screen>
   <screen name="FanControl2Plugin" position="0,0" size="1280,720" title="Fan Control 2" backgroundColor="transparent">
-    <ePixmap pixmap="skin_default/buttons/key_info.png" position="1180,635" zPosition="4" size="35,25" transparent="1" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/key_menu.png" position="1180,670" zPosition="4" size="35,25" transparent="1" alphatest="on" />
+    <ePixmap pixmap="buttons/key_info.png" position="1180,635" zPosition="4" size="35,25" transparent="1" alphatest="on" />
+    <ePixmap pixmap="buttons/key_menu.png" position="1180,670" zPosition="4" size="35,25" transparent="1" alphatest="on" />
     <widget source="red" render="Label" position="138,650" zPosition="1" size="140,40" font="Regular;20" halign="left" valign="center" backgroundColor="metrixBackground" transparent="1" foregroundColor="white" />
     <widget source="green" render="Label" position="422,649" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="metrixBackground" transparent="1" foregroundColor="white" />
     <widget source="yellow" render="Label" position="705,650" zPosition="1" size="140,40" font="Regular;20" halign="left" valign="center" backgroundColor="metrixBackground" transparent="1" foregroundColor="white" />
@@ -3894,8 +3984,8 @@ MultiContentEntryText(pos = (342, 12), size = (45, 22),  font = 2, flags = RT_HA
     <widget name="key_red" position="141,650" zPosition="1" size="140,40" font="Regular;20" halign="left" valign="center" backgroundColor="metrixBackground" transparent="1" foregroundColor="white" />
     <widget name="key_green" position="475,650" zPosition="1" size="140,40" font="Regular;20" halign="left" valign="center" backgroundColor="metrixBackground" transparent="1" foregroundColor="white" />
     <widget name="key_yellow" position="806,650" zPosition="1" size="140,40" font="Regular;20" halign="left" valign="center" backgroundColor="metrixBackground" transparent="1" foregroundColor="white" />
-    <widget name="autostart_off" position="375,196" zPosition="1" pixmap="skin_default/icons/lock_off.png" size="32,32" alphatest="on" />
-    <widget name="autostart_on" position="375,196" zPosition="2" pixmap="skin_default/icons/lock_on.png" size="32,32" alphatest="on" />
+    <widget name="autostart_off" position="375,196" zPosition="1" pixmap="icons/lock_off.png" size="32,32" alphatest="on" />
+    <widget name="autostart_on" position="375,196" zPosition="2" pixmap="icons/lock_on.png" size="32,32" alphatest="on" />
     <widget name="lab1" position="415,195" size="360,30" font="Regular;20" valign="center" transparent="1" foregroundColor="black" backgroundColor="colorJR4" />
     <widget name="lab2" position="390,270" size="150,30" font="Regular;20" valign="center" transparent="1" foregroundColor="black" backgroundColor="frgr" />
     <widget name="lab3" position="390,320" size="150,30" font="Regular;20" valign="center" transparent="1" foregroundColor="black" backgroundColor="frgr" />
@@ -3914,7 +4004,7 @@ MultiContentEntryText(pos = (342, 12), size = (45, 22),  font = 2, flags = RT_HA
     <widget source="Title" render="Label" position="366,131" size="430,42" backgroundColor="frgr" font="Regular; 30" foregroundColor="black" transparent="1" halign="center" />
   </screen>
   <screen name="TranscodingSetup" position="center,center" size="1280,720" title="Transcoding Setup" flags="wfNoBorder" backgroundColor="transparent">
-    <widget name="blue" pixmap="skin_default/buttons/blue.png" position="995,651" size="140,40" alphatest="on" />
+    <widget name="blue" pixmap="buttons/blue.png" position="995,651" size="140,40" alphatest="on" />
     <widget source="key_red" render="Label" position="143,651" zPosition="1" size="140,40" font="Regular;20" halign="left" valign="center" backgroundColor="metrixBackground" transparent="1" foregroundColor="white" />
     <widget source="key_green" render="Label" position="474,650" zPosition="1" size="140,40" font="Regular;20" halign="left" valign="center" backgroundColor="metrixBackground" transparent="1" foregroundColor="white" />
     <widget source="key_yellow" render="Label" position="813,650" zPosition="1" size="140,40" font="Regular;20" halign="left" valign="center" backgroundColor="metrixBackground" transparent="1" foregroundColor="white" />
@@ -4072,7 +4162,7 @@ MultiContentEntryText(pos = (342, 12), size = (45, 22),  font = 2, flags = RT_HA
     <widget name="key_red" position="139,648" size="140,40" valign="center" halign="left" zPosition="4" foregroundColor="white" font="Regular;20" transparent="1" shadowColor="background" shadowOffset="-2,-2" backgroundColor="metrixBackground" />
     <widget name="key_green" position="433,648" size="140,40" valign="center" halign="left" zPosition="4" foregroundColor="white" font="Regular;20" transparent="1" shadowColor="background" shadowOffset="-2,-2" backgroundColor="metrixBackground" />
     <widget name="config" position="210,140" size="540,340" scrollbarMode="showOnDemand" transparent="1" backgroundColor="frgr" foregroundColor="black" />
-    <ePixmap alphatest="on" pixmap="skin_default/icons/clock.png" position="680,483" size="14,14" zPosition="3" />
+    <ePixmap alphatest="on" pixmap="icons/clock.png" position="680,483" size="14,14" zPosition="3" />
     <widget font="Regular;18" halign="left" position="705,482" render="Label" size="55,20" source="global.CurrentTime" transparent="1" valign="center" zPosition="3" foregroundColor="black" backgroundColor="colorJR4">
       <convert type="ClockToText">Default</convert>
     </widget>
@@ -4240,9 +4330,9 @@ MultiContentEntryText(pos = (342, 12), size = (45, 22),  font = 2, flags = RT_HA
     <widget source="statusbar" render="Label" position="10,5" zPosition="10" size="573,30" halign="center" valign="center" font="Regular;22" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
   </screen>
   <screen name="vuuLEDBrightnessSetup" position="center,center" size="900,530" title="LED Brightness buttons Setup">
-    <ePixmap pixmap="skin_default/buttons/red.png" position="60,10" size="140,40" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/green.png" position="230,10" size="140,40" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/yellow.png" position="400,10" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/red.png" position="60,10" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/green.png" position="230,10" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/yellow.png" position="400,10" size="140,40" alphatest="on" />
     <widget source="key_red" render="Label" position="60,10" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="KeyRedBack" foregroundColor="white" transparent="1" />
     <widget source="key_green" render="Label" position="230,10" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="KeyGreen" foregroundColor="white" transparent="1" />
     <widget source="key_yellow" render="Label" position="400,10" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" foregroundColor="white" transparent="1" backgroundColor="KeyYellow" />
@@ -4297,13 +4387,13 @@ MultiContentEntryText(pos = (342, 12), size = (45, 22),  font = 2, flags = RT_HA
   </screen>
   <screen name="pm_conf" position="center,center" size="600,480" title="Select Color">
     <widget name="config" position="10,5" size="580,430" scrollbarMode="showOnDemand" />
-    <ePixmap pixmap="skin_default/buttons/red.png" position="10,440" size="140,40" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/green.png" position="155,440" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/red.png" position="10,440" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/green.png" position="155,440" size="140,40" alphatest="on" />
     <widget name="key_red" position="10,443" zPosition="1" size="140,35" valign="center" halign="center" font="Regular;21" transparent="1" foregroundColor="white" shadowColor="black" noWrap="1" shadowOffset="-1,-1" backgroundColor="KeyRed" />
     <widget name="key_green" position="155,443" zPosition="1" size="140,35" valign="center" halign="center" font="Regular;21" transparent="1" foregroundColor="white" shadowColor="black" noWrap="1" shadowOffset="-1,-1" backgroundColor="KeyYellow" />
   </screen>
   <screen name="NetworkMountsMenu" position="center,center" size="560,400" title="Mounts Setup">
-    <ePixmap pixmap="skin_default/buttons/red.png" position="0,0" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/red.png" position="0,0" size="140,40" alphatest="on" />
     <widget source="key_red" render="Label" position="0,0" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="KeyRedBack" transparent="1" />
     <ePixmap pixmap="skin_default/border_menu.png" position="5,45" zPosition="1" size="250,300" transparent="1" alphatest="on" />
     <widget name="menulist" position="15,55" size="230,260" zPosition="10" scrollbarMode="showOnDemand" />
@@ -4315,10 +4405,10 @@ MultiContentEntryText(pos = (342, 12), size = (45, 22),  font = 2, flags = RT_HA
     <widget name="lab2" position="20,160" size="150,30" font="Regular;20" valign="center" transparent="0" />
     <widget name="labstop" position="180,160" size="100,30" font="Regular;20" valign="center" halign="center" backgroundColor="red" />
     <widget name="labrun" position="180,160" size="100,30" zPosition="1" font="Regular;20" valign="center" halign="center" backgroundColor="green" />
-    <ePixmap pixmap="skin_default/buttons/red.png" position="0,260" size="140,40" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/green.png" position="140,260" size="140,40" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/yellow.png" position="280,260" size="140,40" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/blue.png" position="420,260" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/red.png" position="0,260" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/green.png" position="140,260" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/yellow.png" position="280,260" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/blue.png" position="420,260" size="140,40" alphatest="on" />
     <widget name="key_red" position="0,260" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="KeyRedBack" transparent="1" />
     <widget name="key_green" position="140,260" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="KeyGreenBack" transparent="1" />
     <widget name="key_yellow" position="280,260" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="KeyYellowBack" transparent="1" />
@@ -4342,14 +4432,14 @@ MultiContentEntryText(pos = (342, 12), size = (45, 22),  font = 2, flags = RT_HA
     <widget name="labpass" position="160,150" size="310,30" font="Regular;20" valign="center" backgroundColor="un4d5375" />
     <widget name="alias" position="10,200" size="150,30" font="Regular;20" valign="center" transparent="1" />
     <widget name="labalias" position="160,200" size="310,30" font="Regular;20" valign="center" backgroundColor="un4d5375" />
-    <widget name="sinactive" position="10,250" zPosition="1" pixmap="skin_default/icons/lock_off.png" size="32,32" alphatest="on" />
-    <widget name="sactive" position="10,250" zPosition="2" pixmap="skin_default/icons/lock_on.png" size="32,32" alphatest="on" />
+    <widget name="sinactive" position="10,250" zPosition="1" pixmap="icons/lock_off.png" size="32,32" alphatest="on" />
+    <widget name="sactive" position="10,250" zPosition="2" pixmap="icons/lock_on.png" size="32,32" alphatest="on" />
     <widget name="system" position="50,250" size="100,30" font="Regular;20" valign="center" transparent="1" />
     <widget name="labsys" position="160,250" size="310,30" font="Regular;20" valign="center" backgroundColor="un4d5375" />
-    <ePixmap pixmap="skin_default/buttons/red.png" position="0,360" size="140,40" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/green.png" position="150,360" size="140,40" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/yellow.png" position="300,360" size="140,40" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/blue.png" position="450,360" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/red.png" position="0,360" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/green.png" position="150,360" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/yellow.png" position="300,360" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/blue.png" position="450,360" size="140,40" alphatest="on" />
     <widget name="key_red" position="0,360" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="KeyRedBack" transparent="1" />
     <widget name="key_green" position="150,360" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="KeyGreenBack" transparent="1" />
     <widget name="key_yellow" position="300,360" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="KeyYellowBack" transparent="1" />
@@ -4358,9 +4448,9 @@ MultiContentEntryText(pos = (342, 12), size = (45, 22),  font = 2, flags = RT_HA
   <screen name="InadynSetup" position="center,center" size="440,350" title="Inadyn Setup">
     <widget name="config" position="10,10" size="420,240" scrollbarMode="showOnDemand" />
     <widget name="HelpWindow" pixmap="skin_default/vkey_icon.png" position="170,300" zPosition="1" size="440,350" transparent="1" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/red.png" position="130,310" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/red.png" position="130,310" size="140,40" alphatest="on" />
     <widget name="key_red" position="130,310" size="140,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="KeyRedBack" transparent="1" />
-    <ePixmap pixmap="skin_default/buttons/key_text.png" position="300,313" zPosition="4" size="35,25" alphatest="on" transparent="1" />
+    <ePixmap pixmap="buttons/key_text.png" position="300,313" zPosition="4" size="35,25" alphatest="on" transparent="1" />
   </screen>
   <screen name="InadynLog" position="center,center" size="590,410" title="Inadyn Log">
     <widget name="infotext" position="10,10" size="590,410" font="Console;16" />
@@ -4371,13 +4461,82 @@ MultiContentEntryText(pos = (342, 12), size = (45, 22),  font = 2, flags = RT_HA
     <widget name="lab2" position="20,160" size="150,30" font="Regular;20" valign="center" transparent="0" />
     <widget name="labstop" position="180,160" size="100,30" font="Regular;20" valign="center" halign="center" backgroundColor="red" />
     <widget name="labrun" position="180,160" size="100,30" zPosition="1" font="Regular;20" valign="center" halign="center" backgroundColor="green" />
-    <ePixmap pixmap="skin_default/buttons/red.png" position="0,260" size="140,40" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/green.png" position="140,260" size="140,40" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/yellow.png" position="280,260" size="140,40" alphatest="on" />
-    <ePixmap pixmap="skin_default/buttons/blue.png" position="420,260" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/red.png" position="0,260" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/green.png" position="140,260" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/yellow.png" position="280,260" size="140,40" alphatest="on" />
+    <ePixmap pixmap="buttons/blue.png" position="420,260" size="140,40" alphatest="on" />
     <widget name="key_red" position="0,260" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="KeyRedBack" transparent="1" />
     <widget name="key_green" position="140,260" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="KeyGreenBack" transparent="1" />
     <widget name="key_yellow" position="280,260" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="KeyYellowBack" transparent="1" />
     <widget name="key_blue" position="420,260" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="KeyBlueBack" transparent="1" />
   </screen>
+  <screen name="NetworkMountsMenu" position="center,center" size="560,440">
+		<ePixmap alphatest="blend" pixmap="buttons/red.png" position="0,0" size="140,40" />
+		<widget backgroundColor="red" foregroundColor="white" font="Droid;20" halign="center" position="0,0" render="Label" size="140,40" source="key_red" transparent="1" valign="center" zPosition="1" />
+		<ePixmap alphatest="blend" pixmap="border_menu.png" position="4,44" size="250,300" transparent="1" zPosition="1" />
+		<widget font="Droid;19" itemHeight="26" name="menulist" position="8,54" scrollbarMode="showOnDemand" size="550,260" zPosition="10" />
+		<widget backgroundColor="#25062748" font="Droid;19" halign="center" position="10,366" render="Label" size="550,66" source="introduction" transparent="1" valign="center" />
+	</screen>
+  <screen name="doFlashImage" position="0,0" size="1280,720" title="Flash On the fly (select a image)" flags="wfNoBorder" backgroundColor="transparent">
+	<widget name="key_green" position="408,652" size="170,36" zPosition="1" font="Droid; 20" halign="left" valign="center" backgroundColor="bgsp" transparent="1" foregroundColor="white" />
+    <widget name="key_red" position="148,652" size="160,36" zPosition="1" font="Droid; 20" halign="left" valign="center" backgroundColor="bgsp" transparent="1" foregroundColor="white" />
+    <widget name="key_blue" position="672,650" size="140,36" zPosition="1" font="Droid; 20" halign="left" valign="center" backgroundColor="transpBlack" transparent="1" foregroundColor="white" />
+    <widget name="key_yellow" position="914,652" size="140,36" zPosition="1" font="Droid; 20" halign="left" valign="center" backgroundColor="transpBlack" transparent="1" foregroundColor="white" />
+    <ePixmap name="" position="354,648" size="44,44" pixmap="openSPA_JRLG/menu/greenbutton.png" alphatest="blend" zPosition="1" />
+    <ePixmap name="" position="618,646" size="44,44" pixmap="openSPA_JRLG/menu/bluebutton.png" alphatest="blend" zPosition="1" />
+    <ePixmap name="" position="860,648" size="44,44" pixmap="openSPA_JRLG/menu/yellowbutton.png" alphatest="blend" zPosition="1" />
+    <ePixmap name="" position="94,648" size="44,44" pixmap="openSPA_JRLG/menu/redbutton.png" zPosition="1" alphatest="blend" />
+	<eLabel name="fondo botons" position="0,620" size="1280,100" backgroundColor="metrixBackground" />
+	<eLabel name="fondo" position="44,36" size="1164,558" zPosition="-1" backgroundColor="colorJR4" />
+	<eLabel name="fondo titul" position="44,36" size="1153,60" backgroundColor="frgr" />
+	<eLabel name="fondo llista" position="54,106" size="614,478" backgroundColor="frgr" />
+	<widget source="Title" render="Label" position="68,46" size="1038,48" font="Regular5; 30" halign="left" foregroundColor="black" backgroundColor="frgr" transparent="1" zPosition="12" />
+	<widget name="imageList" position="60,114" zPosition="1" size="603,466" font="Regular; 19" scrollbarMode="showOnDemand" transparent="1" itemHeight="26" />
+	<ePixmap position="914,544" zPosition="1" size="35,25" pixmap="buttons/key_info.png" transparent="1" alphatest="blend" />
+	<widget name="key_menu" position="955,536" zPosition="2" size="226,40" valign="center" halign="left" font="Regular;21" transparent="1" />
+	<widget name="info" position="688,114" zPosition="1" size="503,408" valign="top" halign="left" font="Regular; 21" transparent="1" backgroundColor="frgr" foregroundColor="black" />
+	<eLabel name="ch1" position="700,543" size="60,28" text=" [Ch-] " foregroundColor="background" backgroundColor="colorJR4" font="Regular; 18" halign="center" valign="center" />
+	<eLabel name="ch2" position="772,543" size="60,28" text=" [Ch+] " foregroundColor="background" backgroundColor="colorJR4" font="Regular; 18" halign="center" valign="center" />
+	</screen>
+	<screen name="FlashOnline" position="0,0" size="1278,720" title="Flash On the Fly" backgroundColor="transparent" flags="wfNoBorder">
+  <widget source="key_green" render="Label" position="408,652" size="170,36" zPosition="1" font="Droid; 20" halign="left" valign="center" backgroundColor="bgsp" transparent="1" foregroundColor="white" />
+  <widget source="key_red" render="Label" position="148,652" size="160,36" zPosition="1" font="Droid; 20" halign="left" valign="center" backgroundColor="bgsp" transparent="1" foregroundColor="white" />
+  <widget source="key_yellow" render="Label" position="694,652" size="140,36" zPosition="1" font="Droid; 20" halign="left" valign="center" backgroundColor="transpBlack" transparent="1" foregroundColor="white" />
+  <ePixmap name="" position="354,648" size="44,44" pixmap="openSPA_JRLG/menu/greenbutton.png" alphatest="blend" zPosition="1" />
+  <ePixmap name="" position="640,648" size="44,44" pixmap="openSPA_JRLG/menu/yellowbutton.png" alphatest="blend" zPosition="1" />
+  <ePixmap name="" position="94,648" size="44,44" pixmap="openSPA_JRLG/menu/redbutton.png" zPosition="1" alphatest="blend" />
+  <eLabel name="fondo botons" position="0,620" size="1280,100" backgroundColor="metrixBackground" />
+  <eLabel name="fondo" position="44,36" size="1164,558" zPosition="-1" backgroundColor="colorJR4" />
+  <eLabel name="fondo titul" position="44,36" size="1153,60" backgroundColor="frgr" />
+  <eLabel name="fondo llista" position="54,106" size="614,478" backgroundColor="frgr" />
+  <widget source="Title" render="Label" position="68,46" size="1038,48" font="Regular5; 30" halign="left" foregroundColor="black" backgroundColor="frgr" transparent="1" zPosition="12" />
+  <widget name="list" position="60,114" zPosition="1" size="603,466" font="Regular; 19" scrollbarMode="showOnDemand" transparent="1" itemHeight="26" />
+  <ePixmap position="914,544" zPosition="1" size="35,25" pixmap="buttons/key_info.png" transparent="1" alphatest="blend" />
+  <widget name="key_menu" position="955,536" zPosition="2" size="226,40" valign="center" halign="left" font="Regular;21" transparent="1" />
+  <widget name="info" position="688,114" zPosition="1" size="503,408" valign="top" halign="left" font="Regular; 21" transparent="1" backgroundColor="frgr" foregroundColor="black" />
+  <eLabel name="ch1" position="700,543" size="60,28" text=" [Ch-] " foregroundColor="background" backgroundColor="colorJR4" font="Regular; 18" halign="center" valign="center" />
+  <eLabel name="ch2" position="772,543" size="60,28" text=" [Ch+] " foregroundColor="background" backgroundColor="colorJR4" font="Regular; 18" halign="center" valign="center" />
+</screen>
+  <screen name="ImageBackup" position="265,30" size="750,650" flags="wfNoBorder" backgroundColor="transparent">
+		<eLabel name="b" position="0,0" size="750,650" backgroundColor="#00ffffff" zPosition="-2" />
+		<eLabel name="a" position="1,1" size="748,648" backgroundColor="#00000000" zPosition="-1" />
+		<widget source="Title" render="Label" position="60,10" foregroundColor="#00ffffff" size="480,50" halign="left" font="Regular; 28" backgroundColor="#00000000" />
+		<eLabel name="line" position="1,60" size="748,1" backgroundColor="#00ffffff" zPosition="1" />
+		<eLabel name="line2" position="1,250" size="748,4" backgroundColor="#00ffffff" zPosition="1" />
+		<widget name="config" position="2,280" size="730,360" halign="center" font="Regular; 22" itemHeight="35" backgroundColor="#00000000" foregroundColor="#00e5b243" />
+		<widget source="description" render="Label" position="2,65" size="730,62" halign="center" font="Regular; 22" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+		<widget source="options" render="Label" position="2,135" size="730,60" halign="center" font="Regular; 22" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+		<widget source="key_red" render="Label" position="30,200" size="150,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+		<widget source="key_green" render="Label" position="200,200" size="150,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+		<eLabel position="20,200" size="6,30" backgroundColor="#00e61700" /> <!-- Should be a pixmap -->
+		<eLabel position="190,200" size="6,30" backgroundColor="#0061e500" /> <!-- Should be a pixmap -->
+	</screen>
+	<screen name="NetworkMountsMenu" position="center,center" size="560,440">
+		<ePixmap alphatest="blend" pixmap="buttons/red_HD.png" position="0,0" size="140,40" />
+		<widget backgroundColor="red" foregroundColor="white" font="Droid;20" halign="center" position="0,0" render="Label" size="140,40" source="key_red" transparent="1" valign="center" zPosition="1" />
+		<ePixmap alphatest="blend" pixmap="border_menu.png" position="4,44" size="250,300" transparent="1" zPosition="1" />
+		<widget font="Droid;19" itemHeight="26" name="menulist" position="8,54" scrollbarMode="showOnDemand" size="550,260" zPosition="10" />
+		<widget backgroundColor="#25062748" font="Droid;19" halign="center" position="10,366" render="Label" size="550,66" source="introduction" transparent="1" valign="center" />
+	</screen>
+
 </skin>

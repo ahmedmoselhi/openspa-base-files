@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 
 from thriftgen.pyload.ttypes import *
 from thriftgen.pyload.Pyload import Iface

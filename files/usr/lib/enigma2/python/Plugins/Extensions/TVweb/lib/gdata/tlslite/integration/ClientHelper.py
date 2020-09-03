@@ -1,3 +1,4 @@
+"""
 A helper class for using TLS Lite with stdlib clients
 (httplib, xmlrpclib, imaplib, poplib).
 """

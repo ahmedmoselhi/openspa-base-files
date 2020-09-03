@@ -1,3 +1,4 @@
+class Item(object):
     channel = ""
     title = ""
     url = ""

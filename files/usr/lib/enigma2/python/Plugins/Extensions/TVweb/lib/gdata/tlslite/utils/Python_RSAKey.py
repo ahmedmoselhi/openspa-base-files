@@ -1,3 +1,4 @@
+"""Pure-Python RSA implementation."""
 
 from cryptomath import *
 import xmltools

@@ -1,3 +1,4 @@
+"""Import this module for easy access to TLS Lite objects.
 
 The TLS Lite API consists of classes, functions, and variables spread
 throughout this package.  Instead of importing them individually with::

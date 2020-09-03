@@ -1,3 +1,4 @@
+"""Helper class for TLSConnection."""
 from __future__ import generators
 
 from utils.compat import *

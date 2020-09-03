@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<colors>
+	<color>
+		<Name>White</Name>
+		<inside>FFFFFFFF</inside>
+		<outside>FF000000</outside>
+	</color>
+	<color>
+		<Name>Orange</Name>
+		<inside>FFF9F5A</inside>
+		<outside>FF000000</outside>
+	</color>
+</colors>

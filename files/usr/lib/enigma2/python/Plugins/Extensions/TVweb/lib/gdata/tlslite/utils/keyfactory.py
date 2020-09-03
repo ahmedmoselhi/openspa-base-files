@@ -1,3 +1,4 @@
+"""Factory functions for asymmetric cryptography.
 @sort: generateRSAKey, parseXMLKey, parsePEMKey, parseAsPublicKey,
 parseAsPrivateKey
 """

@@ -1,3 +1,4 @@
+# -*- coding: iso-8859-1 -*-
 #------------------------------------------------------------
 # modulo anotador de peliculas:
 # dado el nombre de una pelicula, devuelve la nota usando un fichero de notas

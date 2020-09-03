@@ -1,3 +1,4 @@
+"""TLS Lite + smtplib."""
 
 from smtplib import SMTP
 from gdata.tlslite.TLSConnection import TLSConnection

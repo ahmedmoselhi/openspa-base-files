@@ -1,3 +1,4 @@
+# -*- coding: iso-8859-15 -*-
 #------------------------------------------------------------
 # pelisalacarta - XBMC Plugin
 # Blibioteca para Wii por Dalim

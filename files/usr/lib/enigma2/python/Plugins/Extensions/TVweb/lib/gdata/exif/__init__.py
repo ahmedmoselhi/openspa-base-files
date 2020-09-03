@@ -1,3 +1,4 @@
+# -*-*- encoding: utf-8 -*-*-
 #
 # This is gdata.photos.exif, implementing the exif namespace in gdata
 #

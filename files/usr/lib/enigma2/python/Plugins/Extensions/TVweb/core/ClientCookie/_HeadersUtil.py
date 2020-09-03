@@ -1,3 +1,4 @@
+"""Utility functions for HTTP header value parsing and construction.
 
 Copyright 1997-1998, Gisle Aas
 Copyright 2002-2004, John J. Lee

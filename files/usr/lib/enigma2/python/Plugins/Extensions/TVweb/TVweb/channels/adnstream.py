@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #------------------------------------------------------------
 # tvalacarta - XBMC Plugin
 # Canal para ADNStream

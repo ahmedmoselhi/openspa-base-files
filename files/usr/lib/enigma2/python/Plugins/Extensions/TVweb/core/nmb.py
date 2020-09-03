@@ -1,3 +1,4 @@
+# -*- mode: python; tab-width: 4 -*-
 # $Id: nmb.py,v 1.9 2003/04/19 09:44:43 miketeo Exp $
 #
 # Copyright (C) 2001 Michael Teo <michaelteo@bigfoot.com>

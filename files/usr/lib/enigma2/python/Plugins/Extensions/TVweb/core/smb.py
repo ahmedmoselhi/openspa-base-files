@@ -1,3 +1,4 @@
+# -*- mode: python; tab-width: 4 -*-
 # $Id: smb.py,v 1.15 2003/02/22 08:03:19 miketeo Exp $
 #
 # Copyright (C) 2001 Michael Teo <michaelteo@bigfoot.com>

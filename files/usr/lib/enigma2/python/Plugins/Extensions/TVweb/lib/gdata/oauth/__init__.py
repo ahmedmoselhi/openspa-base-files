@@ -1,3 +1,4 @@
+import cgi
 import urllib
 import time
 import random

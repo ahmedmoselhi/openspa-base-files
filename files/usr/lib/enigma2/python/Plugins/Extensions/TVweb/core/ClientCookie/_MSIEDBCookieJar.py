@@ -1,3 +1,4 @@
+"""Persistent CookieJar based on MS Internet Explorer cookie database.
 
 Copyright 2003-2004 John J Lee <jjl@pobox.com>
 

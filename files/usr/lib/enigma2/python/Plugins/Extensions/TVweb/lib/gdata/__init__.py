@@ -1,3 +1,4 @@
+#!/usr/bin/python
 #
 # Copyright (C) 2006 Google Inc.
 #

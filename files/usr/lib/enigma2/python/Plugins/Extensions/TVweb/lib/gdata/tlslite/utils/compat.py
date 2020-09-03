@@ -1,3 +1,4 @@
+"""Miscellaneous functions to mask Python version differences."""
 
 import sys
 import os

@@ -1,3 +1,4 @@
+"""Classes representing TLS messages."""
 
 from utils.compat import *
 from utils.cryptomath import *

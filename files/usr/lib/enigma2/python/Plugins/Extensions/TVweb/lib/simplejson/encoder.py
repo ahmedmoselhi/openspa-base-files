@@ -1,3 +1,4 @@
+"""Implementation of JSONEncoder
 """
 import re
 

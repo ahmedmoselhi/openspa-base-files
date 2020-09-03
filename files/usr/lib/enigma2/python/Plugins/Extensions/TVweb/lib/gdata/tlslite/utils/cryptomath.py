@@ -1,3 +1,4 @@
+"""cryptomath module
 
 This module has basic math/crypto code."""
 

@@ -1,3 +1,4 @@
+from TProtocol import *
 from struct import pack, unpack
 
 __all__ = ['TCompactProtocol', 'TCompactProtocolFactory']

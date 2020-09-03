@@ -1,3 +1,4 @@
+"""PyCrypto 3DES implementation."""
 
 from cryptomath import *
 from TripleDES import *

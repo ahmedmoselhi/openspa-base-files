@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - MediaCenter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: morser\n"
+"Language-Team: www.azboxhd.es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/MediaCenter\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/MediaCenter\n"
+
+msgid "Home"
+msgstr "Salir"
+
+msgid "Play All"
+msgstr "Reproducir todo"
+
+msgid "Add to Playlist"
+msgstr "Añadir a lista"
+
+msgid "Playlist"
+msgstr "Lista de repr."
+
+msgid "Do you really want to delete this file ?"
+msgstr "Realmente deseas borrar este archivo?"
+
+msgid "Do you really want to delete this directory and it's content ?"
+msgstr "Realmente desea borrar este directorio y su contenido?"
+
+msgid "add directory to playlist "
+msgstr "Añadir directorio a la lista"
+
+msgid "delete directory"
+msgstr "Borrar directorio"
+
+msgid "add file to playlist"
+msgstr "Añadir archivo a la lista"
+
+msgid "add file to playlist and play"
+msgstr "Añadir archivo a la lista y reproducirla"
+
+msgid "add all files in directory to playlist"
+msgstr "Añadir todos los archivos en el directorio a la lista"
+
+msgid "delete file"
+msgstr "Borrar archivo"
+
+msgid "This Box can't decode %s audio streams!"
+msgstr "Este equipo no puede decodificar el stream %s de audio!"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Back"
+msgstr "Atras"
+
+msgid "delete track"
+msgstr "Borrar pista"
+
+msgid "File Browser"
+msgstr "Lista de archivos"
+
+msgid "Track"
+msgstr "Pista"
+
+msgid "Continuous"
+msgstr "Continuo"
+
+msgid "Random"
+msgstr "Aleatorio"
+
+msgid "You have to close playlist before you can go to the next song while playing from file browser."
+msgstr "Debes cerrar la lista antes de poder ir a la proxima canción mientras se reproduce desde la lista de archivos"
+
+msgid "Save Playlist"
+msgstr "Guardar la lista"
+
+msgid "Please enter filename (empty = use current date)"
+msgstr "Por favor, introduce el nombre del archivo (Vacio=usa la fecha actual)"
+
+msgid "Please select a playlist..."
+msgstr "Por favor, selecciona una lista..."
+
+msgid "Please select a playlist to delete..."
+msgstr "Por favor, selecciona una lista para borrar..."
+
+msgid "Do you really want to delete %s?"
+msgstr "Realmente deseas borrar %s?"
+
+msgid "Delete failed!"
+msgstr "No se ha podido borrar!"
+
+msgid "delete from playlist"
+msgstr "Borrar de la lista"
+
+msgid "clear playlist"
+msgstr "Limpiar la lista"
+
+msgid "load playlist"
+msgstr "Cargar una lista"
+
+msgid "save playlist"
+msgstr "Guardar la lista"
+
+msgid "delete saved playlist"
+msgstr "Borrar lista guardada"
+

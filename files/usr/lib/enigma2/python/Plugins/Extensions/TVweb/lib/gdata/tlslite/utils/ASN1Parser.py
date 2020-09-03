@@ -1,3 +1,4 @@
+"""Class for parsing ASN.1"""
 from compat import *
 from codec import *
 

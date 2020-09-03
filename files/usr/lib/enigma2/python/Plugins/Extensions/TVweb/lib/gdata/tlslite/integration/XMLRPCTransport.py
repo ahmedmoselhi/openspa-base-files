@@ -1,3 +1,4 @@
+"""TLS Lite + xmlrpclib."""
 
 import xmlrpclib
 import httplib

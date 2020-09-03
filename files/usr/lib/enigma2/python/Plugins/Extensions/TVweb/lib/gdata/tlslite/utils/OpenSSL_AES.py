@@ -1,3 +1,4 @@
+"""OpenSSL/M2Crypto AES implementation."""
 
 from cryptomath import *
 from AES import *
