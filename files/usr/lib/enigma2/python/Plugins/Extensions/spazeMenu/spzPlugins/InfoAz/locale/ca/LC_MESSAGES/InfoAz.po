@@ -1,0 +1,777 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2-InfoAz\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: OpenSPA <openspa.info>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: CATALONIA\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "AAC"
+msgstr "AAC"
+
+msgid "ACTIVE"
+msgstr "ACTIU"
+
+msgid "AV settings, skin information"
+msgstr "Informació sobre la configuració de pantalla"
+
+msgid "About"
+msgstr "Quant a"
+
+msgid "About this panel..."
+msgstr "Quant a aquest panell d'informació..."
+
+msgid "Active"
+msgstr "Actiu"
+
+msgid "Active connections"
+msgstr "Connexions actives"
+
+msgid "Add rec"
+msgstr "Reservar"
+
+msgid "Advanced Information Panel"
+msgstr "Informació avançada"
+
+msgid "Advanced system information"
+msgstr "Panell amb informació avançada del sistema,"
+
+msgid "Alternatives"
+msgstr "Alternatius"
+
+msgid "Analog Video Output: Composite & Component"
+msgstr "Salida de video analógica"
+
+msgid "Aspect ratio"
+msgstr "Relació d'aspecte"
+
+msgid "Audio Prebuffering   (ms)"
+msgstr "Prebuffers d'Àudio   (ms)"
+
+msgid "Autostart OFF"
+msgstr "Autoinicio OFF"
+
+msgid "Autostart ON"
+msgstr "Autoinicio ON"
+
+msgid "Autostart is OFF"
+msgstr "Autoinicio DESACTIVADO"
+
+msgid "Autostart is ON"
+msgstr "Autoinicio ACTIVADO"
+
+msgid "AzboxHD Advanced Information Panel"
+msgstr "Información avanzada sobre el receptor"
+
+msgid "Backup"
+msgstr "Copias..."
+
+msgid "Bandwidth"
+msgstr "Banda"
+
+msgid "Brightness"
+msgstr "Brillo"
+
+msgid "Buffers"
+msgstr "Búfers"
+
+msgid "Build: "
+msgstr "Build: "
+
+msgid "CAM name"
+msgstr "Información CAM"
+
+msgid "CPU Speed: "
+msgstr "Freq. CPU: "
+
+msgid "CPU: "
+msgstr "CPU: "
+
+msgid "Cache RAM memory cleaned!"
+msgstr "S'ha alliberat la memòria cau de la RAM."
+
+msgid "Card info"
+msgstr "Info targeta"
+
+msgid "Channel"
+msgstr "Canal"
+
+msgid "Chipset: "
+msgstr "Chipset: "
+
+msgid "Clean RAM"
+msgstr "Alliberar RAM"
+
+msgid "Coderate HP"
+msgstr "Veloc. de codi HP"
+
+msgid "Coderate LP"
+msgstr "Veloc. de codi LP"
+
+msgid "Color Format"
+msgstr "Formato de color"
+
+msgid "Compact Flash"
+msgstr "Flash interna"
+
+msgid "Component Out"
+msgstr "Salida por componentes"
+
+msgid "Configuration"
+msgstr "Configuración"
+
+msgid "Constellation"
+msgstr "Constelació"
+
+msgid "Cores: "
+msgstr "Nuclis: "
+
+msgid "Cpu, model information"
+msgstr "Informació sobre la cpu, model"
+
+msgid "Crashlog file"
+msgstr "Arxiu 'Crashlog'"
+
+msgid "Current operating system information"
+msgstr "Informació sobre el Sistema Operatiu"
+
+msgid "Current recording information"
+msgstr "Informació sobre la gravació en curs"
+
+msgid "DTS"
+msgstr "DTS"
+
+msgid "Date/Time"
+msgstr "Data del sistema"
+
+msgid "Default"
+msgstr "Predeterminat"
+
+msgid "Deinterlace"
+msgstr "Entrellaçat"
+
+msgid "Del crashlogs"
+msgstr "Elim. crash"
+
+msgid "Delete crashlogs"
+msgstr "Esborrar arxius .log (crashlog)"
+
+msgid "Deleted!"
+msgstr "Eliminados!"
+
+msgid "Detected NIMs:"
+msgstr "NIMs detectats:"
+
+msgid "Dhcp"
+msgstr "DHCP"
+
+msgid "Display"
+msgstr "Pantalla"
+
+msgid "Distro: "
+msgstr "Distro: "
+
+msgid "Dolby digital"
+msgstr "Dolby digital"
+
+msgid "Dolby digital mode"
+msgstr "Mode Dolby digital"
+
+msgid "Drivers: "
+msgstr "Drivers: "
+
+msgid "ECM info"
+msgstr "Informació d'ECM"
+
+msgid "EMM info"
+msgstr "Informació d'EMM"
+
+msgid "END SCRIPT EXECUTION"
+msgstr "FIN DE EJECUCIÓN DE SCRIPT"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Emulation"
+msgstr "Camd"
+
+msgid "Enigma: "
+msgstr "Enigma: "
+
+msgid "Error by writing log file !!!"
+msgstr "Error en escriure l'arxiu de log"
+
+msgid "Event"
+msgstr "Event"
+
+msgid "Explore"
+msgstr "Explorar"
+
+msgid "External"
+msgstr "Extern"
+
+msgid "FEC"
+msgstr "FEC"
+
+msgid "FEC inner"
+msgstr "FEC interior"
+
+msgid "File name"
+msgstr "Nom d'arxiu"
+
+msgid "Free"
+msgstr "Lliure"
+
+msgid "Free memory table"
+msgstr "Gràfic de memoria lliure i swap"
+
+msgid "Frees"
+msgstr "Lliures"
+
+msgid "Frequency"
+msgstr "Freqüència"
+
+msgid "Frontprocessor version: %d"
+msgstr "Versió frontprocessor: %d"
+
+msgid "Fundi, Edu1971, Mecha, Jpbravo, Rusoalicia, Milytres, lilo74, Macmanolo and all Betatesters."
+msgstr "Fundi, Edu1971, Mecha, Jpbravo, Rusoalicia, Milytres, lilo74, Macmanolo i tots els betatesters"
+
+msgid "Fundi, Yersi, Nasky, Oscar_fl, Abdelsat, Edu1971, Mecha and all Betatesters."
+msgstr "Fundi, Yersi, Nasky, Oscar_fl, Abdelsat, Edu1971, Mecha y todos los betatesters"
+
+msgid "GStreamer: "
+msgstr "GStreamer: "
+
+msgid "Gateway"
+msgstr "Porta d'enllaç"
+
+msgid "Greetings:"
+msgstr "Agraiments:"
+
+msgid "Guard Interval"
+msgstr "Intèrval de guarda"
+
+msgid "Guide"
+msgstr "Guia"
+
+msgid "Hard disk devices information"
+msgstr "Informació dels dispositius d'emmagatzematge"
+
+msgid "Harddisk"
+msgstr "Disco duro"
+
+msgid "Hardware"
+msgstr "Maquinari"
+
+msgid "Have been deleted!"
+msgstr "Els arxius s'han eliminat."
+
+msgid "Help and utilities"
+msgstr "Blog de ayuda y utilidades"
+
+msgid "Hierarchy Inform."
+msgstr "Info. Jerarquia"
+
+msgid "Hierarchy Information"
+msgstr "Info. jeràrquica"
+
+msgid "Host Name"
+msgstr "Nom del host"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "Image"
+msgstr "Imagen"
+
+msgid "Inactive"
+msgstr "Inactiu"
+
+msgid "InfoAz"
+msgstr "InfoAz"
+
+msgid "Information"
+msgstr "Informació"
+
+msgid "Information CCAM"
+msgstr "Informació del script CAM"
+
+msgid "Information about tunning and current channel"
+msgstr "Informació sobre el canal"
+
+msgid "Information for cams and emulation"
+msgstr "Informació i estat de les camd's"
+
+msgid "Information not avaiable"
+msgstr "Informació no disponible"
+
+msgid "Installed: "
+msgstr "Instal·lat: "
+
+msgid "Instant Records path"
+msgstr "Ruta de gravacions instantànies"
+
+msgid "Intensity"
+msgstr "Potència"
+
+msgid "Internal Flash"
+msgstr "Flash interna"
+
+msgid "Internet Conection TEST"
+msgstr "TEST de connexió a Internet"
+
+msgid "Internet conection not avaiable"
+msgstr "Connexió a Internet no disponible"
+
+msgid "Inversion"
+msgstr "Inversió"
+
+msgid "Kernel Version: "
+msgstr "Versió de kernel: "
+
+msgid "Kernel messages"
+msgstr "Kernel msg"
+
+msgid "Last Updates"
+msgstr "Últimes actualitzacions"
+
+msgid "Last Upgrade "
+msgstr "Última actualización "
+
+msgid "Last Upgrade: "
+msgstr "Darrera actualització: "
+
+msgid "Last crashlog"
+msgstr "Últim crash"
+
+msgid "List of current processes running"
+msgstr "Llistat dels processos en execució"
+
+msgid "Log File saved to"
+msgstr "Arxiu log desat a"
+
+msgid "MAC adress"
+msgstr "Adreça MAC"
+
+msgid "Manage"
+msgstr "Gestionar"
+
+msgid "Many thanks to"
+msgstr "Agraïments:"
+
+msgid "Mask"
+msgstr "Màscara"
+
+msgid "Members openSPA Team:"
+msgstr "OpenSPA Team:"
+
+msgid "Memory"
+msgstr "Memòria"
+
+msgid "Memory size"
+msgstr "Tamaño de memoria"
+
+msgid "Model"
+msgstr "Model"
+
+msgid "Model: "
+msgstr "Model: "
+
+msgid "Modulation"
+msgstr "Modulació"
+
+msgid "Morser, Mpiero, Darkmantk, Nasky"
+msgstr "Morser, Mpiero, Darkmantk, Nasky"
+
+msgid "Movies"
+msgstr "Películas"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Net"
+msgstr "Xarxa"
+
+msgid "Network conection information"
+msgstr "Informació sobre la connexió de xarxa i Internet"
+
+msgid "News and support"
+msgstr "Novetats i suport tècnic"
+
+msgid "No crashlogs found in path: /hdd"
+msgstr "No se han encontrado archivos 'crashlog' en la ruta: /hdd"
+
+msgid "No crashlogs found in path: /home/root/logs/"
+msgstr "No s'ha trobat cap crashlog a: /home/root/logs/"
+
+msgid "No info avaiable"
+msgstr "No hi ha informació disponible"
+
+msgid "No net adapters configured"
+msgstr "No hi ha cap adaptador de xarxa configurat"
+
+msgid "No records in progress"
+msgstr "No hi ha gravacions en curs."
+
+msgid "No traceback error found!"
+msgstr "No s'ha trobat la traça d'error dins l'arxiu .log"
+
+msgid ""
+"Not OpenSPA image found!\n"
+"More info in openspa.info"
+msgstr ""
+"No és cap imatge OpenSPA\n"
+"Més info a openspa.info"
+
+msgid "Not Running"
+msgstr "Aturada"
+
+msgid "Not info for emulation cams"
+msgstr "No hay información de emulación y camd's"
+
+msgid ""
+"Not spazeTeam image found!\n"
+"More info in www.azboxhd.es"
+msgstr ""
+"La imagen no es un fw de openSPA!\n"
+"Más información en openspa.info"
+
+msgid "OE: "
+msgstr "OE: "
+
+msgid "OpenSPA"
+msgstr "OpenSPA"
+
+msgid "Operating system"
+msgstr "Sistema Operatiu"
+
+msgid "Options"
+msgstr "Opcions"
+
+msgid "Orbital Position"
+msgstr "Posició orbital"
+
+msgid "Other"
+msgstr "Altre"
+
+msgid "PID info"
+msgstr "Informació de PID"
+
+msgid "Page Down"
+msgstr "Pàg. avall"
+
+msgid "Page Up"
+msgstr "Pàg. amunt"
+
+msgid "Pe.tardo, Sergiri, Evox, Oscar_fl "
+msgstr "Pe.tardo, Sergiri, Evox, Oscar_fl "
+
+msgid "Pe.tardo: Languages"
+msgstr "Pe.tardo: traducciones"
+
+msgid "Pilot"
+msgstr "Pilot"
+
+msgid "Ping to host azboxhd.es failed"
+msgstr "El ping enviado a azboxhd.es falló."
+
+msgid "Ping to host azboxhd.es failed\n"
+msgstr "Ping al host openspa.info ha fallat\n"
+
+msgid "Polarization"
+msgstr "Polarització"
+
+msgid "Press [BLUE] for floating window signal/quality/ber"
+msgstr "Premeu [BLAU] per obrir una finestra flotant d'informació de senyal, qualitat,..."
+
+msgid "Press [OK] to refresh info"
+msgstr "Pulse [OK] para actualizar la información de pantalla"
+
+msgid "Press [YELLOW] to start"
+msgstr "Premeu [GROC] per iniciar-la"
+
+msgid "Primary DNS"
+msgstr "DNS primària"
+
+msgid "Processes"
+msgstr "Processos"
+
+msgid "Provider"
+msgstr "Proveedor"
+
+msgid "Public IP"
+msgstr "IP Pública"
+
+msgid "Python version: "
+msgstr "Versió python: "
+
+msgid "Ram memory"
+msgstr "Memòria RAM"
+
+msgid "Reboot"
+msgstr "Reiniciar"
+
+msgid "Reboot system?"
+msgstr "Reiniciar el sistema?"
+
+msgid "Received bytes"
+msgstr "Bytes rebuts"
+
+msgid "Record"
+msgstr "Gravació"
+
+msgid "Recording paths"
+msgstr "Ruta grav."
+
+msgid "Records path"
+msgstr "Ruta de gravacions"
+
+msgid "Refresh"
+msgstr "Refrescar"
+
+msgid "Refresh Rate"
+msgstr "Freqüència de refresc"
+
+msgid "Resolution"
+msgstr "Resolució"
+
+msgid "Restart"
+msgstr "Reiniciar GUI"
+
+msgid "Restart CCAM"
+msgstr "Reiniciar CAM"
+
+msgid "Restart GUI?"
+msgstr "Reiniciar el GUI?"
+
+msgid "Rolloff"
+msgstr "Atenuació"
+
+msgid "Routing table"
+msgstr "Tabla de rutas"
+
+msgid "Running"
+msgstr "En execució"
+
+msgid "SCRIPT EXECUTION"
+msgstr "EJECUCIÓN DE SCRIPT"
+
+msgid "Save to file"
+msgstr "Desar log"
+
+msgid "Secondary DNS"
+msgstr "DNS secundària"
+
+msgid "Select Record to stop"
+msgstr "Seleccioneu gravació per aturar"
+
+msgid "Select option"
+msgstr "Seleccioneu opció"
+
+msgid "Sergiri & Jpbravo & Evox: Maintenance server plugins OpenSpa and Testers"
+msgstr "Sergiri, Evox & Jpbravo: Testers y mantenimiento del servidor de plugins OpenSpa"
+
+msgid "Service"
+msgstr "Servei"
+
+msgid "Service name"
+msgstr "Nombre de canal"
+
+msgid "Service reference"
+msgstr "Referència del canal"
+
+msgid "Setup"
+msgstr "Configurar"
+
+msgid "Shared"
+msgstr "Compartida"
+
+msgid "Signal info"
+msgstr "Info senyal"
+
+msgid "Signal quality"
+msgstr "Qualitat del senyal"
+
+msgid "Size"
+msgstr "Total"
+
+msgid "Skin"
+msgstr "Skin"
+
+msgid "Skins"
+msgstr "Pieles"
+
+msgid "Start CCAM"
+msgstr "Iniciar CAM"
+
+msgid "State"
+msgstr "Estat"
+
+msgid "State of CAM"
+msgstr "Estat de la camd"
+
+msgid "Stats"
+msgstr "Estadístiques"
+
+msgid "Stop"
+msgstr "Detener"
+
+msgid "Stop CCAM"
+msgstr "Parar CAM"
+
+msgid "Stop current recording?"
+msgstr "Voleu ATURAR la gravació actual?"
+
+msgid "Storage"
+msgstr "Emmagatzematge"
+
+msgid "Swap memory"
+msgstr "Memòria swap"
+
+msgid "Symbolrate"
+msgstr "Velocitat de símbol"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "Thanks to"
+msgstr "Gràcies a"
+
+msgid "Thanks to all of you have donated to the maintenance of the forum and the server."
+msgstr " "
+
+msgid "Total memory"
+msgstr "Memòria total"
+
+msgid "Total space"
+msgstr "Espacio total"
+
+msgid "Transmission Mode"
+msgstr "Mode de transmissió"
+
+msgid "Transmited bytes"
+msgstr "Bytes enviats"
+
+msgid "Transponder Type"
+msgstr "Tipus de Transponedor"
+
+msgid "Tuner"
+msgstr "Sintonizador"
+
+msgid "Tuning"
+msgstr "Sintonització"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Up time"
+msgstr "Hora de l'últim reinici"
+
+msgid "Updates"
+msgstr "Descàrregues"
+
+msgid "Used"
+msgstr "Utilitzat"
+
+msgid "Version"
+msgstr "Versió"
+
+msgid "Version: "
+msgstr "Versió: "
+
+msgid "Video Mode"
+msgstr "Mode de vídeo"
+
+msgid "Video Prebuffering   (ms)"
+msgstr "Prebuffers de Video   (ms)"
+
+msgid "Video System"
+msgstr "Sistema de video"
+
+msgid "Videoformat"
+msgstr "Relació d'aspecte"
+
+msgid "Videosize"
+msgstr "Resolució del vídeo"
+
+msgid "Wait"
+msgstr "espere"
+
+msgid "Wait..."
+msgstr "Espereu..."
+
+msgid "Yersi, Abdelsat, HSA2000"
+msgstr "Yersi, Abdelsat, HSA2000"
+
+msgid "You are sure to delete .log files?"
+msgstr "Segur que voleu esborrar els fitxers?"
+
+msgid "by OpenSPA (openspa.info), 2014-2015"
+msgstr "per OpenSPA (openspa.info), 2014-2015"
+
+msgid "by openSPA team"
+msgstr "del software i del maquinari, per openSPA"
+
+msgid "day"
+msgstr "dia"
+
+msgid "file(s)"
+msgstr "Arxiu(s)"
+
+msgid "iface"
+msgstr "iface"
+
+msgid "load average"
+msgstr "media de carga"
+
+msgid "mins"
+msgstr "mins"
+
+msgid "no"
+msgstr "no"
+
+msgid "oPenSPA Advanced Information Panel"
+msgstr "Panell d'informació avançada OpenSPA"
+
+msgid "of error"
+msgstr "d'error"
+
+msgid "of firmware"
+msgstr "del Software"
+
+msgid "packet loss"
+msgstr "paquet(s) perdut(s)"
+
+msgid "packets received"
+msgstr "paquet(s) rebut(s)"
+
+msgid "packets transmitted"
+msgstr "paquet(s) enviat(s)"
+
+msgid "secs"
+msgstr "segs"
+
+msgid "spzCAMD Manager"
+msgstr "Gestor de CAMD's OpenSPA "
+
+msgid "up"
+msgstr "iniciado hace"
+
+msgid "week"
+msgstr "semana"
+
+msgid "yes"
+msgstr "si"
+

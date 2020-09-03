@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CoolTVGuideSPA\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-03 13:51-0000\n"
+"PO-Revision-Date: 2015-09-23 17:45+0100\n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: spanish\n"
+"X-Poedit-Country: spain\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/dream/enigma2-plugins/CoolTVGuideSPA/src\n"
+
+msgid "Add record timer"
+msgstr "Añadir grabación reservada"
+
+msgid "All channels"
+msgstr "Todos los canales"
+
+msgid "Change to list mode compact (without picons)"
+msgstr "Cambiar a modo de lista compacta (sin picons)"
+
+msgid "Change to list mode with picons"
+msgstr "Cambiar a modo de lista con picons"
+
+msgid "Channel EPG"
+msgstr "EPG canal"
+
+msgid "Day"
+msgstr "Día"
+
+msgid "Do you really want to delete %s?"
+msgstr "Seguro que quiere borrar [%s]?"
+
+msgid "EPG Options"
+msgstr "Opciones de EPG"
+
+msgid "Electronic Program Guide"
+msgstr "Guia electrónica de programas"
+
+msgid "Electronic Programa Guide (EPG)"
+msgstr "Guia electrónica de programas (EPG)"
+
+msgid "Enter Date Time"
+msgstr "Ir a fecha/hora..."
+
+msgid "Event Info"
+msgstr "Info evento"
+
+msgid "Exit"
+msgstr "Salir"
+
+msgid "Go to +24h."
+msgstr "Avanzar +24 horas"
+
+msgid "Go to -24h."
+msgstr "Retroceder -24 horas"
+
+msgid "Go to prime time"
+msgstr "Ir a 'Prime-Time'"
+
+msgid "Go top"
+msgstr "Ir al principio de la lista"
+
+msgid "Graphic Help"
+msgstr "Ayuda gráfica"
+
+msgid "Graphical EPG"
+msgstr "EPG gráfica"
+
+msgid "Graphical Electronic Program Guide"
+msgstr "Guia electrónica de programas gráfica"
+
+msgid "Hide"
+msgstr "Ocultar"
+
+msgid "Loading epg data..."
+msgstr "Cargando datos de EPG..."
+
+msgid "Move to event left"
+msgstr "Desplazarse al evento a la izquierda"
+
+msgid "Move to event right"
+msgstr "Desplazarse al evento a la derecha"
+
+msgid "No Information"
+msgstr "Sin información"
+
+msgid "No events"
+msgstr "Sin eventos"
+
+msgid "No events available"
+msgstr "No hay eventos para este canal"
+
+msgid "Options"
+msgstr "Opciones"
+
+msgid "Page"
+msgstr "Página"
+
+msgid "Page Down"
+msgstr "Página abajo"
+
+msgid "Page Up"
+msgstr "Página arriba"
+
+msgid "Remove timer"
+msgstr "Anular grabación"
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "Search EPG / Internet info"
+msgstr "Buscar EPG/internet info"
+
+msgid "Search by genre"
+msgstr "Buscar por género"
+
+msgid "Search by genre in"
+msgstr "Buscar por género en"
+
+msgid "Search in"
+msgstr "Buscar en"
+
+msgid "Search in EPG"
+msgstr "Buscar en EPG"
+
+msgid "Search in Internet Database movies"
+msgstr "Buscar en internet"
+
+msgid "Search in epg list or internet movie database"
+msgstr "Buscar en EPG o en internet"
+
+msgid "Search options"
+msgstr "Opciones de búsqueda"
+
+msgid "Select Bouquet"
+msgstr "Seleccione lista"
+
+msgid "Select bouquet list"
+msgstr "Seleccionar lista de favoritos"
+
+msgid "Select option"
+msgstr "Seleccione opción"
+
+msgid "Show"
+msgstr "Mostrar"
+
+msgid "Show Event Information"
+msgstr "Mostrar información de evento"
+
+msgid "Show current Channel single EPG"
+msgstr "Ver lista de eventos del canal actual"
+
+msgid "Show options menu"
+msgstr "Mostrar menú de opciones"
+
+msgid "Show timer list"
+msgstr "Mostrar grabaciones reservadas"
+
+msgid "Single EPG"
+msgstr "EPG sencilla"
+
+msgid "Switch mode Graphical EPG/Single EPG"
+msgstr "Alternar entre EPG gráfica/EPG sencilla"
+
+msgid "Timer"
+msgstr "Grabación"
+
+msgid "Timer list"
+msgstr "Grabaciones reservadas"
+
+msgid "Tomorrow"
+msgstr "Mañana"
+
+msgid "Zap"
+msgstr "Zapear"
+
+msgid "Zap and Exit"
+msgstr "Zapear y salir"
+
+msgid "Zap to selected channel"
+msgstr "Zapear al canal seleccionado"
+
+msgid "channels picons"
+msgstr "logotipos de canales (picons)"
+
+msgid "genre colors in list"
+msgstr "colores según género en la lista"
+
+msgid "of"
+msgstr "de"
+

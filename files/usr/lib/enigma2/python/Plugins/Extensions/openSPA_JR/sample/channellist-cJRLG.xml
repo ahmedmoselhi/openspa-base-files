@@ -1,0 +1,141 @@
+<screen name="newChannelSelection" position="0,0" size="1281,721" title="Channel Selection" flags="wfNoBorder" backgroundColor="transparent2">
+    <widget source="session.VideoPicture" render="Pig" position="959,112" size="277,153" zPosition="0" backgroundColor="transparent2" transparent="0" />
+    <eLabel name="fondogris" position="0,668" size="1281,55" zPosition="-2" backgroundColor="colorJR4" />
+    <widget source="session.RecordState" render="FixedLabel" backgroundColor="recfondo" position="903,27" size="230,31" zPosition="-2">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="ServiceEvent" render="Label" position="959,307" zPosition="3" size="287,21" font="Droid; 18" halign="center" backgroundColor="colorJR4" foregroundColor="agua90" transparent="1" noWrap="1">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="session.RecordState" position="933,34" render="Label" size="198,20" valign="center" halign="left" zPosition="4" backgroundColor="un50090909" foregroundColor="frgr" font="Regular; 15" transparent="1" borderColor="recfondop" borderWidth="1" noWrap="1">
+      <convert type="infoRecBm">Canal</convert>
+    </widget>
+    <widget source="session.RecordState" position="933,52" render="Progress" zPosition="13" backgroundColor="red" foregroundColor="red" size="198,3" borderWidth="0" transparent="1">
+      <convert type="infoRecBm">Progress</convert>
+    </widget>
+    <widget source="session.RecordState" render="FixedLabel" text=" " position="933,52" size="198,3" zPosition="11" backgroundColor="recfondop">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="list" position="24,141" size="391,449" selectionPixmap="openSPA_JRLG/menu/select30.png" scrollbarMode="showNever" foregroundColor="black" backgroundColor="frgr" backgroundColorSelected="KeyRedBack" colorServiceDescription="frgr" colorServiceDescriptionSelected="KeyRedBack" picServiceEventProgressbar="openSPA_JRLG/progcl.png" foregroundColorServiceNotAvail="frgr" serviceItemHeight="30" serviceNumberFont="Opensans;20" serviceNameFont="Opensans;21" serviceInfoFont="Droid;18" transparent="1" zPosition="2" itemHeight="30" />
+    <widget name="list2" position="465,254" size="442,337" scrollbarMode="showNever" zPosition="2" transparent="1" foregroundColor="un99" font="Regular; 14" posyBegin="3" posyDuration="2" posyEvent="0" backgroundColor="metrixBackground" />
+    <widget name="key_red" position="59,653" size="126,36" zPosition="6" font="Droid; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <widget name="key_green" position="253,653" size="93,36" zPosition="6" font="Droid; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <widget name="key_yellow" position="419,654" size="96,36" zPosition="6" font="Droid; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <widget name="key_blue" position="593,654" size="117,36" zPosition="6" font="Droid; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <!--<widget source="session.VideoPicture" render="Pig" position="769,83" size="200,180" zPosition="1" backgroundColor="transparent2" transparent="0" />-->
+    <widget source="ServiceEvent" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=140,repeat=5,always=0,startdelay=3000,wrap" position="953,345" zPosition="1" size="300,248" font="Regular; 18" foregroundColor="black" backgroundColor="colorJR4" valign="top" transparent="1">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <widget name="tapabarra" position="148,533" size="1,1" zPosition="1" pixmap="openSPA_JRLG/spzTeam/menu.png" alphatest="blend" />
+    <eLabel name="ititulo" position="31,20" size="265,35" font="Regular; 25" halign="left" foregroundColor="black" backgroundColor="colorJR4" transparent="1" zPosition="25" noWrap="1" valign="center" text="Lista de canales" />
+    <widget source="session.RecordState" render="Pixmap" pixmap="openSPA_JRLG/rec.png" position="907,33" size="20,20" zPosition="25" alphatest="blend">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget alphatest="blend" position="463,100" render="Picon" size="220,132" source="ServiceEvent" transparent="1" zPosition="10">
+      <convert type="MetrixRefString">ServicelistRef</convert>
+    </widget>
+    <!--<widget name="img_picon" position="916,117" size="220,132" zPosition="10" transparent="1" />-->
+    <widget name="key_info" position="1009,638" size="234,25" zPosition="5" font="Opensans; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <widget name="key_menu" position="1009,677" size="93,25" zPosition="5" font="Opensans; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <widget name="key_chmas" position="789,677" size="96,25" zPosition="6" font="Opensans; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <widget name="key_chmenos" position="788,638" size="101,25" zPosition="6" font="Opensans; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <ePixmap name="pix_info" position="964,638" size="35,25" pixmap="openSPA_JRLG/spzTeam/info.png" zPosition="7" alphatest="blend" />
+    <ePixmap name="pix_menu" position="965,677" size="35,25" pixmap="openSPA_JRLG/spzTeam/menu.png" zPosition="7" alphatest="blend" />
+    <ePixmap name="pix_chmenos" position="746,638" size="35,25" pixmap="openSPA_JRLG/spzTeam/chmenos.png" zPosition="7" alphatest="blend" />
+    <ePixmap name="pix_chmas" position="747,677" size="35,25" pixmap="openSPA_JRLG/spzTeam/chmas.png" zPosition="7" alphatest="blend" />
+    <widget source="global.CurrentTime" render="Label" position="1165,25" zPosition="5" size="68,25" font="Opensans; 20" halign="center" backgroundColor="colorJR4" transparent="1" foregroundColor="black" valign="center">
+      <convert type="ClockToText">
+      </convert>
+    </widget>
+    <widget name="icanal" position="296,21" size="857,35" font="Regular; 23" halign="left" foregroundColor="black" transparent="1" zPosition="25" noWrap="1" backgroundColor="colorJR4" valign="center" />
+    <ePixmap name="" position="197,649" size="44,44" pixmap="openSPA_JRLG/menu/greenbutton.png" alphatest="blend" zPosition="1" />
+    <ePixmap name="" position="8,649" size="44,44" pixmap="openSPA_JRLG/menu/redbutton.png" zPosition="1" alphatest="blend" />
+    <ePixmap name="" position="363,649" size="44,44" pixmap="openSPA_JRLG/menu/yellowbutton.png" alphatest="blend" zPosition="1" />
+    <ePixmap name="" position="539,649" size="44,44" pixmap="openSPA_JRLG/menu/bluebutton.png" alphatest="blend" zPosition="1" />
+    <eLabel name="fondo botons" position="0,620" size="1280,100" backgroundColor="metrixBackground" />
+    <ePixmap name="" position="0, 0" size="1280,720" pixmap="openSPA_JRLG/JR/Newchanel2.png" zPosition="-2" />
+    <widget source="ServiceEvent" render="Label" position="691,105" zPosition="3" size="223,35" font="Droid; 26" halign="center" backgroundColor="colorJR4" foregroundColor="black" transparent="1" noWrap="1">
+      <convert type="ServiceName2">Name</convert>
+    </widget>
+    <widget source="Title" render="Label" position="45,98" size="317,47" font="Droid; 24" halign="left" backgroundColor="colorJR4" transparent="1" noWrap="1" zPosition="-1" foregroundColor="black" />
+    <ePixmap name="" position="951,100" size="304,209" pixmap="openSPA_JRLG/JR/newtv.png" zPosition="-1" alphatest="blend" />
+    <widget source="session.CurrentService" render="spzWf" position="714,152" size="74,74" transparent="1" alphatest="blend">
+      <convert type="wheaterSpz">IconoHoy</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="812,171" size="69,35" font="Opensans; 22" halign="left" backgroundColor="colorJR4" transparent="1" noWrap="1" zPosition="1" foregroundColor="black">
+      <convert type="wheaterSpz">Temperatura</convert>
+    </widget>
+</screen>
+<screen name="newChannelSelectionNOPIP" position="0,0" size="1281,721" title="Channel Selection" flags="wfNoBorder" backgroundColor="transparent2">
+    <eLabel name="fondogris" position="0,668" size="1281,55" zPosition="-2" backgroundColor="colorJR4" />
+    <widget source="session.RecordState" position="933,34" render="Label" size="198,20" valign="center" halign="left" zPosition="4" backgroundColor="un50090909" foregroundColor="frgr" font="Regular; 15" transparent="1" borderColor="recfondop" borderWidth="1" noWrap="1">
+      <convert type="infoRecBm">Canal</convert>
+    </widget>
+    <widget source="session.RecordState" position="933,52" render="Progress" zPosition="13" backgroundColor="red" foregroundColor="red" size="198,3" borderWidth="0" transparent="1">
+      <convert type="infoRecBm">Progress</convert>
+    </widget>
+    <widget source="session.RecordState" render="FixedLabel" text=" " position="933,52" size="198,3" zPosition="11" backgroundColor="recfondop">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="list" position="24,141" size="391,449" selectionPixmap="openSPA_JRLG/JR/chanel_select.png" scrollbarMode="showNever" foregroundColor="black" backgroundColor="frgr" backgroundColorSelected="KeyRedBack" colorServiceDescription="frgr" colorServiceDescriptionSelected="KeyRedBack" picServiceEventProgressbar="openSPA_JRLG/progcl.png" foregroundColorServiceNotAvail="frgr" serviceItemHeight="30" serviceNumberFont="Opensans;20" serviceNameFont="Opensans;21" serviceInfoFont="Droid;18" transparent="1" zPosition="2" itemHeight="30" />
+    <widget name="list2" position="469,150" size="442,441" scrollbarMode="showNever" zPosition="2" transparent="1" foregroundColor="un99" font="Regular; 14" posyBegin="3" posyDuration="2" posyEvent="0" backgroundColor="metrixBackground" />
+    <widget name="key_red" position="59,653" size="126,36" zPosition="6" font="Droid; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <widget name="key_green" position="253,653" size="93,36" zPosition="6" font="Droid; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <widget name="key_yellow" position="419,654" size="96,36" zPosition="6" font="Droid; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <widget name="key_blue" position="593,654" size="117,36" zPosition="6" font="Droid; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <!--<widget source="session.VideoPicture" render="Pig" position="769,83" size="200,180" zPosition="1" backgroundColor="transparent2" transparent="0" />-->
+    <widget source="ServiceEvent" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=140,always=0,repeat=5,startdelay=3000,wrap" position="953,345" zPosition="1" size="300,248" font="Regular; 18" foregroundColor="black" backgroundColor="colorJR4" valign="top" transparent="1">
+      <convert type="EventName">ExtendedDescription</convert>
+    </widget>
+    <widget source="ServiceEvent" render="Label" position="949,279" zPosition="3" size="46,22" font="Droid; 18" halign="left" backgroundColor="colorJR4" transparent="1" foregroundColor="black">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">
+      </convert>
+    </widget>
+    <widget source="ServiceEvent" render="Label" position="1189,281" zPosition="3" size="54,22" font="Droid; 18" halign="right" backgroundColor="colorJR4" transparent="1" foregroundColor="black">
+      <convert type="EventTime">EndTime</convert>
+      <convert type="ClockToText">Format:%H:%M</convert>
+    </widget>
+    <widget source="ServiceEvent" render="Label" position="959,242" zPosition="3" size="287,21" font="Droid; 18" halign="center" backgroundColor="colorJR4" foregroundColor="black" transparent="1" noWrap="1">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget name="tapabarra" position="148,533" size="1,1" zPosition="1" pixmap="openSPA_JRLG/spzTeam/menu.png" alphatest="blend" />
+    <widget source="ServiceEvent" render="Progress" position="1008,284" zPosition="2" size="173,13" transparent="1" backgroundColor="white" foregroundColor="pistacho" borderWidth="2" borderColor="black">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <eLabel name="ititulo" position="31,20" size="265,35" font="Regular; 25" halign="left" foregroundColor="black" backgroundColor="colorJR4" transparent="1" zPosition="25" noWrap="1" valign="center" text="Lista de canales" />
+    <widget source="session.RecordState" render="Pixmap" pixmap="openSPA_JRLG/rec.png" position="907,33" size="20,20" zPosition="25" alphatest="blend">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <!--<widget name="img_picon" position="916,117" size="220,132" zPosition="10" transparent="1" />-->
+    <widget alphatest="blend" position="992,96" render="Picon" size="220,132" source="ServiceEvent" transparent="1" zPosition="10">
+      <convert type="MetrixRefString">ServicelistRef</convert>
+    </widget>
+    <widget name="key_info" position="1009,638" size="250,25" zPosition="5" font="Opensans; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <widget name="key_menu" position="1009,677" size="93,25" zPosition="5" font="Opensans; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <widget source="ServiceEvent" render="Label" position="1050,310" zPosition="3" size="81,21" font="Droid; 18" halign="right" backgroundColor="colorJR4" transparent="1" foregroundColor="black">
+      <convert type="EventTime">Remaining</convert>
+      <convert type="RemainingToText">InMinutes</convert>
+    </widget>
+    <widget name="key_chmas" position="789,677" size="96,25" zPosition="6" font="Opensans; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <widget name="key_chmenos" position="788,638" size="101,25" zPosition="6" font="Opensans; 18" halign="left" transparent="1" backgroundColor="metrixBackground" noWrap="1" foregroundColor="white" />
+    <ePixmap name="pix_info" position="964,638" size="35,25" pixmap="openSPA_JRLG/spzTeam/info.png" zPosition="7" alphatest="blend" />
+    <ePixmap name="pix_menu" position="965,677" size="35,25" pixmap="openSPA_JRLG/spzTeam/menu.png" zPosition="7" alphatest="blend" />
+    <ePixmap name="pix_chmenos" position="746,638" size="35,25" pixmap="openSPA_JRLG/spzTeam/chmenos.png" zPosition="7" alphatest="blend" />
+    <ePixmap name="pix_chmas" position="747,677" size="35,25" pixmap="openSPA_JRLG/spzTeam/chmas.png" zPosition="7" alphatest="blend" />
+    <widget source="global.CurrentTime" render="Label" position="1165,25" zPosition="5" size="68,25" font="Opensans; 20" halign="center" backgroundColor="colorJR4" transparent="1" foregroundColor="black" valign="center">
+      <convert type="ClockToText">
+      </convert>
+    </widget>
+    <widget name="icanal" position="296,21" size="857,35" font="Regular; 23" halign="left" foregroundColor="black" transparent="1" zPosition="25" noWrap="1" backgroundColor="colorJR4" valign="center" />
+    <ePixmap name="" position="197,649" size="44,44" pixmap="openSPA_JRLG/menu/greenbutton.png" alphatest="blend" zPosition="1" />
+    <ePixmap name="" position="8,649" size="44,44" pixmap="openSPA_JRLG/menu/redbutton.png" zPosition="1" alphatest="blend" />
+    <ePixmap name="" position="363,649" size="44,44" pixmap="openSPA_JRLG/menu/yellowbutton.png" alphatest="blend" zPosition="1" />
+    <ePixmap name="" position="539,649" size="44,44" pixmap="openSPA_JRLG/menu/bluebutton.png" alphatest="blend" zPosition="1" />
+    <eLabel name="fondo botons" position="0,620" size="1280,100" backgroundColor="metrixBackground" />
+    <ePixmap name="" position="0, 0" size="1280,720" pixmap="openSPA_JRLG/JR/Newchanel.png" zPosition="-2" />
+    <widget source="ServiceEvent" render="Label" position="543,99" zPosition="3" size="287,35" font="Droid; 24" halign="center" backgroundColor="colorJR4" foregroundColor="black" transparent="1" noWrap="1">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="Title" render="Label" position="45,98" size="317,47" font="Droid; 24" halign="left" backgroundColor="colorJR4" transparent="1" noWrap="1" zPosition="-1" foregroundColor="black" />
+</screen>

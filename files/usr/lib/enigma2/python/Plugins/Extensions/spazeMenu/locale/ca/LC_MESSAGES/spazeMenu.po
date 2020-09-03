@@ -1,0 +1,466 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - spazeMenu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: openspa.info\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/spazeMenu\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: CATALONIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/spazeMenu\n"
+
+msgid "About"
+msgstr "Quant a"
+
+msgid "Activate home menu with"
+msgstr "Activar Home Menú amb la tecla"
+
+msgid "Activate or deactivate installed Extensions and Plugins"
+msgstr "[Des]activa plugins i extensions instal·lades"
+
+msgid "Activate/Deactivate Plugins"
+msgstr "Activar/Desactivar plugins"
+
+msgid "Add Extension"
+msgstr "Afegir plugin"
+
+msgid "AddOns"
+msgstr "Extres"
+
+msgid "Advanced information about your receiver"
+msgstr "Informació avançada sobre el receptor"
+
+msgid "Audio files: mp3, wav, ogg, m3u, ..."
+msgstr "Arxius d'àudio mp3, wav, ogg, m3u, ..."
+
+msgid "Audio/Subtitles"
+msgstr "Àudio/Subtítols"
+
+msgid "Backup/restore"
+msgstr "Còpies/Restaurar"
+
+msgid "BlackModern Skin Setup"
+msgstr "Configuració del skin"
+
+msgid "Change aspect ratio settings"
+msgstr "Canvia la relació d'aspecte de pantalla"
+
+msgid "Common questions"
+msgstr "Preguntes freqüents"
+
+msgid "Config for EPG download MediaHighway"
+msgstr "Configuració de descàrrega d'EPG MHw2"
+
+msgid "Configure your Receiver"
+msgstr "Configuració general del receptor"
+
+msgid "Customize"
+msgstr "Personalitz."
+
+msgid "Customize Home Menu"
+msgstr "Personalitzar Home Menú"
+
+msgid "Customize skin BlackModern"
+msgstr "Personalitzar skin"
+
+msgid "Customize the buttons on the remote"
+msgstr "Personalitzar el comandament a distància"
+
+msgid "Deactivate"
+msgstr "No activar"
+
+msgid "Deactivated Plugin"
+msgstr "Plugin desactivat"
+
+msgid "Default System menu"
+msgstr "Menú principal del Sistema"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+msgid "Device Manager"
+msgstr "Gestor de discos"
+
+msgid "Down"
+msgstr "Baixar"
+
+msgid "Download Plugin"
+msgstr "Descarregar plugin "
+
+msgid "Downloads"
+msgstr "Descàrregues openSPA"
+
+msgid ""
+"Downloads, backups,\n"
+"device manager,..."
+msgstr ""
+"Descàrregues, còpies,\n"
+"utilitats,..."
+
+msgid "EPG download config"
+msgstr "Configurar descàrrega d'EPG"
+
+msgid "Entry %s already exists."
+msgstr "L'element [%s] ja està a la lista."
+
+msgid "Error in Plugin or not exist"
+msgstr "El Plugin no existeix o no és compatible amb openSPA Home Menú"
+
+msgid "Explore with MediaCenter - Audio"
+msgstr "Obrir amb MediaCenter - Audio"
+
+msgid "Explore with MediaCenter - Pictures"
+msgstr "Obrir amb MediaCenter - Fotos"
+
+msgid "Explore with MediaCenter - Videos"
+msgstr "Obrir amb MediaCenter - Videos"
+
+msgid "Explorer"
+msgstr "Gestor d'arxius"
+
+msgid "Extensions"
+msgstr "Extensions"
+
+msgid "Extensions menu"
+msgstr "Programes i utilitats"
+
+msgid "Extensions, RSS, InfoMeteo, Youtube, TvWeb"
+msgstr "Extensions, RSS, InfoMeteo, Youtube, TvWeb"
+
+msgid "Filebrowser utility"
+msgstr ""
+"Explorador d'arxius\n"
+"i carpetes"
+
+msgid "For azboxhd.es"
+msgstr "per a openspa.info"
+
+msgid ""
+"For run another module or program, you need close first the current aplication, normaly pressing [EXIT]\n"
+"Press [OK] button for view the remote control help and faqs."
+msgstr ""
+"Per executar un altre mòdul, primer heu de tancar el mòdul actiu, normalment prement la tecla [EXIT]\n"
+"Premeu [OK] per consultar l'ajuda del comandament a distància o les Preguntes Freqüents (FAQs)."
+
+msgid "Help"
+msgstr "Ajuda"
+
+msgid "Hide"
+msgstr "Amagar"
+
+msgid "Image files: jpg, png, gif, bmp, ..."
+msgstr "Arxius d'imatge jpg, png, gif, bmp, ..."
+
+msgid "Information"
+msgstr "Informació"
+
+msgid "Install or Uninstall exclusive openSPA Plugins"
+msgstr "[Des]instal·la plugins exclusius openSPA"
+
+msgid "Install/Uninstall openSPA Plugins"
+msgstr "Des/Instal·lar plugins openSPA"
+
+msgid "It is possible that the program has been deleted or is disabled."
+msgstr "És possible que el plugin estigui desactivat o bé s'hagi eliminat."
+
+msgid "Key Help"
+msgstr "Tecla Ajuda"
+
+msgid "Key Home"
+msgstr "Tecla Home Menú"
+
+msgid "Key Menu long"
+msgstr "Tecla Menú(Pulsació llarga)"
+
+msgid "Key Radio"
+msgstr "Tecla Ràdio"
+
+msgid "Key RecordList"
+msgstr "Tecla RecordList"
+
+msgid "Key Stop long"
+msgstr "Tecla Stop(Pulsació llarga)"
+
+msgid "Key Tv"
+msgstr "Tecla TV"
+
+msgid "Key [Exit] -> Close Home Menu"
+msgstr "Tecla [Exit] -> Sortir de Home Menú"
+
+msgid "Key [Menu] -> Options"
+msgstr "Tecla [Menú] -> Opcions de Home Menú"
+
+msgid "Key [Ok] -> Run"
+msgstr "Tecla [Ok] -> Executar"
+
+msgid "List changed. Save this changes?"
+msgstr "La llista ha canviat. Desar els canvis?"
+
+msgid "List of Plugins"
+msgstr "Llistat de plugins instal·lats"
+
+msgid "Manage cams emulation"
+msgstr "Gestiona les camd's instal·lades"
+
+msgid "Manage harddisk devices"
+msgstr "Gestionar dispositius d'emmagatzematge"
+
+msgid "MediaCenter"
+msgstr "MediaCenter"
+
+msgid "Movies"
+msgstr "Gravacions"
+
+msgid "Multimedia files: avi, mpg, mkv, ts, ..."
+msgstr "Arxius multimèdia avi, mpg, mkv, ts, mp4, ..."
+
+msgid "My Music"
+msgstr "Escoltar música"
+
+msgid "My Pictures"
+msgstr "Veure fotografies"
+
+msgid "My Videos"
+msgstr "Reproduïr vídeos"
+
+msgid ""
+"Not openSPA image found!\n"
+"More info in www.azboxhd.es"
+msgstr ""
+"La imatge no és un fw openSPA!\n"
+"Més informació a http://openspa.info"
+
+msgid "Open files/folders Explorer"
+msgstr "Obrir Explorador d'arxius/carpetes"
+
+msgid "Options"
+msgstr "Opcions"
+
+msgid "Options and Receiver setup"
+msgstr ""
+"Opcions i configuració\n"
+"del receptor"
+
+msgid "Options for configure the Home Menu"
+msgstr ""
+"Opcions de configuració\n"
+"del Menú Inici"
+
+msgid "Overwrite home menu key"
+msgstr "Habilitar la tecla Home Menú per activar el menú"
+
+msgid "Overwrite menu enigma with openSPA Menu"
+msgstr "Reemplaçar el menú d'enigma (tecla Menú) per el Menú openSPA"
+
+msgid "Plugin for system main menu"
+msgstr "Plugin del menú principal del sistema"
+
+msgid "Plugins"
+msgstr "Plugins"
+
+msgid "Press [MENU] for customize"
+msgstr "Premeu [MENU] per personalitzar"
+
+msgid "Program not found for menu item "
+msgstr "El programa no existeix per al ítem #"
+
+msgid "Programs Guide"
+msgstr "Guia de programació"
+
+msgid "RSS openSPA Reader"
+msgstr "Lector RSS openSPA"
+
+msgid "Radio Mode"
+msgstr "Mode Ràdio"
+
+msgid "Receiver Setup"
+msgstr "Configuració del receptor"
+
+msgid "Record"
+msgstr "Gravar"
+
+msgid "Recordings"
+msgstr "Gravacions reservades"
+
+msgid "Remapping keys"
+msgstr "Personalitzar comandament"
+
+msgid "Remote control Help"
+msgstr "Ajuda comandament a distància"
+
+msgid "Remote control help"
+msgstr "Mapa gràfic de les tecles del comand."
+
+msgid ""
+"Remote control help\n"
+"and FAQs"
+msgstr ""
+"Ajuda gràfica del comand.\n"
+"a distància, FAQs"
+
+msgid "Restart GUI to apply changes?"
+msgstr "Reiniciar GUI per tal d'aplicar els canvis?"
+
+msgid "Restart, reboot, standby, Sleep Timer..."
+msgstr "Reiniciar, repòs, temporitzador"
+
+msgid "Scaling modes"
+msgstr "Modes de pantalla"
+
+msgid "Select Audio track and Subtitles"
+msgstr "Seleccionar pista d'àudio, subtítols"
+
+msgid "Setup options, password,..."
+msgstr "Opcions de configuració, contrasenya,..."
+
+msgid "Show"
+msgstr "Mostrar"
+
+msgid "Show Graphical EPG"
+msgstr "Mostra la EPG en mode gràfic"
+
+msgid "Show Home Menu in main menu"
+msgstr "Mostrar Home Menú al menú principal"
+
+msgid "Show audio/subtitles in main menu"
+msgstr "Mostrar opcions d'àudio/subtítols al menú principal"
+
+msgid "Show help line in home menu"
+msgstr "Mostrar ajuda a Home Menú"
+
+msgid "Show menu for record"
+msgstr "Menú de gravació ràpida"
+
+msgid "Show record options in main menu"
+msgstr "Mostrar 'Gravar' al menú principal"
+
+msgid "Show scaling options in main menu"
+msgstr "Mostrar modes de pantalla al menú principal"
+
+msgid "Show teletext screen"
+msgstr "Mostra el teletext del canal"
+
+msgid "Show the system options,configure, restart options, main menu..."
+msgstr "Menú principal del Sistema; repòs/reiniciar, Plugins, informació..."
+
+msgid "Show tv Options, radio mode, audio, subtitles, records..."
+msgstr "Seleccionar àudio/subtítols, mode ràdio, gravacions..."
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "System Menu"
+msgstr "Menú del Sistema"
+
+msgid "SystemPlugins"
+msgstr "Plugins de Sistema"
+
+msgid "Teletext"
+msgstr "Teletext"
+
+msgid ""
+"This plugin are deactivated.\n"
+" Do you want go to Plugin Manager for active it?"
+msgstr ""
+"Aquest Plugin està DESACTIVAT.\n"
+" Voleu obrir el gestor de Plugins per activar-ho?"
+
+msgid ""
+"This plugin is not installed.\n"
+" You want to access the OpenSPA Extra Plugins Manager to install it?"
+msgstr ""
+"Aquest plugin no està instal·lat.\n"
+" Voleu accedir al gestor de Plugins OpenSPA per instal·lar-ho?"
+
+msgid "Timer list"
+msgstr "Gestor de gravacions reservades"
+
+msgid "Toggle to radio mode"
+msgstr "Canviar al mode ràdio"
+
+msgid "Toggle to tv view"
+msgstr "Canviar a mode TV"
+
+msgid "Tv Options"
+msgstr "Opcions TV"
+
+msgid "TvWeb"
+msgstr "TvWeb"
+
+msgid "Up"
+msgstr "Pujar"
+
+msgid ""
+"Updates, Plugins, skins,\n"
+"channel lists..."
+msgstr ""
+"Actualitzacions, Plugins, \n"
+"skins, llistes de canals..."
+
+msgid "Updates, Plugins, skins,..."
+msgstr "Actualitzacions, plugins, skins..."
+
+msgid "View Tv"
+msgstr "Veure Tv"
+
+msgid "View online Tv"
+msgstr "Veure canals de TV online"
+
+msgid ""
+"View photos, play audio\n"
+"and video files..."
+msgstr ""
+"Veure fotos, escoltar mp3\n"
+"veure vídeos..."
+
+msgid ""
+"View recorded movies,\n"
+"divx, videos..."
+msgstr "Veure pel·lícules gravades"
+
+msgid "Youtube"
+msgstr "Youtube"
+
+msgid "Youtube player"
+msgstr "Veure vídeos a la xarxa"
+
+msgid "by openSPA"
+msgstr "per openSPA"
+
+msgid "openSPA Backup/restore utility"
+msgstr "Utilitat per realitzar còpies/restaurar"
+
+msgid "openSPA CAMD Manager"
+msgstr "Gestor de CAMD"
+
+msgid "openSPA Home Menu"
+msgstr "Menú principal d'openSPA"
+
+msgid "openSPA Menu"
+msgstr "Menú openSPA "
+
+msgid "openSPA Options"
+msgstr "Opcions openSPA"
+
+msgid "openSPA PlugIns"
+msgstr "PlugIns openSPA"
+
+msgid "openSPA Plugins"
+msgstr "Plugins openSPA"
+
+msgid "openSPA Weather Information"
+msgstr "Informació Meteoreològica openSPA"
+
+msgid "spaPANEL"
+msgstr "Panell SPA"
+
+msgid "spaze PANEL"
+msgstr "Panell SPA"
+

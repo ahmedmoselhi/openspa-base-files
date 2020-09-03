@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: spzOptions\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-17 20:04+0100\n"
+"PO-Revision-Date: 2015-09-23 17:46+0100\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: CATALONIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"X-Poedit-SearchPath-0: /home/MPIERO/spzOptions/src\n"
+
+msgid "After installing the drivers manually have to reboot Receiver!!!"
+msgstr "Després d'instal·lar manualment els drivers haureu de reiniciar el receptor!"
+
+msgid "All changes will be lost!"
+msgstr "Tots els canvis es perdràn!"
+
+msgid "All plugins/skins installed are not AVAILABLE."
+msgstr "Tots els plugins/skins instal·lats no estaràn disponibles."
+
+msgid "Always"
+msgstr "Sempre"
+
+msgid "Are you sure to continue?"
+msgstr "N'esteu segur de continuar?"
+
+msgid "Cancel"
+msgstr "Cancel·lar"
+
+msgid "Chanching password to"
+msgstr "Canviant la contrasenya a"
+
+msgid "Change Password"
+msgstr "Canviar contrasenya"
+
+msgid "Change your ftp and telnet password"
+msgstr "Canvia la contrasenya de telnet i ftp"
+
+msgid "Check new updates and notify:"
+msgstr "Comprovar i avisar de noves actualitzacions:"
+
+msgid "Clean cache memory on standby:"
+msgstr "Alliberar memòria en anar a repòs:"
+
+msgid "Could not log in!"
+msgstr "No puc identificar-me!"
+
+msgid "Customize BlackModern Skin:"
+msgstr "Personalitzar el skin BlackModern"
+
+msgid "Deactivating extra DOM. Please Wait..."
+msgstr "Desactivant DOM extra. Espereu..."
+
+msgid "Disable extended DOM (for install only):"
+msgstr "Desactivar DOM extra (només per instal·lar)"
+
+msgid "Error while setting new password!"
+msgstr "Error mentre s'actualitzava la nova contrasenya!"
+
+msgid "Extra DOM deactivated."
+msgstr "La DOM extra s'ha desactivat."
+
+msgid "For change password press [OK] in list entry!!!"
+msgstr "Per canviar la contrasenya heu de prémer [OK] quan esteu en una entrada de la llista!"
+
+msgid "Go to standby on init"
+msgstr "Anar a repòs en iniciar el sistema"
+
+msgid ""
+"Incorrect new password!\n"
+"Minimum length: 3\n"
+"Maximum length: 8"
+msgstr ""
+"Contrasenya invàlida!\n"
+"Mida mínima: 3\n"
+"Mida máxima: 8"
+
+msgid "Maximum days of epg in OpenSPA Channel Selection"
+msgstr "Nombre màxim de dies d'EPG a la selecció de canals OpenSPA"
+
+msgid "Old password:"
+msgstr "Contrasenya anterior:"
+
+msgid "Only after mhw2 donwload"
+msgstr "Només després de descarregar mhw2"
+
+msgid "Press [EXIT] for close"
+msgstr "Premeu [EXIT] per tancar"
+
+msgid "Press [OK] for change"
+msgstr "Premeu [OK] per canviar"
+
+msgid "Press [OK] for deactivate"
+msgstr "Premeu [OK] per desactivar"
+
+msgid "Receiver has been locked to prevent failures."
+msgstr "El receptor ha estat bloquejat per a prevenir fallides."
+
+msgid "Restart GUI for apply changes?"
+msgstr "Reiniciar GUI per tal d'aplicar els canvis?"
+
+msgid "Save"
+msgstr "Desar"
+
+msgid "Set new password:"
+msgstr "Canviar contrasenya (premeu [OK]):"
+
+msgid "Show Internet conection in infobar:"
+msgstr "Mostrar connexió a internet a la infobar:"
+
+msgid "Show Number channel in infobar:"
+msgstr "Mostrar el número de canal a la infobar:"
+
+msgid "Show Transponder information in infobar:"
+msgstr "Mostrar informació del transponedor a la infobar:"
+
+msgid "Show ecm information in infobar:"
+msgstr "Mostrar informació d'ecm a la infobar:"
+
+msgid "Show meteo information in infobar:"
+msgstr "Mostrar informació meteorològica a la infobar:"
+
+msgid "The extra DOM will be activated again on restart"
+msgstr "La DOM extra serà reactivada després de reiniciar"
+
+msgid "The extra DOM will be deactivated."
+msgstr "La DOM extra es desactivarà!"
+
+msgid "Time to go to standby (secs)"
+msgstr "Temps d'espera per anar a repòs (segons):"
+
+msgid "Type new password first!!!"
+msgstr "Escriviu la nova contrasenya"
+
+msgid "Use EMC for show records:"
+msgstr "Utilitzar reproductor de sèrie per a veure gravacions"
+
+msgid "Use VirtualKeyboard for input text (need restart)"
+msgstr "Utilitzar el teclat virtual en entrades de text (cal reiniciar)"
+
+msgid "Use openSPA Channel Selection"
+msgstr "Utilitzar selecció de canals d'openSPA"
+
+msgid "Use this options ONLY for install new drivers!!!"
+msgstr "Utilitzeu aquesta opció NOMÉS per instal·lar nous drivers!"
+
+msgid "When finished new driver install press [OK] or [EXIT] for reboot Receiver"
+msgstr "Després d'instal·lar el nou driver, premeu [OK] o [EXIT] per reiniciar l'equip"
+
+msgid "You're sure to exit without change password?"
+msgstr "N'esteu segur de sortir sense canviar la contrasenya?"
+
+msgid "You're sure to exit without saving?"
+msgstr "Segur que voleu sortir sense desar els canvis?"
+
+msgid "openSPA Options"
+msgstr "Opcions openSPA"
+

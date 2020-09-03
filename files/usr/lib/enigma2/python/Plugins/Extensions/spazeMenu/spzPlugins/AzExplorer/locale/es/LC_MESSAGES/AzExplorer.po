@@ -1,0 +1,698 @@
+# Spanish language translation file for azExplorer plugin
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-10 16:35+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mpiero <www.azboxhd.es>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Copying file..."
+msgstr "Copiando archivo..."
+
+msgid "xxx"
+msgstr "yyy"
+
+msgid "Copy in background is started."
+msgstr "La copia en segundo plano a comenzado"
+
+msgid "You can close azExplorer and the copy continue"
+msgstr "Puedes cerrar el AzExplorer y la copia continuará"
+
+msgid "Copy in background"
+msgstr "Copiando en segundo plano"
+
+msgid "COPY in BACKGROUND"
+msgstr "COPIAR en segundo plano"
+
+msgid "Target exist:"
+msgstr "El destino ya existe:"
+
+msgid "Tabulator"
+msgstr "Tabulador"
+
+msgid "Overwrite?"
+msgstr "Sobreescribirlo?"
+
+msgid "Command execution error:"
+msgstr "Error en la ejecución del comando:"
+
+msgid "View with console "
+msgstr "Ver por consola"
+
+msgid "Select action for "
+msgstr "Seleciona acción para "
+
+msgid "View/Edit this file"
+msgstr "Ver/Editar este archivo"
+
+msgid "Run this file"
+msgstr "Ejecutar este archivo"
+
+msgid "You can only view files under 524288 bytes(0.5 Mb)!"
+msgstr "No es posible ver archivos de más de 524288 bytes(0.5 Mb)!"
+
+msgid "View line"
+msgstr "Mostrando línea"
+
+msgid "You can only view or edit files less than"
+msgstr "No es posible ver o editar archivos de más de"
+
+msgid "Select symlink target..."
+msgstr "Seleciona el destino del Enlace..."
+
+msgid "in"
+msgstr "en"
+
+msgid "To"
+msgstr "Para"
+
+msgid "Copy/Move"
+msgstr "Copiar/Mover"
+
+msgid "Create simlynk"
+msgstr "Crear enlace"
+
+msgid "Copied"
+msgstr "Copiado"
+
+msgid "Renamed"
+msgstr "Renombrado"
+
+msgid "Deleted"
+msgstr "Borrado"
+
+msgid "Permission changed"
+msgstr "Permisos cambiados"
+
+msgid "Folder created"
+msgstr "Carpeta creada"
+
+msgid "File created"
+msgstr "Archivo creado"
+
+msgid "Simlynk created"
+msgstr "Enlace creado"
+
+msgid "Target"
+msgstr "Apunta a"
+
+msgid "Simlynk"
+msgstr "Enlace"
+
+msgid "Target not found"
+msgstr "El destino no está disponible"
+
+msgid "Add to bookmarks"
+msgstr "Añadido a favoritos"
+
+msgid "Deleted from bookmarks"
+msgstr "Borrado de favoritos"
+
+msgid "Cancel (exit)"
+msgstr "Cancelar (exit)"
+
+msgid "Save (ok)"
+msgstr "Guardar (ok)"
+
+msgid "Permission 755"
+msgstr "Permisos 755"
+
+msgid "Permission 444"
+msgstr "Permisos 444"
+
+msgid "Start directory"
+msgstr "Carpeta de Inicio"
+
+msgid "Set start directory to current directory"
+msgstr "Establecer como carpeta de inicio la carpeta actual"
+
+msgid "Start directory (only if last path is disabled)"
+msgstr "Carpeta de inicio (desactive iniciar en última ruta)"
+
+msgid "Start explorer in last path"
+msgstr "Iniciar el Explorador en la última ruta vista"
+
+msgid "Show Explorer in main menu (need restart)"
+msgstr "Mostrar en Menú Principal (necesario reiniciar)"
+
+msgid "Choose directory"
+msgstr "Elige carpeta"
+
+msgid "YES"
+msgstr "SI"
+
+msgid "Show Bookmarks on startup"
+msgstr "Mostrar Favoritos al iniciar"
+
+msgid "Last path"
+msgstr "Última ruta"
+
+msgid "Directory"
+msgstr "Carpeta"
+
+msgid "copied to"
+msgstr "copiado a"
+
+msgid "Moved"
+msgstr "Movido"
+
+msgid "moved to"
+msgstr "movido a"
+
+msgid "File/Folder"
+msgstr "Archivo/Carpeta"
+
+msgid "File"
+msgstr "Archivo"
+
+msgid "Storage Device(s)"
+msgstr "Dispositivo(s) de almacenamiento"
+
+msgid "Explorer"
+msgstr "Explorador"
+
+msgid "Explore files in your Azbox."
+msgstr "Explora los archivos en tu azbox."
+
+msgid "Install this package"
+msgstr "Instalar este paquete"
+
+msgid "az-Explorer : Install..."
+msgstr "Explorador : Instalar..."
+
+msgid "View/Edit this shell-script"
+msgstr "Ver/Editar este script"
+
+msgid "Start execution"
+msgstr "Ejecutar script"
+
+msgid "Do you want to execute"
+msgstr "Estás seguro de ejecutar"
+
+msgid "Error by reading bookmarks !!!"
+msgstr "Error leyendo favoritos !!!"
+
+msgid "[Media files] "
+msgstr "[Archivos multimedia] "
+
+msgid "[All files] "
+msgstr "[Todos los archivos] "
+
+msgid "Remove directory from Bookmarks"
+msgstr "Borrar carpeta de Favoritos"
+
+msgid "Add directory to Bookmarks"
+msgstr "Añadir carpeta a Favoritos"
+
+msgid "Enable Media-filter"
+msgstr "Activar filtrado multimedia"
+
+msgid "Disable Media-filter"
+msgstr "Desactivar filtrado multimedia"
+
+msgid "Sort by name"
+msgstr "Ordenar por nombre"
+
+msgid "Sort by date"
+msgstr "Ordenar por fecha"
+
+msgid "Create new file"
+msgstr "Crear nuevo archivo"
+
+msgid "Create new directory"
+msgstr "Crear nueva carpeta"
+
+msgid "Set start directory"
+msgstr "Establecer como carpeta de inicio"
+
+msgid "About"
+msgstr "Acerca de"
+
+msgid "Preview all pictures"
+msgstr "Previsualizar imagenes"
+
+msgid "Create softlink..."
+msgstr "Crear Enlace..."
+
+msgid "Options:"
+msgstr "Opciones:"
+
+msgid "Picture-Player not avaiable."
+msgstr "Visor de imagenes no disponible"
+
+msgid "Error by writing bookmarks !!!"
+msgstr "Error escribiendo Favoritos !!!"
+
+msgid "Create new file in..."
+msgstr "Crear nuevo archivo en..."
+
+msgid "Create new directory in..."
+msgstr "Crear nueva carpeta en..."
+
+msgid "Do you want to set"
+msgstr "Quieres establecerlo"
+
+msgid "as start directory?"
+msgstr "como carpeta de inicio"
+
+msgid "Info..."
+msgstr "Informacion..."
+
+msgid "Last-mod"
+msgstr "Fecha de modificación"
+
+msgid "Creation date"
+msgstr "Fecha de creación"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Permission"
+msgstr "Permisos"
+
+msgid "Path"
+msgstr "Ruta"
+
+msgid "My Bookmarks"
+msgstr "Favoritos"
+
+msgid "Turn off the media-filter first."
+msgstr "Desactivar el filtrado multimedia primero."
+
+msgid "Do you realy want to DELETE:"
+msgstr "Estas seguro de BORRAR:"
+
+msgid "You do it at your own risk!"
+msgstr "Se eliminará el contenido completo!"
+
+msgid ""
+"%s \n"
+"FAILED!"
+msgstr ""
+"%s \n"
+"FALLADO!"
+
+msgid "old:  "
+msgstr "Antiguo:  "
+
+msgid "Rename file..."
+msgstr "Renombrar archivo..."
+
+msgid "Rename directory..."
+msgstr "Renombrar carpeta..."
+
+msgid ""
+"Rename: %s \n"
+"FAILED!"
+msgstr ""
+"Renombrar: %s \n"
+"FALLADO!"
+
+msgid "File name error !"
+msgstr "Error en el nombre !"
+
+msgid "Directory name error !"
+msgstr "Error en el nombre !"
+
+msgid "[sort by Name] "
+msgstr "[ordenar por Nombre] "
+
+msgid "[sort by Date] "
+msgstr "[ordenar por Fecha] "
+
+msgid "[sort by Size] "
+msgstr "[ordenar por Tamaño] "
+
+msgid ""
+"\n"
+"have been CHANGED! Do you want to save it?"
+msgstr ""
+"\n"
+"ha sido CAMBIADO! Deseas guardar los cambios?"
+
+msgid ""
+"\n"
+"\n"
+"The Editor-Funktions are beta (not full tested) !!!"
+msgstr ""
+"\n"
+"\n"
+"El editor es version beta (not full tested) !!!"
+
+msgid ""
+"\n"
+"The author are NOT RESPONSIBLE\n"
+"for DATA LOST OR DISORDERS !!!"
+msgstr ""
+"\n"
+"El autor NO SE HACE RESPONSABLE\n"
+"de datos perdidos o errores !!!"
+
+msgid "Edit line "
+msgstr "Editar linea "
+
+msgid "This line is not editable!"
+msgstr "Esta linea no es editable! "
+
+msgid "loading... "
+msgstr "cargando... "
+
+msgid "ready..."
+msgstr "listo..."
+
+msgid "wait..."
+msgstr "espera..."
+
+msgid "No more picture-files."
+msgstr "No hay mas imagenes."
+
+msgid "No more playable files."
+msgstr "No hay mas archivos visualizables."
+
+msgid "Input"
+msgstr "Introducir"
+
+msgid "Select Copy/Move location..."
+msgstr "Seleciona lugar para Copiar/Mover..."
+
+msgid "WARNING! they doing now COPY or MOVE\n"
+msgstr "ATENCION! realizando COPIA/MOVER\n"
+
+msgid ""
+"\n"
+"to:"
+msgstr ""
+"\n"
+"a la localización:"
+
+msgid "Set name"
+msgstr "Definir nombre"
+
+msgid "Make a softlink..."
+msgstr "Crear Enlace..."
+
+msgid "Make a softlink"
+msgstr "Crear el Enlace"
+
+msgid "Set first the Softlink name ..."
+msgstr "Establece primero el nombre del Enlace ..."
+
+msgid "Write the new softlink name here:"
+msgstr "Escribe el nombre del Enlace aqui:"
+
+msgid "Dream Explorer..."
+msgstr "Az Explorador..."
+
+msgid "Softlink name error !"
+msgstr "Error en el nombre del Enlace!"
+
+msgid "WARNING! they make now a softlink from\n"
+msgstr "ATENCION! vas a crear un Enlace en\n"
+
+msgid ""
+"\n"
+"to file/folder:"
+msgstr ""
+"\n"
+"al archivo/carpeta:"
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "Rename"
+msgstr "Renombrar"
+
+msgid "Move/Copy"
+msgstr "Mover/Copiar"
+
+msgid "Move"
+msgstr "Mover"
+
+msgid "Copy"
+msgstr "Copiar"
+
+msgid "Bookmarks"
+msgstr "Favoritos"
+
+msgid "Setup"
+msgstr "Configuración"
+
+msgid "Options"
+msgstr "Opciones"
+
+msgid "Change permissions to 755:"
+msgstr "Cambiar permisos a 755:"
+
+msgid "name"
+msgstr "nombre"
+
+msgid "Change permissions to 755"
+msgstr "Cambiar permisos a 755"
+
+msgid "Change permissions"
+msgstr "Cambiar permisos"
+
+msgid "Change permissions..."
+msgstr "Cambiar permisos..."
+
+msgid "az-Explorer - Change permissions..."
+msgstr "Explorador - Cambiar permisos..."
+
+msgid "az-Explorer - DELETE file..."
+msgstr "Explorador - BORRAR archivo..."
+
+msgid "az-Explorer - DELETE DIRECTORY..."
+msgstr "Explorador - BORRAR carpeta..."
+
+msgid "az-Explorer"
+msgstr "Explorador"
+
+msgid "az-Explorer..."
+msgstr "Explorador..."
+
+msgid "COPY"
+msgstr "COPIAR"
+
+msgid "MOVE"
+msgstr "MOVER"
+
+msgid "newname"
+msgstr "NuevoNombre"
+
+msgid "Size"
+msgstr "Tamaño"
+
+msgid " Current permissions: "
+msgstr " Permisos actuales: "
+
+msgid "Folder:  "
+msgstr "Carpeta:  "
+
+msgid "Folder"
+msgstr "Carpeta"
+
+msgid "File:  "
+msgstr "Archivo:  "
+
+msgid "Owner"
+msgstr "Propietario"
+
+msgid "    Read"
+msgstr "    Leer"
+
+msgid "    Write"
+msgstr "    Escribir"
+
+msgid "    Execution"
+msgstr "    Ejecutar"
+
+msgid "Group"
+msgstr "Grupo"
+
+msgid "Other"
+msgstr "Todos"
+
+msgid "New value: "
+msgstr "Nuevo valor: "
+
+msgid "newfile"
+msgstr "NuevoArchivo"
+
+msgid "newfolder"
+msgstr "NuevaCarpeta"
+
+msgid "root"
+msgstr "Raíz"
+
+msgid "root folder"
+msgstr "Carpeta Raíz"
+
+msgid "Add current"
+msgstr "Añadir actual"
+
+msgid "Up"
+msgstr "Subir"
+
+msgid "Down"
+msgstr "Bajar"
+
+msgid "Protected element, unable to delete"
+msgstr "Este elemento está protegido y no se puede eliminar"
+
+msgid "Delete current bookmark from list?"
+msgstr "Eliminar el elemento actual de la lista de favoritos?"
+
+msgid "First elements protected, unable to move"
+msgstr "Los primeros elementos de la lista están protegidos, no es posible mover el elemento actual"
+
+msgid "Show confirm windows on exit"
+msgstr "Mostrar ventana de confirmación al salir"
+
+msgid "Starting"
+msgstr "Iniciando"
+
+msgid "Do you want to exit?"
+msgstr "Deseas salir del explorador?"
+
+msgid "Closing"
+msgstr "Guardando"
+
+msgid "Hard disk"
+msgstr "Disco Duro"
+
+msgid "Temp folder"
+msgstr "Carpeta Temporal"
+
+msgid "Movies"
+msgstr "Películas"
+
+msgid "Music"
+msgstr "Música"
+
+msgid "Picture"
+msgstr "Imágenes"
+
+msgid "Initial file sort by"
+msgstr "Ordenar inicialmente archivos por"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Remenber last"
+msgstr "El último usado"
+
+msgid "Sort by"
+msgstr "Ordenar por"
+
+msgid "Sort by size"
+msgstr "Ordenar por tamaño"
+
+msgid "Orded by"
+msgstr "Orden actual"
+
+msgid ""
+"azExplorer by mpiero (azboxhd.es) 2011\n"
+"Based on Dreambox-Explorer coded 2010 by Vali"
+msgstr ""
+"azExplorer por mpiero (azboxhd.es) 2011\n"
+"Basado en Dreambox-Explorer hecho por Vali"
+
+msgid "Special keys:"
+msgstr "Teclas especiales:"
+
+msgid "Action"
+msgstr "Realizar acción"
+
+msgid "Parent Directory"
+msgstr "Carpeta Padre"
+
+msgid "Swicth sort"
+msgstr "Alternar orden(Nombre, Fecha, Tamaño)"
+
+msgid "Page up, Page down"
+msgstr "Página arriba y abajo"
+
+msgid "Help"
+msgstr "Ayuda"
+
+msgid "free"
+msgstr "libres"
+
+msgid "External"
+msgstr "Externo (USB)"
+
+msgid "Harddisk"
+msgstr "Disco Duro"
+
+msgid "of"
+msgstr "de"
+
+msgid "Monday"
+msgstr "Lunes"
+
+msgid "Tuesday"
+msgstr "Martes"
+
+msgid "Wednesday"
+msgstr "Miércoles"
+
+msgid "Thursday"
+msgstr "Jueves"
+
+msgid "Friday"
+msgstr "Viernes"
+
+msgid "Saturday"
+msgstr "Sábado"
+
+msgid "Sunday"
+msgstr "Domingo"
+
+msgid "January"
+msgstr "Enero"
+
+msgid "February"
+msgstr "Febrero"
+
+msgid "March"
+msgstr "Marzo"
+
+msgid "April"
+msgstr "Abril"
+
+msgid "May"
+msgstr "Mayo"
+
+msgid "June"
+msgstr "Junio"
+
+msgid "July"
+msgstr "Julio"
+
+msgid "August"
+msgstr "Agosto"
+
+msgid "September"
+msgstr "Septiembre"
+
+msgid "October"
+msgstr "Octubre"
+
+msgid "November"
+msgstr "Noviembre"
+
+msgid "December"
+msgstr "Diciembre"
+
+msgid "xx3"
+msgstr "yy3"
+

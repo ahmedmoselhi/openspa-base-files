@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<version>
+	<name>rtve</name>
+	<tag>8</tag>
+	<date>17/07/2013</date>
+	<changes>Arreglada extraccion de enlace del archivo png con texto ofuscado - morser</changes>
+</version>

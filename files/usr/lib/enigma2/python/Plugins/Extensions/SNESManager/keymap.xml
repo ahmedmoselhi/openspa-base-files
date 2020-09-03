@@ -1,0 +1,5 @@
+<keymap>
+<map context="SnesAction">
+    <key id="KEY_HOMEPAGE" mapto="f4" flags="b" />
+</map>
+</keymap>

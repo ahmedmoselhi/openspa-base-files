@@ -1,0 +1,5 @@
+mode "512x478 50Hz 16bit"
+	geometry 512 478 512 478 16
+	timings 51383 32 32 20 4 48 1
+    double true
+endmode

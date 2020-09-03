@@ -1,0 +1,49 @@
+﻿<keymap>
+	<map context="CTVGuideActions">
+
+		<key id="KEY_MENU" mapto="CMenu" flags="m" />
+		<key id="KEY_TEXT" mapto="CTime" flags="m" />
+		<key id="KEY_RED" mapto="CRed" flags="b" />
+		<key id="KEY_RED" mapto="CRedLong" flags="l" />
+		<key id="KEY_GREEN" mapto="CGreen" flags="b" />
+		<key id="KEY_GREEN" mapto="CGreenLong" flags="l" />
+		<key id="KEY_YELLOW" mapto="CYellow" flags="b" />
+		<key id="KEY_YELLOW" mapto="CYellowLong" flags="l" />
+		<key id="KEY_BLUE" mapto="CBlue" flags="b" />
+		<key id="KEY_BLUE" mapto="CBlueLong" flags="l" />
+		<key id="KEY_OK" mapto="COK" flags="b" />
+		<key id="KEY_OK" mapto="COKLong" flags="l" />		
+		<key id="KEY_INFO" mapto="CInfo" flags="b" />
+		<key id="KEY_INFO" mapto="CInfoLong" flags="l" />
+		<key id="KEY_RECORD" mapto="CRecord" flags="m" />
+		<key id="KEY_RADIO" mapto="CRecord" flags="m" />
+		<key id="KEY_PVR" mapto="Cpvr" flags="b" />
+		<key id="KEY_VIDEO" mapto="Cpvr" flags="b" />
+		<key id="KEY_REWIND" mapto="CBack" flags="b" />
+		<key id="KEY_FASTFORWARD" mapto="CFwd" flags="b" />
+		<key id="KEY_PREVIOUSSONG" mapto="CBack" flags="b" />
+		<key id="KEY_NEXTSONG" mapto="CFwd" flags="b" />
+		<key id="KEY_CHANNELUP" mapto="CnextBouquet" flags="m" />
+		<key id="KEY_CHANNELDOWN" mapto="CprevBouquet" flags="m" />
+		<key id="KEY_NEXT" mapto="C9" flags="mr" />
+		<key id="KEY_PREVIOUS" mapto="C7" flags="mr" />
+		<key id="KEY_EXIT" mapto="Ccancel" flags="m" />
+		<key id="KEY_ESC" mapto="Ccancel" flags="m" />
+		<key id="KEY_LEFT" mapto="Cleft" flags="mr" />
+		<key id="KEY_RIGHT" mapto="Cright" flags="mr" />
+		<key id="KEY_UP" mapto="Cup" flags="mr" />
+		<key id="KEY_DOWN" mapto="Cdown" flags="mr" />
+		<key id="KEY_1" mapto="C1" flags="m" />
+		<key id="KEY_2" mapto="C2" flags="m" />
+		<key id="KEY_3" mapto="C3" flags="m" />
+		<key id="KEY_4" mapto="C4" flags="m" />
+		<key id="KEY_5" mapto="C5" flags="m" />
+		<key id="KEY_6" mapto="C6" flags="m" />
+		<key id="KEY_7" mapto="C7" flags="m" />
+		<key id="KEY_8" mapto="C8" flags="m" />
+		<key id="KEY_9" mapto="C9" flags="m" />
+		<key id="KEY_0" mapto="C0" flags="m" />
+		<key id="KEY_POWER" mapto="power" flags="m" />
+		<key id="KEY_POWER" mapto="power" flags="b" />
+	</map>
+</keymap>

@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - gesPluginsOpenSpa\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mpiero <azboxhd.es>\n"
+"Language-Team: www.azboxhd.es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/gesPluginsOpenSpa\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/gesPluginsOpenSpa\n"
+
+msgid "openSPA Plugins"
+msgstr "Plugins openSPA"
+
+msgid "When one or more plugins are activated/deactivated, the plugin list will be reloaded."
+msgstr "Cuando un o más plugins son activados/desactivados, la lista de plugins será recargada."
+
+msgid "Loading"
+msgstr "Cargando lista de plugins"
+
+msgid "Wait"
+msgstr "Espere"
+
+msgid "Process"
+msgstr "Procesar"
+
+msgid "Cancel and Exit"
+msgstr "Cancelar y Salir"
+
+msgid "Press [GREEN] for process, [RED] for exit without process, [EXIT] for back to list."
+msgstr "Pulsa [VERDE] para procesar, [ROJO] para salir sin procesar, [EXIT] para volver a la lista."
+
+msgid "Back"
+msgstr "Volver"
+
+msgid "Extensions"
+msgstr "Extensiones"
+
+msgid "Plugins administrator openSPA"
+msgstr "Administrador de Plugins OpenSPA"
+
+msgid "Allow activate/Desactivate plugins for system optimize"
+msgstr "Permite activar/desactivar Plugins para optimizar el sistema"
+
+msgid "Do you want start process for activate/deactivate selected plugins?"
+msgstr "Quieres iniciar el proceso para activar/desactivar los plugins seleccionados?"
+
+msgid "Do you want restart GUI now?"
+msgstr "Reiniciar GUI ahora?"
+
+msgid "Some plugins are protected and can not be disabled."
+msgstr "Algunos Plugins están protegidos y no se pueden desactivar."
+
+msgid "Plugin Information"
+msgstr "Información de plugin"
+
+msgid "Some Plugins (with Autostart functions) require a restar GUI, and may appear a crash green screen."
+msgstr "Algunos Plugins (con AutoInicio) requieren reiniciar GUI, y si no se renicia pueden provocar un error (pantallazo verde)."
+
+msgid "Exit"
+msgstr "Salir"
+
+msgid "Reactivated"
+msgstr "Reactivado"
+
+msgid "Deactivated"
+msgstr "Desactivado"
+
+msgid "Press [OK] to change plugin. The change will be confirmed when exit. Press [INFO/EPG] for plugin information."
+msgstr "Pulsa [OK] para cambiar un plugin. Al salir se pedirá confirmación. Pulsa [INFO/EPG] para información de plugin."
+
+msgid "Extensions Menu"
+msgstr "Menú de Extensiones"
+
+msgid "Main Menu"
+msgstr "Menú principal"
+
+msgid "Plugins Menu"
+msgstr "Lista de Plugins"
+
+msgid "Movielist"
+msgstr "Lista de películas"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Autostart"
+msgstr "AutoInicio"
+
+msgid "Event info extension"
+msgstr "Extensión de evento"
+
+msgid "Session start"
+msgstr "Inicio de sesión"
+
+msgid "Function #"
+msgstr "Función #"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "Function"
+msgstr "Funciones"
+
+msgid "Path"
+msgstr "Ruta"
+
+msgid "SystemPlugins"
+msgstr "Plugins del Sistema"
+
+msgid "Wizard"
+msgstr "Asistente"
+
+msgid "Teletext"
+msgstr "Teletexto"
+
+msgid "Filescan"
+msgstr "Escanear medios"
+
+msgid "Network setup"
+msgstr "Instalar redes"
+
+msgid "Network config"
+msgstr "Configurar red"
+
+msgid "Audio menu"
+msgstr "Menu Audio"
+
+msgid "Software manager"
+msgstr "Gestor de software"
+
+msgid "This plugin allow activate/deactivate plugins."
+msgstr "Esta utilidad permite activar/desactivar plugins."
+
+msgid "Select plugins pressing [OK] and press [EXIT] for process."
+msgstr "Selecciona los plugins a cambiar pulsando [OK], y al pulsar [EXIT] para salir se te pedirá confirmación para procesarlos."
+
+msgid "Press [INFO/EPG] for show information about the selected plugin."
+msgstr "Pulsa [INFO/EPG] para mostrar información sobre el plugin seleccionado."
+
+msgid "Some plugins rely on others to run."
+msgstr "Algunos plugins pueden depender de otros para ser ejecutados."
+
+msgid "When a plugin is disabled you can remove it by pressing [YELLOW]"
+msgstr "Cuando un plugin ha sido desactivado lo puedes eliminar definitivamente pulsando [AMARILLO]"
+
+msgid "Use this tool with care!"
+msgstr "¡Usa esta herramienta con cuidado!"
+
+msgid "Activate/Deactivate"
+msgstr "Activar/Desactivar"
+
+msgid "Desactivate"
+msgstr "Desactivar"
+
+msgid "Activate"
+msgstr "Activar"
+
+msgid "Continue"
+msgstr "Aceptar"
+
+msgid "Remember that some Plugins require restart GUI."
+msgstr "Recuerda que algunos Plugins requieren reiniciar."
+
+msgid "Delete plugin"
+msgstr "Eliminar Plugin"
+
+msgid "You are sure to DELETE the selected plugin?"
+msgstr "Está seguro de ELIMINAR el PlugIn seleccionado?"
+
+msgid "Delete PlugIn"
+msgstr "Borrar PlugIn"
+
+msgid ""
+"The selected plugin has been removed.\n"
+" To reinstall go to openSPA download center."
+msgstr "El PlugIn seleccionado ha sido eliminado definitivamente. Es posible que pueda reinstalarlo en el centro de descargas openSPA."
+

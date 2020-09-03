@@ -1,0 +1,97 @@
+def VSFTPDStatus():
+	import os
+	from Tools.Directories import fileExists
+	ret = False
+	try:
+		if fileExists('/etc/inetd.conf') and fileExists('/usr/sbin/vsftpd'):
+			f = open('/etc/inetd.conf', 'r')
+			for line in f.readlines():
+				parts = line.strip().split()
+				if parts[0] == 'ftp':
+					ret = True
+			f.close()
+	except Exception, e:
+		pass
+
+	return ret
+	
+def VSFTPDStop():
+	import os
+	from Tools.Directories import fileExists
+
+	if fileExists('/etc/inetd.conf'):
+		inme = open('/etc/inetd.conf', 'r')
+		out = open('/etc/inetd.tmp', 'w')
+		for line in inme.readlines():
+			if (line.find('vsftpd') != -1):
+				line = ('#' + line)
+			out.write(line)
+		out.close()
+		inme.close()
+	if fileExists('/etc/inetd.tmp'): 
+		os.system('mv -f  /etc/inetd.tmp /etc/inetd.conf')
+		rc = os.system('killall -HUP inetd')
+		rc = os.system('ps')
+
+def VSFTPDStart():
+	import os
+	from Tools.Directories import fileExists
+	inme = open('/etc/inetd.conf', 'r')
+	out = open('/etc/inetd.tmp', 'w')
+	for line in inme.readlines():
+		if (line.find('vsftpd') != -1):
+			line = line.replace('#', '')
+		out.write(line)
+	out.close()
+	inme.close()
+	if fileExists('/etc/inetd.tmp'):
+		os.system('mv -f  /etc/inetd.tmp /etc/inetd.conf')
+		rc = os.system('killall -HUP inetd')
+		rc = os.system('ps')
+
+def VSFTPDBoot(enabled):
+	import os
+	from Tools.Directories import fileExists
+	if enabled:
+		from Tools.Directories import fileExists
+		inme = open('/etc/inetd.conf', 'r')
+		out = open('/etc/inetd.tmp', 'w')
+		for line in inme.readlines():
+			if (line.find('vsftpd') != -1):
+				line = line.replace('#', '')
+			out.write(line)
+		out.close()
+		inme.close()
+		if fileExists('/etc/inetd.tmp'):
+			os.system('mv -f  /etc/inetd.tmp /etc/inetd.conf')
+			rc = os.system('killall -HUP inetd')
+			rc = os.system('ps')
+	else:
+		if fileExists('/etc/inetd.conf'):
+			inme = open('/etc/inetd.conf', 'r')
+			out = open('/etc/inetd.tmp', 'w')
+			for line in inme.readlines():
+				if (line.find('vsftpd') != -1):
+					pass
+				out.write(line)
+			out.close()
+			inme.close()
+		if fileExists('/etc/inetd.tmp'):
+			os.system('mv -f  /etc/inetd.tmp /etc/inetd.conf')
+			rc = os.system('killall -HUP inetd')
+			rc = os.system('ps')
+
+def VSFTPDInstalled():
+	from Tools.Directories import fileExists
+	return fileExists("/usr/sbin/vsftpd")
+
+daemon_name = "Vsftpd"
+daemon_description = "FTP Daemon"
+daemon_icon = "vsftpd.png"
+daemon_package = "vsftpd"
+daemon_fnc_status = VSFTPDStatus
+daemon_fnc_installed = VSFTPDInstalled
+daemon_fnc_stop = VSFTPDStop
+daemon_fnc_start = VSFTPDStart
+daemon_fnc_boot = VSFTPDBoot
+daemon_class_config = None

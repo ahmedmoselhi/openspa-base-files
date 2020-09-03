@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: spzTimeshift\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-03 13:51-0000\n"
+"PO-Revision-Date: 2012-11-15 22:53+0100\n"
+"Last-Translator: mpiero <azboxhd.es>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: spanish\n"
+"X-Poedit-Country: spain\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/dream/enigma2-plugins/spzTimeshift/src\n"
+
+msgid "Go to end of record"
+msgstr "Ir al final de la grabación"
+
+msgid "Several recordings are in progress, and you must select one to use the timeshift."
+msgstr "Varias grabaciones están en progreso, y debes seleccionar una para usar la función timeshift."
+
+msgid "Channel"
+msgstr "Canal"
+
+msgid "minutes"
+msgstr "minutos"
+
+msgid "seconds"
+msgstr "segundos"
+
+msgid "As you want to use the timeshift function?"
+msgstr "¿Como deseas usar la función timeshift?"
+
+msgid "Start timeshift with current channel"
+msgstr "Iniciar timeshift con el canal actual"
+
+msgid "Use timeshift with this active record"
+msgstr "Usar timeshift con la grabación en curso"
+
+msgid "Record are running"
+msgstr "Hay una grabación en curso"
+
+msgid "Waiting for record start"
+msgstr "Espere a que comienze la grabación"
+
+msgid ""
+"It takes more than 6 hours using the timeshift\n"
+"Want to stop timeshift?\n"
+"The timeshift function will stop. Choose not to continue."
+msgstr ""
+"Lleva más de 6 horas usando Timeshift\n"
+"Deseas detener timeshift?\n"
+"La funcion timeshift se detendrá. Elije NO para continuar."
+
+msgid ""
+"This plugin is only for customers of Don Satelite\n"
+"More info: www.donsatelite.es :: +34 967 492 025"
+msgstr ""
+"Este plugin es exclusivo para clientes de Don Satélite\n"
+"Más información: www.donsatelite.es :: +34 967 492 025"
+
+msgid "Select Record to play"
+msgstr "Selecciona la Grabación"
+
+msgid "Show Menu PiP"
+msgstr "Mostrar menu PiP"
+
+msgid "PiP (Picture in Picture)"
+msgstr "PiP (Imagen en Imagen)"
+
+msgid "Please change recording endtime"
+msgstr "Por favor establezca fin de grabación"
+
+msgid "Join live tv"
+msgstr "Se ha alcanzado la TV en directo"
+
+msgid "min."
+msgstr "mins."
+
+msgid "Exit and stop record and delete movie"
+msgstr "Salir, parar grabación y borrar película"
+
+msgid "Exit and continue recording"
+msgstr "Salir y continuar grabando"
+
+msgid "Exit and stop record"
+msgstr "Salir y parar grabación"
+
+msgid "Set end of record"
+msgstr "Establecer hora fin de grabación"
+
+msgid "Restart playing from begin"
+msgstr "Reiniciar reproducción desde el inicio"
+
+msgid "Continue with playing"
+msgstr "Continuar con la reproducción"
+
+msgid "Exit and delete movie"
+msgstr "Salir y borrar película"
+
+msgid "Initiating timeshift. Wait"
+msgstr "Iniciando TimeShift. Espere"
+
+msgid "End date/time is less than begin date/time!!!"
+msgstr "La fecha/hora final es anterior a la fecha/hora inicial!!!"
+
+msgid "End time NOT changed"
+msgstr "La hora de fin grabación NO ha sido cambiada."
+
+msgid "Exit"
+msgstr "Salir"
+
+msgid "What do you do?"
+msgstr "Que quieres hacer?"
+
+msgid "Do you really want to delete %s?"
+msgstr "Esta seguro de borrar %s?"
+
+msgid "You cannot delete this!"
+msgstr "Imposible eliminar esta grabación!"
+
+msgid "Advanced TimeShift"
+msgstr "Timeshift Avanzado"
+
+msgid "Create a recordable timeshift"
+msgstr "Inicia Timeshift(pausa en el tiempo) mediante grabación"
+
+msgid "View live TV"
+msgstr "Ver la TV en directo"
+
+msgid "sec."
+msgstr "segs."
+
+msgid "Movie Deleted!"
+msgstr "Película borrada!"
+
+msgid "Recording!"
+msgstr "Grabando!"
+
+msgid "End timer changed!"
+msgstr "Hora fin de grabación cambiada!"
+
+msgid "Audio selection"
+msgstr "Seleccionar Audio"
+
+msgid "Scaling Mode"
+msgstr "Modo de Pantalla"
+
+msgid "Record manager"
+msgstr "Grabaciones"
+
+msgid "Size of PIP"
+msgstr "Cambiar tamaño PIP"
+
+msgid "Move PIP"
+msgstr "Mover ventana PIP"
+
+msgid "Continue play"
+msgstr "Continuar Reproducción"
+
+msgid "xxx2"
+msgstr "yyy"
+
+msgid "xxx3"
+msgstr "yyy"
+

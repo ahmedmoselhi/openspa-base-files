@@ -1,0 +1,415 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - spzBackups\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mpiero <www.azboxhd.es>\n"
+"Language-Team: www.azboxhd.es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/spzBackups\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/spzBackups\n"
+
+msgid "Press [OK] or [RED] buttons for run this software."
+msgstr "Pulsa [OK] o [ROJO] para ejecutar esta utilidad."
+
+msgid "For custom copy press [DOWN] key and choose profile, and customize wath sections/plugins/skin/files you want backup."
+msgstr "Para hacer una copia personalizada, pulsa [CURSOR ABAJO] y elige un perfil, y personaliza que secciones, plugins, skins, archivos deseas incluir en la copia."
+
+msgid "This openPLI utility generates a basic copy of some settings, channels lists, password and when new firmware is installed automaticaly restores it. You can create a manual copy [YELLOW] or program daily backups."
+msgstr "Esta utilidad de openPLI genera una copia básica de su configuración, canales, contraseñas, datos de red, y al instalar nuevos firmwares se restaura automáticamente, evitando que salgan los asistentes de configuración. Puede crear una copia manual [AMARILLO] o programar copias diarias."
+
+msgid "Do you want to run openPLI AutoBackup utility?"
+msgstr "Quieres ejecutar ahora la utilidad de AutoBackup de openPLI?"
+
+msgid "Press [BLUE] for go to restore screen."
+msgstr "Pulsa [AZUL] para ir al módulo de Restaurar copias."
+
+msgid "openPLI AutoBackup utility"
+msgstr "Utilidad de openPLI AutoBackup"
+
+msgid "File Name (without extension)"
+msgstr "Nombre de archivo (sin extension)"
+
+msgid "The filename is invalid !!!"
+msgstr "El nombre del archivo no es correcto !!!"
+
+msgid "Error creating profile"
+msgstr "Error creando el perfil"
+
+msgid "spazeTeam Backup/Restore"
+msgstr "spazeTeam Copias/Restaurar"
+
+msgid "Error by writing backup config file !!!"
+msgstr "Error escribiendo en el archivo de configuración de copia !!!"
+
+msgid "Do yo wait to run?"
+msgstr "Quieres ejecutarla ahora?"
+
+msgid "Press [OK] to go"
+msgstr "Pulsa [OK] para acceder"
+
+msgid "Restore"
+msgstr "Restaurar"
+
+msgid "To select another path, change the path of current profile"
+msgstr "Para ver otra ruta, cambia la ruta del perfil actual"
+
+msgid "Press [INFO] to view file info"
+msgstr "Pulsa [INFO] para más información del archivo de copia"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Restore this copy?"
+msgstr "Restaurar esta copia?"
+
+msgid "This process can not be reversed!"
+msgstr "Este proceso no se podrá revertir!"
+
+msgid "No backups files found"
+msgstr "No se ha hecho ninguna copia"
+
+msgid "Last backup file"
+msgstr "Última copia de seguridad"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Size"
+msgstr "Tamaño"
+
+msgid "Press [OK] to select/unselect"
+msgstr "Pulsa [OK] para marcar/desmarcar"
+
+msgid "Retrieving file info"
+msgstr "Obteniendo información del archivo"
+
+msgid "Select"
+msgstr "Selecciona"
+
+msgid "Exit"
+msgstr "Salir"
+
+msgid "of"
+msgstr "de"
+
+msgid "Information"
+msgstr "Información"
+
+msgid "finished!"
+msgstr "terminado!"
+
+msgid "Run"
+msgstr "Ejecutar"
+
+msgid "Backup"
+msgstr "Copia"
+
+msgid "Start backup"
+msgstr "Iniciar copia"
+
+msgid "View files"
+msgstr "Ver archivos"
+
+msgid "Save profile"
+msgstr "Guardar perfil"
+
+msgid "Loading Profile..."
+msgstr "Cargando Perfil..."
+
+msgid "Wait..."
+msgstr "Espere..."
+
+msgid "Profile"
+msgstr "Perfil openSPA"
+
+msgid "Save backup into location"
+msgstr "Guardar copia en la ruta"
+
+msgid "Press [OK] to choose PlugIns"
+msgstr "Pulsa [OK] para elegir PlugIns"
+
+msgid "Press [OK] to choose Skins"
+msgstr "Pulsa [OK] para elegir Skins"
+
+msgid "Press [OK] to choose Files"
+msgstr "Pulsa [OK] para elegir archivos/carpetas"
+
+msgid "INCLUDE"
+msgstr "INCLUIR"
+
+msgid "excluir"
+msgstr "Excluir"
+
+msgid "None"
+msgstr "Ninguno"
+
+msgid "Choose directory"
+msgstr "Elegir carpeta"
+
+msgid "File"
+msgstr "Archivo"
+
+msgid "entrie(s)"
+msgstr "entrada(s)"
+
+msgid "Error by writing backup info file !!!"
+msgstr "Error escribien el archivo de información !!!"
+
+msgid "This task may take several minutes"
+msgstr "Este proceso puede durar varios minutos"
+
+msgid "Copying files"
+msgstr "Copiando archivos"
+
+msgid "Other files/folders"
+msgstr "Otros archivos/carpetas"
+
+msgid "Skins"
+msgstr "Skins(Pieles)"
+
+msgid "Restart GUI to apply changes?"
+msgstr "Desea Reniciar el GUI para aplicar los cambios?"
+
+msgid "List changed. Save this changes?"
+msgstr "La lista actual ha cambiado. Desea guardar los cambios?"
+
+msgid "List changes saved"
+msgstr "La lista ha sido guardada"
+
+msgid "Select Files/Folders"
+msgstr "Selecciona Archivos/Carpetas"
+
+msgid "Deselect"
+msgstr "Desmarcar"
+
+msgid "Utility for backup and restore files"
+msgstr "Utilidad para realizar copias de seguridad y restaurarlas"
+
+msgid "Channels"
+msgstr "Lista de canales"
+
+msgid "Settings"
+msgstr "Configuración básica"
+
+msgid "Keyboard remote control"
+msgstr "Configuración del mando a distancia"
+
+msgid "Multiquickbutton configuration"
+msgstr "Configuración de Multiquickbutton"
+
+msgid "net setup"
+msgstr "Configuración de Red"
+
+msgid "Picons image files"
+msgstr "Archivos de imagen Picon"
+
+msgid "Ccam configuracion"
+msgstr "Configuración CCcam"
+
+msgid "Ccam program files"
+msgstr "Archivos de programa de CCcam"
+
+msgid "Bookmarks azExplorer"
+msgstr "Favoritos de AzExplorer"
+
+msgid "Equiv channels epg mwh2"
+msgstr "Equivalencias de canales mwh2"
+
+msgid "autostart scripts"
+msgstr "Script de inicio"
+
+msgid "User Scripts"
+msgstr "Scripts de usuario"
+
+msgid "spzBackups configuration"
+msgstr "Configuración de Copias de Seguridad"
+
+msgid "The path does not exist!"
+msgstr "La ruta de almacenamiento no existe!"
+
+msgid "StandarCopy"
+msgstr "Copia Estandar"
+
+msgid "SimpleCopy"
+msgstr "Copia Simple"
+
+msgid "CustomCopy1"
+msgstr "Copia Personalizada 1"
+
+msgid "CustomCopy2"
+msgstr "Copia Personalizada 2"
+
+msgid "CustomCopy3"
+msgstr "Copia Personalizada 3"
+
+msgid "OnlySkinsPluginsCopy"
+msgstr "Sólo Skins y Plugins"
+
+msgid "Restore copy"
+msgstr "Restaurar copia"
+
+msgid "The system must be restarted to apply changes"
+msgstr "El sistema deber ser reiniciado para aplicar los cambios"
+
+msgid "Restoring files"
+msgstr "Restaurando archivos"
+
+msgid "Copy creation"
+msgstr "Creación de copia"
+
+msgid "Select file to Restore"
+msgstr "Selecciona archivo para Restaurar"
+
+msgid "File info"
+msgstr "Información de archivo"
+
+msgid "List files for .tar"
+msgstr "Listado de entradas del fichero .tar"
+
+msgid "Mark"
+msgstr "Incluir"
+
+msgid "Clear"
+msgstr "Quitar todo"
+
+msgid "Delete all entries from list?"
+msgstr "Desea anular todas las entradas seleccionadas?"
+
+msgid "The system will be restarted to complete the restoration"
+msgstr "El sistema será reiniciado para completar la restauración"
+
+msgid "The backup file has been created !!!. Verify that enough space on the target drive and writable"
+msgstr "El archivo de copia NO ha sido creado!!!. Verifica que hay espacio en el disco destino y que tiene permisos de escritura"
+
+msgid "Log file to long. Truncated. See file /tmp/spztBklog.log for complete view"
+msgstr "Archivo .log demasiado grande. Descarga el archivo /tmp/spztBklog.log para verlo completo"
+
+msgid "Create backup"
+msgstr "Crear copia"
+
+msgid "Comments about copying (optional)"
+msgstr "Comentario acerca de la copia (opcional)"
+
+msgid "Personal Copy"
+msgstr "Copia Personal"
+
+msgid "Monday"
+msgstr "Lunes"
+
+msgid "Tuesday"
+msgstr "Martes"
+
+msgid "Wednesday"
+msgstr "Miércoles"
+
+msgid "Thursday"
+msgstr "Jueves"
+
+msgid "Friday"
+msgstr "Viernes"
+
+msgid "Saturday"
+msgstr "Sábado"
+
+msgid "Sunday"
+msgstr "Domingo"
+
+msgid "January"
+msgstr "Enero"
+
+msgid "February"
+msgstr "Febrero"
+
+msgid "March"
+msgstr "Marzo"
+
+msgid "April"
+msgstr "Abril"
+
+msgid "May"
+msgstr "Mayo"
+
+msgid "June"
+msgstr "Junio"
+
+msgid "July"
+msgstr "Julio"
+
+msgid "August"
+msgstr "Agosto"
+
+msgid "September"
+msgstr "Septiembre"
+
+msgid "October"
+msgstr "Octubre"
+
+msgid "November"
+msgstr "Noviembre"
+
+msgid "December"
+msgstr "Diciembre"
+
+msgid "Notes"
+msgstr "Comentarios"
+
+msgid "Copy"
+msgstr "Copia"
+
+msgid "Last copy"
+msgstr "Última copia"
+
+msgid "More options"
+msgstr "Más opciones"
+
+msgid "Convert to E2 last copy"
+msgstr "Convertir en la copia por defecto para nuevos fw"
+
+msgid "Delete file"
+msgstr "Borrar archivo"
+
+msgid "Select option"
+msgstr "Selecciona opción"
+
+msgid "Options"
+msgstr "Opciones"
+
+msgid "Delete this file copy?"
+msgstr "Eliminar este archivo de copia?"
+
+msgid "Convert this file to last E2 file backup?"
+msgstr "Convertir este archivo como la última copia de Enigma2?"
+
+msgid "When install new firm this copy will be restored!"
+msgstr "Cuando se instale un nuevo firm esta sería la copia por defecto para restaurar!"
+
+msgid ""
+"Not spazeTeam image found!\n"
+"More info in www.azboxhd.es"
+msgstr ""
+"La imagen no es un fw de spazeTeam!\n"
+"Más información en www.azboxhd.es"
+
+msgid "Default copy"
+msgstr "Copia por defecto"
+
+msgid "Upgrade copy pending"
+msgstr "Copia para actualizar en espera"
+
+msgid "Upgrade copy restored"
+msgstr "Copia de actualización ya restaurada"
+
+msgid "Upgrade copy canceled"
+msgstr "Copia de actualización cancelada"
+
+msgid "xxx"
+msgstr "yyy"
+

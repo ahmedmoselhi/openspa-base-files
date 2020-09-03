@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Enigma2 AutoDeepStandby Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-26 14:23+0100\n"
+"PO-Revision-Date: 2015-12-16 10:19+0100\n"
+"Last-Translator: mpiero <www.azboxhd.es>\n"
+"Language-Team: openSPA <openspa.info>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+
+msgid "AutoDeepStandby"
+msgstr "Auto Reposo Profundo"
+
+msgid "Put receiver automatically in deep standby a wakeup it"
+msgstr "Pone automáticamente el equipo en reposo profundo y lo despierta a una hora"
+
+msgid "Enabled auto deep sleep"
+msgstr "Activar auto reposo profundo"
+
+msgid "Sleep time"
+msgstr "Pasar a reposo profundo a la hora"
+
+msgid "Wakeup time"
+msgstr "Despertar de reposo profundo a la hora"
+
+msgid "This utility allow put in deep standby (minimum power consumition) and wake up automaticaly, daily with programable hours"
+msgstr "Esta utilidad permite poner en reposo profundo(deep sleep) el equipo permitiendo el ahorro de energía, y despertarlo, diariamente a las horas indicadas, siempre y cuando el equipo esté en reposo y no esté grabando, en cuyo caso esperará hasta que esté apagado y no haya ninguna grabación activa."
+
+msgid "In deep sleep mode, the box is off, no network, no video/audio ouput"
+msgstr "En reposo profundo, el equipo estára totalmente apagado, sin red, ni salidas de audio/video activas, mínimo consumo"
+
+msgid "The timer list works. The box power on 3 minutes before timer record starts and if the timer is set with the auto option, the box is put in deep standby ant end"
+msgstr "Las GRABACIONES RESERVADAS sí funcionarán. El equipo se autoencenderá 3 minutos antes de la grabación programada y al acabar la grabación, si está establecida en auto, volverá a reposo profundo"
+
+msgid "When wakeup time, the box power on 3 minutes before the time configured"
+msgstr "En la hora de despertar, el equipo se despertará también 3 minutos antes de la hora configurada"
+
+msgid "Time left for next auto sleep:"
+msgstr "Tiempo restante para el próximo apagado:"
+
+msgid "hours"
+msgstr "hora(s)"
+
+msgid "minutes"
+msgstr "minuto(s)"
+
+msgid "Time left for next auto wake up:"
+msgstr "Tiempo restante para despertar equipo:"
+
+msgid "For deactivate wake up put the same time of sleep time"
+msgstr "Para no despertar el dispositivo poner la misma hora que la de ir a reposo"
+
+msgid "xxx"
+msgstr "yyyy"
+

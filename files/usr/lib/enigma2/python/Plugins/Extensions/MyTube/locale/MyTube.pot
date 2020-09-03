@@ -1,0 +1,613 @@
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-15 18:36+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: MyTubeSearch.py:201
+msgid " Results"
+msgstr ""
+
+#: plugin.py:1148 plugin.py:1386
+msgid "Added: "
+msgstr ""
+
+#: plugin.py:78 plugin.py:98
+msgid "All"
+msgstr ""
+
+#: plugin.py:66
+msgid "All Time"
+msgstr ""
+
+#: plugin.py:493
+msgid "An error occured."
+msgstr ""
+
+#: plugin.py:126
+msgid "Ascending"
+msgstr ""
+
+#: MyTubeSearch.py:326
+msgid "Ask to load new entries"
+msgstr ""
+
+#: plugin.py:149 plugin.py:152
+msgid "Ask user"
+msgstr ""
+
+#: plugin.py:99 plugin.py:106
+msgid "Australia"
+msgstr ""
+
+#: plugin.py:1383
+msgid "Author: "
+msgstr ""
+
+#: plugin.py:80
+msgid "Autos & Vehicles"
+msgstr ""
+
+#: plugin.py:100
+msgid "Brazil"
+msgstr ""
+
+#: plugin.py:101
+msgid "Canada"
+msgstr ""
+
+#: MyTubeSearch.py:347
+msgid "Choose target folder"
+msgstr ""
+
+#: MyTubeSearch.py:325
+msgid "Clear history on Exit:"
+msgstr ""
+
+#: MyTubeSearch.py:285 MyTubeSearch.py:451 plugin.py:293 plugin.py:1325
+#: plugin.py:1511
+msgid "Close"
+msgstr ""
+
+#: plugin.py:87
+msgid "Comedy"
+msgstr ""
+
+#: plugin.py:102
+msgid "Czech Republic"
+msgstr ""
+
+#: plugin.py:127
+msgid "Descending"
+msgstr ""
+
+#: MyTubeSearch.py:306
+msgid "Display search results by:"
+msgstr ""
+
+#: plugin.py:769
+msgid "Do you want to see more entries?"
+msgstr ""
+
+#: plugin.py:547
+msgid "Download Video"
+msgstr ""
+
+#: MyTubeSearch.py:322
+msgid "Download location"
+msgstr ""
+
+#: plugin.py:1354
+msgid "Downloading screenshots. Please wait..."
+msgstr ""
+
+#: plugin.py:1148 plugin.py:1380
+msgid "Duration: "
+msgstr ""
+
+#: plugin.py:91
+msgid "Education"
+msgstr ""
+
+#: plugin.py:590
+msgid "Enter your search term(s)"
+msgstr ""
+
+#: plugin.py:90
+msgid "Entertainment"
+msgstr ""
+
+#: plugin.py:430 plugin.py:489
+msgid "Fetching feed entries"
+msgstr ""
+
+#: plugin.py:491
+msgid "Fetching search entries"
+msgstr ""
+
+#: plugin.py:79
+msgid "Film & Animation"
+msgstr ""
+
+#: plugin.py:103
+msgid "France"
+msgstr ""
+
+#: plugin.py:86
+msgid "Gaming"
+msgstr ""
+
+#: plugin.py:411 plugin.py:435 plugin.py:477
+msgid "Genuine Dreambox validation failed!"
+msgstr ""
+
+#: plugin.py:104
+msgid "Germany"
+msgstr ""
+
+#: plugin.py:105
+msgid "Great Britain"
+msgstr ""
+
+#: plugin.py:135 plugin.py:805
+msgid "HD videos"
+msgstr ""
+
+#: plugin.py:1529
+msgid "Help"
+msgstr ""
+
+#: plugin.py:295
+msgid "History"
+msgstr ""
+
+#: plugin.py:107
+msgid "Holland"
+msgstr ""
+
+#: plugin.py:108
+msgid "Hong Kong"
+msgstr ""
+
+#: plugin.py:92
+msgid "Howto & Style"
+msgstr ""
+
+#: plugin.py:109
+msgid "India"
+msgstr ""
+
+#: plugin.py:110
+msgid "Ireland"
+msgstr ""
+
+#: plugin.py:111
+msgid "Israel"
+msgstr ""
+
+#: plugin.py:112
+msgid "Italy"
+msgstr ""
+
+#: plugin.py:113
+msgid "Japan"
+msgstr ""
+
+#: MyTubeSearch.py:310
+msgid "Load feed on startup:"
+msgstr ""
+
+#: plugin.py:114
+msgid "Mexico"
+msgstr ""
+
+#: plugin.py:977
+msgid "More video entries."
+msgstr ""
+
+#: plugin.py:139 plugin.py:812
+msgid "Most discussed"
+msgstr ""
+
+#: plugin.py:141 plugin.py:813
+msgid "Most linked"
+msgstr ""
+
+#: plugin.py:144 plugin.py:810
+msgid "Most popular"
+msgstr ""
+
+#: plugin.py:143 plugin.py:811
+msgid "Most recent"
+msgstr ""
+
+#: plugin.py:142 plugin.py:815
+msgid "Most responded"
+msgstr ""
+
+#: plugin.py:145 plugin.py:816
+msgid "Most shared"
+msgstr ""
+
+#: plugin.py:136 plugin.py:809
+msgid "Most viewed"
+msgstr ""
+
+#: plugin.py:81
+msgid "Music"
+msgstr ""
+
+#: plugin.py:1852
+msgid "My TubePlayer"
+msgstr ""
+
+#: plugin.py:533 plugin.py:539
+msgid "MyTube Settings"
+msgstr ""
+
+#: plugin.py:447
+msgid "MyTubePlayer"
+msgstr ""
+
+#: plugin.py:512 plugin.py:514 plugin.py:521
+msgid "MyTubePlayer Help"
+msgstr ""
+
+#: MyTubeSearch.py:464 MyTubeSearch.py:480
+msgid "MyTubePlayer active video downloads"
+msgstr ""
+
+#: MyTubeSearch.py:299 MyTubeSearch.py:302
+msgid "MyTubePlayer settings"
+msgstr ""
+
+#: plugin.py:1395
+msgid "MyTubeVideoInfoScreen"
+msgstr ""
+
+#: plugin.py:1538
+msgid "MyTubeVideohelpScreen"
+msgstr ""
+
+#: plugin.py:115
+msgid "New Zealand"
+msgstr ""
+
+#: plugin.py:89
+msgid "News & Politics"
+msgstr ""
+
+#: plugin.py:74 plugin.py:629 plugin.py:635
+msgid "No"
+msgstr ""
+
+#: plugin.py:1798
+msgid "No playable video found! Stop playing this movie?"
+msgstr ""
+
+#: plugin.py:496
+msgid "No videos to display"
+msgstr ""
+
+#: plugin.py:1791
+msgid "No, but play video again"
+msgstr ""
+
+#: plugin.py:630
+msgid "No, but switch to video entries."
+msgstr ""
+
+#: plugin.py:636
+msgid "No, but switch to video search."
+msgstr ""
+
+#: plugin.py:93
+msgid "Nonprofits & Activism"
+msgstr ""
+
+#: plugin.py:498
+msgid "Not fetching feed entries"
+msgstr ""
+
+#: plugin.py:88
+msgid "People & Blogs"
+msgstr ""
+
+#: plugin.py:82
+msgid "Pets & Animals"
+msgstr ""
+
+#: plugin.py:1853
+msgid "Play YouTube movies"
+msgstr ""
+
+#: plugin.py:149
+msgid "Play next video"
+msgstr ""
+
+#: plugin.py:149
+msgid "Play video again"
+msgstr ""
+
+#: plugin.py:498
+msgid "Please enter your search term."
+msgstr ""
+
+#: plugin.py:496
+msgid "Please select a standard feed or try searching for videos."
+msgstr ""
+
+#: plugin.py:116
+msgid "Poland"
+msgstr ""
+
+#: plugin.py:61
+msgid "Published"
+msgstr ""
+
+#: plugin.py:62
+msgid "Rating"
+msgstr ""
+
+#: plugin.py:1148
+msgid "Ratings: "
+msgstr ""
+
+#: plugin.py:638
+msgid "Really quit MyTube Player?"
+msgstr ""
+
+#: plugin.py:138 plugin.py:814
+msgid "Recently featured"
+msgstr ""
+
+#: plugin.py:985
+msgid "Related video entries."
+msgstr ""
+
+#: plugin.py:59
+msgid "Relevance"
+msgstr ""
+
+#: plugin.py:993
+msgid "Response video entries."
+msgstr ""
+
+#: plugin.py:149 plugin.py:152
+msgid "Return to movie list"
+msgstr ""
+
+#: plugin.py:1807
+msgid "Return to movie list?"
+msgstr ""
+
+#: plugin.py:117
+msgid "Russia"
+msgstr ""
+
+#: MyTubeSearch.py:286
+msgid "Save"
+msgstr ""
+
+#: plugin.py:94
+msgid "Science & Technology"
+msgstr ""
+
+#: plugin.py:451
+msgid "Search Term(s)"
+msgstr ""
+
+#: MyTubeSearch.py:308
+msgid "Search category:"
+msgstr ""
+
+#: MyTubeSearch.py:309
+msgid "Search region:"
+msgstr ""
+
+#: MyTubeSearch.py:307
+msgid "Search restricted content:"
+msgstr ""
+
+#: plugin.py:819
+msgid "Select new feed to view."
+msgstr ""
+
+#: plugin.py:536 plugin.py:552
+msgid "Select your choice."
+msgstr ""
+
+#: plugin.py:85
+msgid "Short Movies"
+msgstr ""
+
+#: plugin.py:732
+msgid "Sorry, video is not available!"
+msgstr ""
+
+#: plugin.py:118
+msgid "South Korea"
+msgstr ""
+
+#: plugin.py:119
+msgid "Spain"
+msgstr ""
+
+#: plugin.py:83
+msgid "Sports"
+msgstr ""
+
+#: MyTubeSearch.py:313
+msgid "Start with following feed:"
+msgstr ""
+
+#: plugin.py:294
+msgid "Std. Feeds"
+msgstr ""
+
+#: plugin.py:1796
+msgid "Stop playing this movie?"
+msgstr ""
+
+#: plugin.py:120
+msgid "Sweden"
+msgstr ""
+
+#: plugin.py:1392
+msgid "Tags: "
+msgstr ""
+
+#: plugin.py:121
+msgid "Taiwan"
+msgstr ""
+
+#: plugin.py:493
+msgid "There was an error getting the feed entries. Please try again."
+msgstr ""
+
+#: plugin.py:67
+msgid "This Month"
+msgstr ""
+
+#: plugin.py:68
+msgid "This Week"
+msgstr ""
+
+#: plugin.py:1533
+msgid "This is the help screen. Feed me with something to display."
+msgstr ""
+
+#: plugin.py:69
+msgid "Today"
+msgstr ""
+
+#: plugin.py:140 plugin.py:808
+msgid "Top favorites"
+msgstr ""
+
+#: plugin.py:137 plugin.py:807
+msgid "Top rated"
+msgstr ""
+
+#: plugin.py:84
+msgid "Travel & Events"
+msgstr ""
+
+#: plugin.py:146 plugin.py:817
+msgid "Trending videos"
+msgstr ""
+
+#: plugin.py:430 plugin.py:489
+msgid "Trying to download the Youtube feed entries. Please wait..."
+msgstr ""
+
+#: plugin.py:491
+msgid "Trying to download the Youtube search results. Please wait..."
+msgstr ""
+
+#: plugin.py:122
+msgid "United States"
+msgstr ""
+
+#: plugin.py:1001
+msgid "User video entries."
+msgstr ""
+
+#: plugin.py:411 plugin.py:435 plugin.py:477
+msgid ""
+"Verify your Dreambox authenticity by running the genuine dreambox plugin!"
+msgstr ""
+
+#: plugin.py:1607
+msgid "Video YouTube..."
+msgstr ""
+
+#: MyTubeSearch.py:315
+msgid "Videobrowser exit behavior:"
+msgstr ""
+
+#: MyTubeSearch.py:314
+msgid "Videoplayer stop/exit behavior:"
+msgstr ""
+
+#: plugin.py:60
+msgid "View Count"
+msgstr ""
+
+#: plugin.py:542
+msgid "View Users Video"
+msgstr ""
+
+#: plugin.py:548
+msgid "View active downloads"
+msgstr ""
+
+#: plugin.py:541
+msgid "View related videos"
+msgstr ""
+
+#: plugin.py:543
+msgid "View response videos"
+msgstr ""
+
+#: plugin.py:1148 plugin.py:1389
+msgid "Views: "
+msgstr ""
+
+#: plugin.py:284
+msgid ""
+"Welcome to the MyTube Youtube Player.\n"
+"\n"
+"Use the Bouqet+ button to navigate to the search field and the Bouqet- to "
+"navigate to the video entries.\n"
+"\n"
+"To play a movie just press OK on your remote control.\n"
+"\n"
+"Press info to see the movie description.\n"
+"\n"
+"Press the Menu button for additional options.\n"
+"\n"
+"The Help button shows this help again."
+msgstr ""
+
+#: plugin.py:283
+msgid ""
+"Welcome to the MyTube Youtube Player.\n"
+"\n"
+"While entering your search term(s) you will get suggestions displayed "
+"matching your search term.\n"
+"\n"
+"To select a suggestion press DOWN on your remote, select the desired result "
+"and press OK on your remote to start the search.\n"
+"\n"
+"Press exit to get back to the input field."
+msgstr ""
+
+#: plugin.py:73 plugin.py:628 plugin.py:634 plugin.py:1790
+msgid "Yes"
+msgstr ""
+
+#: plugin.py:1792
+msgid "Yes, but play next video"
+msgstr ""
+
+#: plugin.py:1793
+msgid "Yes, but play previous video"
+msgstr ""
+
+msgid "Exit "
+msgstr ""

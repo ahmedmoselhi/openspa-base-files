@@ -1,0 +1,363 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2-plugins 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-10 13:04+0100\n"
+"PO-Revision-Date: 2015-09-23 17:44+0100\n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: OpenSPA <openspa.info>\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: CATALONIA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "All channels"
+msgstr "Tots els canals"
+
+msgid "Arts/Culture"
+msgstr "Art-Cultura"
+
+msgid "Cancel"
+msgstr "Cancel·lar"
+
+msgid "Channel Selection"
+msgstr "Selecció de canal"
+
+msgid "Children/Youth"
+msgstr "Infantil-Juvenil"
+
+msgid "EPG Search"
+msgstr "Cercar a la EPG"
+
+msgid "Education/Science/..."
+msgstr "Ciència-Educació"
+
+msgid "Enter text to search for"
+msgstr "Introduïu el text a cercar"
+
+msgid "History"
+msgstr "Històric"
+
+msgid "Import from EPG"
+msgstr "Importar des de la EPG"
+
+msgid "Import from Timer"
+msgstr "Importar des de la programació"
+
+msgid "Leisure hobbies"
+msgstr "Passatemps-Oci"
+
+msgid "Movie/Drama"
+msgstr "Pel·lícula-Sèrie"
+
+msgid "Music/Ballet/Dance"
+msgstr "Música-Dansa"
+
+msgid "New Search"
+msgstr "Nova recerca"
+
+msgid "News Current Affairs"
+msgstr "Notícies"
+
+msgid "No matches found"
+msgstr "No s'han trobat resultats"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Results EPG search"
+msgstr "Resultats de la recerca a la EPG"
+
+msgid "Search"
+msgstr "Cercar"
+
+msgid "Search EPG"
+msgstr "Cercar EPG"
+
+msgid "Search by genre"
+msgstr "Cercar per gènere"
+
+msgid "Search by genre in"
+msgstr "Cercar per gènere a"
+
+msgid "Search in"
+msgstr "Cercar a"
+
+msgid "Search in EPG"
+msgstr "Cercar a la EPG"
+
+msgid "Search options"
+msgstr "Opcions de recerca"
+
+msgid "Search:"
+msgstr "Cercar:"
+
+msgid "Searching..."
+msgstr "S'està cercant..."
+
+msgid "Select a timer to search"
+msgstr "Seleccionar una programació on cercar"
+
+msgid "Select option"
+msgstr "Seleccioneu una opció per cercar"
+
+msgid "Select text to search for"
+msgstr "Seleccionar text per cercar"
+
+msgid "Show Games show"
+msgstr "Espectacle-Concurs"
+
+msgid "Social/Political/Economics"
+msgstr "Política-Economia"
+
+msgid "Sports"
+msgstr "Esports"
+
+msgid "Today"
+msgstr "Avui"
+
+msgid "adult movie/drama"
+msgstr "Cinema d'adults"
+
+msgid "adventure/western/war"
+msgstr "Aventura/Bèl·lica"
+
+msgid "advertisement/shopping"
+msgstr "Publicitat/Venda"
+
+msgid "arts/culture (without music general)"
+msgstr "art/cultura"
+
+msgid "arts/culture magazine"
+msgstr "Informatiu"
+
+msgid "athletics"
+msgstr "Atletisme"
+
+msgid "ballet"
+msgstr "Ballet"
+
+msgid "black & white"
+msgstr "Blanc i negre"
+
+msgid "broadcasting/press"
+msgstr "Radiodifusió"
+
+msgid "cartoon/puppets"
+msgstr "Dibuixos animats"
+
+msgid "childrens's/youth program (general)"
+msgstr "Infantil/juvenil (general)"
+
+msgid "comedy"
+msgstr "Comèdia"
+
+msgid "cooking"
+msgstr "Cuina"
+
+msgid "detective/thriller"
+msgstr "Intriga/Thriller"
+
+msgid "discussion/interview/debate"
+msgstr "Debat/Entrevista"
+
+msgid "documentary"
+msgstr "Documental"
+
+msgid "economics/social advisory"
+msgstr "Economia/Consulta social"
+
+msgid "education/science/factual topics (general)"
+msgstr "educació/ciència (general)"
+
+msgid "entertainment (10-16 year old)"
+msgstr "Entreteniment (10-16 anys)"
+
+msgid "entertainment (6-14 year old)"
+msgstr "Entreteniment (6-14 anys)"
+
+msgid "equestrian"
+msgstr "Equitació"
+
+msgid "experimental film/video"
+msgstr "Cinema experimental"
+
+msgid "fashion"
+msgstr "Moda"
+
+msgid "film/cinema"
+msgstr "Pel·lícula"
+
+msgid "fine arts"
+msgstr "Belles Arts"
+
+msgid "fitness & health"
+msgstr "Fitness i salut"
+
+msgid "folk/traditional music"
+msgstr "Música tradicional"
+
+msgid "football/soccer"
+msgstr "Futbol"
+
+msgid "foreign countries/expeditions"
+msgstr "Països/Expedicions"
+
+msgid "further education"
+msgstr "Educació superior"
+
+msgid "game show/quiz/contest"
+msgstr "espectacle/concurs"
+
+msgid "gardening"
+msgstr "Jardineria"
+
+msgid "handicraft"
+msgstr "Artesania"
+
+msgid "information/education/school program"
+msgstr "Educatiu"
+
+msgid "jazz"
+msgstr "Jazz"
+
+msgid "languages"
+msgstr "Idiomes"
+
+msgid "leisure hobbies (general)"
+msgstr "hobbies (general)"
+
+msgid "literature"
+msgstr "Literatura"
+
+msgid "live broadcast"
+msgstr "Emissió en directe"
+
+msgid "magazines/reports/documentary"
+msgstr "Reportatge/Documental"
+
+msgid "martial sports"
+msgstr "Arts marcials"
+
+msgid "medicine/physiology/psychology"
+msgstr "Medicina/Psicologia"
+
+msgid "motor sport"
+msgstr "Motor"
+
+msgid "motoring"
+msgstr "Automovilisme"
+
+msgid "movie/drama (general)"
+msgstr "pel·lícula/drama (general) "
+
+msgid "music/ballet/dance (general)"
+msgstr "música/dansa(general)"
+
+msgid "musical/opera"
+msgstr "Musical/Ópera"
+
+msgid "nature/animals/environment"
+msgstr "Naturalesa/Medi Ambient"
+
+msgid "new media"
+msgstr "Medis de comunicació"
+
+msgid "news magazine"
+msgstr "Butlletí Informatiu"
+
+msgid "news/current affairs (general)"
+msgstr "Notícies/Actualitat (general) "
+
+msgid "news/weather report"
+msgstr "Temps"
+
+msgid "original language"
+msgstr "Idioma original"
+
+msgid "performing arts"
+msgstr "Arts escèniques"
+
+msgid "popular culture/traditional arts"
+msgstr "Cultura popular"
+
+msgid "pre-school children's program"
+msgstr "Preescolar"
+
+msgid "religion"
+msgstr "Religió"
+
+msgid "remarkable people"
+msgstr "Famosos"
+
+msgid "rock/pop"
+msgstr "Rock/Pop"
+
+msgid "romance"
+msgstr "Romàntica"
+
+msgid "science fiction/fantasy/horror"
+msgstr "Ficció/Fantàstica/Terror"
+
+msgid "search EPG"
+msgstr "Cercar EPG"
+
+msgid "search EPG..."
+msgstr "Cercar EPG..."
+
+msgid "serious music/classic music"
+msgstr "Música Clàssica"
+
+msgid "serious/classical/religious/historical movie/drama"
+msgstr "Clàssica/Històrica"
+
+msgid "show/game show (general)"
+msgstr "Espectacle/concurs (general"
+
+msgid "soap/melodram/folkloric"
+msgstr "Melodrama/Folk"
+
+msgid "social/political issues/economics (general)"
+msgstr "social/política/economia (general)"
+
+msgid "social/spiritual science"
+msgstr "Social/Ciència espiritual"
+
+msgid "special events"
+msgstr "Event especial"
+
+msgid "sports (general)"
+msgstr "esports (general)"
+
+msgid "sports magazine"
+msgstr "Informatiu"
+
+msgid "talk show"
+msgstr "Entrevista"
+
+msgid "team sports"
+msgstr "Equips"
+
+msgid "technology/natural science"
+msgstr "Tecnologia/Ciència"
+
+msgid "tennis/squash"
+msgstr "Tennis/squash"
+
+msgid "tourism/travel"
+msgstr "Turisme/Viatges"
+
+msgid "unpublished"
+msgstr "Inèdit"
+
+msgid "variety show"
+msgstr "Varietats"
+
+msgid "water sport"
+msgstr "Aquàtics"
+
+msgid "winter sport"
+msgstr "Hivern"
+

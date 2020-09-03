@@ -1,0 +1,41 @@
+# Spanish language translation 
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-10 16:35+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: morser\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "By Name"
+msgstr "Por Nombre"
+
+msgid "TV Series"
+msgstr "Series de TV"
+
+msgid "Season (0 for all seasons)"
+msgstr "Temporada (0 para todas)"
+
+msgid "View Entries"
+msgstr "Ver Entradas"
+
+msgid "Season"
+msgstr "Temporada"
+
+msgid "Episode"
+msgstr "Episodio"
+
+msgid "From"
+msgstr "Desde"
+
+msgid "Append %d events to Record Timers."
+msgstr "Añadidos %d eventos a las Programaciones."
+
+msgid "TV Series Timers"
+msgstr "Programaciones Series TV"

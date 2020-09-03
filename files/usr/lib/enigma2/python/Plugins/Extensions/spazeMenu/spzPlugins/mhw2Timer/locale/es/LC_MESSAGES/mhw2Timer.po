@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - TimerScript\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: openspa.info\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/mhw2Timer\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/mhw2Timer\n"
+
+msgid " hours "
+msgstr " horas "
+
+msgid " minutes"
+msgstr " minutos"
+
+msgid "Always"
+msgstr "Siempre"
+
+msgid "Auto Execution time start"
+msgstr "Hora de inicio de descarga"
+
+msgid "Auto execution time end"
+msgstr "Hora de fin de descarga"
+
+msgid "AutoShutdown"
+msgstr "Auto apagado activado"
+
+msgid "Canceled autopower off"
+msgstr "Auto apagado cancelado"
+
+msgid "Channel for EPG Download"
+msgstr "Canal para la descarga de EPG"
+
+msgid "Channels"
+msgstr "Canales"
+
+msgid "Config EPG:"
+msgstr "Configurar EPG:"
+
+msgid "Config EPG: New | openSPA"
+msgstr "Configurar EPG: Nuevo | openSPA"
+
+msgid "Creating"
+msgstr "Creando"
+
+msgid "Disable HDMIcec when epg download from standby"
+msgstr "Deshabilitar HDMICec cuando se descarga la Epg desde reposo"
+
+msgid "Download EPG from"
+msgstr "Descarga de EPG de"
+
+msgid "Download EPG from Digital+"
+msgstr "Descarga de EPG de Digital+"
+
+msgid "Download EPG from MediaHighway"
+msgstr "Descarga automática de EPG MediaHighway by OpenSPA"
+
+msgid "Download EPG from MovistarTV"
+msgstr "Descarga de EPG de MovistarTV"
+
+msgid "Download EPG from Remote Channels"
+msgstr "Descarga de EPG de canales remotos"
+
+msgid "Download now"
+msgstr "Descargar!"
+
+msgid "Downloading data..."
+msgstr "Descargando datos..."
+
+msgid "EPG download MediaHighway"
+msgstr "Descarga de EPG mhw2"
+
+msgid "EPG download MediaHighway execution is currently not active."
+msgstr "La descarga automática de EPG mhw2 no está activada"
+
+msgid "EPG download MediaHighway finished."
+msgstr "Descarga automática de EPG terminada."
+
+msgid ""
+"EPG download MediaHighway launching, Continue?\n"
+" Select no to postpone by 30 minutes."
+msgstr ""
+"Descarga automática de EPG mhw2 activa, ejecutar ahora?\n"
+"Seleccione 'No' para posponer 30 minutos."
+
+msgid "EPG download MediaHighway running. Wait..."
+msgstr "Descarga automática de EPG mhw en proceso. Espere..."
+
+msgid "EPG download MediaHighway starting..."
+msgstr "Iniciando descarga automática de EPG..."
+
+msgid "Edit equiv"
+msgstr "Editar equiv."
+
+msgid "Enable Epg MediaHighway autodownload"
+msgstr "Activar autodescarga de EPG"
+
+msgid "Go Standby"
+msgstr "Apagando"
+
+msgid "Go to standby now?"
+msgstr "Poner en reposo ahora?"
+
+msgid "Go to standby on init"
+msgstr "Poner en reposo al iniciar"
+
+msgid "Info timer"
+msgstr "Información de tiempo"
+
+msgid "Log file. EPG download MediaHighway"
+msgstr "Archivo de log. EPG mwh2"
+
+msgid "MediaHighway 2 download by spaZeTeam"
+msgstr "Descarga MediaHighway 2 por OpenSPA"
+
+msgid "Name:"
+msgstr "Nombre:"
+
+msgid ""
+"Need restart GUI to apply changes\n"
+" Restart now?"
+msgstr ""
+"Es necesario reiniciar el GUI para aplicar los cambios\n"
+"Reiniciar ahora?"
+
+msgid "Next timer EPG download execution: "
+msgstr "Tiempo restante para la próxima descarga de EPG: "
+
+msgid "Number of days to download"
+msgstr "Número de días de descarga"
+
+msgid "Only after donwload"
+msgstr "Solo después de la descarga"
+
+msgid "Power off in"
+msgstr "Apagado en"
+
+msgid "Really delete this Entry?"
+msgstr "Eliminar esta entrada?"
+
+msgid "Restart GUI after execution"
+msgstr "Reiniciar GUI despues de la descarga"
+
+msgid "Summaries"
+msgstr "Sumarios"
+
+msgid "Time to go to standby (secs)"
+msgstr "Tiempo de espera para ir a reposo (segundos)"
+
+msgid "Time to wait in the channel for EPG download (secs)"
+msgstr "Tiempo a esperar en el canal para la descarga de EPG (segundos)"
+
+msgid "Titles"
+msgstr "Titulos"
+
+msgid "View last Log"
+msgstr "Ver último log"
+
+msgid "Wait..."
+msgstr "Espere..."
+
+msgid "closed"
+msgstr "cerrado"
+
+msgid "not found"
+msgstr "no existe"
+
+msgid "sec"
+msgstr "seg"
+
+msgid "seconds"
+msgstr "segundos"
+

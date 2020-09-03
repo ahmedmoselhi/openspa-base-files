@@ -1,0 +1,7 @@
+Author: mpiero, openSPA team (openspa.info)
+
+Based on Plugin of Nabil Hanna, AliAbdul, and recoded by mpiero
+
+This plugin is NOT free software. It is open source, you are allowed to
+modify it (if you keep the license), but it may not be commercially
+distributed other than under the conditions noted above.

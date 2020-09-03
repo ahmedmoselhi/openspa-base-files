@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xml>		
+	<homemenu>
+		<content>
+			<texto>System</texto>
+			<ayuda>Show the system options,configure, restart options, main menu...</ayuda>
+			<visible>1</visible>
+			<accion>-22</accion>
+			<submenu>Information;Plugins;Receiver Setup;Standby / Restart</submenu>
+			<submenuyuda>Advanced information about your receiver;List of Plugins;Configure your Receiver;Restart, reboot, standby, Sleep Timer...</submenuyuda>
+			<submenuacciones>10;80;9;81</submenuacciones>						
+			<codigo></codigo>
+		</content>		
+		<content>
+			<texto>Tv Options</texto>
+			<ayuda>Show tv Options, radio mode, audio, subtitles, records...</ayuda>
+			<visible>1</visible>
+			<accion>-1</accion>
+			<submenu>Radio Mode;Audio/Subtitles;Teletext;Scaling modes;Recordings;Record;Programs Guide</submenu>
+			<submenuyuda>Toggle to radio mode;Select Audio track and Subtitles;Show teletext screen;Change aspect ratio settings;Timer list;Show menu for record;Show Graphical EPG</submenuyuda>
+			<submenuacciones>7;90;88;91;92;93;94</submenuacciones>		
+			<codigo></codigo>
+		</content>
+		<content>
+			<texto>spaPANEL</texto>
+			<ayuda>Downloads, backups,
+device manager,...</ayuda>
+			<visible>1</visible>
+			<accion>-20</accion>
+			<submenu>Downloads;Install/Uninstall openSPA Plugins;Activate/Deactivate Plugins;Backup/restore;openSPA CAMD Manager;Explorer</submenu>
+			<submenuyuda>Updates, Plugins, skins,...;Install or Uninstall exclusive openSPA Plugins;Activate or deactivate installed Extensions and Plugins;openSPA Backup/restore utility;Manage cams emulation;Filebrowser utility</submenuyuda>
+			<submenuacciones>11;38;37;13;33;5</submenuacciones>
+			<codigo></codigo>
+		</content>
+		<content>
+			<texto>Movies</texto>
+			<ayuda>View recorded movies,
+divx, videos...</ayuda>
+			<visible>1</visible>
+			<accion>3</accion>
+			<codigo></codigo>
+		</content>
+		
+		<content>
+			<texto>MediaCenter</texto>
+			<ayuda>View photos, play audio
+and video files...</ayuda>
+			<visible>1</visible>
+			<accion>-4</accion>
+			<submenu>My Music;My Pictures;My Videos</submenu>
+			<submenuyuda>Audio files: mp3, wav, ogg, m3u, ...;Image files: jpg, png, gif, bmp, ...;Multimedia files: avi, mpg, mkv, ts, ...</submenuyuda>
+			<submenuacciones>71;72;70</submenuacciones>			
+			<codigo></codigo>
+		</content>
+		<content>
+			<texto>Kodi</texto>
+			<ayuda>View photos, play audio
+and video files...</ayuda>
+			<visible>1</visible>
+			<accion>44</accion>
+			<codigo></codigo>
+		</content>		
+		<content>
+			<texto>Help</texto>
+			<ayuda>Remote control help
+and FAQs</ayuda>
+			<visible>1</visible>
+			<accion>-8</accion>
+			<submenu>FAQs;Remote control Help</submenu>
+			<submenuyuda>Common questions;Remote control help</submenuyuda>
+			<submenuacciones>8;61</submenuacciones>			
+			<codigo></codigo>
+		</content>
+		<content>
+			<texto>Customize</texto>
+			<ayuda>Options and Receiver setup</ayuda>
+			<visible>1</visible>
+			<accion>-9</accion>
+			<submenu>Customize Home Menu;EPG download config;Device Manager;openSPA Options;Remapping keys;Receiver Setup</submenu>
+			<submenuyuda>Options for configure the Home Menu;Config for EPG download MediaHighway;Manage harddisk devices;Setup options, password,...;Customize the buttons on the remote;Configure your Receiver</submenuyuda>
+			<submenuacciones>42;50;34;40;41;9</submenuacciones>			
+			<codigo></codigo>
+		</content>
+		<content>
+			<texto>AddOns</texto>
+			<ayuda>Extensions, RSS, InfoMeteo, Youtube, TvWeb</ayuda>
+			<visible>1</visible>
+			<accion>-13</accion>
+			<submenu>Extensions;RSS;InfoMeteo;Youtube;TvWeb</submenu>
+			<submenuyuda>Extensions menu;RSS openSPA Reader;openSPA Weather Information;Youtube player;View online Tv</submenuyuda>
+			<submenuacciones>6;12;14;2;15</submenuacciones>
+			<codigo></codigo>
+		</content>		
+	</homemenu>
+</xml>

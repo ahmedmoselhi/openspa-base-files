@@ -1,0 +1,372 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - newChannelSelection\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: www.azboxhd.es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/newChannelSelection\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: CATALONIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/newChannelSelection\n"
+
+msgid "Add record timer"
+msgstr "Afegir gravació programada"
+
+msgid "Add timer"
+msgstr "Gravació"
+
+msgid "Add/Remove timer"
+msgstr "Afegir/esborrar gravació"
+
+msgid "All"
+msgstr "Tots els canals"
+
+msgid "Alternative"
+msgstr "Alternatiu"
+
+msgid "Alternatives"
+msgstr "Alternatius"
+
+msgid "April"
+msgstr "Abril"
+
+msgid "August"
+msgstr "Agost"
+
+msgid "Blue"
+msgstr "Blau"
+
+msgid "Channel Selection"
+msgstr "Selecció de canal"
+
+msgid "Channel Selection mode changed!"
+msgstr ""
+"Mode de selección de canal canviat.\n"
+"La llista actual es tancarà."
+
+msgid "Channel list"
+msgstr "Llista de canals"
+
+msgid "Channel selection options"
+msgstr "Opcions de la selecció de canals"
+
+msgid "Channels"
+msgstr "Canals"
+
+msgid "Channels Mosaic"
+msgstr "Mosaic gràfic de canals"
+
+msgid "December"
+msgstr "Desembre"
+
+msgid "Do you want to delete %s?"
+msgstr "Voleu esborrar l'event %s?"
+
+msgid "EPG Guide"
+msgstr "Guía de programació"
+
+msgid "Edit mode enabled"
+msgstr "Mode d'edició de llistes activat!"
+
+msgid "Epg Search"
+msgstr "Cercar EPG"
+
+msgid "Event"
+msgstr "Event"
+
+msgid "Event Info"
+msgstr "Informació d'event"
+
+msgid "Event exists!!"
+msgstr "¡L'event ja està a la llista de gravacions!"
+
+msgid "Event list"
+msgstr "Llista d'events"
+
+msgid "Events"
+msgstr "Events"
+
+msgid "Exit channel list"
+msgstr "Sortir de la llista de canals"
+
+msgid "Extended list"
+msgstr "Llista ampliada"
+
+msgid "February"
+msgstr "Febrer"
+
+msgid "Friday"
+msgstr "Divendres"
+
+msgid "Go to"
+msgstr "Anar a"
+
+msgid "Go to channel list"
+msgstr "Anar a la llista de canals"
+
+msgid "Go to event list"
+msgstr "Anar a la llista d'events"
+
+msgid "Go to first element"
+msgstr "Anar al principi de la llista"
+
+msgid "Go to last element"
+msgstr "Anar al final de la llista"
+
+msgid "Go to standby mode and exit channel list"
+msgstr "Anar a repòs i sortir de la llista"
+
+msgid "Goto next marker in boutquet list"
+msgstr "Anar al següent marcador als favorits"
+
+msgid "Goto previous marker in boutquet list"
+msgstr "Anar al marcador previ als favorits"
+
+msgid "Green"
+msgstr "Verd"
+
+msgid "Group"
+msgstr "Grup"
+
+msgid "Help"
+msgstr "Ajuda"
+
+msgid "Hide channel/transponder info in title"
+msgstr "Amagar informació de canal/TP en el títol"
+
+msgid "Internet database search"
+msgstr "Cercar informació del títol a Internet"
+
+msgid "Internet info"
+msgstr "Internet info"
+
+msgid "January"
+msgstr "Gener"
+
+msgid "July"
+msgstr "Juliol"
+
+msgid "June"
+msgstr "Juny"
+
+msgid "March"
+msgstr "Març"
+
+msgid "May"
+msgstr "Maig"
+
+msgid "Monday"
+msgstr "Dilluns"
+
+msgid "More options"
+msgstr "Més opcions"
+
+msgid "More options (system default menu)"
+msgstr "Més opcions (menú predeter. del sistema)"
+
+msgid "Mosaic"
+msgstr "Mosaic"
+
+msgid "Mosaic Plugin is disabled when recordings are runnign!"
+msgstr "¡El Mosaic de canals no està disponible mentre s'enregistra!"
+
+msgid "Move|"
+msgstr "Moure|"
+
+msgid "Next mark"
+msgstr "Següent marcador"
+
+msgid "No events available"
+msgstr "No hi ha events disponibles"
+
+msgid "No more search found for"
+msgstr "No s'han trobat més resultats per"
+
+msgid "November"
+msgstr "Novembre"
+
+msgid "October"
+msgstr "Octubre"
+
+msgid "Open Channel Selection again!!"
+msgstr "Torneu a obrir la selecció de canals per veure els canvis!!"
+
+msgid "Options"
+msgstr "Opcions"
+
+msgid "PIP Mode"
+msgstr "Mode PIP"
+
+msgid "Page Down in list"
+msgstr "Baixar pàgina a la llista activa"
+
+msgid "Page Up in list"
+msgstr "Pujar pàgina a la llista activa"
+
+msgid ""
+"Plugin openSPA Mosaic not installed!\n"
+"Go to donwloads section and download it."
+msgstr ""
+"El Plugin openSPA Mosaic de canals no està instal·lat.\n"
+"Obriu la secció de descàrregues per a instal·lar-ho."
+
+msgid "Press [MENU] to disable it."
+msgstr "Premeu [MENU] i seleccioneu per a desactivar-ho."
+
+msgid "Previous mark"
+msgstr "Marcador anterior"
+
+msgid "Quick Zap/Search in epg list"
+msgstr "Zàping ràpid/cercar en la llista d'events"
+
+msgid "Red"
+msgstr "Vermell"
+
+msgid "Remote control Help"
+msgstr "Ajuda del comandament a distància"
+
+msgid "Restart GUI for apply changes?"
+msgstr "Reiniciar GUI per tal d'aplicar els canvis?"
+
+msgid "Saturday"
+msgstr "Dissabte"
+
+msgid "Search in EPG"
+msgstr "Cercar a la EPG"
+
+msgid "Search movie info in intertnet imdb database"
+msgstr "Cercar informació de la pel·lícula a internet"
+
+msgid "Select option"
+msgstr "Seleccioneu una opció"
+
+msgid "Select option to go in "
+msgstr "Seleccioneu una opció per moure's per la llista de "
+
+msgid "September"
+msgstr "Setembre"
+
+msgid "Show"
+msgstr "Mostrar"
+
+msgid "Show Favorites list"
+msgstr "Mostrar la llista de Favorits"
+
+msgid "Show Goto menu for quick search"
+msgstr "Menú 'Anar a...' per desplaçament ràpid"
+
+msgid "Show Satellites list"
+msgstr "Mostrar la llista de satèl·lits"
+
+msgid "Show advanced EPG Guide"
+msgstr "Mostrar la Guia de programació avançada"
+
+msgid "Show alternative channels"
+msgstr "Mostrar canals alternatius"
+
+msgid "Show channel/transponder info in title"
+msgstr "Mostrar informació de canal/TP en el títol"
+
+msgid "Show event list for selected channel"
+msgstr "Mostrar la llista d'events del canal actiu"
+
+msgid "Show event view screen information"
+msgstr "Mostrar la pantalla d'informació d'event"
+
+msgid "Show menu with more options"
+msgstr "Mostrar menú amb més opcions"
+
+msgid "Show options menu"
+msgstr "Mostrar menú d'opcions"
+
+msgid "Show selected channel in PiP window"
+msgstr "Mostrar canal actiu a la finestra PiP"
+
+msgid "Show selected event info"
+msgstr "Mostrar informació de l'event seleccionat"
+
+msgid "Show transponder/channel information"
+msgstr "Mostrar informació del transponedor/canal"
+
+msgid "Single EPG"
+msgstr "EPG senzilla"
+
+msgid "Single EPG for"
+msgstr "EPG senzilla de"
+
+msgid "Standard Channel Selection"
+msgstr "Selecció de canals estàndard"
+
+msgid "Sunday"
+msgstr "Diumenge"
+
+msgid "Switch to"
+msgstr "Canviar a"
+
+msgid "Switch to channel list/event list"
+msgstr "Alternar entre llista de canals i events"
+
+msgid "Thursday"
+msgstr "Dijous"
+
+msgid "Today"
+msgstr "Avui"
+
+msgid "Tomorrow"
+msgstr "Demà"
+
+msgid "Translucent Mode"
+msgstr "Mode semitransparent"
+
+msgid "Transponder Information"
+msgstr "Informació del transponedor"
+
+msgid "Tuesday"
+msgstr "Dimarts"
+
+msgid "Updating event list..."
+msgstr "Actualitzant la llista d'events..."
+
+msgid "Wednesday"
+msgstr "Dimecres"
+
+msgid "Yellow"
+msgstr "Groc"
+
+msgid "Zap"
+msgstr "Zàping"
+
+msgid "Zap and Exit channel list"
+msgstr "Canviar de canal (zàping) i sortir"
+
+msgid "Zap and close"
+msgstr "Anar al canal i tancar"
+
+msgid "[move mode]"
+msgstr "Moure|"
+
+msgid "add service to"
+msgstr "Afegir canal a la llista..."
+
+msgid "enable move mode"
+msgstr "Activar mode moviment (Ordenar canals)"
+
+msgid "of"
+msgstr "de"
+
+msgid "play as picture in picture"
+msgstr "Veure canal en una finestra PIP"
+
+msgid "play in mainwindow"
+msgstr "Veure canal a la pantalla principal"
+
+msgid "remove entry"
+msgstr "Eliminar entrada"
+

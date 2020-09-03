@@ -1,0 +1,29 @@
+  <!-- info meteo -->
+  <widget source="session.CurrentService" render="Label" position="1109,116" size="86,30" font="Regular; 24" halign="center" foregroundColor="background" backgroundColor="colorJR4" transparent="1" noWrap="1" zPosition="4">
+    <convert type="wheaterSpz">Temperatura</convert>
+  </widget>
+  <widget source="session.CurrentService" render="spzWf" position="1118,45" size="74,74" transparent="1" alphatest="blend" zPosition="3">
+    <convert type="wheaterSpz">IconoHoy</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="1140,18" size="101,20" font="Regular; 15" halign="right" foregroundColor="background" backgroundColor="frgr" transparent="1" zPosition="3">
+    <convert type="wheaterSpz">TextoHoy</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="899,45" size="183,20" font="Regular; 18" halign="left" backgroundColor="colorJR4" transparent="1" zPosition="23" noWrap="1" foregroundColor="background">
+    <convert type="ClockToText">Format: %a, %d-%b-%Y</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="897,68" size="106,51" font="Regular5; 30" valign="center" halign="center" backgroundColor="colorJR4" transparent="1" foregroundColor="background" zPosition="1">
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="918,16" size="162,20" font="Regular; 17" halign="left" foregroundColor="background" backgroundColor="frgr" transparent="1" zPosition="2">
+    <convert type="wheaterSpz">Lugar</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="1069,154" size="169,33" font="Regular; 14" halign="center" foregroundColor="background" backgroundColor="colorJR4" transparent="1" zPosition="1">
+    <convert type="wheaterSpz">Ahora</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="901,124" size="164,71" font="Regular; 16" halign="left" foregroundColor="background" backgroundColor="colorJR4" transparent="1" zPosition="1">
+    <convert type="wheaterSpz">TextoHoyExt</convert>
+  </widget>
+  <eLabel name="" position="891,14" size="360,190" backgroundColor="colorJR4" transparent="0" />
+  <eLabel name="" position="891,14" size="360,26" zPosition="1" />
+  <eLabel name="" position="1135,14" size="2,26" zPosition="2" backgroundColor="background" />
+</screen>

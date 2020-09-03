@@ -1,0 +1,805 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - MyTube\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-15 18:36+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: morser\n"
+"Language-Team: www.azboxhd.es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/MyTube\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_ES\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/MyTube\n"
+
+#: MyTubeSearch.py:201
+msgid " Results"
+msgstr " Resultados"
+
+#: plugin.py:1148 plugin.py:1386
+msgid "Added: "
+msgstr "Añadido: "
+
+#: plugin.py:78 plugin.py:98
+msgid "All"
+msgstr "Todos"
+
+#: plugin.py:66
+msgid "All Time"
+msgstr "Cualquier fecha"
+
+#: plugin.py:493
+msgid "An error occured."
+msgstr "Ha ocurrido un Error."
+
+#: plugin.py:126
+msgid "Ascending"
+msgstr "Ascendente"
+
+#: MyTubeSearch.py:326
+msgid "Ask to load new entries"
+msgstr "Cargar nuevas entradas"
+
+#: plugin.py:149 plugin.py:152
+msgid "Ask user"
+msgstr "Preguntar al usuario"
+
+#: plugin.py:99 plugin.py:106
+msgid "Australia"
+msgstr "Australia"
+
+#: plugin.py:1383
+msgid "Author: "
+msgstr "Autor: "
+
+#: plugin.py:80
+msgid "Autos & Vehicles"
+msgstr "Coches y Vehículos"
+
+#: plugin.py:100
+msgid "Brazil"
+msgstr "Brazil"
+
+#: plugin.py:101
+msgid "Canada"
+msgstr "Canada"
+
+#: MyTubeSearch.py:347
+msgid "Choose target folder"
+msgstr "Elige carpeta de destino"
+
+#: MyTubeSearch.py:325
+msgid "Clear history on Exit:"
+msgstr "Borrar histórico al salir:"
+
+#: MyTubeSearch.py:285 MyTubeSearch.py:451 plugin.py:293 plugin.py:1325
+#: plugin.py:1511
+msgid "Close"
+msgstr "Cerrar"
+
+#: plugin.py:87
+msgid "Comedy"
+msgstr "Humor"
+
+#: plugin.py:102
+msgid "Czech Republic"
+msgstr "Czech Republic"
+
+#: plugin.py:127
+msgid "Descending"
+msgstr "Descendente"
+
+#: MyTubeSearch.py:306
+msgid "Display search results by:"
+msgstr "Visualizar resultados por:"
+
+#: plugin.py:769
+msgid "Do you want to see more entries?"
+msgstr "Quieres ver más entradas?"
+
+#: plugin.py:547
+msgid "Download Video"
+msgstr "Descargar vídeo"
+
+#: MyTubeSearch.py:322
+msgid "Download location"
+msgstr "Ruta de descarga"
+
+#: plugin.py:1354
+msgid "Downloading screenshots. Please wait..."
+msgstr "Descargando imágenes. Por favor espere..."
+
+#: plugin.py:1148 plugin.py:1380
+msgid "Duration: "
+msgstr "Duración: "
+
+#: plugin.py:91
+msgid "Education"
+msgstr "Educación"
+
+#: plugin.py:590
+msgid "Enter your search term(s)"
+msgstr "Introduzca termino(s) de búsqueda"
+
+#: plugin.py:90
+msgid "Entertainment"
+msgstr "Entretenimiento"
+
+#: plugin.py:430 plugin.py:489
+msgid "Fetching feed entries"
+msgstr "Obteniendo entradas"
+
+#: plugin.py:491
+msgid "Fetching search entries"
+msgstr "Obteniendo entradas de búsqueda"
+
+#: plugin.py:79
+msgid "Film & Animation"
+msgstr "Películas y Animación"
+
+#: plugin.py:103
+msgid "France"
+msgstr "France"
+
+#: plugin.py:86
+msgid "Gaming"
+msgstr "Juegos"
+
+#: plugin.py:411 plugin.py:435 plugin.py:477
+msgid "Genuine Dreambox validation failed!"
+msgstr "Genuine Dreambox validation failed!"
+
+#: plugin.py:104
+msgid "Germany"
+msgstr "Germany"
+
+#: plugin.py:105
+msgid "Great Britain"
+msgstr "Great Britain"
+
+#: plugin.py:135 plugin.py:805
+msgid "HD videos"
+msgstr "Vídeos HD"
+
+#: plugin.py:1529
+msgid "Help"
+msgstr "Ayuda"
+
+#: plugin.py:295
+msgid "History"
+msgstr "Historico"
+
+#: plugin.py:107
+msgid "Holland"
+msgstr "Holland"
+
+#: plugin.py:108
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: plugin.py:92
+msgid "Howto & Style"
+msgstr "Estilo"
+
+#: plugin.py:109
+msgid "India"
+msgstr "India"
+
+#: plugin.py:110
+msgid "Ireland"
+msgstr "Ireland"
+
+#: plugin.py:111
+msgid "Israel"
+msgstr "Israel"
+
+#: plugin.py:112
+msgid "Italy"
+msgstr "Italy"
+
+#: plugin.py:113
+msgid "Japan"
+msgstr "Japan"
+
+#: MyTubeSearch.py:310
+msgid "Load feed on startup:"
+msgstr "Cargar entradas al iniciar:"
+
+#: plugin.py:114
+msgid "Mexico"
+msgstr "Mexico"
+
+#: plugin.py:977
+msgid "More video entries."
+msgstr "Más entradas de vídeo."
+
+#: plugin.py:139 plugin.py:812
+msgid "Most discussed"
+msgstr "Más discutidos"
+
+#: plugin.py:141 plugin.py:813
+msgid "Most linked"
+msgstr "Más enlazados"
+
+#: plugin.py:144 plugin.py:810
+msgid "Most popular"
+msgstr "Más populares"
+
+#: plugin.py:143 plugin.py:811
+msgid "Most recent"
+msgstr "Más recientes"
+
+#: plugin.py:142 plugin.py:815
+msgid "Most responded"
+msgstr "Más respondidos"
+
+#: plugin.py:145 plugin.py:816
+msgid "Most shared"
+msgstr "Más compartidos"
+
+#: plugin.py:136 plugin.py:809
+msgid "Most viewed"
+msgstr "Más vistos"
+
+#: plugin.py:81
+msgid "Music"
+msgstr "Música"
+
+#: plugin.py:1852
+msgid "My TubePlayer"
+msgstr "My TubePlayer"
+
+#: plugin.py:533 plugin.py:539
+msgid "MyTube Settings"
+msgstr "Configuración MyTubePlayer"
+
+#: plugin.py:447
+msgid "MyTubePlayer"
+msgstr "MyTubePlayer"
+
+#: plugin.py:512 plugin.py:514 plugin.py:521
+msgid "MyTubePlayer Help"
+msgstr "Ayuda MyTubePlayer"
+
+#: MyTubeSearch.py:464 MyTubeSearch.py:480
+msgid "MyTubePlayer active video downloads"
+msgstr "Descargas activas de MyTubePlayer"
+
+#: MyTubeSearch.py:299 MyTubeSearch.py:302
+msgid "MyTubePlayer settings"
+msgstr "Configuración MyTubePlayer"
+
+#: plugin.py:1395
+msgid "MyTubeVideoInfoScreen"
+msgstr "MyTubeVideoInfoScreen"
+
+#: plugin.py:1538
+msgid "MyTubeVideohelpScreen"
+msgstr "MyTubeVideohelpScreen"
+
+#: plugin.py:115
+msgid "New Zealand"
+msgstr "New Zealand"
+
+#: plugin.py:89
+msgid "News & Politic"
+msgstr "Noticias y Política"
+
+#: plugin.py:74 plugin.py:629 plugin.py:635
+msgid "No"
+msgstr "No"
+
+#: plugin.py:1798
+msgid "No playable video found! Stop playing this movie?"
+msgstr ""
+"No se ha encontrado ningún vídeo reproducible! Detener la reproducción?"
+
+#: plugin.py:496
+msgid "No videos to display"
+msgstr "No hay vídeos para mostrar"
+
+#: plugin.py:1791
+msgid "No, but play video again"
+msgstr "No, pero ver el vídeo de nuevo"
+
+#: plugin.py:630
+msgid "No, but switch to video entries."
+msgstr "No, pero ir a entradas de vídeo."
+
+#: plugin.py:636
+msgid "No, but switch to video search."
+msgstr "No, pero realizar otra búsqueda"
+
+#: plugin.py:93
+msgid "Nonprofits & Activism"
+msgstr "ONGs y Activimismo"
+
+#: plugin.py:498
+msgid "Not fetching feed entries"
+msgstr "No hay entradas"
+
+#: plugin.py:88
+msgid "People & Blogs"
+msgstr "Gente y Blogs"
+
+#: plugin.py:82
+msgid "Pets & Animals"
+msgstr "Mascotas y Animales"
+
+#: plugin.py:1853
+msgid "Play YouTube movies"
+msgstr "Reproducir vídeos de YouTube"
+
+#: plugin.py:149
+msgid "Play next video"
+msgstr "Ver siguiente vídeo"
+
+#: plugin.py:149
+msgid "Play video again"
+msgstr "Ver vídeo de nuevo"
+
+#: plugin.py:498
+msgid "Please enter your search term."
+msgstr "Por favor introduzca su término de búsqueda"
+
+#: plugin.py:496
+msgid "Please select a standard feed or try searching for videos."
+msgstr "Por favor seleccione un vídeo o intente una búsqueda"
+
+#: plugin.py:116
+msgid "Poland"
+msgstr "Poland"
+
+#: plugin.py:61
+msgid "Published"
+msgstr "Publicado"
+
+#: plugin.py:62
+msgid "Rating"
+msgstr "Valoración"
+
+#: plugin.py:1148
+msgid "Ratings: "
+msgstr "Valoración: "
+
+#: plugin.py:638
+msgid "Really quit MyTube Player?"
+msgstr "Realmente quieres salir de MyTubePlayer"
+
+#: plugin.py:138 plugin.py:814
+msgid "Recently featured"
+msgstr "Destacados"
+
+#: plugin.py:985
+msgid "Related video entries."
+msgstr "Vídeos relaccionados."
+
+#: plugin.py:59
+msgid "Relevance"
+msgstr "Relevancia"
+
+#: plugin.py:993
+msgid "Response video entries."
+msgstr "Vídeos de respuesta."
+
+#: plugin.py:149 plugin.py:152
+msgid "Return to movie list"
+msgstr "Volver a la lista de películas"
+
+#: plugin.py:1807
+msgid "Return to movie list?"
+msgstr "Volver a la lista de películas?"
+
+#: plugin.py:117
+msgid "Russia"
+msgstr "Russia"
+
+#: MyTubeSearch.py:286
+msgid "Save"
+msgstr "Guardar"
+
+#: plugin.py:94
+msgid "Science & Technology"
+msgstr "Ciencia y Tecnología"
+
+#: plugin.py:451
+msgid "Search Term(s)"
+msgstr "Buscar:"
+
+#: MyTubeSearch.py:308
+msgid "Search category:"
+msgstr "Categoría de búsqueda:"
+
+#: MyTubeSearch.py:309
+msgid "Search region:"
+msgstr "Región de búsqueda:"
+
+#: MyTubeSearch.py:307
+msgid "Search restricted content:"
+msgstr "Buscar contenido restringido:"
+
+#: plugin.py:819
+msgid "Select new feed to view."
+msgstr "Seleccione una nueva entrada para ver."
+
+#: plugin.py:536 plugin.py:552
+msgid "Select your choice."
+msgstr "Seleccione una opción."
+
+#: plugin.py:85
+msgid "Short Movies"
+msgstr "Cortos de cine"
+
+#: plugin.py:732
+msgid "Sorry, video is not available!"
+msgstr "Lo siento, el vídeo no esta disponible!"
+
+#: plugin.py:118
+msgid "South Korea"
+msgstr "South Korea"
+
+#: plugin.py:119
+msgid "Spain"
+msgstr "España"
+
+#: plugin.py:83
+msgid "Sports"
+msgstr "Deportes"
+
+#: MyTubeSearch.py:313
+msgid "Start with following feed:"
+msgstr "Iniciar con las entradas siguientes:"
+
+#: plugin.py:294
+msgid "Std. Feeds"
+msgstr "Categorías"
+
+#: plugin.py:1796
+msgid "Stop playing this movie?"
+msgstr "Detener la reproducción de este vídeo?"
+
+#: plugin.py:120
+msgid "Sweden"
+msgstr "Sweden"
+
+#: plugin.py:1392
+msgid "Tags: "
+msgstr "Etiquetas: "
+
+#: plugin.py:121
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: plugin.py:493
+msgid "There was an error getting the feed entries. Please try again."
+msgstr ""
+"Se ha producido un error al obtener las entradas. Por favor, inténtelo de "
+"nuevo."
+
+#: plugin.py:67
+msgid "This Month"
+msgstr "Este Mes"
+
+#: plugin.py:68
+msgid "This Week"
+msgstr "Esta semana"
+
+#: plugin.py:1533
+msgid "This is the help screen. Feed me with something to display."
+msgstr "Esta es la pantalla de ayuda. "
+
+#: plugin.py:69
+msgid "Today"
+msgstr "Hoy"
+
+#: plugin.py:140 plugin.py:808
+msgid "Top favorites"
+msgstr "Top favoritos"
+
+#: plugin.py:137 plugin.py:807
+msgid "Top rated"
+msgstr "Mejor valorados"
+
+#: plugin.py:84
+msgid "Travel & Events"
+msgstr "Viajes y eventos"
+
+#: plugin.py:146 plugin.py:817
+msgid "Trending videos"
+msgstr "Vídeos Populares (Trending videos)"
+
+#: plugin.py:430 plugin.py:489
+msgid "Trying to download the Youtube feed entries. Please wait..."
+msgstr "Intentando descargar las entradas en Youtube. Por favor espere..."
+
+#: plugin.py:491
+msgid "Trying to download the Youtube search results. Please wait..."
+msgstr ""
+"Intentando descargar los resultados de búqueda en Youtube. Por favor "
+"espere..."
+
+#: plugin.py:122
+msgid "United States"
+msgstr "United States"
+
+#: plugin.py:1001
+msgid "User video entries."
+msgstr "Entradas de vídeo del usuario."
+
+#: plugin.py:411 plugin.py:435 plugin.py:477
+msgid ""
+"Verify your Dreambox authenticity by running the genuine dreambox plugin!"
+msgstr "Verifica la autencidad de tu receptor"
+
+#: plugin.py:1607
+msgid "Video YouTube..."
+msgstr "Vídeo de TouTube"
+
+#: MyTubeSearch.py:315
+msgid "Videobrowser exit behavior:"
+msgstr "Comportamiento del VideoBrowser al salir:"
+
+#: MyTubeSearch.py:314
+msgid "Videoplayer stop/exit behavior:"
+msgstr "Comportamiento del reproductor al parar/salir:"
+
+#: plugin.py:60
+msgid "View Count"
+msgstr "Número de visitas"
+
+#: plugin.py:542
+msgid "View Users Video"
+msgstr "Ver vídeos de usuarios"
+
+#: plugin.py:548
+msgid "View active downloads"
+msgstr "Ver descargar activas"
+
+#: plugin.py:541
+msgid "View related videos"
+msgstr "Ver vídeos relaccionados"
+
+#: plugin.py:543
+msgid "View response videos"
+msgstr "Ver vídeos de repuesta"
+
+#: plugin.py:1148 plugin.py:1389
+msgid "Views: "
+msgstr "Visitas: "
+
+#: plugin.py:284
+msgid ""
+"Welcome to the MyTube Youtube Player.\n"
+"\n"
+"Use the Bouqet+ button to navigate to the search field and the Bouqet- to "
+"navigate to the video entries.\n"
+"\n"
+"To play a movie just press OK on your remote control.\n"
+"\n"
+"Press info to see the movie description.\n"
+"\n"
+"Press the Menu button for additional options.\n"
+"\n"
+"The Help button shows this help again."
+msgstr ""
+"Bienvenido a MyTube Youtube Player.\n"
+"\n"
+"Use CH+ para ir a la zona de búsqueda, y CH- para ir a las entradas de "
+"vídeo.\n"
+"\n"
+"Para ver un vídeo pulse OK.\n"
+"\n"
+"Pulse INFO para ver información del vídeo.\n"
+"\n"
+"Pulse MENU para ver más opciones.\n"
+"\n"
+"."
+
+#: plugin.py:283
+msgid ""
+"Welcome to the MyTube Youtube Player.\n"
+"\n"
+"While entering your search term(s) you will get suggestions displayed "
+"matching your search term.\n"
+"\n"
+"To select a suggestion press DOWN on your remote, select the desired result "
+"and press OK on your remote to start the search.\n"
+"\n"
+"Press exit to get back to the input field."
+msgstr ""
+"Bienvenido a MyTube Youtube Player.\n"
+"\n"
+"Al introducir los terminos de búsqueda puede ver sugerencias al respecto.\n"
+"\n"
+"Para seleccionar una sugerencia pulse tecla abajo, seleccione el termino "
+"deseado y pulse OK.\n"
+"\n"
+"Pulse EXIT para volver a la caja de texto."
+
+#: plugin.py:73 plugin.py:628 plugin.py:634 plugin.py:1790
+msgid "Yes"
+msgstr "Sí"
+
+#: plugin.py:1792
+msgid "Yes, but play next video"
+msgstr "Sí, pero reproducir el siguiente vídeo"
+
+#: plugin.py:1793
+msgid "Yes, but play previous video"
+msgstr "Sí, pero reproducir el vídeo anterior"
+
+msgid "Exit "
+msgstr "Salir"
+
+msgid "My Subscriptions"
+msgstr "Mis Suscripciones"
+
+msgid "My Favorites"
+msgstr "Mis Favoritos"
+
+msgid "My History"
+msgstr "Mi Historial"
+
+msgid "My Watch Later"
+msgstr "Mis Ver más Tarde"
+
+msgid "My Recommendations"
+msgstr "Mis Recomendaciones"
+
+msgid "My Uploads"
+msgstr "Mis Videos Subidos"
+
+msgid "Subscribe to user"
+msgstr "Suscribirme a este usuario"
+
+msgid "Add to favorites"
+msgstr "Añadir a favoritos"
+
+msgid "Results:"
+msgstr "Resultados:"
+
+msgid "Page:"
+msgstr "Página:"
+
+msgid "Search results"
+msgstr "Resultados de Búsqueda"
+
+msgid "Login OK"
+msgstr "Acceso OK"
+
+msgid "Hello"
+msgstr "Hola"
+
+msgid "Login failed"
+msgstr "Fallo de Acceso"
+
+msgid "Youtube Username (reopen plugin on change):"
+msgstr "Usuario de Youtube (reabrir plugin si se cambia):"
+
+msgid "Youtube Password (reopen plugin on change):"
+msgstr "Password de Youtube (reabrir plugin si se cambia):"
+
+msgid "Auto paginate on last entry:"
+msgstr "Auto paginar en la última entrada:"
+
+msgid "Reset tv-screen after playback:"
+msgstr "Resetear la ventana de tv despúes del video:"
+
+msgid "Subscriptors"
+msgstr "Suscriptores"
+
+msgid "My videos uploaded viewed"
+msgstr "Mis videos subidos vistos"
+
+msgid "Videos watch"
+msgstr "Videos vistos"
+
+msgid "Videos uploaded"
+msgstr "Videos subidos"
+
+msgid "New subscription added"
+msgstr "Nueva suscripción añadida"
+
+msgid "Unknown error"
+msgstr "Error desconocido"
+
+msgid "Video successfully added to favorites"
+msgstr "Video correctamente añadido a favoritos"
+
+msgid "View user videos"
+msgstr "Ver videos del usuario"
+
+msgid "Allow viewing adult videos:"
+msgstr "Permitir ver videos de adultos:"
+
+msgid "Sorry, Video has age restriction!"
+msgstr "Lo siento, el video tiene restriccion por edad!"
+
+msgid "Video EOF behavior:"
+msgstr "Comportamiento al finalizar el vídeo:"
+
+msgid "by"
+msgstr "de"
+
+msgid "Login at start:"
+msgstr "Login al iniciar:"
+
+msgid "Channel"
+msgstr "Canal"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Remove Subscription"
+msgstr "Eliminar Subscripcion"
+
+msgid "Remove From Favorites"
+msgstr "Eliminar de Favoritos"
+
+msgid ""
+"Go to %s\n"
+"And enter the code %s"
+msgstr ""
+"Accede a %s\n"
+"e introduce el código %s"
+
+msgid "Subscription Succesfully"
+msgstr "Subscripción realizada"
+
+msgid "Subscription error"
+msgstr "Error al realizar la Subscripción"
+
+msgid "Remove Subscription Succesfully"
+msgstr "Subscripción eliminada correctamente"
+
+msgid "Error: No remove Subscription"
+msgstr "Error: No se ha eliminado la Subscripción"
+
+msgid "Video append to favorites"
+msgstr "Video añadido a favoritos"
+
+msgid "Error: No video append"
+msgstr "Error: Video no añadido"
+
+msgid "Video remove from favorites"
+msgstr "Video eliminado de favoritos"
+
+msgid "Error: No remove video from favorites"
+msgstr "Error: No se ha eliminado el video de favoritos"
+
+msgid "Search for videos:"
+msgstr "Buscar videos:"
+
+msgid "Search for channels:"
+msgstr "Buscar canales:"
+
+msgid "My videos likes"
+msgstr "Videos que me gustan"
+
+msgid "Like this video"
+msgstr "Este video me gusta"
+
+msgid "Dislike this video"
+msgstr "Este video no me gusta"
+
+#~ msgid "Search"
+#~ msgstr "Buscar"
+
+#~ msgid "Videos"
+#~ msgstr "Vídeos"
+
+#~ msgid "Options"
+#~ msgstr "Opciones"
+
+#~ msgid "Information"
+#~ msgstr "Información"
+
+#~ msgid "xxx3"
+#~ msgstr "yyy"
+
+#~ msgid "xxx4"
+#~ msgstr "yyy"

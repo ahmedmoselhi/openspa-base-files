@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - seletquiv\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: openspa.info\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/mhw2Timer\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/mhw2Timer\n"
+
+msgid "*** CHANNEL NOT FOUND ***"
+msgstr "*** EL CANAL NO EXISTE ***"
+
+msgid "Add entry"
+msgstr "Añadir"
+
+msgid "Added"
+msgstr "Añadido"
+
+msgid "By choosing NO all changes will be lost!"
+msgstr "Si eliges NO todos los cambios realizados se perderán!!"
+
+msgid "Channel equivalence mhw2 by spaZeTeam (azboxhd.es)"
+msgstr "Equivalencia de canales mhw2 by OpenSPA (openspa.info)"
+
+msgid "Deleted"
+msgstr "Borrado"
+
+msgid "Edit equivalence"
+msgstr "Editar equivalencia"
+
+msgid "Entry"
+msgstr "Elemento"
+
+msgid "Equivalence changed"
+msgstr "Equivalencia cambiada"
+
+msgid "Error by writing equiv file !!!"
+msgstr "Error al escribir el archivo .equiv!!!"
+
+msgid "Error reading"
+msgstr "Error leyendo"
+
+msgid "Modified"
+msgstr "Modificada"
+
+msgid "New entry"
+msgstr "Nuevo elemento"
+
+msgid "Save changes to equiv file?"
+msgstr "Guardar cambios en el archivo de equivalencias?"
+
+msgid "Save changes to this equivalence?"
+msgstr "Guardar cambios para esta equivalencia?"
+
+msgid "Select equiv channels"
+msgstr "Equivalencias de canales"
+
+msgid "Select source channel"
+msgstr "Seleccione canal ORIGEN"
+
+msgid "Select target channel"
+msgstr "Seleccione canal DESTINO"
+
+msgid "Source channel"
+msgstr "Canal origen"
+
+msgid "Target channel"
+msgstr "Canal destino"
+
+msgid "Zap to source"
+msgstr "Ver origen"
+
+msgid "Zap to target"
+msgstr "Ver destino"
+
+msgid "channels"
+msgstr "canales"
+
+msgid "equivalences"
+msgstr "equivalencias"
+
+msgid "source"
+msgstr "origen"
+
+msgid "source channels"
+msgstr "canales origen"
+
+msgid "xxx"
+msgstr "yyy"
+

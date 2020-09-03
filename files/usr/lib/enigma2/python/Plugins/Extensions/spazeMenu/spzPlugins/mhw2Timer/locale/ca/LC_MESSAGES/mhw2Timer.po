@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - TimerScript\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: openspa.info\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/mhw2Timer\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: CATALONIA\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/mhw2Timer\n"
+
+msgid " hours "
+msgstr " hores "
+
+msgid " minutes"
+msgstr " minuts"
+
+msgid "Always"
+msgstr "Sempre"
+
+msgid "Auto Execution time start"
+msgstr "Hora d'inici de la descàrrega"
+
+msgid "Auto execution time end"
+msgstr "Hora final de la descàrrega"
+
+msgid "AutoShutdown"
+msgstr "Autoapagat activat"
+
+msgid "Canceled autopower off"
+msgstr "Autoapagat cancel·lat"
+
+msgid "Channel for EPG Download"
+msgstr "Canal per a la descàrrega d'EPG"
+
+msgid "Channels"
+msgstr "Canals"
+
+msgid "Config EPG:"
+msgstr "Configurar EPG:"
+
+msgid "Config EPG: New | openSPA"
+msgstr "Configurar EPG: Nou | openSPA"
+
+msgid "Creating"
+msgstr "Creant"
+
+msgid "Disable HDMIcec when epg download from standby"
+msgstr "Deshabilitar HDMICec en la descàrrega d'Epg des de repòs"
+
+msgid "Download EPG from"
+msgstr "Descàrrega d'EPG de"
+
+msgid "Download EPG from Digital+"
+msgstr "Descàrrega d'EPG de Digital+"
+
+msgid "Download EPG from MediaHighway"
+msgstr "Descàrrega automàtica d'EPG MediaHighway per openSPA Team"
+
+msgid "Download EPG from MovistarTV"
+msgstr "Descàrrega d'EPG de MovistarTV"
+
+msgid "Download EPG from Remote Channels"
+msgstr "Descàrrega d'EPG de canals remots"
+
+msgid "Download now"
+msgstr "Descarregar"
+
+msgid "Downloading data..."
+msgstr "Descarregant dades..."
+
+msgid "EPG download"
+msgstr "Descàrrega d'EPG"
+
+msgid "EPG download MediaHighway"
+msgstr "Descàrrega d'EPG mhw2"
+
+msgid "EPG download MediaHighway execution is currently not active."
+msgstr "La descàrrega automàtica d'EPG mhw2 no està activada"
+
+msgid "EPG download MediaHighway finished."
+msgstr "Descàrrega automàtica d'EPG acabada."
+
+msgid ""
+"EPG download MediaHighway launching, Continue?\n"
+" Select no to postpone by 30 minutes."
+msgstr ""
+"Descàrrega automàtica d'EPG mhw2 activa, executar-la ara?\n"
+"Seleccioneu NO per endarrerir-la 30 minuts."
+
+msgid "EPG download MediaHighway running. Wait..."
+msgstr "Descàrrega automàtica d'EPG mhw en procés. Espereu..."
+
+msgid "EPG download MediaHighway starting..."
+msgstr "Iniciant la descàrrega automàtica d'EPG..."
+
+msgid "Edit equiv"
+msgstr "Editar equiv."
+
+msgid "Enable Epg MediaHighway autodownload"
+msgstr "Activar l'autodescàrrega d'EPG"
+
+msgid "Go Standby"
+msgstr "Apagant"
+
+msgid "Go to standby now?"
+msgstr "Posar ara en repòs?"
+
+msgid "Go to standby on init"
+msgstr "Posar en repòs en iniciar"
+
+msgid "Info timer"
+msgstr "Informacio de temps"
+
+msgid "Log file. EPG download MediaHighway"
+msgstr "Arxiu de log. d'EPG mwh2"
+
+msgid "MediaHighway 2 download by spaZeTeam"
+msgstr "Descàrrga MediaHighway 2 per openSPA Team"
+
+msgid "Name:"
+msgstr "Nom:"
+
+msgid ""
+"Need restart GUI to apply changes\n"
+" Restart now?"
+msgstr ""
+"Cal reiniciar el GUI per tal d'aplicar els canvios\n"
+"Voleu reiniciar ara?"
+
+msgid "Next timer EPG download execution: "
+msgstr "Temps restant per a la pròxima descàrrega d'EPG: "
+
+msgid "Number of days to download"
+msgstr "Nombre de dies de descàrrega"
+
+msgid "Only after donwload"
+msgstr "Només després de la descàrrega"
+
+msgid "Power off in"
+msgstr "Apagat en"
+
+msgid "Really delete this Entry?"
+msgstr "Eliminar realment aquesta entrada?"
+
+msgid "Restart GUI after execution"
+msgstr "Reiniciar GUI després de la descàrrega"
+
+msgid "Summaries"
+msgstr "Sumaris"
+
+msgid "Time to go to standby (secs)"
+msgstr "Temps d'espera per anar a repòs (segons)"
+
+msgid "Time to wait in the channel for EPG download (secs)"
+msgstr "Temps a esperar en el canal per a la descàrrega de la EPG (segons)"
+
+msgid "Titles"
+msgstr "Títols"
+
+msgid "View last Log"
+msgstr "Veure l'últim log"
+
+msgid "Wait..."
+msgstr "Espereu..."
+
+msgid "closed"
+msgstr "tancat"
+
+msgid "not found"
+msgstr "no existeix"
+
+msgid "sec"
+msgstr "seg"
+
+msgid "seconds"
+msgstr "segons"
+

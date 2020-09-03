@@ -1,0 +1,27 @@
+  <!-- info meteo -->
+  <widget source="session.CurrentService" render="Label" position="1109,116" size="86,30" font="Regular; 24" halign="center" foregroundColor="white" backgroundColor="grey" transparent="1" noWrap="1" zPosition="4">
+    <convert type="wheaterSpz">Temperatura</convert>
+  </widget>
+  <widget source="session.CurrentService" render="spzWf" position="1117,41" size="74,74" transparent="1" alphatest="blend" zPosition="3">
+    <convert type="wheaterSpz">IconoHoy</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="1120,15" size="119,20" font="Regular; 15" halign="right" foregroundColor="white" backgroundColor="colorJR1" transparent="1" zPosition="3">
+    <convert type="wheaterSpz">TextoHoy</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="901,42" size="183,20" font="Regular; 18" halign="left" backgroundColor="grey" transparent="1" zPosition="23" noWrap="1" foregroundColor="white">
+    <convert type="ClockToText">Format: %a, %d-%b-%Y</convert>
+  </widget>
+  <widget source="global.CurrentTime" render="Label" position="899,67" size="106,51" font="Regular5; 30" valign="center" halign="center" backgroundColor="grey" transparent="1" foregroundColor="white" zPosition="1">
+    <convert type="ClockToText">Default</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="895,14" size="162,19" font="Regular; 18" halign="left" foregroundColor="white" backgroundColor="colorJR1" transparent="1" zPosition="1">
+    <convert type="wheaterSpz">Lugar</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="1069,154" size="169,33" font="Regular; 14" halign="center" foregroundColor="white" backgroundColor="grey" transparent="1" zPosition="1">
+    <convert type="wheaterSpz">Ahora</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="898,124" size="164,71" font="Regular; 16" halign="left" foregroundColor="white" backgroundColor="grey" transparent="1" zPosition="1">
+    <convert type="wheaterSpz">TextoHoyExt</convert>
+  </widget>
+  <ePixmap name="" position="885,12" size="360,190" pixmap="openSPA_JRLG/JR/widget3.png" />
+</screen>

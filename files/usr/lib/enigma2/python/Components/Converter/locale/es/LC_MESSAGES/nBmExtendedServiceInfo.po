@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - exinfobmconverter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mpiero <www.azboxhd.es>\n"
+"Language-Team: www.azboxhd.es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /exinfobmconverter\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /exinfobmconverter\n"
+
+msgid "FTA channel"
+msgstr "Canal FTA (no codificado)"
+
+msgid "No CAM"
+msgstr "CAM no activa"
+
+msgid "No info or FTA channel"
+msgstr "Sin información o canal FTA"
+
+msgid "secs."
+msgstr "segs."
+
+msgid "hops"
+msgstr "saltos"
+
+msgid "used"
+msgstr "usado"
+
+msgid "free"
+msgstr "libre"
+
+msgid "Memory"
+msgstr "Memoria"
+
+msgid "RAM Memory"
+msgstr "Memoria RAM"
+
+msgid "Sleep"
+msgstr "En Reposo"
+
+msgid "Inactive"
+msgstr "Inactivo"
+
+msgid "Deep Sleep"
+msgstr "En Reposo Profundo"
+

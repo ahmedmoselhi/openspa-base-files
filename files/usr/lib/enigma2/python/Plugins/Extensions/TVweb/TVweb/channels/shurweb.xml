@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<version>
+	<name>shurweb</name>
+	<tag>6</tag>
+	<date>16/02/2014</date>
+	<changes>Corregido para funcionar con el nuevo dominio</changes>
+</version>

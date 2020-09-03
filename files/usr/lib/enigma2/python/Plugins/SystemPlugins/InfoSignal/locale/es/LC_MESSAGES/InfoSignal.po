@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - infoaz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mpiero <www.azboxhd.es>\n"
+"Language-Team: www.azboxhd.es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/infoaz\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/infoaz\n"
+
+msgid "Quality"
+msgstr "Calidad"
+
+msgid "Signal"
+msgstr "Señal"
+
+msgid "BER"
+msgstr "Error"
+
+msgid "Tunner"
+msgstr "Sintonizador"
+
+msgid "Crypto"
+msgstr "Encript."
+
+msgid "Tunner signal information"
+msgstr "Información de señal"
+
+msgid "Channel"
+msgstr "Canal"
+
+msgid "Provider"
+msgstr "Proveedor"
+
+msgid "Videoformat"
+msgstr "Formato de vídeo"
+
+msgid "Videosize"
+msgstr "Tamaño de vídeo"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Modulation"
+msgstr "Modulación"
+
+msgid "Frequency"
+msgstr "Frecuencia"
+
+msgid "Symbolrate"
+msgstr "Velocidad de símbolos"
+
+msgid "Polarization"
+msgstr "Polarización"
+
+msgid "Inversion"
+msgstr "Inversión"
+
+msgid "FEC inner"
+msgstr "FEC interior"
+
+msgid "Pilot"
+msgstr "Piloto"
+
+msgid "Rolloff"
+msgstr "Atenuación"
+
+msgid "Bandwidth"
+msgstr "Banda"
+
+msgid "Constellation"
+msgstr "Constelación"
+
+msgid "Transmission Mode"
+msgstr "Modo de transmisión"
+
+msgid "Guard Interval"
+msgstr "G. Intervalo"
+
+msgid "Hierarchy Inform."
+msgstr "Jerarquía Inform."
+

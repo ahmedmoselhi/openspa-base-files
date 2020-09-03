@@ -1,0 +1,263 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TvWeb\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-15 11:30+0100\n"
+"PO-Revision-Date: 2015-06-30 23:05+0100\n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: openspa <openspa.info>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SearchPath-0: /home/morser/Azbox/OpenSPA/parches/append_TVweb/usr/"
+"lib/enigma2/python/Plugins/Extensions/TVweb\n"
+
+msgid " Minutes"
+msgstr " Minutos"
+
+msgid "Bookmark"
+msgstr "Añadir a marcador"
+
+msgid "Bookmark added!"
+msgstr "Marcador añadido!"
+
+msgid "Bookmark selected category"
+msgstr "Añadir a marcadores esta categoria"
+
+msgid "Bookmark selected movie"
+msgstr "Añadir a marcadores esta película"
+
+msgid "Bookmarks"
+msgstr "Marcadores"
+
+msgid "Bookmarks from your favorite Movies"
+msgstr "Marcadores de tus pelis favoritas"
+
+msgid "Cache Folder:"
+msgstr "Carpeta de cache:"
+
+msgid "Cached Play"
+msgstr "Ver con cache"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Close"
+msgstr "Cerrar"
+
+msgid "Default Resolution:"
+msgstr "Resolución por defecto:"
+
+msgid "Delete selected bookmark"
+msgstr "Borrar marcador seleccionado"
+
+msgid "Destination: %s"
+msgstr "Destino: %s"
+
+msgid "Direct Play"
+msgstr "Ver video"
+
+msgid "Download Directory:"
+msgstr "Directorio de descargas:"
+
+msgid "Download Images?:"
+msgstr "Descargar imágenes?"
+
+msgid "Download Movie"
+msgstr "Descargar película"
+
+msgid "Enter Search Term:"
+msgstr "Introduce el termino a buscar:"
+
+msgid "Enter pin code"
+msgstr "Introduce el pin"
+
+msgid ""
+"Error downloading file:\n"
+"%s"
+msgstr ""
+"Error descargando archivo:\n"
+"%s"
+
+msgid "File: %s"
+msgstr "Archivo: %s"
+
+msgid "In downloads, Memory free every (min):"
+msgstr "En las descargas, liberar memoria cada (min):"
+
+msgid "MB of "
+msgstr "MB de "
+
+msgid "No"
+msgstr "No"
+
+msgid "No Default Server configured in VLC Settings"
+msgstr "No hay configurado un servidor por defecto en la configuracion de VLC"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Play now"
+msgstr "Viendo ahora"
+
+msgid "Please enter the correct pin code"
+msgstr "Por favor, introduce el pin correcto"
+
+msgid "Progress: "
+msgstr "Progreso: "
+
+msgid "Progress: 100%"
+msgstr "Progreso: 100%"
+
+msgid "Progress: N/A"
+msgstr "Progreso: N/A"
+
+msgid "Save on HDD"
+msgstr "Guardar en HDD"
+
+msgid "Show Adult Content:"
+msgstr "Ver contenido adulto:"
+
+msgid ""
+"Sorry, this Video can not get saved on HDD.\n"
+"Only HTTP, FTP and RTMP streams can get saved on HDD!"
+msgstr ""
+"Lo sentimos, este video no se puede guardar en el HDD.\n"
+"Sólo streams HTTP, FTP y RTMP pueden guardarse"
+
+msgid "Speed: "
+msgstr "Velocidad: "
+
+msgid "Speed: N/A"
+msgstr "Velocidad: N/A"
+
+msgid "Stop playing this movie?"
+msgstr "Parar la pelicula?"
+
+msgid "TVweb Settings"
+msgstr "Configuración de TVweb"
+
+msgid ""
+"TVweb plugin successfully updated!\n"
+"Do you want to restart GUI now?"
+msgstr ""
+"El plugin TVweb ha sido actualizado correctamente!\n"
+"Quieres reiniciar GUi ahora?"
+
+msgid "This STB can't decode %s streams!"
+msgstr "Este equipo no puede decodificar streams %s!"
+
+msgid ""
+"This stream can not get saved on HDD\n"
+"Protocol %s not supported :("
+msgstr ""
+"Este stream no puede guardarse en HDD\n"
+"Protocolo %s no soportado :("
+
+msgid "Thumbnail Caching:"
+msgstr "Cache de imágenes:"
+
+msgid "Time left: "
+msgstr "Restante: "
+
+msgid "Time left: N/A"
+msgstr "Restante: N/A"
+
+msgid ""
+"Unexpected Error:\n"
+"%s"
+msgstr ""
+"Error inesperado:\n"
+"%s"
+
+msgid "VLC Plugin Error"
+msgstr "Erro de plugin VLC"
+
+msgid "VLC Plugin Error: %s"
+msgstr "Error de Plugin VLC: %s"
+
+msgid ""
+"Video Download Failed!\n"
+"\n"
+"Corrupted Download File:\n"
+"%s"
+msgstr ""
+"Falló la descarga!\n"
+"\n"
+"Archivodescargado corrupto:\n"
+"%s"
+
+msgid ""
+"Video Download Failed!\n"
+"\n"
+"Could not read RTMP-Packet:\n"
+"%s"
+msgstr ""
+"Falló la descarga!\n"
+"\n"
+"No se puede leer el paquete RTMP:\n"
+"%s"
+
+msgid ""
+"Video Download Failed!\n"
+"\n"
+"Segmentation fault:\n"
+"%s"
+msgstr ""
+"Falló la descarga!\n"
+"\n"
+"error de segmentación:\n"
+"%s"
+
+msgid ""
+"Video Download Failed!\n"
+"\n"
+"Server returned error:\n"
+"%s"
+msgstr ""
+"Falló la descarga!\n"
+"\n"
+"El servidor devuelve error:\n"
+"%s"
+
+msgid ""
+"Video Download Failed!\n"
+"\n"
+"Unknown Error:\n"
+"%s"
+msgstr ""
+"Falló la descarga!\n"
+"\n"
+"error desconocido:\n"
+"%s"
+
+msgid "View Bookmarks"
+msgstr "Ver Marcadores"
+
+msgid "View Downloads"
+msgstr "Ver descargas"
+
+msgid "Yes"
+msgstr "Si"
+
+msgid ""
+"Your STB can't decode this video stream!\n"
+"%s"
+msgstr ""
+"Tu equipo no puede decodificar este stream de video!\n"
+"%s"
+
+msgid ""
+"Your STB can't decode this video stream!\n"
+"%s\n"
+"Do you want to stream it via VLC Server from your PC?"
+msgstr ""
+"Tu equipo no puede decodificar este stream de video!\n"
+"%s\n"
+"Quieres hacerlo via servidor VLC desde tu PC?"

@@ -1,0 +1,285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Enigma2 szpVirtualKeyboard Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-21 14:23+0100\n"
+"PO-Revision-Date: 2015-09-23 17:38+0100\n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: OpenSPA <openspa.info>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: CATALONIA\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Activate the list of recent texts [REC]"
+msgstr "Activar la llista de textos recents [REC]"
+
+msgid "Adventure"
+msgstr "Aventura"
+
+msgid "All changes will be lost!"
+msgstr "¡Tots els canvis es perdràn!"
+
+msgid "April"
+msgstr "Abril"
+
+msgid "August"
+msgstr "Agost"
+
+msgid "Backspace (delete left char)"
+msgstr "Esborrar cap enrere (Backspace)"
+
+msgid "Backup"
+msgstr "Còpia de seguretat"
+
+msgid "Basketball"
+msgstr "Basket"
+
+msgid "Blue"
+msgstr "Blau"
+
+msgid "Cancel and Close"
+msgstr "Cancel·lar la edició i tancar"
+
+msgid "Change to historic list"
+msgstr "Canviar a la llista de textos recents"
+
+msgid "Change to special characters"
+msgstr "Mostrar caràcters especials"
+
+msgid "Change to upper/lower chars"
+msgstr "Alternar MAJÚSCULES/minúscules"
+
+msgid "Character not allowed"
+msgstr "Caràcter no permès"
+
+msgid "Cinema"
+msgstr "Cine"
+
+msgid "Clear"
+msgstr "Netejar"
+
+msgid "Clear text"
+msgstr "Esborrar tot el text"
+
+msgid "Comedy"
+msgstr "Comèdia"
+
+msgid "Copy text to clipboard"
+msgstr "Copiar el text al portapapers"
+
+msgid "December"
+msgstr "Desembre"
+
+msgid "Decrease text size"
+msgstr "Disminuir la mida del text"
+
+msgid "Del"
+msgstr "Supr."
+
+msgid "Delete"
+msgstr "Esborrar"
+
+msgid "Delete right char of cursor(x)/Use Back/Del(<-) to Del left char"
+msgstr "Esborra a la dta. del cursor(x). [Back/Del] o [<-] esborra cap enrere"
+
+msgid "Delete the entire list"
+msgstr "Esborra tots els elements de la llista"
+
+msgid "Deletes the selected item from the list"
+msgstr "Esborra l'element seleccionat de la llista"
+
+msgid "Documentary"
+msgstr "Documental"
+
+msgid "Drama"
+msgstr "Drama"
+
+msgid "Entertainment"
+msgstr "Entreteniment"
+
+msgid "Expanded text Display"
+msgstr "Mostrar text ampliat"
+
+msgid "February"
+msgstr "Febrer"
+
+msgid "Film"
+msgstr "Pel·lícula"
+
+msgid "Friday"
+msgstr "Divendres"
+
+msgid "Go end"
+msgstr "Anar al final del text"
+
+msgid "Go top"
+msgstr "Anar al principi del text"
+
+msgid "Green"
+msgstr "Verd"
+
+msgid "Hotkeys help"
+msgstr "Tecles ràpides - ajuda"
+
+msgid "Increase text size"
+msgstr "Augmentar la mida del text"
+
+msgid "Insert space at cursor(x) position [STOP]"
+msgstr "Insereix un espai a la posició del cursor(x) [STOP]"
+
+msgid "Insert space char"
+msgstr "Inserir espai"
+
+msgid "January"
+msgstr "Gener"
+
+msgid "July"
+msgstr "Juliol"
+
+msgid "June"
+msgstr "Juny"
+
+msgid "March"
+msgstr "Març"
+
+msgid "May"
+msgstr "Maig"
+
+msgid "Monday"
+msgstr "Dilluns"
+
+msgid "Move cursor to left"
+msgstr "Moure el cursor a l'esquerra"
+
+msgid "Move cursor to right"
+msgstr "Moure el cursor a la dreta"
+
+msgid "Move cursor(x) to beginning of text [|<<]"
+msgstr "Mou el cursor(x) al principi del text [|<<]"
+
+msgid "Move cursor(x) to end of text [>>|]"
+msgstr "Mou el cursor(x) al final del text [>>|]"
+
+msgid "Music"
+msgstr "Música"
+
+msgid "No valid character for this context!"
+msgstr "¡El caràcter seleccionat no està permès!"
+
+msgid "November"
+msgstr "Novembre"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "October"
+msgstr "Octubre"
+
+msgid "Options"
+msgstr "Opcions"
+
+msgid "Paste text"
+msgstr "Enganxar el text"
+
+msgid "Press OK to move cursor(x) left [CH-]"
+msgstr "Premeu OK per moure el cursor(x) a l'esquerra [CH-]"
+
+msgid "Press OK to move cursor(x) right [CH+]"
+msgstr "Premeu OK per moure el cursor(x) a la dreta [CH+]"
+
+msgid "Press [OK] or [INFO] to go back"
+msgstr "Premeu [OK] o [INFO] per tornar"
+
+msgid "Really clear the history list?"
+msgstr "N'esteu segur de buidar la llista?"
+
+msgid "Really clear the text?"
+msgstr "Segur que voleu ESBORRAR tot el text?"
+
+msgid "Recent"
+msgstr "Llista"
+
+msgid "Recovery initial text"
+msgstr "Recuperar el text inicial"
+
+msgid "Recovery the initial text?"
+msgstr "Recuperar el text inicial?"
+
+msgid "Red"
+msgstr "Vermell"
+
+msgid "Return value and Close"
+msgstr "Retornar el valor i tancar"
+
+msgid "Saturday"
+msgstr "Dissabte"
+
+msgid "Science fiction"
+msgstr "Ciència ficció"
+
+msgid "September"
+msgstr "Setembre"
+
+msgid "Series"
+msgstr "Sèrie"
+
+msgid "Soccer"
+msgstr "Futbol"
+
+msgid "Some characters are not valid:"
+msgstr "Aquests caràcters no són vàlids:"
+
+msgid "Sport"
+msgstr "Esports"
+
+msgid "Sunday"
+msgstr "Diumenge"
+
+msgid "Switch uppercase/lowercase [PAUSE]"
+msgstr "Alternar MAJÚSCULES/minúscules [PAUSA]"
+
+msgid "Terror"
+msgstr "Terror"
+
+msgid "Thursday"
+msgstr "Dijous"
+
+msgid "Tuesday"
+msgstr "Dimarts"
+
+msgid "Type the text"
+msgstr "Introduïu el text:"
+
+msgid "Use [<<] for decrease text size"
+msgstr "Utilitzeu [<<] per disminuir la mida del text"
+
+msgid "Use [>>] for increase text size"
+msgstr "Utilitzeu [>>] per augmentar la mida del text"
+
+msgid "Use cursor keys to move and press OK to insert"
+msgstr "Utilitzeu les tecles de direcció per moure i premeu OK per inserir"
+
+msgid "Use left/right keys to move cursor(x), also [CH-]/[CH+]"
+msgstr "Utilitzeu esquerra/dreta per moure el cursor(x) o [CH-]/[CH+]"
+
+msgid "Use numeric keypad or use the cursor keys and press OK"
+msgstr "Utilitzeu el teclat numèric o els cursors i premeu OK"
+
+msgid "Valid characters are:"
+msgstr "Els caràcters permesos són:"
+
+msgid "VirtualKeyboard"
+msgstr "Teclat virtual"
+
+msgid "Wednesday"
+msgstr "Dimecres"
+
+msgid "Yellow"
+msgstr "Groc"
+
+msgid "space"
+msgstr "espai"
+

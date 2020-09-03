@@ -1,0 +1,622 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - infoaz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: openspa.info\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/infoaz\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/infoaz\n"
+
+msgid "ACTIVE"
+msgstr "ACTIVO"
+
+msgid "AV settings, skin information"
+msgstr "Información sobre la configuración de pantalla"
+
+msgid "About"
+msgstr "Acerca de"
+
+msgid "About this panel..."
+msgstr "Acerca de este panel de información..."
+
+msgid "Active"
+msgstr "Activo"
+
+msgid "Active connections"
+msgstr "Conexiones activas"
+
+msgid "Add rec"
+msgstr "Reservar"
+
+msgid "Advanced Information Panel"
+msgstr "Información avanzada"
+
+msgid "Advanced system information"
+msgstr "Panel con información avanzada del sistema"
+
+msgid "Analog Video Output: Composite & Component"
+msgstr "Salida de video analógica"
+
+msgid "Aspect ratio"
+msgstr "Relación de aspecto"
+
+msgid "Audio Prebuffering   (ms)"
+msgstr "Prebuffers de audio   (ms)"
+
+msgid "Autostart OFF"
+msgstr "Autoinicio OFF"
+
+msgid "Autostart ON"
+msgstr "Autoinicio ON"
+
+msgid "Autostart is OFF"
+msgstr "Autoinicio DESACTIVADO"
+
+msgid "Autostart is ON"
+msgstr "Autoinicio ACTIVADO"
+
+msgid "AzboxHD Advanced Information Panel"
+msgstr "Información avanzada sobre el receptor"
+
+msgid "Backup"
+msgstr "Copias..."
+
+msgid "Bandwidth"
+msgstr "Banda"
+
+msgid "Brightness"
+msgstr "Brillo"
+
+msgid "Buffers"
+msgstr "Bufers"
+
+msgid "CAM name"
+msgstr "Información CAM"
+
+msgid "Cache RAM memory cleaned!"
+msgstr "La caché de la memoria RAM ha sido liberada."
+
+msgid "Channel"
+msgstr "Canal"
+
+msgid "Clean RAM"
+msgstr "Liberar RAM"
+
+msgid "Color Format"
+msgstr "Formato de color"
+
+msgid "Compact Flash"
+msgstr "Flash interna"
+
+msgid "Component Out"
+msgstr "Salida por componentes"
+
+msgid "Configuration"
+msgstr "Configuración"
+
+msgid "Constellation"
+msgstr "Constelación"
+
+msgid "Cpu, model information"
+msgstr "Información sobre cpu, modelo"
+
+msgid "Crashlog file"
+msgstr "Archivo 'crashlog'"
+
+msgid "Current operating system information"
+msgstr "Información sobre el sistema operativo"
+
+msgid "Current recording information"
+msgstr "Información sobre la grabación en curso"
+
+msgid "Date/Time"
+msgstr "Fecha del sistema"
+
+msgid "Default"
+msgstr "Predeterminado"
+
+msgid "Deinterlace"
+msgstr "Entrelazado"
+
+msgid "Del crashlogs"
+msgstr "Borrar crash"
+
+msgid "Delete crashlogs"
+msgstr "Borrar archivos .log (crashlog)"
+
+msgid "Deleted!"
+msgstr "Eliminados!"
+
+msgid "Display"
+msgstr "Pantalla"
+
+msgid "Dolby digital mode"
+msgstr "Modo de Dolby digital"
+
+msgid "ECM info"
+msgstr "Información ECM"
+
+msgid "EMM info"
+msgstr "Información EMM"
+
+msgid "END SCRIPT EXECUTION"
+msgstr "FIN DE EJECUCIÓN DE SCRIPT"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Emulation"
+msgstr "Camd's"
+
+msgid "Event"
+msgstr "Evento"
+
+msgid "Explore"
+msgstr "Explorar"
+
+msgid "External"
+msgstr "Externo"
+
+msgid "FEC inner"
+msgstr "FEC interior"
+
+msgid "File name"
+msgstr "Nombre de archivo"
+
+msgid "Free"
+msgstr "Libre"
+
+msgid "Free memory table"
+msgstr "Gráfico de memoria libre y swap"
+
+msgid "Frees"
+msgstr "Libres"
+
+msgid "Frequency"
+msgstr "Frecuencia"
+
+msgid "Fundi, Yersi, Nasky, Oscar_fl, Abdelsat, Edu1971, Mecha and all Betatesters."
+msgstr "Fundi, Yersi, Nasky, Oscar_fl, Abdelsat, Edu1971, Mecha y todos los betatesters"
+
+msgid "Gateway"
+msgstr "Puerta de enlace"
+
+msgid "Greetings:"
+msgstr "Agradecimientos:"
+
+msgid "Guard Interval"
+msgstr "Intérvalo de guarda"
+
+msgid "Guide"
+msgstr "Guia"
+
+msgid "Hard disk devices information"
+msgstr "Información sobre dispositivos de almacenamiento"
+
+msgid "Harddisk"
+msgstr "Disco duro"
+
+msgid "Have been deleted!"
+msgstr "Los archivos han sido eliminados."
+
+msgid "Help and utilities"
+msgstr "Blog de ayuda y utilidades"
+
+msgid "Hierarchy Inform."
+msgstr "Inform. Jerárquíca"
+
+msgid "Host Name"
+msgstr "Nombre del host"
+
+msgid "Image"
+msgstr "Imagen"
+
+msgid "Inactive"
+msgstr "Inactivo"
+
+msgid "Information"
+msgstr "Información"
+
+msgid "Information CCAM"
+msgstr "Información del script CAM"
+
+msgid "Information about tunning and current channel"
+msgstr "Información sobre el canal"
+
+msgid "Information for cams and emulation"
+msgstr "Información de camd's"
+
+msgid "Information not avaiable"
+msgstr "Información no disponible"
+
+msgid "Instant Records path"
+msgstr "Ruta de grabaciones instantáneas"
+
+msgid "Intensity"
+msgstr "Potencia"
+
+msgid "Internal Flash"
+msgstr "Flash interna"
+
+msgid "Internet Conection TEST"
+msgstr "TEST de conexión a internet"
+
+msgid "Internet conection not avaiable"
+msgstr "Conexión a internet no disponible"
+
+msgid "Inversion"
+msgstr "Inversión"
+
+msgid "Kernel Version: "
+msgstr "Versión de kernel: "
+
+msgid "Kernel messages"
+msgstr "Msj kernel"
+
+msgid "Last Updates"
+msgstr "Últimas actualizaciones"
+
+msgid "Last Upgrade "
+msgstr "Última actualización "
+
+msgid "Last Upgrade: "
+msgstr "Última actualización: "
+
+msgid "Last crashlog"
+msgstr "Último crash"
+
+msgid "List of current processes running"
+msgstr "Listado de los procesos en ejecución"
+
+msgid "Log File saved to"
+msgstr "Archivo log guardado en"
+
+msgid "MAC adress"
+msgstr "Dirección MAC"
+
+msgid "Manage"
+msgstr "Gestionar"
+
+msgid "Mask"
+msgstr "Máscara"
+
+msgid "Members openSPA Team:"
+msgstr "OpenSPA Team, quien es quien:"
+
+msgid "Memory"
+msgstr "Memoria"
+
+msgid "Memory size"
+msgstr "Tamaño de memoria"
+
+msgid "Model"
+msgstr "Modelo"
+
+msgid "Modulation"
+msgstr "Modulación"
+
+msgid "Movies"
+msgstr "Películas"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Net"
+msgstr "Red"
+
+msgid "Network conection information"
+msgstr "Información sobre la conexión de red e internet"
+
+msgid "News and support"
+msgstr "Novedades y soporte técnico"
+
+msgid "No crashlogs found in path: /hdd"
+msgstr "No se han encontrado archivos 'crashlog' en la ruta: /hdd"
+
+msgid "No crashlogs found in path: /home/root/logs/"
+msgstr "No se ha encontrado ningún crashlog en: /home/root/logs/"
+
+msgid "No info avaiable"
+msgstr "No hay información disponible"
+
+msgid "No net adapters configured"
+msgstr "No hay adaptadores de red configurados"
+
+msgid "No records in progress"
+msgstr "No hay grabaciones en curso."
+
+msgid "No traceback error found!"
+msgstr "No se ha encontrado la traza de error en el archivo .log"
+
+msgid "Not Running"
+msgstr "Detenida"
+
+msgid "Not info for emulation cams"
+msgstr "No hay información de emulación y camd's"
+
+msgid ""
+"Not spazeTeam image found!\n"
+"More info in www.azboxhd.es"
+msgstr ""
+"La imagen no es un fw de openSPA!\n"
+"Más información en openspa.info"
+
+msgid "Operating system"
+msgstr "Sistema operativo"
+
+msgid "Options"
+msgstr "Opciones"
+
+msgid "Other"
+msgstr "Otro"
+
+msgid "PID info"
+msgstr "Información PID"
+
+msgid "Page Down"
+msgstr "Pág. abajo"
+
+msgid "Page Up"
+msgstr "Pág. arriba"
+
+msgid "Pe.tardo: Languages"
+msgstr "Pe.tardo: traducciones"
+
+msgid "Pilot"
+msgstr "Piloto"
+
+msgid "Ping to host azboxhd.es failed"
+msgstr "El ping enviado a azboxhd.es falló."
+
+msgid "Polarization"
+msgstr "Polarización"
+
+msgid "Press [BLUE] for floating window signal/quality/ber"
+msgstr "Pulse [AZUL] para abrir una ventana flotante de información de señal, calidad,..."
+
+msgid "Press [OK] to refresh info"
+msgstr "Pulse [OK] para actualizar la información de pantalla"
+
+msgid "Press [YELLOW] to start"
+msgstr "Pulse [AMARILLO] para iniciarla"
+
+msgid "Primary DNS"
+msgstr "DNS primaria"
+
+msgid "Processes"
+msgstr "Procesos"
+
+msgid "Provider"
+msgstr "Proveedor"
+
+msgid "Public IP"
+msgstr "IP pública"
+
+msgid "Ram memory"
+msgstr "Memoria RAM"
+
+msgid "Reboot"
+msgstr "Reiniciar"
+
+msgid "Reboot system?"
+msgstr "Reiniciar el sistema?"
+
+msgid "Received bytes"
+msgstr "Bytes recibidos"
+
+msgid "Record"
+msgstr "Grabación"
+
+msgid "Recording paths"
+msgstr "Ruta de grab."
+
+msgid "Records path"
+msgstr "Ruta de grabaciones"
+
+msgid "Refresh"
+msgstr "Refrescar"
+
+msgid "Refresh Rate"
+msgstr "Velocidad de refresco"
+
+msgid "Resolution"
+msgstr "Resolución"
+
+msgid "Restart"
+msgstr "Reiniciar GUI"
+
+msgid "Restart CCAM"
+msgstr "Reiniciar CAM"
+
+msgid "Restart GUI?"
+msgstr "Reiniciar GUI?"
+
+msgid "Rolloff"
+msgstr "Atenuación"
+
+msgid "Routing table"
+msgstr "Tabla de rutas"
+
+msgid "Running"
+msgstr "En ejecución"
+
+msgid "SCRIPT EXECUTION"
+msgstr "EJECUCIÓN DE SCRIPT"
+
+msgid "Save to file"
+msgstr "Guardar log"
+
+msgid "Secondary DNS"
+msgstr "DNS secundaria"
+
+msgid "Select Record to stop"
+msgstr "Seleccione grabación para detener"
+
+msgid "Sergiri & Jpbravo & Evox: Maintenance server plugins OpenSpa and Testers"
+msgstr "Sergiri, Evox & Jpbravo: Testers y mantenimiento del servidor de plugins OpenSpa"
+
+msgid "Service"
+msgstr "Servicio"
+
+msgid "Service name"
+msgstr "Nombre de canal"
+
+msgid "Service reference"
+msgstr "Número de referencia"
+
+msgid "Setup"
+msgstr "Configurar"
+
+msgid "Shared"
+msgstr "Compartida"
+
+msgid "Signal info"
+msgstr "Info señal"
+
+msgid "Signal quality"
+msgstr "Calidad de señal"
+
+msgid "Size"
+msgstr "Tamaño"
+
+msgid "Skins"
+msgstr "Pieles"
+
+msgid "Start CCAM"
+msgstr "Iniciar CAM"
+
+msgid "State"
+msgstr "Estado"
+
+msgid "State of CAM"
+msgstr "Estado de CAM"
+
+msgid "Stats"
+msgstr "Estadísticas"
+
+msgid "Stop"
+msgstr "Detener"
+
+msgid "Stop CCAM"
+msgstr "Detener CAM"
+
+msgid "Stop current recording?"
+msgstr "Desea PARAR la grabación actual?"
+
+msgid "Storage"
+msgstr "Almacenamiento"
+
+msgid "Swap memory"
+msgstr "Memoria swap"
+
+msgid "Symbolrate"
+msgstr "Velocidad de símbolos"
+
+msgid "Thanks to"
+msgstr "Gracias a"
+
+msgid "Thanks to all of you have donated to the maintenance of the forum and the server."
+msgstr " "
+
+msgid "Total memory"
+msgstr "Memoria total"
+
+msgid "Total space"
+msgstr "Espacio total"
+
+msgid "Transmission Mode"
+msgstr "Modo de transmisión"
+
+msgid "Transmited bytes"
+msgstr "Bytes enviados"
+
+msgid "Tuner"
+msgstr "Sintonizador"
+
+msgid "Tuning"
+msgstr "Sintonización"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Up time"
+msgstr "Hora del último reinicio"
+
+msgid "Updates"
+msgstr "Descargas"
+
+msgid "Used"
+msgstr "Utilizado"
+
+msgid "Version"
+msgstr "Versión"
+
+msgid "Video Mode"
+msgstr "Modo de video"
+
+msgid "Video Prebuffering   (ms)"
+msgstr "Prebuffers de video   (ms)"
+
+msgid "Video System"
+msgstr "Sistema de video"
+
+msgid "Videoformat"
+msgstr "Relación de aspecto"
+
+msgid "Videosize"
+msgstr "Resolución de vídeo"
+
+msgid "Wait"
+msgstr "espere"
+
+msgid "Wait..."
+msgstr "Espere..."
+
+msgid "You are sure to delete .log files?"
+msgstr "Seguro que quiere borrar los archivos?"
+
+msgid "by openSPA team"
+msgstr "del software y del hardware, por openSPA"
+
+msgid "day"
+msgstr "dia"
+
+msgid "file(s)"
+msgstr "Archivo(s)"
+
+msgid "load average"
+msgstr "media de carga"
+
+msgid "of error"
+msgstr "de error"
+
+msgid "of firmware"
+msgstr "del software"
+
+msgid "packet loss"
+msgstr "paquete(s) perdido(s)"
+
+msgid "packets received"
+msgstr "paquete(s) recibido(s)"
+
+msgid "packets transmitted"
+msgstr "paquete(s) enviado(s)"
+
+msgid "secs"
+msgstr "segs"
+
+msgid "up"
+msgstr "iniciado hace"
+
+msgid "week"
+msgstr "semana"
+

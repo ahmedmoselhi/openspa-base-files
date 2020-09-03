@@ -1,0 +1,91 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: HistoryZap\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-21 18:02+0200\n"
+"PO-Revision-Date: 2014-09-24 18:04+0100\n"
+"Last-Translator: mpiero <www.azboxhd.es>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spanish\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/enigma2-plugins/HistoryZap/src\n"
+
+msgid "Zap to selected channel"
+msgstr "Zapear al canal seleccionado"
+
+msgid "Autozap when move in list:"
+msgstr "Zapear automáticamente al entrar y desplazarse:"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "spzZapHistory"
+msgstr "Histórico de Zapeo"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "Clear all history channels"
+msgstr "Borrar todos los canales del histórico"
+
+msgid "Delete Selected channel from history"
+msgstr "Eliminar el canal actual del histórico"
+
+msgid "Change will be visible the next time you run this window"
+msgstr "El cambio será visible la próxima vez que habras el histórico"
+
+msgid "Options"
+msgstr "Opciones"
+
+msgid "Clear"
+msgstr "Limpiar"
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "HistoryZap List"
+msgstr "Histórico de Zapeo"
+
+msgid "Enable zap history:"
+msgstr "Activar historico de zapeo:"
+
+msgid "Maximum zap history entries:"
+msgstr "Número máximo de entradas en el histórico:"
+
+msgid "HistoryZap Configurator"
+msgstr "Histórico de zapeo :: Configuración"
+
+msgid "Zap & Close"
+msgstr "Zapear y cerrar"
+
+msgid "Config"
+msgstr "Configurar"
+
+msgid "Zap"
+msgstr "Zapear"
+
+msgid "View mode:"
+msgstr "Modo de vista:"
+
+msgid "disabled at parental lock"
+msgstr "Desactivado por control parental"
+
+msgid "Simple"
+msgstr "Lista sencilla"
+
+msgid "Standard"
+msgstr "Lista Ampliada"
+
+msgid "With Picons"
+msgstr "Lista Ampliada con Picons"
+
+msgid "View in PiP"
+msgstr "Ver en ventana PiP"
+

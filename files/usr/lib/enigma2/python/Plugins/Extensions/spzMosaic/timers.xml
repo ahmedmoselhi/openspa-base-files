@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<timers>
+<timer begin="1329130740" end="1329138840" serviceref="1:0:1:1FE:3F2:22D4:EEEE0000:0:0:0:" repeated="0" name="La Mañana De La 1" description="" afterevent="auto" eit="59422" location="/hdd/Grabaciones/" tags="" disabled="0" justplay="0">
+</timer>
+<timer begin="1329152340" end="1329162300" serviceref="1:0:19:7822:428:1:C00000:0:0:0:" repeated="0" name="NBA+" description="" afterevent="auto" eit="31999" location="/hdd/Grabaciones/" tags="" disabled="0" justplay="0">
+</timer>
+</timers>

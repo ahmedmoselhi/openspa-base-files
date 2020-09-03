@@ -1,0 +1,238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - azHelp\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: openspa.info\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/azHelp\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/azHelp\n"
+
+msgid " FAQs"
+msgstr "Preguntas frecuentes"
+
+msgid "AzboxHD Help"
+msgstr "Ayuda del receptor"
+
+msgid "AzboxHD help and FAQs"
+msgstr "Ayuda para el receptor, FAQs"
+
+msgid "Back"
+msgstr "Volver"
+
+msgid "Blue"
+msgstr "Azul"
+
+msgid "Change channel list"
+msgstr ""
+"Permite organizar las listas de canales según\n"
+"diversos criterios (todos, satélite, favoritos)"
+
+msgid "Change value(list mode)"
+msgstr "Cambiar valor (en las listas)"
+
+msgid "Channel list"
+msgstr "En la lista de canales"
+
+msgid "Close window and discard changes"
+msgstr "Cancelar cambios y salir"
+
+msgid "Close window and exit"
+msgstr "Cierra la ventana actual"
+
+msgid "Common screens"
+msgstr "Pantallas en general"
+
+msgid "Create marker"
+msgstr "Crea un marcador en la posición actual"
+
+msgid ""
+"Delete char previous and next\n"
+"Also with [Mute] button"
+msgstr ""
+"Borra el carácter previo o siguiente\n"
+"También puede usar la tecla [Mute] para borrar"
+
+msgid ""
+"Enter text and numbers\n"
+"press more times to change character"
+msgstr ""
+"Introducción de texto y números. Pulse repetidamente una\n"
+"tecla para cambiar el carácter/número"
+
+msgid "Extensions"
+msgstr "Lista de extensiones (programas, utilidades)"
+
+msgid "General"
+msgstr "General"
+
+msgid "Go next and previous marker"
+msgstr ""
+"Permite desplazarse por los marcadores\n"
+"en la lista de canales"
+
+msgid "Go next and previous movie marker"
+msgstr ""
+"Desplazarse al marcador anterior o siguiente\n"
+"creados en la película"
+
+msgid "Go to home and end of line text"
+msgstr "Ir al principio y al final de la línea"
+
+msgid "Green"
+msgstr "Verde"
+
+msgid "Help"
+msgstr "Ayuda"
+
+msgid "Help azboxhd"
+msgstr "Ayuda receptor"
+
+msgid "Help for azboxHD"
+msgstr "Ayuda para el receptor"
+
+msgid "Input text"
+msgstr "Introducción de texto"
+
+msgid "Key"
+msgstr "Tecla"
+
+msgid "Left-Rigth cursor"
+msgstr "Cursores izquierda-derecha"
+
+msgid "Main menu with options"
+msgstr "Menú principal con opciones"
+
+msgid "Move up/down (list mode)"
+msgstr "Desplazarse (en las listas)"
+
+msgid "Movie list"
+msgstr "Lista de películas"
+
+msgid "Number keys"
+msgstr "Teclado numérico"
+
+msgid "Pause and continue playing"
+msgstr "Pausa y reanuda la reproducción"
+
+msgid "Playing movies"
+msgstr "Reproduciendo películas"
+
+msgid "Press any key to go back"
+msgstr "Pulse cualquier tecla del mando para volver a la lista"
+
+msgid "Press left cursor (&lt;) and rigth cursor (&gt;) to change mode"
+msgstr "Pulse el cursor izquierdo (<) o cursor derecho (>) para cambiar el contexto de ayuda"
+
+msgid "Prev/Next"
+msgstr "Anterior(|<)/Siguiente(>|)"
+
+msgid "Record menu"
+msgstr "Menú de grabación"
+
+msgid "Red"
+msgstr "Rojo"
+
+msgid "Remote control help"
+msgstr "Mando a distancia"
+
+msgid "Save changes and close window"
+msgstr "Aceptar cambios y salir"
+
+msgid "Show Menu with options"
+msgstr "Muestra un menú con opciones"
+
+msgid "Show audio/subtitles options"
+msgstr "Muestra la selección de audio/subtítulos"
+
+msgid "Show graphical epg information"
+msgstr "Muestra una guía de programación (EPG) gráfica"
+
+msgid "Show infobar movie information"
+msgstr "Muestra la barra de información de películas"
+
+msgid "Show infoevent now and next"
+msgstr "Muestra información del evento actual y del siguiente"
+
+msgid "Show single epg channel"
+msgstr ""
+"Muestra la epg individual del\n"
+"canal seleccionado"
+
+msgid "Show the channel list"
+msgstr "Muestra la lista de canales"
+
+msgid ""
+"Show the infobar.\n"
+"When infobar is visible press [Ok] to show extrainfobar"
+msgstr ""
+"Muestra la barra de información.\n"
+"Pulse [Ok] para información extra"
+
+msgid "Show the spazeTeam Home Menu"
+msgstr "Muestra el menú inicio openSPA"
+
+msgid "Sleep mode on press. Reboot on long press"
+msgstr "Pone en reposo. Reinicia si se mantiene pulsado"
+
+msgid "Specific function of current screen"
+msgstr "Función específica de la ventana activa"
+
+msgid "Stop movie"
+msgstr "Detiene y cierra la reproducción en curso"
+
+msgid "This help is avaible in tv screen pressing home menu key"
+msgstr "Esta ayuda está disponible pulsando Home menú -> Ayuda"
+
+msgid "Timeshift"
+msgstr "Timeshift (pausa TV)"
+
+msgid "Timesleep"
+msgstr "Timesleep (salto en el tiempo)"
+
+msgid "Up-Down cursor"
+msgstr "Cursores arriba-abajo"
+
+msgid "View FAQs (Spanish only)"
+msgstr "Preguntas frecuentes(FAQs)"
+
+msgid "View Tv"
+msgstr "Viendo la TV"
+
+msgid "Volume control"
+msgstr "Control de volumen"
+
+msgid "Volume up / Volume down"
+msgstr "Volumen + / Volumen -"
+
+msgid "Yellow"
+msgstr "Amarillo"
+
+msgid "Zap to channel previous/channel next"
+msgstr "Cambia al canal anterior/siguiente"
+
+msgid "Zap to history previous channel"
+msgstr ""
+"Cambia al canal previo \n"
+"en el histórico de canales"
+
+msgid "Zap to number channel"
+msgstr "Cambia al numero de canal introducido"
+
+msgid "Zap to selected channel"
+msgstr "Cambia al canal seleccionado"
+
+msgid "by spazeTeam (azboxhd.es), 2011"
+msgstr "por openSPA (openspa.info), 2011"
+
+msgid "xxx7"
+msgstr "yyy"
+

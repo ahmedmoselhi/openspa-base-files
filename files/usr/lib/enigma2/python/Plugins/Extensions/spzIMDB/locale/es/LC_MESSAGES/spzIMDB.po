@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - spzIMDB\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mpiero <www.azboxhd.es>\n"
+"Language-Team: www.azboxhd.es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/spzIMDB\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/spzIMDB\n"
+
+msgid "Want to save the cover art and movie information?"
+msgstr "Quieres guardar la carátula e información de esta película?"
+
+msgid "The movie information and cover have been saved!"
+msgstr "La información de la película y la caratula han sido guardadas!"
+
+msgid "spzInternet Movie Information"
+msgstr "spzInternet Información de películas en Internet"
+
+msgid "in"
+msgstr "en"
+
+msgid "English"
+msgstr "Inglés"
+
+msgid " of "
+msgstr " de "
+
+msgid "Year "
+msgstr "Año "
+
+msgid "Title"
+msgstr "Título"
+
+msgid "Search for"
+msgstr "Búsqueda de"
+
+msgid "No info avaible for this movie"
+msgstr "No hay información sobre esta película"
+
+msgid "Ratings"
+msgstr "Valoración"
+
+msgid "Cast"
+msgstr "Reparto"
+
+msgid "Synopsis"
+msgstr "Sinopsis"
+
+msgid "There is no argument to show"
+msgstr "(No hay argumento disponible)"
+
+msgid "Title for Internet search"
+msgstr "Título para buscar en Internet"
+
+msgid "Search Movie"
+msgstr "Buscar película"
+
+msgid "No matches found for"
+msgstr "No se han encontrado coincidencias para"
+
+msgid "Title input"
+msgstr "Introze título"
+
+msgid "spzInternet Search"
+msgstr "spzInternet :: Info Películas"
+
+msgid "Movie information from the Internet Movies Databases"
+msgstr "Información de películas desde Internet"
+
+msgid "New search"
+msgstr "Nueva búsqueda"
+
+msgid "Back to list"
+msgstr "Volver al listado"
+
+msgid "Exit"
+msgstr "Salir"
+
+msgid "Select channel"
+msgstr "Seleccionar canal"
+
+msgid "Select channel/event"
+msgstr "Seleccionar canal/evento"
+
+msgid "Production"
+msgstr "Producción"
+
+msgid "Executive Producer"
+msgstr "Productor ejecutivo"
+
+msgid "Producer"
+msgstr "Productor"
+
+msgid "Writter"
+msgstr "Guionista"
+
+msgid "Screenplay"
+msgstr "Guión"
+
+msgid "Camera"
+msgstr "Cámaras"
+
+msgid "Costume Design"
+msgstr "Diseño de vestuario"
+
+msgid "Photography"
+msgstr "Fotografía"
+
+msgid "Director of Photography"
+msgstr "Director de fotografía"
+
+msgid "Art"
+msgstr "Equipo de producción"
+
+msgid "Production Design"
+msgstr "Diseño de producción"
+
+msgid "Editing"
+msgstr "Monaje"
+
+msgid "Editor"
+msgstr "Editor"
+
+msgid "Sound"
+msgstr "Sonido"
+
+msgid "Music"
+msgstr "Música"
+
+msgid "Cinematography"
+msgstr "Fotografía"
+
+msgid "Original Music Composer"
+msgstr "Banda sonora"
+
+msgid "Crew"
+msgstr "Equipo creativo"
+
+msgid "Special Effects"
+msgstr "Efectos especiales"
+
+msgid "Directing"
+msgstr "Dirección"
+
+msgid "Director"
+msgstr "Director"
+
+msgid "Actors"
+msgstr "Reparto"
+
+msgid "Writing"
+msgstr "Guión"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Original Title"
+msgstr "Título Original"
+
+msgid "Alternative Title"
+msgstr "Título Alternativo"
+
+msgid "Categories"
+msgstr "Género"
+
+msgid "Countries"
+msgstr "País"
+
+msgid "Budget"
+msgstr "Presupuesto"
+
+msgid "Revenue"
+msgstr "Ingresos"
+
+msgid "Studios"
+msgstr "Estudios"
+
+msgid "Monday"
+msgstr "Lunes"
+
+msgid "Tuesday"
+msgstr "Martes"
+
+msgid "Wednesday"
+msgstr "Miércoles"
+
+msgid "Thursday"
+msgstr "Jueves"
+
+msgid "Friday"
+msgstr "Viernes"
+
+msgid "Saturday"
+msgstr "Sábado"
+
+msgid "Sunday"
+msgstr "Domingo"
+
+msgid "January"
+msgstr "Enero"
+
+msgid "February"
+msgstr "Febrero"
+
+msgid "March"
+msgstr "Marzo"
+
+msgid "April"
+msgstr "Abril"
+
+msgid "May"
+msgstr "Mayo"
+
+msgid "June"
+msgstr "Junio"
+
+msgid "July"
+msgstr "Julio"
+
+msgid "August"
+msgstr "Agosto"
+
+msgid "September"
+msgstr "Septiembre"
+
+msgid "October"
+msgstr "Octubre"
+
+msgid "November"
+msgstr "Noviembre"
+
+msgid "December"
+msgstr "Diciembre"
+
+msgid "votes"
+msgstr "votos"
+
+msgid "Indie"
+msgstr "Cine Independiente"
+

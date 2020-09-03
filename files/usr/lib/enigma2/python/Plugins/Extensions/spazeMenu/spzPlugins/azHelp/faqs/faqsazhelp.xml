@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<faq>
+<!-- 
+# # # # # # # # # # # # # # # CATEGORIA: GENERAL # # # # # # # # # # # # # # #
+-->
+		<content>
+
+			<pregunta>Qué es OpenSPA?</pregunta>
+			<categoria>General</categoria>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<respuesta>
+OpenSPA es la evolución de la Spaze Team.
+
+Mientras que los firmwares Spaze (Spaze Quantum y Spaze Millennium) estaban basados en OpenDreambox, un software que adolecia de ciertas limitaciones y algunas incompatibilidades,
+OpenSPA está basada en el software de OpenPLi, con mucho más desarrollo a sus espaldas, y compatible con muchos otros plugins y software de terceros.
+			</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Cómo inicio una grabación?</pregunta>
+			<categoria>General</categoria>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<respuesta>
+Pulsando la tecla [REC] aparecerá un lista de opciones de grabación, como elegir el tiempo que quieras que dure la grabación, o grabar hasta el final del programa en curso, o elegir la hora final de la grabación, por poner algún ejemplo.
+
+Elige la que más se adapte a tus necesidades. 
+			</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Cómo puedo parar una grabación en curso?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>General</categoria>
+			<respuesta>
+Si mientras estás grabando pulsas la tecla [REC] te aparecerá una opción de Parar grabación.
+Si la grabación en curso viene de una programación (reserva de grabación), también puedes pararla pulsando 'Menú/Opciones TV -> Grabaciones reservadas' y pulsar en la tecla roja, para que la grabación se detenga. 
+
+Al eliminar la grabación reservada, el archivo grabado hasta el momento no se borrará y estará disponible en la lista de películas.
+			</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Como programo una grabación?</pregunta>
+			<categoria>General</categoria>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<respuesta>
+Puedes programar una grabación (crear una reserva de grabación) pulsando 'Menú/Opciones TV -> Grabaciones reservadas' y eligiendo la opción que prefieras del menú. 
+
+Hay plugins, como CoolTV (incluido en la OpenSPA) que te permiten crear reservas a partir de los datos de la Guia Electrónica de Programas (EPG), lo que facilita la tarea de programar grabaciones con varios dias de antelación.
+			</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Qué son los 'Picon'?</pregunta>
+			<categoria>General</categoria>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<respuesta>
+Los picon son pequeñas imágenes con el logotipo del canal. Cumplen una función meramente estética pero que ayuda a reconocer el canal sintonizado al visualizarse en la barra de información.
+
+No sólo existen picons para los distintos canales de TV, también los hay para los distintos proveedores, para satélites, para codificaciones... utilizados en algunas 'pieles' o 'skins', no en todos.
+
+Para no sobrecargar la memoria interna, puedes elegir dónde guardarlos (por ejemplo, un USB) accediendo a 'Menú/Sistema -> Configuración del Receptor -> Sistema -> Ruta Picons' y eligiendo allí la carpeta almacén.
+En el caso de que cambies las rutas por defecto, deberás reiniciar GUI para activar los cambios.
+			</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Qué es 'Reiniciar GUI'?</pregunta>
+			<categoria>General</categoria>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<respuesta>
+Durante el funcionamiento del receptor, el sistema operativo ejecuta una gran cantidad de procesos, muchos de los cuales no son críticos y pueden ser cambiados sin tener que reiniciar completamente el sistema, por ejemplo, al instalar algún plugin, nuevos idiomas, etc.
+En el reinicio de Enigma (Reinicio de GUI) el sistema 'básico' sigue funcionando pero reconoce y aplica los nuevos ajustes.
+			</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Cuando enciendo el receptor, porque tarda en salir la imagen?</pregunta>
+			<categoria>General</categoria>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<respuesta>
+El descodificador es como un pequeño ordenador: hay procesos que deben ser cargados en direcciones específicas de memoria y hasta que estos procesos iniciales no están correctamente cargados y funcionando, los demás no pueden ponerse en marcha.
+En los modelos Premium+, Premium, Elite y Me, que disponen de display frontal, se puede ver el proceso de carga de algunos de estos procesos. 
+			</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Cual es la mejor manera de apagar el receptor?</pregunta>
+			<categoria>General</categoria>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<respuesta>
+El modo correcto es apagándolo desde el menú de apagado: 'Menú/Sistema -> Reposo/Reiniciar -> Apagado'. Esta acción hace que los procesos se detengan en el orden correcto y el descodificador se apague correctamente.
+			</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Qué es 'Rescue Mode'?</pregunta>
+			<categoria>General</categoria>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<respuesta>
+Rescue Mode es un estado especial del receptor en el que queda habilitado para recibir el nuevo firmware que le será cargado en la memoria flash y en la DOM en el proceso de actualización.
+La actualización del firmware es un proceso delicado y hay que realizarlo sabiendo perfectamente cómo hay que hacerlo, un descuido aqui podria acarrear serios problemas.
+			</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Qué es la función 'Timeshift'?</pregunta>
+			<categoria>General</categoria>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<respuesta>
+Timeshift es un método de grabación de la emisión actual de TV con el fin de poder pausarla y reanudarla cuando nos interese, por ejemplo, pausar una película para poder atender una llamada telefónica, y seguir viéndola justo donde la habíamos dejado, o para tener tiempo de poner la pizza en el horno para la cena...
+
+Por defecto, cuando paramos Timeshift, la grabación se borra.
+			</respuesta>
+		</content>		
+<!-- 
+# # # # # # # # # # # # # # # CATEGORIA: INSTALACIÓN # # # # # # # # # # # # # # # 
+-->
+		<content>
+
+			<pregunta>Como instalo un nuevo Plugin o Skin?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Instalación</categoria>
+			<respuesta>
+Normalmente los Plugins o Skins suelen venir empaquetados en archivos de extensión .ipk. 
+Para instalar este tipo de archivo, cópialo mediante un gestor de ftp (puedes utilizar, por ejemplo MAZ, lo encontrarás en http://www.openspa.info) en la carpeta /tmp, a continuación vete a 'Menú/Sistema -> Plugins -> Manejar software' entra en 'Instalar extensión local' luego en 'Memoria /tmp', selecciona el archivo, pulsa [OK] y elige instalar.
+Si el archivo no tiene permisos suficientes puedes asignárselos con el Gestor de Archivos.
+Es posible que tengas que reiniciar Enigma para ver los nuevos plugins/skin instalados:
+'Menú/Sistema -> Reposo/Reiniciar' y pulsa en 'Reiniciar GUI'. 
+
+Para instalar el archivo .ipk manualmente, después de cargarlo por ftp en /tmp abre una sesión de telnet (puedes utilizar la aplicación Telnet que viene incluida en el MAZ), y escribe: 
+
+cd /tmp
+chmod 755 nombre_del_archivo.ipk
+opkg install --force-overwrite nombre_del_archivo.ipk
+
+(Deberás pulsar Intro al final de cada una de las líneas anteriores para que se ejecute la acción)
+			</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Dónde están los Plugins instalados?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Instalación</categoria>
+			<respuesta>
+Los plugins instalados se ubican normalmente en 'Menú/Sistema -> Plugins', o bien en el menú de extensiones (Tecla [AZUL] viendo TV o 'HOME MENU -> Extras -> Extensiones', aunque su ubicación depende del criterio del programador. También pueden aparecer en el Menú Principal o en la sección de configuración.
+
+La ruta física donde se encuentran los plugins es /usr/lib/enigma2/python/Plugins/Extensions. Puedes usar dicha ruta para copiar manualmente nuevos plugins (aunque lo aconsejable es que sean instalados mediante un .ipk) o para borrar plugins que no uses.
+			</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Cómo desinstalo un Plugin?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Instalación</categoria>
+			<respuesta>
+La mayoria de los plugins instalados se pueden desinstalar desde el propio menú de Plugins: 'Menú/Sistema -> Plugins'. Una vez aqui, hay que situarse sobre el plugin a desinstalar y pulsar la tecla roja del mando para desinstalarlo.
+			</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Le he puesto un disco duro al receptor, cómo puedo acceder a su contenido?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Instalación</categoria>
+			<respuesta>
+Los modelos Premium, Premium+ y Me están preparados para alojar un disco duro interno, gracias a la conexión SATA que poseen en la placa base. Cuando se instala uno, al arrancar el receptor (la instalación FÍSICA del disco duro en el interior del receptor debe realizarse SIEMPRE con el receptor desconectado de la toma de corriente), el sistema lo detecta y lo monta en la carpeta /media/hdd.
+
+Si el disco es nuevo, deberemos ir a 'Menú/Sistema -> Configuración del receptor -> Sistema -> Disco Duro' e inicializarlo para poder empezar a trabajar con él. Inicializar el HDD viene a significar lo mismo que formatearlo: cuando se ha inicializado una vez, no hace falta volver a hacerlo. Aquí también puedes configurar el tiempo de inactividad mínimo para que se ponga automáticamente en reposo.
+			</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Porqué tengo que actualizar el firmware del receptor?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Instalación</categoria>
+			<respuesta>
+Periódicamente se publican actualizaciones de la OpenSPA, no es algo gratuito: el firmware va evolucionando, incorporando en cada actualización nuevas mejoras que hacen más estable el funcionamiento del receptor, lo que, a su vez, aumenta la complejidad del sistema y hace más necesario que todos los módulos y controladores funcionen perfectamente.
+
+Todas las actualizaciones se prueban durante un tiempo antes de ser publicadas, aún asi, pueden aparecer errores y fallos que deben ser subsanados posteriormente. Cada usuario tiene sus preferencias y configura la OpenSPA a su gusto, esto puede llevar a que, en ciertos momentos, algunos procesos entren en conflicto y sea necesario encontrar una solución y aplicarla para que al repetir el proceso no se repita el fallo.
+ </respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Puedo actualizar el firmware a través de una conexión WiFi?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Instalación</categoria>
+			<respuesta>
+* * * * * Rotundamente NO * * * * *
+ 
+Durante el proceso de actualización del firmware sólo se cargan los procesos mínimos necesarios para la actualización (y los controladores del interface WiFi no están en esta categoría), el receptor debe estar conectado OBLIGATORIAMENTE por cable ethernet: esto es necesario para que el servidor DHCP (normalmente el router) pueda asignarle una dirección IP a la cual pueda acceder el PC para cargarle el firmware.
+
+* * * NO HAY QUE INTENTAR ACTUALIZAR EL RECEPTOR SI ÉSTE ESTÁ CONECTADO VIA Wi-Fi * * *
+ </respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Cómo actualizo el firmware E2 en AZBox?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Instalación</categoria>
+			<respuesta>
+Dependiendo del modelo de receptor, el proceso de actualización de Enigma2 es diferente: mientras que en los modelos HD (Premium+, Premium, Elite y Ultra) es necesario utilizar una herramienta externa, AzUp, los modelos de la serie Me (AZbox Me y miniMe) pueden ser actualizados desde la interface web, es decir, se conecta con el receptor desde un navegador web (Internet Explorer, Firefox, Google Chrome, Opera...) se envía la actualización al receptor, y se instala automáticamente. 
+ </respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Se puede volver al antiguo firmware de Opensat/Celrun en AZBox HD?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Instalación</categoria>
+			<respuesta>
+Si. No hay problema en ello, si el cambio se realiza correctamente, lo que significa SEGUIR EXACTAMENTE TODOS LOS PASOS, SIN OMITIR NINGUNO, para volver atrás (más información en www.openspa.info). Pero el firmware Opensat/Celrun sólo es válido para los modelos de la serie HD, no hay que intentar instalarlo en los receptores de la serie Me!!
+Aunque el firmware Opensat/Celrun era el software Oficial, actualmente su desarrollo está finalizado, y la investigación se centra en Enigma2 (por varios equipos de desarrollo) y en Aztrino, (evolución del original Neutrino) que ha tomado un fuerte impulso con estos decodificadores
+ </respuesta>
+		</content>			
+		<content>
+
+			<pregunta>Cómo vuelvo de OpenSPA a Spaze en AZBox HD?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Instalación</categoria>
+			<respuesta>
+La mejor manera de conocer el método correcto para el cambio de OpenSPA a Spaze se encuentra en el foro de soporte de OpenSPA y Spaze (http://www.openspa.info). Hay que tener mucho cuidado: OpenSPA es un software totalmente nuevo, basado en el kernel 3.4.4 (3.3.1 en la serie Me), frente al kernel 2.6.22 de la Spaze, lo que significa un cambio total de software, y, por ende, la vuelta atrás debe ser realizada con sumo cuidado y siguiendo exactamente las indicaciones, si no, se corre el riesgo de dejar el receptor bloqueado.
+ </respuesta>
+		</content>		
+<!-- 
+# # # # # # # # # # # # # # # CATEGORIA: CONFIGURACIÓN # # # # # # # # # # # # # # # 
+-->
+		<content>
+
+			<pregunta>Cómo se carga una lista de canales en Engima?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Configuración</categoria>
+			<respuesta>
+Para cargar una lista de canales en Enigma puedes utilizar diferentes aplicaciones, como DreamSet, ó EnigmEdit, que podrás encontrar en www.openspa.info, en la sección de Plugins y Utilidades. Estos programas te permiten, además, editar y reordenar a tu gusto las listas de canales y favoritos.
+
+También puedes cargar los archivos de modo manual en la carpeta /etc/enigma2 utilizando un gestor ftp. Cuando hayas cargado la lista, deberás reiniciar el receptor para que se active la nueva lista de canales.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Qué hago si al cargar una lista de canales no se muestran los favoritos?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Configuración</categoria>
+			<respuesta>
+Si aún después de reiniciar el receptor no puedes ver los favoritos de tu lista de canales, tendrás que activar las listas múltiples: vete a 'Menú/Sistema -> Configuración del receptor -> Sistema -> Personalizar' y elige el modo de configuración 'Intermedio' o 'Experto'. Una vez salvada la configuración con el botón verde, en el siguiente menú de configuración ('Interfaz de Usuario'), activa 'habilitar múltiples listas' y salva también los cambios con el botón verde.
+Después de esto, ya deberías ver tus favoritos en pantalla al entrar en la lista.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Cómo puedo añadir o borrar favoritos de la lista de canales?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Configuración</categoria>
+			<respuesta>
+Cuando tengas la lista de canales abierta en pantalla, pulsa en la tecla menú para acceder al menú principal de la lista de canales, donde están las principales acciones que se pueden realizar sobre la lista.
+Si no encuentras la opción que buscas, sitúate al final de este menú y pulsa en 'más opciones', se te abrirá un segundo menú con opciones más avanzadas. 
+
+Ten en cuenta que el menú de opciones de la lista de canales está referido a la lista ACTIVA: 
+si tienes en pantalla la lista mostrando los canales de un favorito, las acciones a realizar se referirán a los canales, mientras que si tienes a la vista la lista de favoritos, las opciones del menú se referirán a los favoritos.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Cómo cambio el aspecto (skin) en Enigma?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Configuración</categoria>
+			<respuesta>
+Para cambiar el aspecto vete a 'Menú/Sistema -> Configuración del receptor -> Sistema -> Piel' y selecciona el skin que desees de los que aparezcan en la lista. Una vez instalado será necesario un reinicio del GUI.
+
+Recuerda que tienes skins disponibles para descargar e instalar en http://www.openspa.info.
+			</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Cómo hago una copia de seguridad de mi configuración?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Configuración</categoria>
+			<respuesta>
+En el Panel Spaze, dentro del Menú Inicio, se encuentra la utilidad 'Copias/Restaurar' que nos permite elegir qué configuraciones queremos guardar (para su posterior restauración), en qué carpeta queremos guardar la copia de seguridad, y varias opciones más para facilitar la tarea.
+
+Accediendo a este módulo, deberás elegir de qué configuraciones de las que aparecen quieres tener una copia de seguridad y después pulsar en 'Crear Copia'. Puedes, también, crear perfiles particulares para automatizar esta tarea, en el caso de que la hagas con una cierta periodicidad 
+
+Además lleva incluida la opción de restaurar la configuración previamente guardada.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Puedo añadir más satélites a mi lista de canales?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Configuración</categoria>
+			<respuesta>
+	* * * Esta ES UNA CONFIGURACIÓN AVANZADA * * *
+
+No puede realizarse directamente desde el receptor. Para añadir satélites a la lista de canales deberemos conectar con el receptor a través de un gestor FTP para sustituir el archivo 'satellites.xml' instalado en /etc/tuxbox por uno actualizado. Si no sabes cómo debe hacerse, es recomendable buscar más información en http://www.openspa.info.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Puedo poner otros idiomas, o elegir el idioma de los subtítulos?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Configuración</categoria>
+			<respuesta>
+Entrando en 'Menú/Sistema -> Configuración del Receptor -> Sistema -> Autoselección de idioma' accederemos a todas las opciones de idiomas de audio y de subtítulos, en la que podremos elegir el (los) idioma(s) que prefiramos para escuchar la emisión de TV, así como para los subtítulos.
+
+Si vamos a 'Menú/Sistema -> Configuración del Receptor -> Sistema -> Configuración de Subtítulos' podremos configurar la presentación de los subtítulos: Color del texto, transparencia, si quremos que se activen o no, etc.
+Asimismo, en 'Menú/Sistema -> Configuración del Receptor -> Sistema -> Idioma' podremos elegir el idioma en el que queremos tener los menus, plugins y mensajes del receptor.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Que es la "Segunda Info Bar?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Configuración</categoria>
+			<respuesta>
+Si durante una emisión normal de TV pulsamos la tecla OK del mando a distancia, se abrirá, en la parte inferior de la pantalla, la Barra de Información, que nos ofrece distinta información: Nombre del evento que estamos viendo y del siguiente, canal de la emisión, sintonizador en uso, calidad de recepción, y más informaciones útiles.
+Habilitando, en 'Menú/Sistema -> Configuración del Receptor -> Sistema -> Personalización' la segunda infobar, al pulsar por segunda vez la tecla OK (mientras esté activa la barra de información principal) se nos abrirá una pantalla complementaria en la que se nos ofrecré más información sobre la emisión actual.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Por que no me aparece la hora correctamente en el visor frontal?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Configuración</categoria>
+			<respuesta>
+Lo más probable es que no esté correctamente configurada la Zona Horaria ('Menú/Sistema -> Configuración del Receptor -> Sistema -> Zona Horaria'), aunque también pueda deberse a alguna otra configuración, como la ausencia de la lista de canales, o por una mala conexión a Internet.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Puedo programar el receptor para que se ponga en reposo él sólo?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Configuración</categoria>
+			<respuesta>
+Si, mediante la configuración de 'Apagado Automático' del menú 'Reposo/Reinicio'. El apagado automático permite programar el apagado, el reinicio, poner el receptor en reposo, o despertarlo de modo automático a un hora concreta, configurando sólo unas pocas opciones del menú.
+			</respuesta>
+		</content>
+<!-- 
+# # # # # # # # # # # # # # # CATEGORIA: MULTIMEDIA # # # # # # # # # # # # # # # 
+-->
+		<content>
+
+			<pregunta>Cómo puedo ver las películas que tengo guardadas en el disco duro?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Multimedia</categoria>
+			<respuesta>
+El Media Center es el reproductor multimedia principal del receptor. Pulsando en 'Menú -> Media Center -> Reproducir Videos' entraremos en el reproductor desde el que podremos visualizar las películas que tenemos almacenadas en el disco duro. Bastará con moverse por las carpetas del HDD hasta encontrar nuestras películas, situarse encima y pulsar OK para que el MC empiece a reproducir.
+
+Además, podremos consultar la información disponible en Internet referida a cada película si en la ventana de lista de películas pulsamos el botón verde (internet info), y editamos el título con el teclado virtual que se muestra, o directamente aceptamos si es correcto. Al cabo de unos segundos se nos presentará la información y, si la hay, también la carátula de la película consultada.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Cómo puedo ver las películas que tengo guardadas en el ordenador?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Multimedia</categoria>
+			<respuesta>
+El Media Center también nos permite navegar por nuestra red interna y acceder a los distintos ordenadores y centros multimedia que podamos tener compartidos.
+Si tenemos nuestra red configurada correctamente, desde el Media Center podremos acceder a cualquiera de ellos para poder visualizar nuestras películas, sin necesidad de copiarlas al disco duro del receptor.
+
+Entra en el módulo 'Mis Vídeos', vete a la carpeta /media, y, dentro de ella encontrarás, si las has compartido correctamente, la(s) carpeta(s) de tu(s) otro(s) dispositivo(s) de la red.
+		</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Puedo ver fotos o escuchar música, como en otros Centros Multimedia?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Multimedia</categoria>
+			<respuesta>
+Si, el Media Center, además de películas, también es capaz de reproducir archivos de música y de hacer presentaciones de fotos.
+
+Si desde el módulo de 'Reproducir Videos' podemos visualizar cualquiera de las películas que tengamos grabadas en el disco duro, los módulos de 'Ver Fotografías' y 'Escuchar Música' nos permitirán reproducir las fotos y música que tengamos en nuestro disco duro.
+
+Mediante el módulo de 'Ver Fotografías' podremos reproducir, como si de una presentación de diapositivas se tratara, las fotos que tenemos guardadas en el disco duro. En este módulo podremos elegir el tiempo de visualización de las imágenes, si queremos que nos muestre la fecha, el color de la fuente y del fondo...
+
+En el módulo de 'Escuchar Música' podremos escuchar nuestra música, hacer nuestras propias listas de reproducción, borrar, reproducir todos los archivos que tengamos, etc. Incluso podremos dejar que la música vaya sonando y entrar en el módulo de 'Ver Fotografías' y visualizar las fotos que tengamos, mientras escuchamos nuestra música favorita.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Tengo un Disco Duro externo, se borrarán las películas si lo conecto al receptor?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Multimedia</categoria>
+			<respuesta>
+No. Si sólo conectas el disco duro para reproducir su contenido, no deberías tener ningún problema. Deberás tener cuidado si entras en el menú de 'Disco Duro' porque una equivocación aquí podría borrar el contenido del HDD.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Puedo grabar los programas de TV en un USB?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Multimedia</categoria>
+			<respuesta>
+Si, pero primero deberás inicializarlo, crear la carpeta 'movie' dentro de él, y configurar las rutas de grabación en el menú del mismo nombre. Vé a 'Menú/Sistema -> Configuración del receptor -> Sistema -> Personalizar' y elige 'Experto' en 'Modo de configuración'. Salva los ajustes nuevos con la tecla verde y sal totalmente de los menús.
+A continuación ya podrás acceder al menú de 'Rutas de Grabación' desde 'Menú/Sistema -> Configuración del receptor -> Sistema -> Rutas de grabación'. Configura aqui la ruta del USB (generalmente /media/usb) y salva la configuración. El siguiente paso es, desde un cliente FTP, crear la carpeta 'movie' dentro del USB, Reinicia GUI y ahora ya deberías poder grabar en tu USB, pero asegúrate de que tenga capacidad suficiente!!
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Cómo se avanza/retrocede cuando estoy viendo una película?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Multimedia</categoria>
+			<respuesta>
+El Media Center lleva integrado el plugin 'TimeSleep' que nos facilita y amplia la acción de rebobinado/avance rápido. Durante la reproducción de una película, pulsa cualquiera de las teclas de flecha izquierda/derecha y aparecerá una ventana en la que podrás elegir entre:
+
+- ir a un tiempo determinado deslizando la barra de progreso,
+- avanzar o retroceder en intérvalos de 15 segs, 30 segs, 1 minuto, 2 minutos... hasta 3 h.
+  con las teclas de flecha derecha/izquierda, o 
+- ir a una posición exacta de la película (hora: minuto: segundo) mediante el teclado numérico.
+			</respuesta>
+		</content>
+<!-- 
+# # # # # # # # # # # # # # # CATEGORIA: PLUGINS # # # # # # # # # # # # # # # 
+-->
+		<content>
+
+			<pregunta>Cómo hago para ver mis dispositivos en red?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Plugins</categoria>
+			<respuesta>
+Para facilitar dicha tarea hemos incluido el plugin NetworkBrowser.
+Este plugin nos facilita el configurar el acceso a la red de nuestros dispositivos que tenemos compartiendo archivos en la misma.
+Su finalidad es la de encontrar todos los dispositivos expuestos en nuestra red interna, y agregarlos y montarlos automáticamente sin necesidad de editar archivos.
+
+Para empezar a usar este plugin nos basta con ir a 'Menu/Sistema -> Configuración del receptor -> Sistema-> Red' aqui veremos varios menús, de ellos utilizaremos el 'Navegador de Red' y el 'Administrador de Montajes'.
+
+El Navegador de Red sirve para detectar todos los dispositivos que tenemos con acceso en nuestra red interna.
+
+El Administrador de Montajes sirve para montar los dispositivos si sabemos la dirección IP, el nombre de usuario, la contraseña, etc...
+
+Una vez configurados los accesos a nuestros dispositivos, éstos se montarán automáticamente en cada reinicio, por lo que no tendremos que hacer ningún tipo de paso extra.
+			</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Qué es "spzInternet"?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Plugins</categoria>
+			<respuesta>
+spzInternet (también spzIMDB) es un plugin que nos facilita las sinopsis, carátulas, repartos, y toda la información disponible en la base de datos IMDB.es referente a la película que queramos consultar, siempre que esta información esté disponible. Puedes acceder desde 'Menú/Sistema -> Plugins -> spzInternet', y también desde el Media Center
+Si accedes al plugin mientras ves una película, automáticamente detectará el título y lo presentará en pantalla para ser editado (mediante el teclado virtual), o aceptado si el título es correcto.
+    		</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Para qué sirve el plugin "Remapear Teclas"?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Plugins</categoria>
+			<respuesta>
+Es la versión actualizada del plugin 'MultiQuickButton'.
+Con una nueva interfaz gráfica, ofrece la posibilidad de configurar totalmente el mando a distancia, de la manera que nos resulte más cómoda, asignando acciones (una o más) a las teclas, o incluso asignando plugins, lo que facilita enormemente el manejo habitual del receptor
+    		</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Como puedo ver la EPG de un canal?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Plugins</categoria>
+			<respuesta>
+La Guia Electrónica de Programas (EPG) es un listado de la programación que se ofrece en cada canal, y que puede ser recibida y procesada por el receptor, gracias a la utilidad 'MediaHighway', que viene integrado en la OpenSPA y a la que podremos acceder desde 'Menú/Personalizar -> Configurar descarga EPG', para configurar sus opciones principales (incluso descargar manualmente la Guia).
+Además, en 'Menú/Sistema -> Configuración -> Sistema -> Ruta de EPG' podremos elegir dónde y con qué nombre queremos que se guarde el archivo (que se actualizará periódicamente) con toda la información de la EPG.
+La programación recibida por la EPG se mostrará automáticamente, en la mitad derecha de la pantalla, cada vez que abramos la lista de canales.
+    		</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Qué es "OpenWebif"?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Plugins</categoria>
+			<respuesta>
+El acceso al receptor no está limitado a las conexiones de FTP y de Telnet únicamente. La OpenSPA lleva integrado un plugin, llamado 'OpenWebif' que permite acceder al receptor a través del nevegador web: Mozilla, Opera, Chrome... Cualquiera de los navegadores que puedas utilizar normalmente te permitirá el acceso al receptor a través de una página web.
+
+Para utilizarlo, comprueba que el plugin está habilitado en 'Menú/Sistema -> Plugins -> OpenWebif' (donde, además, podrás configurar más opciones) y después solamente tendrás que escribir la dirección ip del receptor (192.168...) en la barra de direcciones del navegador, y en unos segundos tendrás todas las funciones habituales del receptor en tu PC.
+    		</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Cómo puedo ver la emisión de TV en el ordenador?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Plugins</categoria>
+			<respuesta>
+Aunque en la Spaze era posible la visualización del canal sintonizado en el receptor en el ordenador (streaming), el cambio de kernel conlleva una gran cantidad de detalles a tener en cuenta para el correcto funcionamiento del receptor.
+Actualmente, las prioridades del equipo de desarollo de Enigma2 para receptor se centran en otras tareas más urgentes, como el funcionamiento del tarjetero interno, o la utilización de sintonizadoes a través de USB.
+Es de esperar que en breve podamos disfrutar de esta funcionalidad del receptor.
+    		</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Cómo puedo acceder a la lista de canales pulsando la tecla OK del mando?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Plugins</categoria>
+			<respuesta>
+Mediante el plugin "Remapear Teclas", que lleva una opción específica para la tecla OK. El plugin permite asignar diversas funciones o plugins a cada una de las teclas del mando a distancia. 
+    		</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Qué es 'TvWeb'?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Plugins</categoria>
+			<respuesta>
+TvWeb ('Menú/Extras -> TvWeb') es un plugin basado en 'tvalacarta' y 'pelisalacarta' que permite la reproducción de películas online desde diversos servidores alojados en Internet.
+Permite la visualización directa, la reproducción en caché (en algunos casos no es posible), la descarga al disco duro para su posterior visualización y permite crear marcadores para acceder de forma más rápida a las películas que nos gusten más.
+    		</respuesta>
+		</content>		
+		<content>
+
+			<pregunta>Es cierto que puedo tener la previsión meteorológica en mi TV?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Plugins</categoria>
+			<respuesta>
+Si, gracias al plugin spzWeather, que recibe los datos actualizados desde la página web de Foreca. SpzWeather ofrece no sólo la predicción de varias localidades, sino que además ofrece la posibilidad
+de recibir varios mapas de satélite correspondientes a la imagen via satélite, las temperaturas, nubosidad, y el mapa de precipitaciones, todos ellos actualizados periódicamente.
+    		</respuesta>
+		</content>		
+<!-- 
+# # # # # # # # # # # # # # # CATEGORIA: ERRORES # # # # # # # # # # # # # # # 
+-->
+		<content>
+
+			<pregunta>Qué hago si de repente aparece una pantalla verde y el sistema se reinicia solo?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Errores</categoria>
+			<respuesta>
+Una pantalla verde es un error de programa. 
+Consulta el foro (www.openspa.info) para encontrar solución al problema. Explica el fallo que se ha producido y los pasos que has dado para llegar a él, procurando que sea lo más detallado posible, en la sección que corresponda al error. 
+
+También puedes postear el crashlog (log del fallo) para averiguar la causa y conseguir la solución de dicho error. Dichos logs se guardan en /media/hdd/enigma2_crash_numero.log.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Porqué, a veces, aparece una ventana avisando que el canal no se ha podido sintonizar?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Errores</categoria>
+			<respuesta>
+La mayoría de las veces aparece el mensaje de advertencia porque el canal ha sido actualizado por el proveedor y en nuestra lista los datos siguen siendo los antiguos. También puede ser que ese canal ya no esté emitiendo porque el proveedor lo haya eliminado.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Porqué a veces me aparece en la pantalla unas ruedas girando y el mando no responde?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Errores</categoria>
+			<respuesta>
+Durante el funcionamiento normal del receptor se llevan a cabo muchos procesos en el microprocesador y en la memoria. Hay veces que por exigencias del momento (por ejemplo, visualizar una película con datos corruptos que provocarán errores en el sistema) puede llegarse al límite de la memoria disponible y el sistema se "sobrecarga" y puede dar lugar a bloqueos.
+En ese momento aparece el reloj para indicar que el sistema está ocupado con algún proceso y no puede responder a lo que se le está exigiendo. Puede llegar al bloqueo total, lo que conlleva la desconexión "por software" (mediante pulsación larga en el botón de encendido) o "por hardware", es decir, desconectando directamente del interruptor trasero.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Cuando pulso una tecla en el mando, el receptor tarda demasiado en responder, qué le pasa?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Errores</categoria>
+			<respuesta>
+Puede ser indicativo de que la memoria está llegando a su límite y el receptor tiene problemas para poder realizar sus procesos con normalidad. Puede solucionarse desinstalando algunos plugins, o configurando la descarga de la EPG y los picons en un pendrive USB, es decir, aliviando la carga del sistema y facilitándole memoria libre para realizar sus tareas.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>El receptor se reinicia constantemente el sólo, porqué?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Errores</categoria>
+			<respuesta>
+Puede ser un fallo producido por intentar cargarle algún plugin no diseñado para el receptor. Deberás recordar cuáles fueron las últimas acciones que hiciste, para intentar revertir el fallo.
+Aunque no suele pasar casi nunca, también puede deberse a que se haya corrompido algún archivo de sistema en algún reinicio por hardware posterior a un bloqueo.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Porque me aparece el contenido del USB en la carpeta del HDD y viceversa?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Errores</categoria>
+			<respuesta>
+Son tantas las variables empleadas en el desarrollo de un software como la OpenSPA que, a veces, pueden aparecer fallos y errores. Que aparezca el contenido del USB en la carpeta del Disco Duro y/o viceversa es un error fácilmente subsanable, pero que debe ser realizado con cuidado: la edición errónea de un archivo de sistema podria llevar a tener que reinstalar todo el software. Pregunta en www.openspa.info cómo se puede arreglar este fallo.
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Mi otro receptor AZBox HD no arranca y aparece la palabra "BOOTING" en el visor frontal.</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Errores</categoria>
+			<respuesta>
+Este es un error grave. Casi siempre se debe a un fallo en la instalación de Enigma2 o de vuelta al Firmware Oficial Opensat/Celrun, y puede deberse a un corte del suministro eléctrico durante el proceso de actualización.
+En algunos casos concretos puede ser reparado por el usuario. Si el receptor todavia está en garantia es conveniente enviarlo a la tienda donde se adquirió para que sean ellos los que gestionen la reparación del receptor.
+Ciertos modelos de AzBox HD pueden ser revividos utilizando un convertidor TTL y a través de la consola Yamon, pero ESTE ES UN MÉTODO PARA USUARIOS AVANZADOS 
+			</respuesta>
+		</content>
+		<content>
+
+			<pregunta>Porque no puedo grabar ningún programa de televisión?</pregunta>
+			<!-- Categorias validas: General,Instalación,Configuración,Errores,Multimedia,Plugins -->
+			<categoria>Errores</categoria>
+			<respuesta>
+Para poder grabar los programas de televisión en el disco duro, este debe ser inicializado (formateado) para poder ser utilizado por el sistema operativo. Además, debe contener la carpeta movie (en minúsculas), y la ruta de grabación debe ser correctamente configurada en el menú 'Rutas de grabación', dentro de 'Menú/Sistema -> Configuración del Receptor -> Sistema'.
+Lógicamente, el sistema debe montar correctamente el disco duro en su carpeta correspondiente, pero hay veces (las menos) en que el disco duro contiene errores y no puede ser utilizado en el receptor. En este caso, no queda más remedio que cambiarlo por otro.
+			</respuesta>
+		</content>
+	</faq>
+</xml>

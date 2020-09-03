@@ -1,0 +1,112 @@
+*******************************************************   
+   Archivo de ayuda plugin spazeTeam RSS
+*******************************************************
+
+Que es spazeTeam RSS?
+----------------------------------------------------------------
+Es un lector de contenidos web en formato xml. Muchas páginas webs como periódicos, publicaciones, foros... ofrecen sus contenidos en este formato para poder ser vistos desde aplicaciones externas, como por ejemplo nuestro azbox. Estás fuentes se están actualizando constantemente. Para ver los contenidos RSS de una web concreta busca el símbolo RSS que suele ser un icono con dichas siglas.
+------------------------------x---------------------------------
+
+What SpazeTeam RSS is?
+It's a web content reader in xml format. Many web pages as newspapers, publications, forums... offer their content in this format and can be seen from external applications, like our Azbox. These sources are constantly being updated. To view the RSS contents from a particular web, look for RSS symbol that is usually an icon with such initials
+------------------------------x---------------------------------
+
+Como añado/modifico entradas RSS?
+----------------------------------------------------------------
+Aunque una vez dentro del plugin hay una opción de configuración donde puedes ver y editar los canales RSS (Tecla [MENU]-Configuración), lo mejor para añadir urls es editar un archivo de texto que está en /etc/tuxbox/spzRSS.conf
+Puedes acceder por ftp y basta con añadas la url completa de la fuente RSS que desees, cada una en una línea. Luego podrás configurar esa fuente para que se descargue automáticamente, pero eso es ya dentro del interface del propio plugin.
+Una vez hayas modificado el archivo spzRSS.conf, aunque lo normal es que coja automáticamente las nuevas urls, es conveniente hacer un reinicio del GUI (Menu -> Reposo /Reiniciar - Reiniciar GUI)
+------------------------------x---------------------------------
+
+How to add/edit RSS feeds?
+Although once inside the plugin there is a configuration option where you can see and edit RSS channels (Key [Menú]-Configuration), the best to add urls is to edit a text file you can fin in /etc/tuxbox/spzRSS.conf. You can access by ftp and just to add RSS feed full url that you want, each one in one line. Then you can set this source to be downloaded automatically, but that is already within the plugin interface. Once you have modified the file spzRSS.conf, although it is normal that automatically take the new urls, it's advisable to restart GUI.
+
+------------------------------x---------------------------------
+
+
+Configurar las entradas RSS?
+----------------------------------------------------------------
+Una vez añadidas tus fuente, cuando entras en el plugin, pulsa la tecla [MENU] y elije 'Setup'. Entrarás en una pantalla donde verás las opciones de configuración generales (luego hablamos de ellas) y luego verás la lista de canales RSS.
+Si te situas encima de un canal RSS y pulsas [OK] saldrá la url y encima la opción de 'Autoupdate'. Significa que, si está activada, cuando habrás el plugin automáticamente descargará el xml de esa fuente. 
+Además, si dejas el plugin abierto en segundo plano, cuando haya nuevos items te avisará mediante un tira de texto, una ventana o un mensaje de notificación, según la configuración que tengas puesta.
+------------------------------x---------------------------------
+
+Configure RSS feeds?
+Once your feeds are added, when you enter the plugin, press [MENU] key and select "Setup". You will enter in a screen where you can see general settings (talk about them later) and then you can see RSS channels list. If you go to a RSS feed and press OK will appear the url and the "Autoupdate" option above. It means that, if enabled, when you open the plugin, automatically will download the xml of this feed.
+Also, if you leave the plugin opened in background, when new items will warn you with a text strip, a window or a notification message, depending on your settings.
+
+------------------------------x----------------------------------
+
+Opciones de configuración
+----------------------------------------------------------------
+*** Start automatically with Enigma2: ***
+Cuando se inicia Enigma (despues de un reboot o reinicio del GUI), el plugin se ejecuta automáticamente en segundo plano. Si tenemos algun canal RSS con la opción de autodescarga activada ('Autoupdate'), se nos avisará de los nuevos mensajes que vayan llegando. Aunque abramos el plugin y lo cerremos el plugin seguirá ejecutándose en segundo plano.
+
+*** Keep running in background: ***
+El plugin no se inicia con enigma, tenemos que ir a Home Menu - RSS y abrirlo nosotros manualmente, pero una vez abierto, si tenemos algun canal RSS con la opción de autodescarga activada, se nos avisará de los nuevos mensajes que vayan llegando. Cuando cerremos el plugin, seguirá ejecutándose en segundo plano.
+
+*** Show new Messages as: ***
+Permite indicar como queremos que se nos avise de nuevos items (siempre y cuando haya al menos una canal con la autodescarga activa, y alguna de las 2 opciones anteriores este activa, o cuando cerremos el plugin y se nos pregunte lo dejemos en ejecución en segundo plano). Las opciones son con una 'Tira de texto' en la parte inferior de la pantalla (lo mensajes nuevos iran pasando uno a uno, pulsa [OK] para verlo ampliado), con una 'Vista previa' en una ventana con la lista de nuevos mensajes, con un simple mensaje de aviso, o Ninguno (en este caso solo se descargan las fuentes, no emite ninguna notificación).
+
+*** Update Interval (min): ***
+Cada cuanto tiempo en minutos se vuelven a descargar las fuentes RSS marcadas como Autodescarga (valor por defecto 30 minutos)
+
+*** Max entries for RSS channel: ***
+Número máximo de items a descargar por canal (valor por defecto 25)
+------------------------------x---------------------------------
+
+Setting options
+*** Start automatically with Enigma2: ***
+When Enigma is started (after a reboot or GUI restart), the plugin is automatically executed in background.If we have some RSS channel with autodownload option enabled ("Autoupdated"), we will be notified of new messages as they arrive. Although we open and close the plugin, it will keep running in background.
+
+*** Keep running in background: ***
+The plugin is not started with enigma, we have to go to Home Menu - RSS and open it, but once opened, if we have some RSS feed with autodownload option enabled, we will be notified of new messages as they arrive. When we close the plugin, it will keep running in background.
+
+*** Show new Messages as: ***
+It allows to specify how we want to be notified about new items (as long as there is at least one feed with autodownload enabled, and one of the 2 above options is active, or when we close the plugin and are asked, we keep running in background). The options are with a "text strip" at the bottom of the screen (new messages will go one to one, press OK to see enlarged), with a "Preview" in a window with new messages list, with a simple warning message, o None (in this case, only feeds are downloaded, and no notification is issued).
+
+*** Update Interval (min): ***
+Is the time in min when the RSS feed selected as Autodownload will be downloaded again (default is 30 min)
+
+*** Max entries for RSS channel: ***
+Max number of items to download by feed (default is 25)
+
+------------------------------x---------------------------------
+
+Uso del plugin
+----------------------------------------------------------------
+* Al ejecutar el plugin (Home Menu - > RSS), te aparecerá la lista de canales RSS. No te preocupes si solo se ve una url, cuando se descargue la primera vez un canal se guardará el nombre/título y luego te aparecerá siempre ese nombre no la url. 
+------------------
+* Si un canal está con la autodescarga activada ('Autoupdate' en configuración), se descargarán los feeds(entradas RSS) automáticamente. En ese caso en el listado aparecerá en la parte derecha 'AutoDescarga'. 
+------------------
+* Si un canal no está con la autodescarga activa deberás seleccionarlo y pulsar [OK] para descargar los feeds. En cualquier momento puedes pulsar el boton [VERDE] para forzar una nueva descarga.
+------------------
+* Si el icono del canal esta en color gris signfica que no tiene entradas, si está en naranja significa que si tiene entradas, pulsa [OK] para verlas.
+------------------
+* El primer elemento de la lista te muestra los nuevos items desde la anterior descarga.
+------------------
+* Pulsa la tecla [MENU] para mostrar opciones (Actualizar canal, Configuración, Cerrar,... dependiendo del contexto).
+------------------
+* Si un canal RSS tiene feeds, seleccionalo y pulsa [OK] para verlos, y [OK] de nuevo en un feed para verlo ampliado.
+------------------
+* Si no tienes las opciones de configuración de 'Iniciar automáticamente con Enigma2' o 'Continuar ejecutando en segundo plano al salir', cuando cierres el plugin te preguntará si quieres mantenerlo en ejecución en segundo plano para que descargue los feeds marcados con autodescarga y te avise de los nuevos items.
+------------------------------x---------------------------------
+
+Plugin use
+* When you execute plugin (Home Menu -> RSS), you will see RSS channels list. Don't worry if you only see one url, when one feed is downloaded first time, the name/tittle will we saved and then always appear this name, not url.
+-------------------
+*If one channel have active the autodownload ("Autoupdated" in settings), feeds will be automatically downloaded. In this case, you will see "Autodownload" on the right of the list.
+-------------------
+*If a channel is not with autodownload enabled, you have to select and press OK to download feeds. At any time you can press green button to force new download.
+-------------------
+*If channel icon is gray, means that no entries, if orange means that you have entries, press OK to see them.
+-------------------
+*First list element show you new items since last download.
+-------------------
+*Press button [MENU] to show options (Channel update, Settings, Close,... depending on context)
+-------------------
+*If a RSS channel has feeds, select it and press OK to see them, and OK again in a feed to enlarge.
+-------------------
+*If you don't have the Settings "Automatic start with Enigma2" or "Keep runnig in background when Exit", when you close the plugin you will be asked if you want to keep running in background to download the feeds selected with autodownload and if you want to be notified about new items.
+
+**************** spazeTEam 2012 | www.azboxhd.es ********************************

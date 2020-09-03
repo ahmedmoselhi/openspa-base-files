@@ -1,0 +1,27 @@
+<wizard>
+	<step id="start">
+                <text value="\n\nDo you want to Install OpenSPA Extra Plugins?" />
+                <displaytext value="OpenSPA Plugins Wizard" />
+			<list>
+				<listentry caption="Yes" step="install" />
+				<listentry caption="No" step="end" />
+			</list>
+        </step>
+	<step id="install" nextstep="end">
+                <text value="Press OK for update opkg database and select OPenSPA Extra Plugins to Install." />
+		<code pos="after" async="yes">
+self.updateopkg()
+		</code>
+		<code>
+self.clearSelectedKeys()
+self.selectKey("OK")
+		</code>
+        </step>
+	<step id="end" laststep="true">
+		<text value="Thank you for using the wizard. Your receiver is now ready for use.\nPress OK to start using your receiver." />
+		<code>
+self.clearSelectedKeys()
+self.selectKey("OK")
+		</code>
+	</step>
+</wizard>

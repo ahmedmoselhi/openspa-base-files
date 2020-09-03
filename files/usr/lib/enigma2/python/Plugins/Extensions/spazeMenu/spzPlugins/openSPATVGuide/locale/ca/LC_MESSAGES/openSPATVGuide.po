@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CoolTVGuideSPA\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-03 13:51-0000\n"
+"PO-Revision-Date: 2015-09-23 17:44+0100\n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: OpenSPA <openspa.info>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: CATALONIA\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/dream/enigma2-plugins/CoolTVGuideSPA/src\n"
+
+msgid "Add record timer"
+msgstr "Afegir gravació reservada"
+
+msgid "All channels"
+msgstr "Tots els canals"
+
+msgid "Change to list mode compact (without picons)"
+msgstr "Canviar a mode de llista compacta (sense picons)"
+
+msgid "Change to list mode with picons"
+msgstr "Canviar a mode de llista amb picons"
+
+msgid "Channel EPG"
+msgstr "EPG del canal"
+
+msgid "Day"
+msgstr "Dia"
+
+msgid "Do you really want to delete %s?"
+msgstr "N'esteu segur d'eliminar [%s]?"
+
+msgid "EPG Options"
+msgstr "Opcions d'EPG"
+
+msgid "Electronic Program Guide"
+msgstr "Guia Electrònica de Programes"
+
+msgid "Electronic Programa Guide (EPG)"
+msgstr "Guía Electrònica de Programes (EPG)"
+
+msgid "Enter Date Time"
+msgstr "Anar a Data / Hora..."
+
+msgid "Event Info"
+msgstr "Info d'event"
+
+msgid "Exit"
+msgstr "Sortir"
+
+msgid "Go to +24h."
+msgstr "Avançar +24 hores"
+
+msgid "Go to -24h."
+msgstr "Retrocedir -24 hores"
+
+msgid "Go to prime time"
+msgstr "Anar a 'Prime-Time'"
+
+msgid "Go top"
+msgstr "Anar al principi de la llista"
+
+msgid "Graphic Help"
+msgstr "Ajuda gràfica"
+
+msgid "Graphical EPG"
+msgstr "EPG gràfica"
+
+msgid "Graphical Electronic Program Guide"
+msgstr "Guia Electrònica de Programes gràfica"
+
+msgid "Hide"
+msgstr "Amagar"
+
+msgid "Loading epg data..."
+msgstr "Carregant dades d'EPG..."
+
+msgid "Move to event left"
+msgstr "Desplaçar-se a l'event a l'esquerra"
+
+msgid "Move to event right"
+msgstr "Desplaçar-se a l'event a la dreta"
+
+msgid "No Information"
+msgstr "Sense informació"
+
+msgid "No events"
+msgstr "Sense events"
+
+msgid "No events available"
+msgstr "No hi ha events per aquest canal"
+
+msgid "Options"
+msgstr "Opcions"
+
+msgid "Page"
+msgstr "Pàgina"
+
+msgid "Page Down"
+msgstr "Pàgina avall"
+
+msgid "Page Up"
+msgstr "Pàgina amunt"
+
+msgid "Remove timer"
+msgstr "Anul·lar gravació"
+
+msgid "Search"
+msgstr "Cercar"
+
+msgid "Search EPG / Internet info"
+msgstr "Cercar a EPG / Internet info"
+
+msgid "Search by genre"
+msgstr "Cercar per gènere"
+
+msgid "Search by genre in"
+msgstr "Cercar per gènere a"
+
+msgid "Search in"
+msgstr "Cercar a"
+
+msgid "Search in EPG"
+msgstr "Cercar a EPG"
+
+msgid "Search in Internet Database movies"
+msgstr "Cercar a Internet"
+
+msgid "Search in epg list or internet movie database"
+msgstr "Cercar a la EPG o a Internet"
+
+msgid "Search options"
+msgstr "Opcions de recerca"
+
+msgid "Select Bouquet"
+msgstr "Seleccioneu llista"
+
+msgid "Select bouquet list"
+msgstr "Seleccionar llista de favorits"
+
+msgid "Select option"
+msgstr "Seleccioneu opció"
+
+msgid "Show"
+msgstr "Mostrar"
+
+msgid "Show Event Information"
+msgstr "Mostrar informació d'event"
+
+msgid "Show current Channel single EPG"
+msgstr "Veure la llista d'events del canal actual"
+
+msgid "Show options menu"
+msgstr "Mostrar menú d'opcions"
+
+msgid "Show timer list"
+msgstr "Mostrar Gravacions Reservades"
+
+msgid "Single EPG"
+msgstr "EPG senzilla"
+
+msgid "Switch mode Graphical EPG/Single EPG"
+msgstr "Alternar entre EPG gràfica/EPG senzilla"
+
+msgid "Timer"
+msgstr "Gravació"
+
+msgid "Timer list"
+msgstr "Gravacions reservades"
+
+msgid "Tomorrow"
+msgstr "Demà"
+
+msgid "Zap"
+msgstr "Anar-hi"
+
+msgid "Zap and Exit"
+msgstr "Anar-hi i sortir"
+
+msgid "Zap to selected channel"
+msgstr "Anar al canal seleccionat"
+
+msgid "channels picons"
+msgstr "logotips de canals (picons)"
+
+msgid "genre colors in list"
+msgstr "colors segons el gènere a la llista"
+
+msgid "of"
+msgstr "de"
+

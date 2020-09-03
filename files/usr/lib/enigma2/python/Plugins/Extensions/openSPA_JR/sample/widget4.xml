@@ -1,0 +1,14 @@
+  <!-- info meteo -->
+  <widget source="session.CurrentService" render="Pixmap" pixmap="openSPA_JRLG/JR/temps.png" backgroundColor="colorJR4" position="1034,243" size="245,100" zPosition="-2">
+    <convert type="wheaterSpz">Existe</convert>
+    <convert type="ConditionalShowHide" />
+  </widget><widget source="session.CurrentService" render="Label" position="1151,254" size="100,52" font="Regular; 27" halign="left" foregroundColor="background" backgroundColor="white" transparent="1" noWrap="1" zPosition="4">
+    <convert type="wheaterSpz">Temperatura</convert>
+  </widget>
+  <widget source="session.CurrentService" render="spzWf" position="1059,253" size="74,74" transparent="1" alphatest="blend" zPosition="3">
+    <convert type="wheaterSpz">IconoHoy</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="1144,299" size="119,24" font="Regular; 16" halign="left" foregroundColor="background" backgroundColor="white" transparent="1" zPosition="3">
+    <convert type="wheaterSpz">TextoHoy</convert>
+  </widget>
+</screen>

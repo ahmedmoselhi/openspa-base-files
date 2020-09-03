@@ -1,0 +1,517 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - descargasSPZ\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: openspa.info\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/descargasSPZ\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: CATALONIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/descargasSPZ\n"
+
+msgid "(%s Packages)"
+msgstr "(%s paquets)"
+
+msgid "(Not recommended)"
+msgstr "(No recomenar)"
+
+msgid "(Recommended)"
+msgstr "(Recomenar)"
+
+msgid "Back"
+msgstr "Enrere"
+
+msgid "COMPLETED"
+msgstr "COMPLETAT"
+
+msgid "Camd & Emulation"
+msgstr "Cams"
+
+msgid "Camds"
+msgstr "Cams"
+
+msgid "Categorie(s)"
+msgstr "Categoria(es)"
+
+msgid "Categories"
+msgstr "Categories"
+
+msgid "Category"
+msgstr "Categoria"
+
+msgid "Channel List"
+msgstr "Llistes de canals"
+
+msgid "ChannelList"
+msgstr "Llista de canals"
+
+msgid "Channel_List"
+msgstr "Llistes de canals"
+
+msgid "Channel_list"
+msgstr "Llistes de canals"
+
+msgid "Check the installation log for more information."
+msgstr "Reviseu el log d'instal·lació per a més informació."
+
+msgid "Close"
+msgstr "Tancar"
+
+msgid "Configs"
+msgstr "Configuracions"
+
+msgid "Configuring..."
+msgstr "Configurant..."
+
+msgid ""
+"Congratulations! DonSatelite customer found.\n"
+"The exclusive downloads are available to install."
+msgstr ""
+"Felicitats! S'ha trobat el client DonSatelite.\n"
+"Les descàrregues exclusives estàn disponibles per instal·lar."
+
+msgid "Current"
+msgstr "Actual"
+
+msgid "Description"
+msgstr "Descripció"
+
+msgid "Difference"
+msgstr "Diferència"
+
+msgid "Do yo want launch download software openPLI manager for install new updates?"
+msgstr "Voleu executar el programa d'actualització de software d'openPLI per comprovar i instal·lar noves actualitzacions?"
+
+msgid "Do you want to exit?"
+msgstr "Voleu sortir del programa?"
+
+msgid "Do you want to install?"
+msgstr "Voleu instal·lar aquest arxiu?"
+
+msgid "Do you want to send +1 (positive vote) for this entry?"
+msgstr "Voleu enviar un vot positiu(+1) per aquest element?"
+
+msgid "Do you want to send -1 (negative vote) for this entry?"
+msgstr "Voleu enviar un vot negatiu(-1) per aquest element?"
+
+msgid "Do you want to update your receiver?"
+msgstr "Voleu actualitzar el receptor?"
+
+msgid "Do you want to update your receiver? (%s Packages)"
+msgstr "Voleu actualitzar el receptor? (%s paquets)"
+
+msgid ""
+"DonSatelite customer not found!!!\n"
+"Use your support website for help."
+msgstr ""
+"No s'ha trobat el client de DonSatelite!!!.\n"
+"Utilizeu la web de suport per obtenir ajuda."
+
+msgid "DonSatelite downloads help"
+msgstr "Descàrregues exclusives DonSatelite - Ajuda"
+
+msgid "Download exclusive for Don Satelite customers"
+msgstr "Descàrrega exclusiva per clients de Don Satélite"
+
+msgid "Downloading"
+msgstr "Descarregant"
+
+msgid "Downloads"
+msgstr "Descàrregues"
+
+msgid "Downloads Search"
+msgstr "Cercar a les descàrregues"
+
+msgid "Error downloading"
+msgstr "Error a la descàrrega"
+
+msgid "Error reading remote file"
+msgstr "Error llegint l'arxiu remot"
+
+msgid "File name"
+msgstr "Nom d'arxiu"
+
+msgid "File(s)"
+msgstr "Arxiu(s)"
+
+msgid "Finish..."
+msgstr "Finalitzant..."
+
+msgid "Finished"
+msgstr "Instal·lació finalitzada"
+
+msgid "Folder(s)"
+msgstr "Carpeta(es)"
+
+msgid "Force DonSatelite verification"
+msgstr "Forçar verificació de DonSatélite"
+
+msgid ""
+"Found more than 60 matches.\n"
+"It shows only the first 60 results.\n"
+"Use search terms more restrictive than"
+msgstr ""
+"S'han trobat més de 60 coincidències.\n"
+"Es mostren només els primers 60 resultats.\n"
+"Utilitzeu termes de recerca més restrictius que"
+
+msgid "Go to"
+msgstr "Anar a"
+
+msgid "Go to openSPA Downloads plugin!!"
+msgstr "Obriu el Plugin de Descàrregues (Menú->Panell SPA->Descàrregues openSPA) per veure-les!!"
+
+msgid "Go to openSPA Downloads plugin?"
+msgstr "Voleu obrir el mòdul de descàrregues SPZ ara?"
+
+msgid "Home"
+msgstr "Inici"
+
+msgid "INSTALL"
+msgstr "INSTAL·LAR"
+
+msgid "Icons"
+msgstr "Icones"
+
+msgid "Icons_Home_Menu"
+msgstr "Icones menú openSPA"
+
+msgid "Image preview"
+msgstr "Vista prèvia"
+
+msgid "Information"
+msgstr "Informació"
+
+msgid "Install"
+msgstr "Instal·lar"
+
+msgid "Installation"
+msgstr "Instal·lació"
+
+msgid "Installation Completed"
+msgstr "Instal·lació finalitzada"
+
+msgid "Installation log created in"
+msgstr "Log d'instal·lació a"
+
+msgid "Installing..."
+msgstr "Instal·lant..."
+
+msgid "It is also possible that the download server is down, or that we are performing maintenance tasks."
+msgstr "També és possible que el servidor de descàrregues no estigui operatiu, o que s'estiguin realitzan tasques de manteniment."
+
+msgid "Languages"
+msgstr "Idiomes"
+
+msgid "Last downloads"
+msgstr "Darreres descàrregues afegides"
+
+msgid "Latest Downloads"
+msgstr "Més recents"
+
+msgid "Models"
+msgstr "Models"
+
+msgid "Move Down"
+msgstr "Baixar"
+
+msgid "Move Up"
+msgstr "Pujar"
+
+msgid "Multilanguage"
+msgstr "Multiidioma"
+
+msgid "Name of download"
+msgstr "Nom de descàrrega"
+
+msgid "Negative Votes"
+msgstr "Vots negatius"
+
+msgid "New openSPA udpdates found!!"
+msgstr "S'han trobat noves actualitzacions!!"
+
+msgid "New udpdates!"
+msgstr "Nova(es) descàrrega(es)!"
+
+msgid "News"
+msgstr "Novetats"
+
+msgid "No matches found for:"
+msgstr "No s'han trobat coincidències per:"
+
+msgid "No preview image"
+msgstr "No hi ha vista prèvia"
+
+msgid ""
+"Not openSPA image found!\n"
+"More info in www.azboxhd.es"
+msgstr ""
+"La imatge no és un fw d'openSPA!\n"
+"Més informació a openspa.info"
+
+msgid "Number of Downloads"
+msgstr "Nº de Descàrregues"
+
+msgid "Only can vote one time!"
+msgstr "Ja heu votat per aquest element i només podeu votar un cop!"
+
+msgid "Open category"
+msgstr "Explorar la categoría seleccionada"
+
+msgid "Open openSPA Download Manager"
+msgstr "Obrir el centre de descàrregues"
+
+msgid "Options menu"
+msgstr "Menú d'opcions"
+
+msgid "Options/Search"
+msgstr "Opcions/cercar"
+
+msgid "Order by"
+msgstr "Ordenar per"
+
+msgid "Page Down"
+msgstr "Pàgina avall"
+
+msgid "Page Up"
+msgstr "Pàgina amunt"
+
+msgid "Parent directory"
+msgstr "Carpeta anterior"
+
+msgid "Picons"
+msgstr "Picons"
+
+msgid "Please wait..."
+msgstr "Si us plau, espereu..."
+
+msgid "Plugins and Extensions list has been reloaded, but"
+msgstr "La llista de plugins i extensions s'ha actualitzat, però"
+
+msgid "Plugins, skins, channel list download"
+msgstr "Descàrrega de Plugins, skins, llistes de canals"
+
+msgid "Positive Votes"
+msgstr "Vots positius"
+
+msgid "Press [GREEN] for (+1) and [RED] for (-1)."
+msgstr "Premeu [VERD] per valorar amb (+1) i [VERMELL] amb (-1)."
+
+msgid "Press [OK] for go to selected item"
+msgstr "Premeu [OK] per anar a l'ítem seleccionat"
+
+msgid "Press [OK] or [EXIT] key to back, [YELLOW] key for restart GUI now."
+msgstr "Premeu la tecla [OK] o [EXIT] per tornar, [GROC] per reiniciar GUI ara."
+
+msgid "Press [OK] or [EXIT] key to back."
+msgstr "Premeu la tecla [OK] o [EXIT] per tornar."
+
+msgid "Press [OK] to go Home"
+msgstr "Premeu [OK] per anar a la portada"
+
+msgid "Press [OK] to go back"
+msgstr "Premeu [OK] per tornar enrere"
+
+msgid "Press [OK] to go download manager"
+msgstr "Premeu [OK] per accedir al centre de descàrregues"
+
+msgid "Press [OK] to go openPLI plugins/extensions download options"
+msgstr "Premeu [OK] per anar a les opcions de les descàrregues openPLI"
+
+msgid "Press [OK] to obtain the list of categories"
+msgstr "Premeu [OK] per mostrar la llista de categories"
+
+msgid "Press [OK] to retry"
+msgstr "Premeu [OK] per reintentar-ho"
+
+msgid "Press any key to go back"
+msgstr "Premeu [Exit] o [OK] per tornar"
+
+msgid "Process finished"
+msgstr "Procés finalitzat"
+
+msgid "Process finished with some ERRORS"
+msgstr "Procés finalitzat. S'han produit alguns ERRORS"
+
+msgid "Recent Downloads"
+msgstr "Descàrregues recents"
+
+msgid "Reload screen"
+msgstr "Actualitzar pantalla (recarregar entrades)"
+
+msgid "Remote control help"
+msgstr "Ajuda del comand. a distància"
+
+msgid "Retring server conection..."
+msgstr "Reintentant connectar..."
+
+msgid "Retry"
+msgstr "Reintentar"
+
+msgid "Search download"
+msgstr "Cercar descàrrega"
+
+msgid "Search of"
+msgstr "Cercant"
+
+msgid "Select category and press [OK] for open."
+msgstr "Seleccioneu la categoria i premeu [OK] per veure-la."
+
+msgid "Select entry and press [OK] for install."
+msgstr "Premeu [OK] per veure la fitxa i/o instal·lar."
+
+msgid "Select picon path to install"
+msgstr "Seleccioneu la ruta per instal·lar els picon"
+
+msgid "Send for current entry"
+msgstr "Enviar valoració"
+
+msgid "Show on home"
+msgstr "Mostrar a la portada els"
+
+msgid "Show openSPA News"
+msgstr "Mostrar les darreres novetats openSPA"
+
+msgid "Size of file"
+msgstr "Mida"
+
+msgid "Skins"
+msgstr "Pells(Skins)"
+
+msgid "TOTAL VOTES"
+msgstr "TOTAL VOTS"
+
+msgid "The search term must be at least 3 characters!"
+msgstr "El terme que voleu cercar ha de tenir, com a mínim, 3 caràcters!"
+
+msgid ""
+"This download is exclusive for DonSatelite customers!!!\n"
+"ACCESS DENIED, visit your website for more information support."
+msgstr ""
+"Aquesta descàrrega és exclusiva per clients de DonSatélite!!!\n"
+"ACCÉS DENEGAT, visiteu la web de suport per a més informació."
+
+msgid "Today"
+msgstr "Avui"
+
+msgid "Top Downloads"
+msgstr "Més descarregats"
+
+msgid "Top Rated"
+msgstr "Millor valorats"
+
+msgid "URL Request error. Check internet conection."
+msgstr "Error a la URL. Verifiqueu que esteu connectat a internet."
+
+msgid "Unable to find openPLI software manager!!!"
+msgstr "El software d'openPLI per actualitzar/instal·lar no existeix o no és compatible amb aquesta versió d'openSPA!!!"
+
+msgid ""
+"Unable to send request!\n"
+"Try again later."
+msgstr ""
+"No s'ha pogut enviar el vot.\n"
+"Intenteu-ho un altre cop d'aqui a uns moments."
+
+msgid "Unattended upgrade without GUI and reboot system"
+msgstr "Actualitzar automàticament i reiniciar sistema"
+
+msgid "Updates"
+msgstr "Actualitzacions"
+
+msgid "Upgrade and ask to reboot"
+msgstr "Actualitzar i preguntar si reiniciar"
+
+msgid "Upload Date"
+msgstr "Data de pujada"
+
+msgid ""
+"Valoration submited.\n"
+"Thanks for participate!"
+msgstr ""
+"El vostre vot s'ha enviat.\n"
+"Gràcies per participar!"
+
+msgid "Version"
+msgstr "Versió"
+
+msgid "View Details/Install"
+msgstr "Veure Fitxa/instal·lar"
+
+msgid "View Info/Install"
+msgstr "Veure fitxa/Instal·lar"
+
+msgid "WARNING: Some ERRORS are detected."
+msgstr "ATENCIÓ: S'han detectat ERRORS durant la instal·lació."
+
+msgid "Wait"
+msgstr "Espereu"
+
+msgid "Wait..."
+msgstr "Espereu..."
+
+msgid ""
+"Want to remember this notice later?\n"
+"If you choose No notification will be deleted."
+msgstr ""
+"Voleu tornar a veure aquesta notificació més tard?\n"
+"Si trieu NO, la notificació s'eliminarà."
+
+msgid "Yesterday"
+msgstr "Ahir"
+
+msgid "You NOT are registered as Donsatelite customer"
+msgstr "NO esteu registrat com a client de DonSatelite"
+
+msgid "You are registered as Donsatelite customer"
+msgstr "Esteu registrat com a client de DonSatelite"
+
+msgid "by"
+msgstr "per"
+
+msgid "by openSPA (azboxhd.es), 2011"
+msgstr "per openSPA (openspa.info), 2011"
+
+msgid "icons"
+msgstr "Icones"
+
+msgid "of"
+msgstr "de"
+
+msgid "openPLI Downloads (Plugins/Extensions/Skins)"
+msgstr "Descàrregues openPLI (Plugins/Extensions/Skins/...)"
+
+msgid "openPLI Manage Plugins/Extensions"
+msgstr "Gestionar Plugins/Extensiones d'openPLI"
+
+msgid "openPLI Sotfware Update"
+msgstr "Actualitzación automàtica de software d'openPLI"
+
+msgid "openPLI downloads"
+msgstr "Descàrregues openPLI"
+
+msgid "openSPA Download"
+msgstr "Descàrrega openSPA"
+
+msgid "openSPA Downloads"
+msgstr "Descàrregues openSPA"
+
+msgid "openSPA News"
+msgstr "Novetats openSPA"
+
+msgid "picons"
+msgstr "Picons"
+
+msgid "votes"
+msgstr "vot(s)"
+
+msgid "you may need restart GUI!"
+msgstr "és possible que tingueu de reiniciar!"
+

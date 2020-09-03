@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Enigma2 szpVirtualKeyboard Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-21 14:23+0100\n"
+"PO-Revision-Date: 2015-09-23 17:38+0100\n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: spazeTEam <openspa.info>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+
+msgid "Activate the list of recent texts [REC]"
+msgstr "Activar la lista de textos recientes [REC]"
+
+msgid "Adventure"
+msgstr "Aventuras"
+
+msgid "All changes will be lost!"
+msgstr "¡Todos los cambios se perderán!"
+
+msgid "April"
+msgstr "Abril"
+
+msgid "August"
+msgstr "Agosto"
+
+msgid "Backspace (delete left char)"
+msgstr "Borrar hacia atrás (Backspace)"
+
+msgid "Backup"
+msgstr "Copia de seguridad"
+
+msgid "Basketball"
+msgstr "Baloncesto"
+
+msgid "Blue"
+msgstr "Azul"
+
+msgid "Cancel and Close"
+msgstr "Cancelar edición y cerrar"
+
+msgid "Change to historic list"
+msgstr "Cambiar a la lista de textos recientes"
+
+msgid "Change to special characters"
+msgstr "Mostrar caracteres especiales"
+
+msgid "Change to upper/lower chars"
+msgstr "Alternar MAYÚSCULAS/minúsculas"
+
+msgid "Character not allowed"
+msgstr "Carácter no permitido"
+
+msgid "Cinema"
+msgstr "Cine"
+
+msgid "Clear"
+msgstr "Limpiar"
+
+msgid "Clear text"
+msgstr "Borrar todo el texto"
+
+msgid "Comedy"
+msgstr "Comedia"
+
+msgid "Copy text to clipboard"
+msgstr "Copiar el texto en el portapapeles"
+
+msgid "December"
+msgstr "Diciembre"
+
+msgid "Decrease text size"
+msgstr "Disminuir el tamaño del texto"
+
+msgid "Del"
+msgstr "Supr."
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "Delete right char of cursor(x)/Use Back/Del(<-) to Del left char"
+msgstr "Borra a la dcha. del cursor(x). O [Back/Del] [<-] borra hacia atrás"
+
+msgid "Delete the entire list"
+msgstr "Borra todos los elementos de la lista"
+
+msgid "Deletes the selected item from the list"
+msgstr "Borra el elemento seleccionado de la lista"
+
+msgid "Documentary"
+msgstr "Dcomental"
+
+msgid "Drama"
+msgstr "Drama"
+
+msgid "Entertainment"
+msgstr "Entretenimiento"
+
+msgid "Expanded text Display"
+msgstr "Mostrar texto ampliado"
+
+msgid "February"
+msgstr "Febrero"
+
+msgid "Film"
+msgstr "Película"
+
+msgid "Friday"
+msgstr "Viernes"
+
+msgid "Go end"
+msgstr "Ir al final del texto"
+
+msgid "Go top"
+msgstr "Ir al principio del texto"
+
+msgid "Green"
+msgstr "Verde"
+
+msgid "Hotkeys help"
+msgstr "Teclas rápidas - Ayuda"
+
+msgid "Increase text size"
+msgstr "Aumentar tamaño del texto"
+
+msgid "Insert space at cursor(x) position [STOP]"
+msgstr "Inserta un espacio en la posición del cursor(x) [STOP]"
+
+msgid "Insert space char"
+msgstr "Insertar espacio"
+
+msgid "January"
+msgstr "Enero"
+
+msgid "July"
+msgstr "Julio"
+
+msgid "June"
+msgstr "Junio"
+
+msgid "March"
+msgstr "Marzo"
+
+msgid "May"
+msgstr "Mayo"
+
+msgid "Monday"
+msgstr "Lunes"
+
+msgid "Move cursor to left"
+msgstr "Mover el cursor a la izquierda"
+
+msgid "Move cursor to right"
+msgstr "Mover el cursor a la derecha"
+
+msgid "Move cursor(x) to beginning of text [|<<]"
+msgstr "Mueve el cursor(x) al principio del texto [|<<]"
+
+msgid "Move cursor(x) to end of text [>>|]"
+msgstr "Mueve el cursor(x) al final del texto [>>|]"
+
+msgid "Music"
+msgstr "Música"
+
+msgid "No valid character for this context!"
+msgstr "¡El carácter pulsado no está permitido!"
+
+msgid "November"
+msgstr "Noviembre"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "October"
+msgstr "Octubre"
+
+msgid "Options"
+msgstr "Opciones"
+
+msgid "Paste text"
+msgstr "Pegar el texto"
+
+msgid "Press OK to move cursor(x) left [CH-]"
+msgstr "Pulse OK para mover el cursor(x) a la izquierda [CH-]"
+
+msgid "Press OK to move cursor(x) right [CH+]"
+msgstr "Pulse OK para mover el cursor(x) a la derecha [CH+]"
+
+msgid "Press [OK] or [INFO] to go back"
+msgstr "Pulse [OK] o [INFO] para volver"
+
+msgid "Really clear the history list?"
+msgstr "Seguro que quiere vaciar la lista?"
+
+msgid "Really clear the text?"
+msgstr "Seguro que quiere BORRAR todo el texto?"
+
+msgid "Recent"
+msgstr "Lista"
+
+msgid "Recovery initial text"
+msgstr "Recuperar el texto inicial"
+
+msgid "Recovery the initial text?"
+msgstr "Recuperar el texto inicial?"
+
+msgid "Red"
+msgstr "Rojo"
+
+msgid "Return value and Close"
+msgstr "Devolver el valor y cerrar"
+
+msgid "Saturday"
+msgstr "Sábado"
+
+msgid "Science fiction"
+msgstr "Ciencia ficción"
+
+msgid "September"
+msgstr "Septiembre"
+
+msgid "Series"
+msgstr "Series"
+
+msgid "Soccer"
+msgstr "Fútbol"
+
+msgid "Some characters are not valid:"
+msgstr "Estos caracteres no son válidos:"
+
+msgid "Sport"
+msgstr "Deporte"
+
+msgid "Sunday"
+msgstr "Domingo"
+
+msgid "Switch uppercase/lowercase [PAUSE]"
+msgstr "Alternar MAYÚSCULAS/minúsculas [PAUSE]"
+
+msgid "Terror"
+msgstr "Terror"
+
+msgid "Thursday"
+msgstr "Jueves"
+
+msgid "Tuesday"
+msgstr "Martes"
+
+msgid "Type the text"
+msgstr "Introduzca el texto:"
+
+msgid "Use [<<] for decrease text size"
+msgstr "Use [<<] para disminuir el tamaño del texto"
+
+msgid "Use [>>] for increase text size"
+msgstr "Use [>>] para aumentar el tamaño del texto"
+
+msgid "Use cursor keys to move and press OK to insert"
+msgstr "Use las teclas de dirección para mover y pulse OK para insertar"
+
+msgid "Use left/right keys to move cursor(x), also [CH-]/[CH+]"
+msgstr "Use izquierda/derecha para mover el cursor(x) o [CH-]/[CH+]"
+
+msgid "Use numeric keypad or use the cursor keys and press OK"
+msgstr "Utilice el teclado numérico o use los cursores y pulse OK"
+
+msgid "Valid characters are:"
+msgstr "Los caracteres permitidos son:"
+
+msgid "VirtualKeyboard"
+msgstr "Teclado virtual"
+
+msgid "Wednesday"
+msgstr "Miércoles"
+
+msgid "Yellow"
+msgstr "Amarillo"
+
+msgid "space"
+msgstr "espacio"
+
