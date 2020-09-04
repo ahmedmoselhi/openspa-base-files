@@ -1,5 +1,3 @@
-from Source import Source
-from Components.Element import cached
 from Plugins.Extensions.spazeMenu.spzPlugins.descargasSPZ.plugin import updates_event
 
 def pondebugs(loque):

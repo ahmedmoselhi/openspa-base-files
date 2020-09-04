@@ -1,5 +1,3 @@
-from Converter import Converter
-from Components.Element import cached
 from Poll import Poll
 import NavigationInstance
 from enigma import eTimer

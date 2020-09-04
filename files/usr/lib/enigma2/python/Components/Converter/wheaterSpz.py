@@ -1,5 +1,3 @@
-from Components.config import config
-from Converter import Converter
 from Components.Element import cached
 import os
 import time

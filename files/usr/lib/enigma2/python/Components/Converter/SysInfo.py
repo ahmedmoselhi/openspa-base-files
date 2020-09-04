@@ -1,5 +1,3 @@
-from Components.Converter.Converter import Converter
-from Components.Element import cached
 from Poll import Poll
 from os import popen, statvfs
 SIZE_UNITS = ['B',

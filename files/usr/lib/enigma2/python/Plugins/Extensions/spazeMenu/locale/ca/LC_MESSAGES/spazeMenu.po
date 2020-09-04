@@ -14,6 +14,8 @@ msgstr ""
 "X-Poedit-Country: CATALONIA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ca_CA\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SearchPath-0: /home/mpiero/Plugins/spazeMenu\n"
 
 msgid "About"
@@ -86,7 +88,7 @@ msgid "Delete"
 msgstr "Eliminar"
 
 msgid "Device Manager"
-msgstr "Gestor de discos"
+msgstr "Gestor de discs"
 
 msgid "Down"
 msgstr "Baixar"
@@ -201,7 +203,7 @@ msgid "Key [Ok] -> Run"
 msgstr "Tecla [Ok] -> Executar"
 
 msgid "List changed. Save this changes?"
-msgstr "La llista ha canviat. Desar els canvis?"
+msgstr "La llista ha canviat. Guardar els canvis?"
 
 msgid "List of Plugins"
 msgstr "Llistat de plugins instal·lats"
@@ -377,7 +379,7 @@ msgid ""
 " You want to access the OpenSPA Extra Plugins Manager to install it?"
 msgstr ""
 "Aquest plugin no està instal·lat.\n"
-" Voleu accedir al gestor de Plugins OpenSPA per instal·lar-ho?"
+" Voleu accedir al gestor de Plugins OpenSPA per instal·lar-lo?"
 
 msgid "Timer list"
 msgstr "Gestor de gravacions reservades"
@@ -464,3 +466,20 @@ msgstr "Panell SPA"
 msgid "spaze PANEL"
 msgstr "Panell SPA"
 
+msgid "TV Series Timers"
+msgstr "Programacions Series TV"
+
+msgid "Customize skin"
+msgstr "Personalitzar skin"
+
+msgid "Options to configure skin"
+msgstr "Opcions de personalització del skin"
+
+msgid "Search Timers"
+msgstr "Recerca programada"
+
+msgid "Extra Panel"
+msgstr "Panell Extra"
+
+msgid "Extra Panel downloads"
+msgstr "Descàrregues Panell Extra"

@@ -5,9 +5,7 @@
 		<key id="KEY_GREEN" mapto="green" flags="b" />
 		<key id="KEY_GREEN" mapto="green_long" flags="l" />
 		<key id="KEY_YELLOW" mapto="yellow" flags="b" />
-		<!--<key id="KEY_YELLOW" mapto="yellow" flags="m" />-->
 		<key id="KEY_YELLOW" mapto="yellow_long" flags="l" />
-		<!--<key id="KEY_YELLOW" mapto="audioSelection" flags="m" />-->
 		<key id="KEY_BLUE" mapto="blue" flags="b" />
 		<key id="KEY_BLUE" mapto="blue_long" flags="l" />
 		<key id="KEY_PVR" mapto="pvr" flags="b" />
@@ -35,10 +33,8 @@
 		<key id="KEY_NEXT" mapto="next" flags="mr" />
 		<key id="KEY_PREVIOUS" mapto="previous" flags="mr" />
 		<key id="KEY_AUDIO" mapto="audio" flags="m" />
-		<key id="KEY_SUBTITLE" mapto="subtitle" flags="m" />
 		<key id="KEY_PLAY" mapto="play" flags="b" />
 		<key id="KEY_PLAY" mapto="play_long" flags="l" />
-		<key id="KEY_0" mapto="key0" flags="m" />
 		<key id="KEY_MUTE" mapto="volumeMute" flags="mr" />
 		<key id="KEY_BACK" mapto="back" flags="mr" />
 		<key id="KEY_FORWARD" mapto="forward" flags="mr" /> 
@@ -57,25 +53,5 @@
 		<!-- <key id="KEY_OK" mapto="ok" flags="m" /> -->
 		<key id="KEY_EXIT" mapto="exit" flags="m" />
 		<key id="KEY_CANCEL" mapto="exit" flags="m" />
-		<key id="KEY_PROGRAM" mapto="program" flags="m" />
-		<key id="KEY_PROGRAM" mapto="program_long" flags="l" />
-		<key id="KEY_MEDIA" mapto="file" flags="b" />
-		<key id="KEY_LIST" mapto="list" flags="b" />
-		<key id="KEY_MEDIA" mapto="file_long" flags="l" />
-		<key id="KEY_LIST" mapto="list_long" flags="l" />
-		<key id="KEY_FAVORITES" mapto="favorites" flags="b" />
-		<key id="KEY_SCREEN" mapto="screen" flags="b" />		
-		<key id="KEY_EPG" mapto="epg" flags="b" />
-		<key id="KEY_EPG" mapto="epg_long" flags="l" />		
-		<key id="KEY_ARCHIVE" mapto="history" flags="b" />
-		<key id="KEY_ARCHIVE" mapto="history_long" flags="l" />
-		<key id="KEY_F1" mapto="f1" flags="b" />
-		<key id="KEY_F1" mapto="f1_long" flags="l" />
-		<key id="KEY_F2" mapto="f2" flags="b" />
-		<key id="KEY_F2" mapto="f2_long" flags="l" />
-		<key id="KEY_F3" mapto="f3" flags="b" />
-		<key id="KEY_F3" mapto="f3_long" flags="l" />
-		<key id="KEY_F4" mapto="f4" flags="b" />
-		<key id="KEY_F4" mapto="f4_long" flags="l" />		
 	</map>
 </keymap>

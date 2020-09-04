@@ -1,0 +1,93 @@
+<skins>
+	<screen name="spzVirtualKeyboard" position="263,140" size="953,503" title="Virtual Keyboard" flags="wfNoBorder" backgroundColor="#ff000000" zPosition="99">
+		<ePixmap name="imagenfondo" position="0,0" size="752,354" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/spazeMenu/imgvk/teclado-fs8.png" zPosition="-10" alphatest="off" />
+		<widget name="imagenfondo2" position="0,354" size="577,129" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/spazeMenu/imgvk/teclado2-fs8.png" zPosition="-7" alphatest="blend" />
+		<widget name="titulo" position="42,12" size="696,24" transparent="1" text="spzVirtualKeyboard" font="Regular; 18" foregroundColor="#dedede" backgroundColor="#000000" noWrap="1" shadowColor="#000000" shadowOffset="-2,-2" />
+		<widget name="tapa_texto" position="10,40" size="731,3" transparent="0" backgroundColor="#ffffff" zPosition="-5" />
+		<widget name="tapa_texto2" position="10,140" size="731,3" transparent="0" backgroundColor="#ffffff" zPosition="-5" />
+		<widget name="key_texto" position="14,47" size="724,88" transparent="0" text=" " valign="top" halign="left" font="Console; 18" foregroundColor="#ffffff" backgroundColor="#1e1e1e" />
+		<!--<widget name="key_texto0" position="14,47" size="724,88" transparent="1" text=" " valign="top" halign="left" font="Console; 18" foregroundColor="#ffffff" backgroundColor="#1e1e1e" zPosition="1"/>-->
+		<!-- teclas -->
+		<!-- fila 1 -->
+		<widget name="key_1" position="11,147" size="55,32" transparent="1" text="1" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_2" position="67,147" size="55,32" transparent="1" text="2" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_3" position="123,147" size="55,32" transparent="1" text="3" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_4" position="179,147" size="55,32" transparent="1" text="4" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_5" position="235,147" size="55,32" transparent="1" text="5" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_6" position="291,147" size="55,32" transparent="1" text="6" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_7" position="347,147" size="55,32" transparent="1" text="7" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_8" position="403,147" size="55,32" transparent="1" text="8" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_9" position="459,147" size="55,32" transparent="1" text="9" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_10" position="515,147" size="55,32" transparent="1" text="0" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<!-- fila 2 -->
+		<widget name="key_11" position="11,185" size="55,32" transparent="1" text="q" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_12" position="67,185" size="55,32" transparent="1" text="w" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_13" position="123,185" size="55,32" transparent="1" text="e" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_14" position="179,185" size="55,32" transparent="1" text="r" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_15" position="235,185" size="55,32" transparent="1" text="t" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_16" position="291,185" size="55,32" transparent="1" text="y" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_17" position="347,185" size="55,32" transparent="1" text="u" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_18" position="403,185" size="55,32" transparent="1" text="i" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_19" position="459,185" size="55,32" transparent="1" text="o" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_20" position="515,185" size="55,32" transparent="1" text="p" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<!-- fila 3 -->
+		<widget name="key_21" position="11,223" size="55,32" transparent="1" text="a" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_22" position="67,223" size="55,32" transparent="1" text="s" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_23" position="123,223" size="55,32" transparent="1" text="d" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_24" position="179,223" size="55,32" transparent="1" text="f" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_25" position="235,223" size="55,32" transparent="1" text="g" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_26" position="291,223" size="55,32" transparent="1" text="h" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_27" position="347,223" size="55,32" transparent="1" text="j" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_28" position="403,223" size="55,32" transparent="1" text="k" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_29" position="459,223" size="55,32" transparent="1" text="l" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_30" position="515,223" size="55,32" transparent="1" text="ñ" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<!-- fila 4 -->
+		<widget name="key_31" position="11,261" size="55,32" transparent="1" text="z" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_32" position="67,261" size="55,32" transparent="1" text="x" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_33" position="123,261" size="55,32" transparent="1" text="c" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_34" position="179,261" size="55,32" transparent="1" text="v" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_35" position="235,261" size="55,32" transparent="1" text="b" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_36" position="291,261" size="55,32" transparent="1" text="n" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_37" position="347,261" size="55,32" transparent="1" text="m" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_38" position="403,261" size="55,32" transparent="1" text="," valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_39" position="459,261" size="55,32" transparent="1" text="." valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<widget name="key_40" position="515,261" size="55,32" transparent="1" text="-" valign="bottom" halign="center" font="Regular; 26" foregroundColor="#000000" backgroundColor="#ffffff" zPosition="22" />
+		<!-- especiales -->
+		<widget name="key_stop" position="230,320" size="65,18" transparent="1" text="espacio" font="Regular; 14" foregroundColor="#000066" backgroundColor="#ffffff" noWrap="1" halign="center" zPosition="22" />
+		<widget name="key_play" position="286,320" size="65,18" transparent="1" text="ABC" font="Regular; 14" foregroundColor="#000066" backgroundColor="#ffffff" noWrap="1" halign="center" zPosition="22" />
+		<widget name="key_red" position="342,320" size="65,18" transparent="1" text="Borrar" font="Regular; 14" foregroundColor="#000066" backgroundColor="#ffaaaa" noWrap="1" halign="center" zPosition="22" />
+		<widget name="key_green" position="398,311" size="65,18" transparent="1" text="OK" font="Regular; 15" foregroundColor="#000066" backgroundColor="#aaffaa" noWrap="1" halign="center" zPosition="22" />
+		<widget name="key_yellow" position="454,311" size="65,18" transparent="1" text="Limpiar" font="Regular; 14" foregroundColor="#000066" backgroundColor="#ffffff" noWrap="1" halign="center" zPosition="22" />
+		<widget name="key_blue" position="765,481" size="97,27" transparent="1" text="#@&amp;:" font="RegularHD; 14" foregroundColor="ftece" valign="bottom" borderColor="bortec" borderWidth="1" noWrap="1" halign="center" zPosition="22" />
+		<!-- teclado -->
+		<widget name="key_teclado1" position="14,356" size="182,36" transparent="1" text="abcABC" valign="center" halign="center" font="Regular; 20" foregroundColor="#ffffff" backgroundColor="#000000" />
+		<widget name="key_teclado2" position="200,356" size="182,36" transparent="1" text="abcABC" valign="center" halign="center" font="Regular; 20" foregroundColor="#ffffff" backgroundColor="#000000" />
+		<widget name="key_teclado3" position="385,356" size="182,36" transparent="1" text="abcABC" valign="center" halign="center" font="Regular; 20" foregroundColor="#ffffff" backgroundColor="#000000" />
+		<widget name="key_teclado4" position="14,395" size="182,36" transparent="1" text="abcABC" valign="center" halign="center" font="Regular; 20" foregroundColor="#ffffff" backgroundColor="#000000" />
+		<widget name="key_teclado5" position="200,395" size="182,36" transparent="1" text="abcABC" valign="center" halign="center" font="Regular; 20" foregroundColor="#ffffff" backgroundColor="#000000" />
+		<widget name="key_teclado6" position="385,395" size="182,36" transparent="1" text="abcABC" valign="center" halign="center" font="Regular; 19" foregroundColor="#ffffff" backgroundColor="#000000" />
+		<widget name="key_teclado7" position="14,435" size="182,36" transparent="1" text="abcABC" valign="center" halign="center" font="Regular; 20" foregroundColor="#ffffff" backgroundColor="#000000" />
+		<widget name="key_teclado8" position="200,435" size="182,36" transparent="1" text="abcABC" valign="center" halign="center" font="Regular; 20" foregroundColor="#ffffff" backgroundColor="#000000" />
+		<widget name="key_teclado9" position="385,435" size="182,36" transparent="1" text="abcABC" valign="center" halign="center" font="Regular; 20" foregroundColor="#ffffff" backgroundColor="#000000" />
+
+		<widget name="seleccion" position="4,141" size="67,49" transparent="1" alphatest="blend" zPosition="20" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/spazeMenu/imgvk/seleccion-fs8.png" />
+
+		<widget name="key_record" position="567,320" size="65,18" transparent="1" text="Hist." font="Regular; 14" foregroundColor="#000066" backgroundColor="#aaaaff" noWrap="1" halign="center" zPosition="22" />
+		<widget name="key_delete" position="622,313" size="65,18" transparent="1" text="Delete" font="Regular; 14" foregroundColor="#000066" backgroundColor="#aaffaa" noWrap="1" halign="center" zPosition="22" />
+		<widget name="key_clear" position="679,313" size="65,18" transparent="1" text="Clear" font="Regular; 14" foregroundColor="#000066" backgroundColor="#aaffaa" noWrap="1" halign="center" zPosition="22" />
+
+		<widget name="cajalista" position="573,146" size="380,333" transparent="0" backgroundColor="#ffffff" zPosition="39" />
+		<widget name="lista" position="580,152" size="153,140" transparent="0" scrollbarMode="showOnDemand" zPosition="40" />
+		<widget name="listapred" position="580,152" size="153,140" transparent="0" scrollbarMode="showOnDemand" zPosition="41" />
+
+		<widget name="text_info" position="9,39" size="733,305" transparent="0" foregroundColor="#ffffff" backgroundColor="#000000" font="Regular; 22" zPosition="50" />
+
+		<eLabel name="ayu" position="0,354" size="752,30" backgroundColor="#000000" zPosition="-9" />
+		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/spazeMenu/imgvk/menu.png" position="10,356" size="35,25" transparent="1" alphatest="blend" zPosition="-8" />
+		<widget name="in_menu" position="45,356" size="185,25" font="Regular; 16" valign="center" halign="left" transparent="1" foregroundColor="#ffffff" backgroundColor="#000000" zPosition="-8" />
+
+		<widget name="in_green" position="177,356" size="570,25" font="Regular; 16" valign="center" halign="right" transparent="1" foregroundColor="#bebebe" text="Ayuda" backgroundColor="#000000" zPosition="-8" noWrap="1"/>
+		<widget name="barrapix_arr" position="0,0" zPosition="42" size="20,20" alphatest="blend" transparent="1" />
+		<widget name="barrapix_abj" position="0,0" zPosition="42" size="20,20" alphatest="blend" transparent="1" />
+	</screen>
+</skins>

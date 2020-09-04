@@ -1,0 +1,707 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: spaQButton\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-08 23:40+0100\n"
+"PO-Revision-Date: 2016-03-09 20:42+0100\n"
+"Last-Translator: pe.tardo <pe.thardo@gmail.com>\n"
+"Language-Team: openspa.info\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: CATALONIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "openSPA. Remote control setup"
+msgstr "Configuració del comand. a distància openSPA"
+
+msgid "This utility will allow you to view and modify to your liking the remote control."
+msgstr "Aquesta utilitat permet veure i modificar el comandament a distància."
+
+msgid "Closing this window you will see a list of pre-assigned functions of command. You can customize it as you wish."
+msgstr "En tancar aquesta finestra veureu una llista de les funcions preassignades del comandament. Es pot personalizar com es vulgui."
+
+msgid "Pressing any key will be located in that key listed. Press [OK] to view / edit actions."
+msgstr "Si premeu qualsevol tecla, aquesta serà localitzada a la llista. Premeu [OK] per veure/editar les accions."
+
+msgid ""
+"The Welcome screen does not reappear. Remember you can return to the settings from the remote:\n"
+"Menu -> Customize -> Customize the buttons on the remote."
+msgstr ""
+"Aquesta pantalla no tornarà a aparèixer. Recordeu que podeu tornar a la configuració del comandament a distància des de:\n"
+"Menú -> Personalitzar -> Personalitzar comand. a distància."
+
+msgid "Information/Setup key:"
+msgstr "Informació/configuració tecla:"
+
+msgid "Multimedia Functions"
+msgstr "Funcions MULTIMÈDIA"
+
+msgid "openSPA Functions"
+msgstr "Funcions OPENSPA"
+
+msgid "Extensions/Plugins Functions"
+msgstr "Funcions de PLUGINS/extensions"
+
+msgid "Record Functions"
+msgstr "Funcions de GRAVACIÓ"
+
+msgid "Zap Functions"
+msgstr "Funcions de ZÀPING"
+
+msgid "EPG/Event Functions"
+msgstr "Funcions d'EPG"
+
+msgid "TV Functions"
+msgstr "Funcions de TV"
+
+msgid "Favourite Functions"
+msgstr "Funcions dels FAVORITS"
+
+msgid "System Functions"
+msgstr "Funcions del SISTEMA"
+
+msgid "Macro Functions"
+msgstr "Funcions de MACRO"
+
+msgid "Not configured"
+msgstr "<Cap acció assignada>"
+
+msgid "Type key for search in list, or press (1) por advanced Capture Key"
+msgstr "Premeu una tecla per localitzar-la, o premeu [1] per utilitzar la Captura de tecla avançada"
+
+msgid "Key 0"
+msgstr "Tecla 0"
+
+msgid " long"
+msgstr " llarg"
+
+msgid "A/V Settings"
+msgstr "Configuració A/V "
+
+msgid "Activate PiP"
+msgstr "PiP (activar/desactivar)"
+
+msgid "Activate PIP"
+msgstr "PiP (activar/desactivar)"
+
+msgid "About"
+msgstr "Quant a..."
+
+msgid "Key EXIT"
+msgstr "Tecla SORTIR"
+
+msgid "Functions"
+msgstr "Funcions predefinides"
+
+msgid "Information/Edit"
+msgstr "Informació/editar"
+
+msgid "Do you want to remap keys now?"
+msgstr "Voleu personalitzar ara el comandament?"
+
+msgid "spzZapHistory"
+msgstr "Històric de zàping"
+
+msgid "Do yo want deactivate this function?"
+msgstr "Voleu DESACTIVAR la funció seleccionada?"
+
+msgid "Do yo want activate this function?"
+msgstr "Voleu tornar a ACTIVAR la funció seleccionada?"
+
+msgid "Press [OK] for deactivate/activate functions.[BLUE] for add action to key.[YELLOW] for remove."
+msgstr "Premeu [OK] per desactivar/activar funcions. [BLAU] per afegir acció. [GROC] per esborrar."
+
+msgid "Press [BLUE] for add actions to this key"
+msgstr "Premeu [BLAU] per assignar accions a aquesta tecla."
+
+msgid "Add"
+msgstr "Afegir"
+
+msgid "Audio"
+msgstr "Àudio"
+
+msgid "Autostart"
+msgstr "Autoinici activat"
+
+msgid "Backup"
+msgstr "Realitzar còpia de seguretat"
+
+msgid "Backup Settings..."
+msgstr "Backup de la configuració"
+
+msgid "Backward <"
+msgstr "Enrere <"
+
+msgid "Cancel"
+msgstr "Cancel·lar"
+
+msgid "Channel"
+msgstr "Canal"
+
+msgid "Channel +"
+msgstr "Canal +"
+
+msgid "Channel -"
+msgstr "Canal -"
+
+msgid "Channel Selection"
+msgstr "Selecció de canals"
+
+msgid "Channel list"
+msgstr "Obrir llista de canals"
+
+msgid "Channel zap (list) +"
+msgstr "Pujar canal (llista de canals)"
+
+msgid "Channel zap (list) -"
+msgstr "Baixar canal (llista de canals)"
+
+msgid "Channel zap +"
+msgstr "Pujar canal"
+
+msgid "Channel zap -"
+msgstr "Baixar canal"
+
+msgid "Channels"
+msgstr "Definir canals favorits"
+
+msgid "Cross Down"
+msgstr "Fletxa avall"
+
+msgid "Cross Left"
+msgstr "Fletxa esquerra"
+
+msgid "Cross Right"
+msgstr "Fletxa dreta"
+
+msgid "Cross Up"
+msgstr "Fletxa amunt"
+
+msgid "DVDPlayer"
+msgstr "Reproductor DVD"
+
+msgid "Directory %s nonexistent."
+msgstr "El directori %s no existeix"
+
+msgid "Dolby Digital downmix on/off"
+msgstr "Dolby Digital downmix encès/apagat"
+
+msgid "Code "
+msgstr "Codi "
+
+msgid "Module "
+msgstr "Mòdul "
+
+msgid "Screen "
+msgstr "Pantalla "
+
+msgid "END"
+msgstr "Fi"
+
+msgid "EXIT"
+msgstr "Sortir"
+
+msgid "Entry %s already exists."
+msgstr "L'entrada %s ja existeix."
+
+msgid "Exit"
+msgstr "Sortir"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "Extension Selection"
+msgstr "Llista d'extensions"
+
+msgid "FastForward >>"
+msgstr "Avançar >>"
+
+msgid "Favourite channel 1"
+msgstr "Canal favorit 1"
+
+msgid "Favourite channel 2"
+msgstr "Canal favorit 2"
+
+msgid "Favourite channel 3"
+msgstr "Canal favorit 3"
+
+msgid "Favourite channel 4"
+msgstr "Canal favorit 4"
+
+msgid "Favourite channel 5"
+msgstr "Canal favorit 5"
+
+msgid "File %s nonexistent."
+msgstr "L'arxiu %s no existeix"
+
+msgid "Forward >"
+msgstr "Endavant >"
+
+msgid "Press any key to capture remote control code and return to list."
+msgstr "Premeu una tecla del comandament per localitzar-la a la llista."
+
+msgid "HELP"
+msgstr "AJUDA"
+
+msgid ""
+"* To capture long keys press long key (3 secs.)\n"
+"* You may have keys that are not configured.\n"
+"* Your remote control does not support long press.\n"
+"* You may have keys that are blocked by the system and the mapping does not work."
+msgstr ""
+"* Per capturar pulsacions llargues manteniu pressionada la tecla.\n"
+"* És possible que hi hagi tecles del comandament que no estiguin configurades.\n"
+"* És possible que el comandament no suporti pulsacions llargues.\n"
+"* És possible que algunes tecles estiguin protegides pel sistema i no es puguin canviar."
+
+msgid "Capture Key"
+msgstr "Capturar tecla"
+
+msgid "Key [%s] nonexistent."
+msgstr "La tecla [%s] no ès a la llista."
+
+msgid "Key pressed: "
+msgstr "Tecla premuda: "
+
+msgid "Key information"
+msgstr "Informació de tecla"
+
+msgid "Remap Keys (v"
+msgstr "Remapejar tecles (v"
+
+msgid "Key: "
+msgstr "Tecla: "
+
+msgid "Code: "
+msgstr "Codi: "
+
+msgid "Action: "
+msgstr "Acció: "
+
+msgid "Actions: "
+msgstr "Accions: "
+
+msgid "HOME"
+msgstr "Inici"
+
+msgid "Restarting Enigma2 to load:\n"
+msgstr "Reiniciar Engima2 per carregar:\n"
+
+msgid "Multi QuickButton settings"
+msgstr "Configuració MultiQuickButton"
+
+msgid "Info"
+msgstr "Informació"
+
+msgid "InfoBar"
+msgstr "Mostrar la barra d'informació (Infobar)"
+
+msgid "Close InfoBar"
+msgstr "Tancar la barra d'informació (Infobar)"
+
+msgid "InfoBar Audio Selection"
+msgstr "Selecció d'àudio/subtítols"
+
+msgid "InfoBar EPG"
+msgstr "EPG senzilla"
+
+msgid "InfoBar EventInfoPlugins"
+msgstr "Llista de plugins d'EPG/event"
+
+msgid "InfoBar EventView"
+msgstr "Informació d'event"
+
+msgid "InfoBar Instant Record"
+msgstr "Gravació instantània"
+
+msgid "InfoBar Multi EPG"
+msgstr "Multi EPG"
+
+msgid "InfoBar Record"
+msgstr "Menú de gravació ràpida"
+
+msgid "InfoBar Show Movies"
+msgstr "Mostrar pel·lícules gravades"
+
+msgid "InfoBar Show Radio"
+msgstr "Anar a radio"
+
+msgid "InfoBar Show Tv"
+msgstr "Anar a TV"
+
+msgid "List of Bouquets"
+msgstr "Llistat de favorits"
+
+msgid "Main menu"
+msgstr "Al menú princ."
+
+msgid "MediaPlayer"
+msgstr "Reproductor mèdia"
+
+msgid "Mount info"
+msgstr "Informació de muntatge de discos"
+
+msgid "Move PIP"
+msgstr "Moure PiP"
+
+msgid "Multi Quickbutton"
+msgstr "MultiQuickbutton (canviar tecles)"
+
+msgid "Quickbutton Key : "
+msgstr "Accions per la tecla: "
+
+msgid "OK"
+msgstr "Fet"
+
+msgid "OK/EXIT"
+msgstr "Acceptar/sortir"
+
+msgid "Overwrite existing Backup?."
+msgstr "Voleu sobrescriure la còpia de seguretat?"
+
+msgid "Overwrite existing Settings?."
+msgstr "Voleu sobrescriure la configuració?"
+
+msgid "MQB Functions and Plugins"
+msgstr "Seleccioneu una acció predefinida o un plugin/extensió"
+
+msgid "PIP"
+msgstr "PIP"
+
+msgid "Picture Player"
+msgstr "Reproductor de fotos"
+
+msgid "Please Restart MultiQuickButton"
+msgstr "Reinicieu el sistema"
+
+msgid "Please select the backup path..."
+msgstr "Seleccioneu la ruta on desar-hi la còpia de seguretat"
+
+msgid "Please select the restore path..."
+msgstr "Seleccioneu la ruta de restauració"
+
+msgid "Plugin Browser"
+msgstr "Llista de plugins"
+
+msgid "Quickbutton: Key "
+msgstr "Assignar acció a tecla "
+
+msgid "Quite without saving changes ?"
+msgstr "Sortir sense desar els canvis?"
+
+msgid "Select option (%s):"
+msgstr "Seleccioneu una opció (%s):"
+
+msgid "Personal backup restore"
+msgstr "Restaurar còpia personal"
+
+msgid "Key OK"
+msgstr "Activar tecla OK"
+
+msgid "Options"
+msgstr "Opcions"
+
+msgid "Graphic help"
+msgstr "Ajuda gràfica"
+
+msgid "RADIO"
+msgstr "Ràdio"
+
+msgid "Restore Default settings"
+msgstr "Restaurar configuració de fàbrica"
+
+msgid "Restore configuration"
+msgstr "Restaurar configuracions"
+
+msgid "Default settings restored!"
+msgstr "Configuració de fàbrica restaurada!"
+
+msgid "Restart SoftCam"
+msgstr "Reiniciar cam"
+
+msgid ""
+"Restarting Enigma2 to (de)activate:\n"
+"OK and EXIT Button"
+msgstr "Reinicieu Enigma2 per tal d'activar/desactivar tecla OK i Exit"
+
+msgid ""
+"Restarting Enigma2 to set\n"
+"Multi QuickButton Autostart"
+msgstr ""
+"Cal reiniciar el sistema per ACTIVAR el programa\n"
+"Voleu fer-ho ara?"
+
+msgid ""
+"Restarting Enigma2 to unset\n"
+"Multi QuickButton Autostart"
+msgstr ""
+"Cal reiniciar el sistema per DESACTIVAR el programa\n"
+"Voleu fer-ho ara?"
+
+msgid "Restore"
+msgstr "Restaurar còpia..."
+
+msgid "Restore Settings..."
+msgstr "Restaurar configuració"
+
+msgid "Exit whithout saving changes?"
+msgstr "Sortir sense desar els canvis?"
+
+msgid "* On key press and return to list press info for more info about this key"
+msgstr "* Un cop premeu una tecla, si aquesta és detectada, es mostrarà seleccionada a la llista i podreu prémer [INFO] per ampliar la informació o [OK] per editar-la."
+
+msgid "Key Pressed: ["
+msgstr "Tecla detectada: ["
+
+msgid "Macro configuration"
+msgstr "Configuració de macros"
+
+msgid "Save"
+msgstr "Desar"
+
+msgid "Save Settings"
+msgstr "Desar configuració"
+
+msgid "Sleeptimer"
+msgstr "Temporitzador repòs"
+
+msgid "Start Teletext"
+msgstr "Teletext"
+
+msgid "Start Timeshift"
+msgstr "Iniciar timeshift"
+
+msgid "Subservice Selection"
+msgstr "Selecció de subcanal"
+
+msgid "Subtitles"
+msgstr "Subtítols"
+
+msgid "Swap PIP"
+msgstr "Intercanviar PiP"
+
+msgid "Switch 4:3 (Pillarbox) (Pan&Scan)"
+msgstr "Mode 4:3 (Pillarbox) (Pan&Scan)"
+
+msgid "TEXT"
+msgstr "Teletext"
+
+msgid "Timer"
+msgstr "Gravacions reservades"
+
+msgid "Toggle AtmoLight"
+msgstr "Canviar AtmoLight"
+
+msgid "VTI Panel"
+msgstr "Panell VTI"
+
+msgid "VU+ EPG / INFO"
+msgstr "Informació EPG/INFO"
+
+msgid "VU+ R-Button"
+msgstr "VU+ R-Botó"
+
+msgid "Zap history back"
+msgstr "Històric de zàping -"
+
+msgid "Zap history next"
+msgstr "Històric de zàping +"
+
+msgid "blue"
+msgstr "Blau"
+
+msgid "delete"
+msgstr "Esborrar"
+
+msgid "Delete"
+msgstr "Esborrar"
+
+msgid "file %s not found!"
+msgstr "Arxiu %s no trobat!"
+
+msgid "green"
+msgstr "Verd"
+
+msgid "off"
+msgstr "No"
+
+msgid "on"
+msgstr "Si"
+
+msgid "red"
+msgstr "Vermell"
+
+msgid "yellow"
+msgstr "Groc"
+
+msgid "Add Functions to MQB Key"
+msgstr "Afegir funcions predefinides a la tecla"
+
+msgid "Add Plugins to MQB Key"
+msgstr "Afegir plugins/extensions a la tecla"
+
+msgid "AutoResolution is disabled"
+msgstr "Autoresolució desactivada"
+
+msgid "AutoResolution is enabled"
+msgstr "Autoresolució activada"
+
+msgid "AutoResolution on/off"
+msgstr "Autoresolució on/off"
+
+msgid "Button : "
+msgstr "Tecla : "
+
+msgid "Configure macro"
+msgstr "Configurar macro"
+
+msgid "Reboot"
+msgstr "Reiniciar sistema"
+
+msgid "Back"
+msgstr "<-Enrere"
+
+msgid "GUIDE/R-Button"
+msgstr "GUIDE/R-Botó"
+
+msgid "INFO/EPG"
+msgstr "INFO/EPG"
+
+msgid "Fw"
+msgstr "Majúsc."
+
+msgid "Macros"
+msgstr "Definir macros"
+
+msgid "Record"
+msgstr "Enregistrar"
+
+msgid "Remote control macro I"
+msgstr "Macro de control remot I"
+
+msgid "Remote control macro II"
+msgstr "Macro de control remot II"
+
+msgid "Remote control macro III"
+msgstr "Macro de control remot III"
+
+msgid "Remote control macro IV"
+msgstr "Macro de control remot IV"
+
+msgid "Remote control macro V"
+msgstr "Macro de control remot V"
+
+msgid "Remount Network Shares"
+msgstr "Reiniciar recursos de xarxa"
+
+msgid "openSPA Menu"
+msgstr "Menú openSPA"
+
+msgid "openSPA RSS"
+msgstr "RSS openSPA"
+
+msgid "openSPA Information"
+msgstr "Informació openSPA"
+
+msgid "openSPA Wheather info"
+msgstr "Informació meteorològica openSPA"
+
+msgid "openSPA DeviceManager"
+msgstr "Gestor de discos openSPA"
+
+msgid "openSPA CAMD manager"
+msgstr "Gestor de CAM openSPA"
+
+msgid "openSPA File Explorer"
+msgstr "Explorador d'arxius openSPA"
+
+msgid "openSPA Downloads"
+msgstr "Descàrregues openSPA"
+
+###
+msgid "No valid channel!"
+msgstr "Canal no vàlid per aquesta funció!"
+
+msgid "Single channel EPG openSPA"
+msgstr "EPG de canal senzilla openSPA"
+
+msgid "Programs graphical Guide openSPA"
+msgstr "Guia de programació gràfica openSPA"
+
+msgid "Simple Channel list"
+msgstr "Llista de canals simple"
+
+msgid "Volume +"
+msgstr "Volum +"
+
+msgid "Volume -"
+msgstr "Volum -"
+
+msgid "Mute on/off"
+msgstr "Silenci on/off"
+
+msgid "GUI Restart"
+msgstr "Reiniciar GUI"
+
+msgid "DeepStandby"
+msgstr "Repòs profund"
+
+msgid "CoolTVGuide"
+msgstr "Guia CoolTV"
+
+msgid "CoolEasyGuide"
+msgstr "Guia CoolEasy"
+
+msgid "CoolSingleGuide"
+msgstr "Guia CoolSingle"
+
+msgid "CoolInfoGuide"
+msgstr "Guia CoolInfo"
+
+msgid "Play"
+msgstr "Reproduir"
+
+msgid "Pause"
+msgstr "Pausa"
+
+msgid "Stop"
+msgstr "Aturar"
+
+msgid "Rewind <<"
+msgstr "Rebobinar <<"
+
+msgid "Auto AC3/DTS downmix on in standby"
+msgstr "Auto activar mescla AC3-DTS en anar a repòs"
+
+msgid "Auto AC3/DTS downmix are activated in standby"
+msgstr "En anar a repòs s'activarà automàticament la mescla AC3-DTS"
+
+msgid "Auto AC3/DTS downmix are NOT activated in standby"
+msgstr "En anar a repòs NO s'activarà automàticament la mescla AC3-DTS"
+
+msgid "AC3/DTS downmix on/off"
+msgstr "Activar/desactivar mescla AC3-DTS"
+
+msgid "Dolby Digital downmix"
+msgstr "Mescla Dolby Digital"
+
+msgid "AC3/DTS downmix ON"
+msgstr "Mescla AC3-DTS activat"
+
+msgid "AC3/DTS downmix OFF"
+msgstr "Mescla AC3-DTS desactivat"
+
+msgid "Enabled"
+msgstr "Activat"
+
+msgid "Disabled"
+msgstr "Desactivat"
+
+msgid "Quick zapping channel list"
+msgstr "Llista de canals de zàping ràpid"
+

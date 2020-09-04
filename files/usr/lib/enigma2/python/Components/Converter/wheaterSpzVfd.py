@@ -1,5 +1,3 @@
-from Converter import Converter
-from Components.Element import cached
 import os
 from Poll import Poll
 from Components.Converter.wheaterSpz import cargaDatos, devgificono, haywheather, devtipo

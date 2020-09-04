@@ -35,7 +35,6 @@
 		<key id="KEY_AUDIO" mapto="audio" flags="m" />
 		<key id="KEY_PLAY" mapto="play" flags="b" />
 		<key id="KEY_PLAY" mapto="play_long" flags="l" />
-		<key id="KEY_0" mapto="key0" flags="m" />
 		<key id="KEY_MUTE" mapto="volumeMute" flags="mr" />
 		<key id="KEY_BACK" mapto="back" flags="mr" />
 		<key id="KEY_FORWARD" mapto="forward" flags="mr" /> 

@@ -1,5 +1,3 @@
-from Components.Converter.Converter import Converter
-from Components.Element import cached
 from Components.Language import language
 
 class EventRating(Converter, object):

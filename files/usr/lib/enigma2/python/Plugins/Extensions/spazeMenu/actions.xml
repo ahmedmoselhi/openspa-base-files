@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- main menu actions, spazeMenu by openSPA (mpiero) -->
+<xml>
+	<!-- cancel: condicion    establece condicion para no ejecutar-->
+	<!-- screen,code,plugin,systemplugin,openspaplugin,menu  -->
+	<!-- opciones: 
+		noerror    no mostrar error si el código,plugin falla
+		close    cerrar el menu despues de ejctuar-->
+	<menu id="NUM">
+		<accion>
+			<openspaplugin>XXX</openspaplugin>
+		</accion>			
+	</menu>
+	
+	<menu id="11">
+		<accion>
+			<openspaplugin>descargasSPZ</openspaplugin>
+		</accion>			
+	</menu>
+	<menu id="70">
+		<accion>
+<code>if not desactivadoPlugin(self,"Plugins.Extensions.MediaCenter.MC_VideoPlayer"):
+	if config.plugins.mc_vp.style.value == "3":
+		from Plugins.Extensions.MediaCenter.MC_VideoPlayerK import MC_VideoPlayerK
+		InfoBar.instance.session.open(MC_VideoPlayerK)
+	else:
+		from Plugins.Extensions.MediaCenter.MC_VideoPlayer import MC_VideoPlayer
+		InfoBar.instance.session.open(MC_VideoPlayer)
+</code>
+		</accion>			
+	</menu>
+	<menu id="71">
+		<accion>
+			<screen>MediaCenter.MC_AudioPlayer,MC_AudioPlayer</screen>
+		</accion>			
+	</menu>	
+	<menu id="72">
+		<accion>
+			<plugin>PicturePlayer</plugin>
+		</accion>			
+	</menu>
+	<menu id="73">
+		<accion>
+			<plugin>KodiLite</plugin>
+		</accion>			
+	</menu>
+	<menu id="80">
+		<accion>
+<code>from Screens.PluginBrowser import PluginBrowser
+InfoBar.instance.session.open(PluginBrowser)</code>
+		</accion>			
+	</menu>		
+	<menu id="88">
+		<accion>
+<code>InfoBar.startTeletext(InfoBar.instance)</code>
+		</accion>			
+	</menu>		
+	<menu id="81">
+		<accion>
+			<menu>shutdown</menu>
+		</accion>			
+	</menu>
+	<menu id="1">
+		<accion>
+<code>InfoBar.showTv(InfoBar.instance)</code>
+		</accion>			
+	</menu>	
+	<menu id="7">
+		<accion>
+<code>InfoBar.showRadio(InfoBar.instance)</code>
+		</accion>			
+	</menu>	
+	<menu id="90">
+		<accion>
+<code>set_audio(InfoBar.instance.session)</code>
+		</accion>			
+	</menu>	
+	<menu id="91">
+		<accion>
+<code>set_scaling(InfoBar.instance.session)</code>
+		</accion>			
+	</menu>
+	<menu id="92">
+		<accion>
+<code>from Screens.TimerEdit import TimerEditList
+InfoBar.instance.session.open(TimerEditList)</code>
+		</accion>			
+	</menu>
+	<menu id="93">
+		<accion>
+<code>set_record(InfoBar.instance.session)</code>
+		</accion>			
+	</menu>
+	<menu id="94">
+		<accion>
+<code>servicelist = InfoBar.instance.servicelist
+from Plugins.Extensions.spazeMenu.spzPlugins.openSPATVGuide.plugin import main
+main(self.session, servicelist)</code>
+		</accion>			
+	</menu>	
+	<menu id="5">
+		<accion>
+			<openspaplugin>AzExplorer</openspaplugin>
+		</accion>			
+	</menu>	
+	<menu id="13">
+		<accion>
+			<openspaplugin>spzBackups,mainHome</openspaplugin>
+		</accion>			
+	</menu>	
+	<menu id="37">
+		<accion>
+			<openspaplugin>gesPluginsOpenSpa</openspaplugin>
+		</accion>			
+	</menu>
+	<menu id="38">
+		<accion>
+			<plugin>OpenSPAPlug,startConfig</plugin>
+		</accion>			
+	</menu>	
+	<menu id="33">
+		<accion>
+			<openspaplugin>spzCAMD,startConfig</openspaplugin>
+		</accion>			
+	</menu>	
+	<menu id="34">
+		<accion>
+			<systemplugin>DeviceManager,deviceManagerMain</systemplugin>
+		</accion>			
+	</menu>	
+	<menu id="9">
+		<accion>
+			<menu>setup</menu>
+		</accion>			
+	</menu>		
+	<menu id="42">
+		<accion>
+<code>if not selfspa==None:
+	selfspa.edita_menu()</code>
+		</accion>			
+	</menu>		
+	<menu id="43">
+		<accion>
+			<code>if resolveFilename(SCOPE_ACTIVE_SKIN) == '/usr/share/enigma2/MetrixJR/' or resolveFilename(SCOPE_ACTIVE_SKIN) == '/usr/share/enigma2/MetrixJRSD/':
+	from Plugins.Extensions.spaMetrixJR.plugin import JRSetup
+	InfoBar.instance.session.open(JRSetup)
+elif resolveFilename(SCOPE_ACTIVE_SKIN) == '/usr/share/enigma2/BlackSPA/':
+	from Plugins.Extensions.BlackPanel.plugin import blackpanel_setup
+	InfoBar.instance.session.open(blackpanel_setup)</code>
+		</accion>
+	</menu>	
+	<!--<menu id="46">
+		<accion>
+			<cancel>not fileExists(resolveFilename(SCOPE_SKIN, 'BlackSPA/skin.xml'))</cancel>
+			<plugin>BlackPanel</plugin>
+		</accion>
+	</menu>-->
+	<menu id="2">
+		<accion>
+			<plugin>MyTube,MyTubeMain</plugin>
+		</accion>
+	</menu>		
+	<menu id="6">
+		<accion>
+			<code>runExtensiones()</code>
+		</accion>
+	</menu>		
+	<menu id="10">
+		<accion>
+			<openspaplugin>InfoAz,iniciainfo</openspaplugin>
+		</accion>
+	</menu>		
+	<menu id="12">
+		<accion>
+			<openspaplugin>spzSimpleRSS</openspaplugin>
+		</accion>
+	</menu>			
+	<menu id="14">
+		<accion>
+			<plugin>spzWeather</plugin>
+		</accion>
+	</menu>		
+	<menu id="15">
+		<accion>
+			<plugin>PanelExtra</plugin>
+		</accion>
+	</menu>	
+	<menu id="3">
+		<accion>
+<code>
+usespamovie=False
+try:
+	useemc=config.misc.spazeuseemc.value
+	usespamovie=config.misc.spaMovieList.value
+except:
+	useemc=True
+if useemc==True and usespamovie==False:
+	try:
+		from Plugins.Extensions.EnhancedMovieCenter.plugin import recordingsOpen
+		recordingsOpen(self.session)
+	except:
+		useemc=False
+if useemc==False or usespamovie==True:
+	InfoBar.showMovies(InfoBar.instance)</code>
+		</accion>
+	</menu>		
+	<menu id="44">
+		<accion>
+<code>if MODELOSPZ == "vuplus" and fileExists("/usr/lib/enigma2/python/Plugins/Extensions/XBMC/plugin.pyo"):
+	try:
+		from Plugins.Extensions.XBMC.plugin import plugin_start_xbmc
+		plugin_start_xbmc(InfoBar.instance.session)
+	except:
+		pass
+elif (MODELOSPZ == "vuplus" or MODELOSPZ == "formuler" or MODELOSPZ=="edision" or MODELOSPZ=="mutant" or MODELOSPZ == "zgemma" or MODELOSPZ == "octagon" or MODELOSPZ == "vivant" or MODELOSPZ == "izibox" or MODELOSPZ == "maxytec" or MODELOSPZ == "amiko" or MODELOSPZ == "gigablue" or MODELOSPZ == "ferguson") and fileExists("/usr/lib/enigma2/python/Plugins/Extensions/Kodi/plugin.pyo"):
+	try:
+		from Plugins.Extensions.Kodi.plugin import startLauncher
+		startLauncher(InfoBar.instance.session)
+	except:
+		pass
+elif MODELOSPZ == "wetek":
+	try:
+		from Plugins.Extensions.StartKodi.plugin import StartKodi
+		InfoBar.instance.session.open(StartKodi)
+	except:
+		pass</code>
+		</accion>
+	</menu>		
+	<menu id="50">
+		<accion>
+			<openspaplugin>mhw2Timer</openspaplugin>
+		</accion>
+	</menu>	
+	<menu id="40">
+		<accion>
+			<openspaplugin>spzOptions,mainOptions</openspaplugin>
+		</accion>
+	</menu>	
+	<menu id="41">
+		<accion>
+			<plugin>spaQButton</plugin>
+		</accion>
+	</menu>		
+	<menu id="45">
+		<accion>
+			<plugin>spaNewFirms</plugin>
+		</accion>
+	</menu>			
+</xml>
+
+
+

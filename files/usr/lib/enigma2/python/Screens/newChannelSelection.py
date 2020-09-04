@@ -1,5 +1,3 @@
-from Screens.PictureInPicture import PictureInPicture
-from Components.ActionMap import HelpableActionMap, ActionMap
 from Screens.HelpMenu import HelpableScreen
 from enigma import iServiceInformation
 from Components.Label import Label

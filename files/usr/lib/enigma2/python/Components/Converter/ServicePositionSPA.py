@@ -1,5 +1,3 @@
-from Converter import Converter
-from Poll import Poll
 from enigma import iPlayableService
 from Components.Element import cached, ElementError
 from Components.config import config

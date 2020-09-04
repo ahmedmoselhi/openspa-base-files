@@ -1,5 +1,3 @@
-from Converter import Converter
-from Poll import Poll
 from Components.Element import cached
 
 class CpuUsage(Converter, object):

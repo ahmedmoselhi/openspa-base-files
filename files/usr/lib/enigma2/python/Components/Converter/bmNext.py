@@ -1,5 +1,3 @@
-from Components.Converter.Converter import Converter
-from Components.Element import cached
 from ServiceReference import ServiceReference
 from enigma import eEPGCache
 from time import localtime, time

@@ -21,6 +21,12 @@ main(self.session)]]></code>
 </mqbfunction>
 
 <mqbfunction>
+<name>openSPA PipMenu</name>
+<code><![CDATA[from Plugins.Extensions.spazeMenu.spzPlugins.spzPiPMenu.plugin import pipmenu
+pipmenu(self.session)]]></code>
+</mqbfunction>
+
+<mqbfunction>
 <name>openSPA Information</name>
 <code><![CDATA[from Plugins.Extensions.spazeMenu.spzPlugins.InfoAz.plugin import iniciainfo
 iniciainfo(self.session)]]></code>
@@ -54,7 +60,11 @@ main(self.session)]]></code>
 <code><![CDATA[from Plugins.Extensions.spzWeather.plugin import main
 main(self.session)]]></code>
 </mqbfunction>
-
+<mqbfunction>
+<name>openSPA Signal info</name>
+<code><![CDATA[from Plugins.SystemPlugins.InfoSignal.plugin import InfoSignal
+self.session.open(InfoSignal)]]></code>
+</mqbfunction>
 <mqbfunction>
 <name>-----Extensions/Plugins Functions-----</name>
 <code></code>
@@ -69,8 +79,8 @@ if InfoBar and InfoBar.instance:
 
 <mqbfunction>
 <name>Plugin Browser</name>
-<module>Screens.PluginBrowser</module>
-<screen>PluginBrowser</screen>
+<code><![CDATA[from Screens.PluginBrowser import PluginBrowser
+self.session.open(PluginBrowser)]]></code>
 </mqbfunction>
 
 <mqbfunction>
@@ -101,14 +111,14 @@ if InfoBar and InfoBar.instance:
 
 <mqbfunction>
 <name>Sleeptimer</name>
-<module>Screens.SleepTimerEdit</module>
-<screen>SleepTimerEdit</screen>
+<code><![CDATA[from Screens.SleepTimerEdit import SleepTimerEdit
+self.session.open(SleepTimerEdit)]]></code>
 </mqbfunction>
 
 <mqbfunction>
 <name>Timer</name>
-<module>Screens.TimerEdit</module>
-<screen>TimerEditList</screen>
+<code><![CDATA[from Screens.TimerEdit import TimerEditList
+self.session.open(TimerEditList)]]></code>
 </mqbfunction>
 
 <mqbfunction>
@@ -309,9 +319,8 @@ if InfoBar and InfoBar.instance:
 
 <mqbfunction>
 <name>InfoBar Audio Selection</name>
-<code>from Screens.InfoBar import InfoBar
-if InfoBar and InfoBar.instance:
-	InfoBar.audioSelection(InfoBar.instance)</code>
+<code>from Screens.InfoBarGenerics import InfoBarAudioSelection
+self.yellow_key()</code>
 </mqbfunction>
 
 <mqbfunction>
@@ -584,9 +593,14 @@ for key in keys.split(","):
 </mqbfunction>
 <mqbfunction>
 <name>MediaCenter - Videos</name>
-<code><![CDATA[from Plugins.Extensions.MediaCenter.MC_VideoPlayer import MC_VideoPlayer
-from Screens.InfoBar import InfoBar
-InfoBar.instance.session.open(MC_VideoPlayer)]]></code>
+<code>if config.plugins.mc_vp.style.value == "3":
+	from Plugins.Extensions.MediaCenter.MC_VideoPlayerK import MC_VideoPlayerK
+	from Screens.InfoBar import InfoBar
+	InfoBar.instance.session.open(MC_VideoPlayerK)
+else:
+	from Plugins.Extensions.MediaCenter.MC_VideoPlayer import MC_VideoPlayer
+	from Screens.InfoBar import InfoBar
+	InfoBar.instance.session.open(MC_VideoPlayer)</code>
 </mqbfunction>
 <mqbfunction>
 <name>MediaCenter - Audio</name>

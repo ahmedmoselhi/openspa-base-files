@@ -1,5 +1,3 @@
-from Components.config import config
-from Converter import Converter
 from Components.Element import cached
 from Poll import Poll
 from enigma import eServiceCenter, eServiceReference, iServiceInformation

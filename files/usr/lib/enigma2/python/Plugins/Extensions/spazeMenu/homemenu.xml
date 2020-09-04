@@ -27,9 +27,9 @@
 device manager,...</ayuda>
 			<visible>1</visible>
 			<accion>-20</accion>
-			<submenu>Downloads;Install/Uninstall openSPA Plugins;Activate/Deactivate Plugins;Backup/restore;openSPA CAMD Manager;Explorer</submenu>
-			<submenuyuda>Updates, Plugins, skins,...;Install or Uninstall exclusive openSPA Plugins;Activate or deactivate installed Extensions and Plugins;openSPA Backup/restore utility;Manage cams emulation;Filebrowser utility</submenuyuda>
-			<submenuacciones>11;38;37;13;33;5</submenuacciones>
+			<submenu>Downloads;Install/Uninstall openSPA Plugins;Activate/Deactivate Plugins;openSPA updates wizard;Backup/restore;openSPA CAMD Manager;Explorer</submenu>
+			<submenuyuda>Updates, Plugins, skins,...;Install or Uninstall exclusive openSPA Plugins;Activate or deactivate installed Extensions and Plugins;Update firmware maintaining configuration;openSPA Backup/restore utility;Manage cams emulation;Filebrowser utility;</submenuyuda>
+			<submenuacciones>11;38;37;45;13;33;5</submenuacciones>
 			<codigo></codigo>
 		</content>
 		<content>
@@ -47,9 +47,9 @@ divx, videos...</ayuda>
 and video files...</ayuda>
 			<visible>1</visible>
 			<accion>-4</accion>
-			<submenu>My Music;My Pictures;My Videos</submenu>
-			<submenuyuda>Audio files: mp3, wav, ogg, m3u, ...;Image files: jpg, png, gif, bmp, ...;Multimedia files: avi, mpg, mkv, ts, ...</submenuyuda>
-			<submenuacciones>71;72;70</submenuacciones>			
+			<submenu>Addons KodiLite;My Music;My Pictures;My Videos</submenu>
+			<submenuyuda>Addons online KodiLite;Audio files: mp3, wav, ogg, m3u, ...;Image files: jpg, png, gif, bmp, ...;Multimedia files: avi, mpg, mkv, ts, ...</submenuyuda>
+			<submenuacciones>73;71;72;70</submenuacciones>			
 			<codigo></codigo>
 		</content>
 		<content>
@@ -61,33 +61,22 @@ and video files...</ayuda>
 			<codigo></codigo>
 		</content>		
 		<content>
-			<texto>Help</texto>
-			<ayuda>Remote control help
-and FAQs</ayuda>
-			<visible>1</visible>
-			<accion>-8</accion>
-			<submenu>FAQs;Remote control Help</submenu>
-			<submenuyuda>Common questions;Remote control help</submenuyuda>
-			<submenuacciones>8;61</submenuacciones>			
-			<codigo></codigo>
-		</content>
-		<content>
 			<texto>Customize</texto>
 			<ayuda>Options and Receiver setup</ayuda>
 			<visible>1</visible>
 			<accion>-9</accion>
-			<submenu>Customize Home Menu;EPG download config;Device Manager;openSPA Options;Remapping keys;Receiver Setup</submenu>
-			<submenuyuda>Options for configure the Home Menu;Config for EPG download MediaHighway;Manage harddisk devices;Setup options, password,...;Customize the buttons on the remote;Configure your Receiver</submenuyuda>
-			<submenuacciones>42;50;34;40;41;9</submenuacciones>			
+			<submenu>Customize skin;Customize Home Menu;EPG download config;Device Manager;openSPA Options;Remapping keys;Receiver Setup</submenu>
+			<submenuyuda>Options to configure skin;Options for configure the Home Menu;Config for EPG download MediaHighway;Manage harddisk devices;Setup options, password,...;Customize the buttons on the remote;Configure your Receiver</submenuyuda>
+			<submenuacciones>43;42;50;34;40;41;9</submenuacciones>			
 			<codigo></codigo>
 		</content>
 		<content>
 			<texto>AddOns</texto>
-			<ayuda>Extensions, RSS, InfoMeteo, Youtube, TvWeb</ayuda>
+			<ayuda>Extensions, RSS, InfoMeteo, Youtube</ayuda>
 			<visible>1</visible>
 			<accion>-13</accion>
-			<submenu>Extensions;RSS;InfoMeteo;Youtube;TvWeb</submenu>
-			<submenuyuda>Extensions menu;RSS openSPA Reader;openSPA Weather Information;Youtube player;View online Tv</submenuyuda>
+			<submenu>Extensions;RSS;InfoMeteo;Youtube;Extra Panel</submenu>
+			<submenuyuda>Extensions menu;RSS openSPA Reader;openSPA Weather Information;Youtube player;Extra Panel downloads</submenuyuda>
 			<submenuacciones>6;12;14;2;15</submenuacciones>
 			<codigo></codigo>
 		</content>		

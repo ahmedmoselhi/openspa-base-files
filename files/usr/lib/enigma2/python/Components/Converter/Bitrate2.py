@@ -1,5 +1,3 @@
-from Components.Converter.Converter import Converter
-from enigma import iServiceInformation, iPlayableService, eTimer, eServiceReference
 from Components.Element import cached
 import os
 if os.path.isfile('/usr/lib/enigma2/python/Components/Converter/bitratecalc.so'):

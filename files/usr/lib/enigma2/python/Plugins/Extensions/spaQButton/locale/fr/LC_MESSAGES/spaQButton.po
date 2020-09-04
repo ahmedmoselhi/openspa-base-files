@@ -1,0 +1,709 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-08 23:40+0100\n"
+"PO-Revision-Date: 2019-09-05 19:13+0200\n"
+"Last-Translator: Stephan94\n"
+"Language-Team: openspa.info\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "openSPA. Remote control setup"
+msgstr "Configuration de la télécommande openSPA"
+
+msgid "This utility will allow you to view and modify to your liking the remote control."
+msgstr "Cet utilitaire vous permettra de visualiser et de modifier à votre guise la télécommande."
+
+msgid "Closing this window you will see a list of pre-assigned functions of command. You can customize it as you wish."
+msgstr "En fermant cette fenêtre, vous verrez une liste de fonctions de commande pré-assignées. Vous pouvez le personnaliser comme vous le souhaitez."
+
+msgid "Pressing any key will be located in that key listed. Press [OK] to view / edit actions."
+msgstr "En appuyant sur une touche elle sera situé dans le répertoire. Appuyez sur [OK] pour afficher / modifier les actions.."
+
+msgid ""
+"The Welcome screen does not reappear. Remember you can return to the settings from the remote:\n"
+"Menu -> Customize -> Customize the buttons on the remote."
+msgstr ""
+"L'écran de bienvenue ne réapparaît pas. N'oubliez pas que vous pouvez revenir aux paramètres depuis la télécommande.:\n"
+"Menu -> Personnalisé -> adapter les touches."
+
+msgid "Information/Setup key:"
+msgstr "Touche Information / Configuration:"
+
+msgid "Multimedia Functions"
+msgstr "Fonctions MULTIMEDIA"
+
+msgid "openSPA Functions"
+msgstr "Fonctions OPENSPA"
+
+msgid "Extensions/Plugins Functions"
+msgstr "Fonctions de PLUGINS/extensions"
+
+msgid "Record Functions"
+msgstr "Fonctions d'enregistrement"
+
+msgid "Zap Functions"
+msgstr "Fonctions pou Zapper"
+
+msgid "EPG/Event Functions"
+msgstr "Fonctions de l'EPG"
+
+msgid "TV Functions"
+msgstr "Fonctions de TV"
+
+msgid "Favourite Functions"
+msgstr "Fonctions des Favorits"
+
+msgid "System Functions"
+msgstr "Fonctions du système"
+
+msgid "Macro Functions"
+msgstr "Fonctions de Macro"
+
+msgid "Not configured"
+msgstr "Pas configuré"
+
+msgid "Type key for search in list, or press (1) por advanced Capture Key"
+msgstr "Tapez la touche pour rechercher dans la liste, ou appuyez sur (1) pour la clé de capture avancée"
+
+msgid "Key 0"
+msgstr "Touche 0"
+
+msgid " long"
+msgstr " long"
+
+msgid "A/V Settings"
+msgstr "Configuration A/V "
+
+msgid "Activate PiP"
+msgstr "Activer le PiP "
+
+msgid "Activate PIP"
+msgstr "Activer le PiP"
+
+msgid "About"
+msgstr "sur..."
+
+msgid "Key EXIT"
+msgstr "Touche EXIT"
+
+msgid "Functions"
+msgstr "Functions"
+
+msgid "Information/Edit"
+msgstr "Information/editer"
+
+msgid "Do you want to remap keys now?"
+msgstr "Voulez-vous reconfigurer les clés maintenant?"
+
+msgid "spzZapHistory"
+msgstr "Historique du Zap"
+
+msgid "Do yo want deactivate this function?"
+msgstr "Voulez-vous désactiver cette fonction?"
+
+msgid "Do yo want activate this function?"
+msgstr "Voulez-vous activer cette fonction?"
+
+msgid "Press [OK] for deactivate/activate functions.[BLUE] for add action to key.[YELLOW] for remove."
+msgstr "Appuyez sur [OK] pour désactiver / activer les fonctions. [BLEU] pour ajouter une action à la touche. [JAUNE] pour le supprimer.."
+
+msgid "Press [BLUE] for add actions to this key"
+msgstr "Appuyez [BLEU] pour ajouter des actions à cette touche.."
+
+msgid "Add"
+msgstr "Ajouter"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Autostart"
+msgstr "Démarrage automatique"
+
+msgid "Backup"
+msgstr "copie de sécurité"
+
+msgid "Backup Settings..."
+msgstr "Copie de la configuration"
+
+msgid "Backward <"
+msgstr "En arrière<"
+
+msgid "Cancel"
+msgstr "Effacer"
+
+msgid "Channel"
+msgstr "Chaine"
+
+msgid "Channel +"
+msgstr "Chaine +"
+
+msgid "Channel -"
+msgstr "Chaine -"
+
+msgid "Channel Selection"
+msgstr "Selection de la chaine"
+
+msgid "Channel list"
+msgstr "Liste des chaines"
+
+msgid "Channel zap (list) +"
+msgstr "Zapper les chaines (liste) +"
+
+msgid "Channel zap (list) -"
+msgstr "Zapper les chaines (liste) -"
+
+msgid "Channel zap +"
+msgstr "Zapper les chaines +"
+
+msgid "Channel zap -"
+msgstr "Zapper les chaines -"
+
+msgid "Channels"
+msgstr "Chaines"
+
+msgid "Cross Down"
+msgstr "Flêche en bas"
+
+msgid "Cross Left"
+msgstr "Flêche gauche"
+
+msgid "Cross Right"
+msgstr "Flêche droite"
+
+msgid "Cross Up"
+msgstr "Flêche haut"
+
+msgid "DVDPlayer"
+msgstr "DVDPlayer"
+
+msgid "Directory %s nonexistent."
+msgstr "Répertoire% s inexistant"
+
+msgid "Dolby Digital downmix on/off"
+msgstr "Dolby Digital downmix marche/éteint"
+
+msgid "Code "
+msgstr "Code "
+
+msgid "Module "
+msgstr "Module "
+
+msgid "Screen "
+msgstr "Ecran "
+
+msgid "END"
+msgstr "Fin"
+
+msgid "EXIT"
+msgstr "Sortir"
+
+msgid "Entry %s already exists."
+msgstr "L'entrée% s existe déjà."
+
+msgid "Exit"
+msgstr "Sortir"
+
+msgid "Error"
+msgstr "Erreur"
+
+msgid "Extension Selection"
+msgstr "Liste des extensions"
+
+msgid "FastForward >>"
+msgstr "Avance rapide >>"
+
+msgid "Favourite channel 1"
+msgstr "Chaine favorite 1"
+
+msgid "Favourite channel 2"
+msgstr "Chaine favorite 2"
+
+msgid "Favourite channel 3"
+msgstr "Chaine favorite 3"
+
+msgid "Favourite channel 4"
+msgstr "Chaine favorite 4"
+
+msgid "Favourite channel 5"
+msgstr "Chaine favorite 5"
+
+msgid "File %s nonexistent."
+msgstr "Ce dossier %s n'existe pas"
+
+msgid "Forward >"
+msgstr "En avant >"
+
+msgid "Press any key to capture remote control code and return to list."
+msgstr "Appuyez sur n’importe quelle touche pour capturer le code de la télécommande et revenir à la liste.."
+
+msgid "HELP"
+msgstr "AIDE"
+
+msgid ""
+"* To capture long keys press long key (3 secs.)\n"
+"* You may have keys that are not configured.\n"
+"* Your remote control does not support long press.\n"
+"* You may have keys that are blocked by the system and the mapping does not work."
+msgstr ""
+"* Pour capturer de longues touches, appuyez sur la touche longue (3 secondes).\n"
+"* Vous avez peut-être des touches non configurées.\n"
+"* Votre télécommande ne prend pas en charge l’appui long.\n"
+"* Vous pouvez avoir des touches bloquées par le système et le mappage ne fonctionne pas."
+
+msgid "Capture Key"
+msgstr "Capturer la touche"
+
+msgid "Key [%s] nonexistent."
+msgstr "La touche [%s] n'existe pas."
+
+msgid "Key pressed: "
+msgstr "Pressez la touche "
+
+msgid "Key information"
+msgstr "Information sur la touche"
+
+msgid "Remap Keys (v"
+msgstr "Remapper les clés (v"
+
+msgid "Key: "
+msgstr "Touche: "
+
+msgid "Code: "
+msgstr "Code: "
+
+msgid "Action: "
+msgstr "Action: "
+
+msgid "Actions: "
+msgstr "Actions: "
+
+msgid "HOME"
+msgstr "Acceuil"
+
+msgid "Restarting Enigma2 to load:\n"
+msgstr "Redémarrer Enigma2 pour charger:\n"
+
+msgid "Multi QuickButton settings"
+msgstr "Configuration du MultiQuickButton"
+
+msgid "Info"
+msgstr "Information"
+
+msgid "InfoBar"
+msgstr "InfoBar"
+
+msgid "Close InfoBar"
+msgstr "Ferner l'infoBar"
+
+msgid "InfoBar Audio Selection"
+msgstr "InfoBar de sélection audio"
+
+msgid "InfoBar EPG"
+msgstr "InfoBar de l'EPG"
+
+msgid "InfoBar EventInfoPlugins"
+msgstr "InfoBar du plugin des évènements/EPG"
+
+msgid "InfoBar EventView"
+msgstr "EventView InfoBar "
+
+msgid "InfoBar Instant Record"
+msgstr "InfoBar de l'enregistrement immédiat"
+
+msgid "InfoBar Multi EPG"
+msgstr "InfoBar Multi EPG"
+
+msgid "InfoBar Record"
+msgstr "InfoBar de l'enregistrement"
+
+msgid "InfoBar Show Movies"
+msgstr "InfoBar des films "
+
+msgid "InfoBar Show Radio"
+msgstr "InfoBar des radios"
+
+msgid "InfoBar Show Tv"
+msgstr "Infobar voir  TV"
+
+msgid "List of Bouquets"
+msgstr "Liste des favorits"
+
+msgid "Main menu"
+msgstr " menu principal."
+
+msgid "MediaPlayer"
+msgstr "MediaPlayer"
+
+msgid "Mount info"
+msgstr "Information de montage"
+
+msgid "Move PIP"
+msgstr "Bouger le PiP"
+
+msgid "Multi Quickbutton"
+msgstr "MultiQuickbutton"
+
+msgid "Quickbutton Key : "
+msgstr "Touche de Quickbutton "
+
+msgid "OK"
+msgstr "OK"
+
+msgid "OK/EXIT"
+msgstr "OK/sortir"
+
+msgid "Overwrite existing Backup?."
+msgstr "Remplacer la sauvegarde existante?"
+
+msgid "Overwrite existing Settings?."
+msgstr "Remplacer la configuration existante?"
+
+msgid "MQB Functions and Plugins"
+msgstr "Fonctions MQB et Plugins"
+
+msgid "PIP"
+msgstr "PIP"
+
+msgid "Picture Player"
+msgstr "Visionneuse de photos"
+
+msgid "Please Restart MultiQuickButton"
+msgstr "Veuillez redémarrer MultiQuickButton"
+
+msgid "Please select the backup path..."
+msgstr "Veuillez sélectionner le chemin de sauvegarde"
+
+msgid "Please select the restore path..."
+msgstr "Veuillez sélectionner le chemin de restauration"
+
+msgid "Plugin Browser"
+msgstr "Liste des plugins"
+
+msgid "Quickbutton: Key "
+msgstr "Touche de Quickbutton "
+
+msgid "Quite without saving changes ?"
+msgstr "Sortir sans suver les changements?"
+
+msgid "Select option (%s):"
+msgstr "Selectioner une option (%s):"
+
+msgid "Personal backup restore"
+msgstr "Restaurer votre sauvegarde"
+
+msgid "Key OK"
+msgstr "Touche OK"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Graphic help"
+msgstr "Aide au graphique"
+
+msgid "RADIO"
+msgstr "Radio"
+
+msgid "Restore Default settings"
+msgstr "Restaurer la configuration d'origine"
+
+msgid "Restore configuration"
+msgstr "Restaurer la configuration"
+
+msgid "Default settings restored!"
+msgstr "la configuration d'origine est restaurée"
+
+msgid "Restart SoftCam"
+msgstr "Redémarrer le Softcam"
+
+msgid ""
+"Restarting Enigma2 to (de)activate:\n"
+"OK and EXIT Button"
+msgstr ""
+"Redémarrage d’Enigma2 pour (dés) activer: \ n "
+"Bouton OK et EXIT"
+
+msgid ""
+"Restarting Enigma2 to set\n"
+"Multi QuickButton Autostart"
+msgstr ""
+"Redémarrage d’Enigma2 pour définir \ n"
+"Démarrage automatique multi-boutons"
+
+msgid ""
+"Restarting Enigma2 to unset\n"
+"Multi QuickButton Autostart"
+msgstr ""
+"Redémarrage d’Enigma2 pour annuler la définition \ n"
+"Démarrage automatique multi-boutons"
+
+msgid "Restore"
+msgstr "Restauration"
+
+msgid "Restore Settings..."
+msgstr "Restauration de la  configuration..."
+
+msgid "Exit whithout saving changes?"
+msgstr "Quitter sans enregistrer les modifications?"
+
+msgid "* On key press and return to list press info for more info about this key"
+msgstr "*Appuyez sur la touche et revenez à la liste, appuyez sur info pour plus d’informations sur cette touche.."
+
+msgid "Key Pressed: ["
+msgstr "Touche appuyée: ["
+
+msgid "Macro configuration"
+msgstr "Configuration macro"
+
+msgid "Save"
+msgstr "Sauver"
+
+msgid "Save Settings"
+msgstr "Sauver la configuration"
+
+msgid "Sleeptimer"
+msgstr "Horaire de mise en veille"
+
+msgid "Start Teletext"
+msgstr "Démarrer le teletexte"
+
+msgid "Start Timeshift"
+msgstr "démarrer le Timeshift"
+
+msgid "Subservice Selection"
+msgstr "Selection de service secondaire"
+
+msgid "Subtitles"
+msgstr "Sous-titres"
+
+msgid "Swap PIP"
+msgstr "changer le PiP"
+
+msgid "Switch 4:3 (Pillarbox) (Pan&Scan)"
+msgstr "Changer 4:3 (Pillarbox) (Pan&Scan)"
+
+msgid "TEXT"
+msgstr "Teletexte"
+
+msgid "Timer"
+msgstr "Timer"
+
+msgid "Toggle AtmoLight"
+msgstr "Basculer AtmoLight"
+
+msgid "VTI Panel"
+msgstr "Panel VTI"
+
+msgid "VU+ EPG / INFO"
+msgstr "VU+ EPG/INFO"
+
+msgid "VU+ R-Button"
+msgstr "VU+ R-Botón"
+
+msgid "Zap history back"
+msgstr "Historique du Zap"
+
+msgid "Zap history next"
+msgstr "Historique du Zap +"
+
+msgid "blue"
+msgstr "Bleu"
+
+msgid "delete"
+msgstr "Effacer"
+
+msgid "Delete"
+msgstr "Effacer"
+
+msgid "file %s not found!"
+msgstr "Archive %s non trouvée!"
+
+msgid "green"
+msgstr "Vert"
+
+msgid "off"
+msgstr "Ouvert"
+
+msgid "on"
+msgstr "Eteint"
+
+msgid "red"
+msgstr "Rouge"
+
+msgid "yellow"
+msgstr "Jaune"
+
+msgid "Add Functions to MQB Key"
+msgstr "Ajouter des fonctions à la touche MQB"
+
+msgid "Add Plugins to MQB Key"
+msgstr "Ajouter des plugins à la touche MQB"
+
+msgid "AutoResolution is disabled"
+msgstr "Autorésolution est desactivée"
+
+msgid "AutoResolution is enabled"
+msgstr "Autorésolution est activée"
+
+msgid "AutoResolution on/off"
+msgstr "Autorésolution ouvert/éteint"
+
+msgid "Button : "
+msgstr "Bouton : "
+
+msgid "Configure macro"
+msgstr "Configuration macro"
+
+msgid "Reboot"
+msgstr "Rebooter"
+
+msgid "Back"
+msgstr "Retour"
+
+msgid "GUIDE/R-Button"
+msgstr "GUIDE/R-Button"
+
+msgid "INFO/EPG"
+msgstr "INFO/EPG"
+
+msgid "Fw"
+msgstr "Majuscule"
+
+msgid "Macros"
+msgstr "Macros"
+
+msgid "Record"
+msgstr "Enregistrer"
+
+msgid "Remote control macro I"
+msgstr "Macro de la télécommande I"
+
+msgid "Remote control macro II"
+msgstr "Macro de la télécommande II"
+
+msgid "Remote control macro III"
+msgstr "Macro de la télécommande III"
+
+msgid "Remote control macro IV"
+msgstr "Macro de la télécommande IV"
+
+msgid "Remote control macro V"
+msgstr "Macro de la télécommande V"
+
+msgid "Remount Network Shares"
+msgstr "Reinitialiser les partages réseau"
+
+msgid "openSPA Menu"
+msgstr "Menu openSPA"
+
+msgid "openSPA RSS"
+msgstr "RSS openSPA"
+
+msgid "openSPA Information"
+msgstr "Information openSPA"
+
+msgid "openSPA Wheather info"
+msgstr "Information meteo openSPA"
+
+msgid "openSPA DeviceManager"
+msgstr "Gestionnaire de périphériques openSPA"
+
+msgid "openSPA CAMD manager"
+msgstr "Gestionnaire de CAM openSPA"
+
+msgid "openSPA File Explorer"
+msgstr "Explorateur de fichiers openSPA"
+
+msgid "openSPA Downloads"
+msgstr "chargement openSPA"
+
+# ##
+msgid "No valid channel!"
+msgstr "Canal non valide"
+
+msgid "Single channel EPG openSPA"
+msgstr "EPG pour une chaine openSPA"
+
+msgid "Programs graphical Guide openSPA"
+msgstr "Guide graphique des programmes openSPA"
+
+msgid "Simple Channel list"
+msgstr "Liste des chaines simple"
+
+msgid "Volume +"
+msgstr "Volume +"
+
+msgid "Volume -"
+msgstr "Volume -"
+
+msgid "Mute on/off"
+msgstr "Silence ouvert/éteint"
+
+msgid "GUI Restart"
+msgstr "Redémarrer le GUI"
+
+msgid "DeepStandby"
+msgstr "veille profonde"
+
+msgid "CoolTVGuide"
+msgstr "CoolTVGuide"
+
+msgid "CoolEasyGuide"
+msgstr "CoolEasyGuide"
+
+msgid "CoolSingleGuide"
+msgstr "CoolSingleGuide"
+
+msgid "CoolInfoGuide"
+msgstr "CoolInfoGuide"
+
+msgid "Play"
+msgstr "Jouer"
+
+msgid "Pause"
+msgstr "Pause"
+
+msgid "Stop"
+msgstr "Stop"
+
+msgid "Rewind <<"
+msgstr "Retour<<"
+
+msgid "Auto AC3/DTS downmix on in standby"
+msgstr "Auto AC3 / DTS downmix en veille"
+
+msgid "Auto AC3/DTS downmix are activated in standby"
+msgstr "Auto AC3 / DTS downmix sont activés pendant la veille"
+
+msgid "Auto AC3/DTS downmix are NOT activated in standby"
+msgstr "Auto AC3 / DTS downmix ne sont pas activés pendant la veille"
+
+msgid "AC3/DTS downmix on/off"
+msgstr "Auto AC3 / DTS downmix ouvert/éteint"
+
+msgid "Dolby Digital downmix"
+msgstr "Dolby Digital downmix"
+
+msgid "AC3/DTS downmix ON"
+msgstr "AC3/DTS downmix activés"
+
+msgid "AC3/DTS downmix OFF"
+msgstr "AC3/DTS downmix désactivés"
+
+msgid "Enabled"
+msgstr "Activé"
+
+msgid "Disabled"
+msgstr "Desactivé"
+
+msgid "Quick zapping channel list"
+msgstr "Liste des chaines du QuickZap"
+
+msgid "openSPA Signal info"
+msgstr "Information openSPA sur le signal"

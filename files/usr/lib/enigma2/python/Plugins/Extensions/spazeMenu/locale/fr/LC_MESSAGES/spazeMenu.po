@@ -1,0 +1,491 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - spazeMenu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-21 18:02+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Stephan94 <openspa.info>\n"
+"Language-Team: openspa.info\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: /home/mpiero/Plugins/spazeMenu\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: fr_FR\n"
+"X-Poedit-Language: Francais\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: /home/mpiero/Plugins/spazeMenu\n"
+
+msgid "About"
+msgstr "Sur"
+
+msgid "Activate home menu with"
+msgstr "Activer le menu d'accueil avec"
+
+msgid "Activate or deactivate installed Extensions and Plugins"
+msgstr "Activer ou désactiver les extensions et plugins installés"
+
+msgid "Activate/Deactivate Plugins"
+msgstr "Activer ou désactiver les plugins"
+
+msgid "Add Extension"
+msgstr "Ajouter plugin"
+
+msgid "AddOns"
+msgstr "Extras"
+
+msgid "Advanced information about your receiver"
+msgstr "Informations avancées sur votre récepteur"
+
+msgid "Audio files: mp3, wav, ogg, m3u, ..."
+msgstr "Fichiers audio mp3, wav, ogg, m3u, ..."
+
+msgid "Audio/Subtitles"
+msgstr "Audio/Sous-titres"
+
+msgid "Backup/restore"
+msgstr "Sauvegarde/Restauration"
+
+msgid "BlackModern Skin Setup"
+msgstr "Configuration du skin Blackmodern"
+
+msgid "Change aspect ratio settings"
+msgstr "Modifier les paramètres du format"
+
+msgid "Common questions"
+msgstr "Questions fréquentes"
+
+msgid "Config for EPG download MediaHighway"
+msgstr "Configuration pour EPG télécharger MediaHighway"
+
+msgid "Configure your Receiver"
+msgstr "Configurer votre récepteur"
+
+msgid "Customize"
+msgstr "Personnaliser"
+
+msgid "Customize Home Menu"
+msgstr "Personnaliser le menu"
+
+msgid "Customize skin BlackModern"
+msgstr "Personnaliser le skin Blackmodern"
+
+msgid "Customize the buttons on the remote"
+msgstr "Personalizar el mando a distancia"
+
+msgid "Deactivate"
+msgstr "Non activé"
+
+msgid "Deactivated Plugin"
+msgstr "Plugin desactivé"
+
+msgid "Default System menu"
+msgstr "Menu principal du système"
+
+msgid "Delete"
+msgstr "Effacer"
+
+msgid "Device Manager"
+msgstr "Gestionnaire des périphériques"
+
+msgid "Down"
+msgstr "en bas"
+
+msgid "Download Plugin"
+msgstr "charger le plugin"
+
+msgid "Downloads"
+msgstr "Charger"
+
+msgid ""
+"Downloads, backups,\n"
+"device manager,..."
+msgstr ""
+"Charger, copier,\n"
+"Gestion des périphériques,..."
+
+msgid "EPG download config"
+msgstr "Charger la configuration de l'EPG"
+
+msgid "Entry %s already exists."
+msgstr "L'élément rentré [%s] existe déjá."
+
+msgid "Error in Plugin or not exist"
+msgstr "Erreur dans le plugin ou cela n'existe pas"
+
+msgid "Explore with MediaCenter - Audio"
+msgstr "Rechercher avec MediaCenter - Audio"
+
+msgid "Explore with MediaCenter - Pictures"
+msgstr "Rechercher avec MediaCenter - photos"
+
+msgid "Explore with MediaCenter - Videos"
+msgstr "Rechercher avec MediaCenter - Videos"
+
+msgid "Explorer"
+msgstr "Rechercher"
+
+msgid "Extensions"
+msgstr "Extensions"
+
+msgid "Extensions menu"
+msgstr "Menu des extensions"
+
+msgid "Extensions, RSS, InfoMeteo, Youtube, TvWeb"
+msgstr "Extensions, RSS, InfoMeteo, Youtube, TvWeb"
+
+msgid "Filebrowser utility"
+msgstr ""
+"Utilitaire de navigateur de fichiers"
+
+msgid "For azboxhd.es"
+msgstr "pour openspa.info"
+
+msgid ""
+"For run another module or program, you need close first the current aplication, normaly pressing [EXIT]\n"
+"Press [OK] button for view the remote control help and faqs."
+msgstr ""
+"Pour exécuter un autre module ou programme, vous devez d’abord fermer l’application en cours, en appuyant sur [EXIT].\n"
+"Appuyez sur le bouton [OK] pour afficher l'aide de la télécommande et les FAQs.."
+
+msgid "Help"
+msgstr "Aide"
+
+msgid "Hide"
+msgstr "Invisible"
+
+msgid "Image files: jpg, png, gif, bmp, ..."
+msgstr "Format des images jpg, png, gif, bmp, ..."
+
+msgid "Information"
+msgstr "Information"
+
+msgid "Install or Uninstall exclusive openSPA Plugins"
+msgstr "Installer ou désinstaller les Plugins OpenSPA"
+
+msgid "Install/Uninstall openSPA Plugins"
+msgstr "Installer/Desinstaller les Plugins"
+
+msgid "It is possible that the program has been deleted or is disabled."
+msgstr "Il est possible que le programme ait été supprimé ou désactivé."
+
+msgid "Key Help"
+msgstr "Touche aide"
+
+msgid "Key Home"
+msgstr "Touche menu"
+
+msgid "Key Menu long"
+msgstr "Touche menu (appuyer longtemps)"
+
+msgid "Key Radio"
+msgstr "Touche Radio"
+
+msgid "Key RecordList"
+msgstr "Touche Liste des enregistrements"
+
+msgid "Key Stop long"
+msgstr "Touche Stop (appuyer longtemps)"
+
+msgid "Key Tv"
+msgstr "Touche TV"
+
+msgid "Key [Exit] -> Close Home Menu"
+msgstr "Touche [Exit] -> Sortir du menu"
+
+msgid "Key [Menu] -> Options"
+msgstr "Touche [Menu -> Options"
+
+msgid "Key [Ok] -> Run"
+msgstr "Touche[Ok] -> Executer"
+
+msgid "List changed. Save this changes?"
+msgstr "La liste a été changée , voulez vous sauver?"
+
+msgid "List of Plugins"
+msgstr "Liste des plugins"
+
+msgid "Manage cams emulation"
+msgstr "Gestionnaire de cams"
+
+msgid "Manage harddisk devices"
+msgstr "Gestionar du disque Dur..."
+
+msgid "MediaCenter"
+msgstr "MediaCenter"
+
+msgid "Movies"
+msgstr "Fims"
+
+msgid "Multimedia files: avi, mpg, mkv, ts, ..."
+msgstr "Format des multimedia avi, mpg, mkv, ts, mp4, ..."
+
+msgid "My Music"
+msgstr "Ma Musique"
+
+msgid "My Pictures"
+msgstr "Mes Photos"
+
+msgid "My Videos"
+msgstr "Mes vidéos"
+
+msgid ""
+"Not openSPA image found!\n"
+"More info in www.azboxhd.es"
+msgstr ""
+"Pas d'image openSPA trouvée!\n"
+"Plus d'information sur openspa.info"
+
+msgid "Open files/folders Explorer"
+msgstr "Ouvrir l'explorateur de fichiers / dossiers"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Options and Receiver setup"
+msgstr ""
+"Options et configuration\n"
+"du récepteur"
+
+msgid "Options for configure the Home Menu"
+msgstr ""
+"Opciones de configuración\n"
+"del Menú inicio"
+
+msgid "Overwrite home menu key"
+msgstr "Habilitar la tecla Home para activar el menú"
+
+msgid "Overwrite menu enigma with openSPA Menu"
+msgstr "Reemplazar el menú de enigma (tecla menú) por el Menú openSPA"
+
+msgid "Plugin for system main menu"
+msgstr "Plugin del menú principal del sistema"
+
+msgid "Plugins"
+msgstr "Plugins"
+
+msgid "Press [MENU] for customize"
+msgstr "Appuyez [MENÚ] pour personnaliser"
+
+msgid "Program not found for menu item "
+msgstr "Programme non trouvé pour l'élément de menu"
+
+msgid "Programs Guide"
+msgstr "Guide des programmes"
+
+msgid "RSS openSPA Reader"
+msgstr "Lecteur de RSS openSPA"
+
+msgid "Radio Mode"
+msgstr "Mode radio"
+
+msgid "Receiver Setup"
+msgstr "Configuration du recepteur"
+
+msgid "Record"
+msgstr "Enregistrer"
+
+msgid "Recordings"
+msgstr "en cour d'enregistrement"
+
+msgid "Remapping keys"
+msgstr "Remappage des clés"
+
+msgid "Remote control Help"
+msgstr "Aide pour la télécommande"
+
+msgid "Remote control help"
+msgstr "Aide pour la télécommande"
+
+msgid ""
+"Remote control help\n"
+"and FAQs"
+msgstr ""
+"Aide pour la télécommande\n"
+"et FAQs"
+
+msgid "Restart GUI to apply changes?"
+msgstr "Redemarrer le GUI pour appliquer les changements"
+
+msgid "Restart, reboot, standby, Sleep Timer..."
+msgstr "Redémarrer, rebooter, au repos ,temporisation"
+
+msgid "Scaling modes"
+msgstr "Mode d'échelle"
+
+msgid "Select Audio track and Subtitles"
+msgstr "Selectionner la piste audio et sous-titres"
+
+msgid "Setup options, password,..."
+msgstr "Option de configuration, mot de passe,..."
+
+msgid "Show"
+msgstr "Montrer"
+
+msgid "Show Graphical EPG"
+msgstr "Montrer le graphique de l'EPG"
+
+msgid "Show Home Menu in main menu"
+msgstr "Montrer le menu dans le menu principal"
+
+msgid "Show audio/subtitles in main menu"
+msgstr "Montrer l'audio/sous-titres dans le menu principal"
+
+msgid "Show help line in home menu"
+msgstr "Montrer l'aide dans le menu"
+
+msgid "Show menu for record"
+msgstr "Montrer le menu d'enregistrement"
+
+msgid "Show record options in main menu"
+msgstr "Montrer le menu d'enregistrement dans le menu principal"
+
+msgid "Show scaling options in main menu"
+msgstr "Montrer l'option d'echelle dans le menu principal"
+
+msgid "Show teletext screen"
+msgstr "Montrer le teletexte"
+
+msgid "Show the system options,configure, restart options, main menu..."
+msgstr "Afficher les options du système, configurer, options de redémarrage, menu principal..."
+
+msgid "Show tv Options, radio mode, audio, subtitles, records..."
+msgstr "Afficher les options de télévision, mode radio, audio, sous-titres, enregistrements..."
+
+msgid "System"
+msgstr "Système"
+
+msgid "System Menu"
+msgstr "Menu Système"
+
+msgid "SystemPlugins"
+msgstr "Plugins de système"
+
+msgid "Teletext"
+msgstr "Teletexte"
+
+msgid ""
+"This plugin are deactivated.\n"
+" Do you want go to Plugin Manager for active it?"
+msgstr ""
+"Ce plugin est désactivé.\n"
+"Voulez-vous aller au gestionnaire de plugins pour l'activer?"
+
+msgid ""
+"This plugin is not installed.\n"
+" You want to access the OpenSPA Extra Plugins Manager to install it?"
+msgstr ""
+"Ce plugin n'est pas installé.\n"
+" Voulez-vous accéder au gestionnaire OpenSPA Extra Plugins pour l'installer?"
+
+msgid "Timer list"
+msgstr "List des programmations"
+
+msgid "Toggle to radio mode"
+msgstr "Passer en mode radio"
+
+msgid "Toggle to tv view"
+msgstr "Passer en mode TV"
+
+msgid "Tv Options"
+msgstr "Options TV"
+
+msgid "TvWeb"
+msgstr "TvWeb"
+
+msgid "Up"
+msgstr "En haut"
+
+msgid ""
+"Updates, Plugins, skins,\n"
+"channel lists..."
+msgstr ""
+"Mise à jour, plugins, \n"
+"skins, liste des chaines..."
+
+msgid "Updates, Plugins, skins,..."
+msgstr "Mise à jour, plugins, skins, listes..."
+
+msgid "View Tv"
+msgstr "Voir la TV"
+
+msgid "View online Tv"
+msgstr "Voir la TV Online"
+
+msgid ""
+"View photos, play audio\n"
+"and video files..."
+msgstr ""
+"Voir les photos, jouer l'audio\n"
+"voir les videos..."
+
+msgid ""
+"View recorded movies,\n"
+"divx, videos..."
+msgstr "Ver películas grabadas"
+
+msgid "Youtube"
+msgstr "Youtube"
+
+msgid "Youtube player"
+msgstr "Regarder Youtube "
+
+msgid "by openSPA"
+msgstr "Pour openSPA"
+
+msgid "openSPA Backup/restore utility"
+msgstr "Utilidad para realizar copias/restaurar"
+
+msgid "openSPA CAMD Manager"
+msgstr "Gestor de CAMD"
+
+msgid "openSPA Home Menu"
+msgstr "Menú principal de openSPA"
+
+msgid "openSPA Menu"
+msgstr "Menú openSPA "
+
+msgid "openSPA Options"
+msgstr "Options openSPA"
+
+msgid "openSPA PlugIns"
+msgstr "Plugins openSPA"
+
+msgid "openSPA Plugins"
+msgstr "Plugins openSPA"
+
+msgid "openSPA Weather Information"
+msgstr "Informations météos openSPA"
+
+msgid "spaPANEL"
+msgstr "Panel SPA"
+
+msgid "spaze PANEL"
+msgstr "Panel SPA"
+
+msgid "TV Series Timers"
+msgstr "Programations des Series TV"
+
+msgid "Customize skin"
+msgstr "Personnaliser le skin"
+
+msgid "Options to configure skin"
+msgstr "Options pour configurer le skin"
+
+msgid "Search Timers"
+msgstr "Chercher la programmation"
+
+msgid "Extra Panel"
+msgstr "Panel Extra"
+
+msgid "Extra Panel downloads"
+msgstr "Charger le Panel Extra"
+
+msgid "openSPA updates wizard"
+msgstr "Assistant de mise à jour OpenSPA"
+
+msgid "Update firmware maintaining configuration"
+msgstr "Mettre à jour le firmware en maintenant la configuration"
+

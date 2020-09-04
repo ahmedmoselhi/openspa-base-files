@@ -1,5 +1,3 @@
-from Renderer import Renderer
-from enigma import ePixmap, eEnv
 from Tools.Directories import fileExists, SCOPE_SKIN_IMAGE, SCOPE_CURRENT_SKIN, resolveFilename
 from Components.config import ConfigText, config, ConfigSubsection
 
