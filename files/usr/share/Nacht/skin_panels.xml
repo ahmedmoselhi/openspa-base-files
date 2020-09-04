@@ -1,0 +1,246 @@
+<skin>
+  <!--ePANELS-->
+  <screen name="ch">
+    <ePixmap position="0,0" size="1920,1080" zPosition="-55" pixmap="Nacht/e1/ch1.png" />
+  </screen>
+  <screen name="pig">
+    <widget source="session.VideoPicture" render="Pig" position="1297,72" size="550,285" zPosition="1" backgroundColor="transparent" />
+  </screen>
+  <screen name="rgyb_source">
+    <ePixmap pixmap="Nacht/e1/rgyb3.png" position="44,954" size="1180,121" zPosition="0" alphatest="blend" transparent="1" />
+    <widget source="key_red" render="Label" position="112,970" size="235,92" valign="center" halign="left" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="lightgrey" backgroundColor="tb3" />
+    <widget source="key_green" render="Label" position="389,970" size="235,92" valign="center" halign="left" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="lightgrey" backgroundColor="tb3" />
+    <widget source="key_yellow" render="Label" position="665,970" size="235,92" valign="center" halign="left" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="lightgrey" backgroundColor="tb3" />
+    <widget source="key_blue" render="Label" position="938,970" size="240,92" valign="center" halign="left" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="lightgrey" backgroundColor="tb3" />
+  </screen>
+  <screen name="rgyb_name">
+    <ePixmap pixmap="Nacht/e1/rgyb3.png" position="42,954" size="1180,121" zPosition="0" alphatest="blend" transparent="1" />
+    <widget name="key_red" render="Label" position="97,970" size="235,92" valign="center" halign="center" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="lightgrey" backgroundColor="tb3" />
+    <widget name="key_green" render="Label" position="374,970" size="235,92" valign="center" halign="center" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="lightgrey" backgroundColor="tb3" />
+    <widget name="key_yellow" render="Label" position="650,970" size="235,92" valign="center" halign="center" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="lightgrey" backgroundColor="tb3" />
+    <widget name="key_blue" render="Label" position="923,970" size="235,92" valign="center" halign="center" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="lightgrey" backgroundColor="tb3" />
+  </screen>
+  <screen name="rgyb_menu">
+    <panel name="rgyb_png" />
+    <widget name="key_red" render="Label" position="97,970" size="235,92" valign="center" halign="center" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="lightgrey" backgroundColor="tb3" />
+    <widget name="key_green" render="Label" position="374,970" size="235,92" valign="center" halign="center" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="lightgrey" backgroundColor="tb3" />
+    <widget name="key_yellow" render="Label" position="650,970" size="235,92" valign="center" halign="center" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="lightgrey" backgroundColor="tb3" />
+    <widget name="key_blue" render="Label" position="935,970" size="235,92" valign="center" halign="center" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="lightgrey" backgroundColor="tb3" />
+  </screen>
+  <screen name="rgyb_png">
+    <ePixmap pixmap="Nacht/e1/rgyb3.png" position="42,955" size="1180,121" zPosition="0" alphatest="blend" transparent="1" />
+  </screen>
+  <screen name="mn">
+	  <widget source="title" render="Label" position="78,63" size="1100,120" font="Console3; 90" transparent="1" zPosition="2" foregroundColor="gr2" halign="left" />
+	  <widget source="menu" render="Listbox" selectionPixmap="Nacht/e1/sel80.png" position="75,210" size="1100,700" scrollbarMode="showNever" zPosition="0" itemHeight="70" scrollbarSliderBorderWidth="0" scrollbarSliderBorderColor="tb" scrollbarWidth="4" scrollbarSliderForegroundColor="b8" scrollbarSliderPicture="Nacht/e1/scrollbar.png" transparent="1">
+		<convert type="TemplatedMultiContent">
+									{"template": [
+									MultiContentEntryText(pos = (50, 10), size = (800, 70), flags = RT_HALIGN_LEFT, text = 0)
+									],
+									"fonts": [gFont("Console3", 36)],
+									"itemHeight": 70
+									}
+								</convert>
+	  </widget>
+	  <panel name="ch" />
+	  <panel name="rgyb_menu" />
+      <panel name="clockneon2" />
+	  <panel name="pig" />
+  </screen>
+  <screen name="clockneon">
+    <widget source="global.CurrentTime" render="NachtFlipClock" position="1367,935" zPosition="5" size="150,166" alphatest="blend" transparent="1">
+      <convert type="ClockToText">Format:H1 %H</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="NachtFlipClock" position="1446,935" zPosition="5" size="150,166" alphatest="blend" transparent="1">
+      <convert type="ClockToText">Format:H2 %H</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="NachtFlipClock" position="1615,935" zPosition="5" size="150,166" alphatest="blend" transparent="1">
+      <convert type="ClockToText">Format:M1 %M</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="NachtFlipClock" position="1690,935" zPosition="5" size="150,166" alphatest="blend" transparent="1">
+      <convert type="ClockToText">Format:M2 %M</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Pixmap" pixmap="Nacht/clockneon/blink.png" position="1590,935" alphatest="blend" size="29,166" transparent="1" zPosition="8">
+      <convert type="NachtAlwaysTrue" />
+      <convert type="ConditionalShowHide">Blink</convert>
+    </widget>
+  </screen>
+  <screen name="clockneon2">
+	  <widget source="global.CurrentTime" render="NachtFlipClock2" position="1470,980" zPosition="5" size="70,77" alphatest="blend" transparent="1">
+		<convert type="ClockToText">Format:H1 %H</convert>
+	  </widget>
+	  <widget source="global.CurrentTime" render="NachtFlipClock2" position="1505,980" zPosition="5" size="70,77" alphatest="blend" transparent="1">
+		<convert type="ClockToText">Format:H2 %H</convert>
+	  </widget>
+	  <widget source="global.CurrentTime" render="NachtFlipClock2" position="1585,980" zPosition="5" size="70,77" alphatest="blend" transparent="1">
+		<convert type="ClockToText">Format:M1 %M</convert>
+	  </widget>
+	  <widget source="global.CurrentTime" render="NachtFlipClock2" position="1620,980" zPosition="5" size="70,77" alphatest="blend" transparent="1">
+		<convert type="ClockToText">Format:M2 %M</convert>
+	  </widget>
+	  <widget source="global.CurrentTime" render="Pixmap" pixmap="Nacht/clockneon2/blink.png" position="1575,980" alphatest="blend" size="13,74" transparent="1" zPosition="8">
+		<convert type="NachtAlwaysTrue" />
+		<convert type="ConditionalShowHide">Blink</convert>
+	  </widget>
+  </screen>
+  <screen name="foot">
+    <widget name="footnote" position="75,905" size="1100,50" zPosition="1" font="Regular; 40" halign="left" transparent="1" valign="top" foregroundColor="g3" />
+    <widget name="description" position="1262,577" size="600,300" font="Regular; 29" halign="center" valign="top" transparent="1" zPosition="1" foregroundColor="lightgrey" backgroundColor="tb" />
+  </screen>
+  <screen name="clk">
+    <widget source="global.CurrentTime" render="Label" position="1664,963" size="192,64" font="LCD;40" valign="center" halign="center" backgroundColor="tb" transparent="1" foregroundColor="b8">
+      <convert type="ClockToText">Format:%H:%M</convert>
+    </widget>
+  </screen>
+  <screen name="mn2">
+    <ePixmap position="0,0" size="1920,1080" zPosition="-1" pixmap="Nacht/e1/gepg.png" alphatest="off" transparent="1" />
+  </screen>
+  <screen name="q3">
+    <ePixmap position="0,0" size="1920,1080" zPosition="-1" pixmap="Nacht/e1/q3.png" alphatest="off" transparent="1" />
+  </screen>
+  <screen name="cvr">
+    <ePixmap position="0,0" size="1920,1080" zPosition="-1" pixmap="Nacht/e1/ch2.png" alphatest="off" transparent="1" />
+  </screen>
+  <screen name="inf">
+    <widget source="Event" render="NachtScrollLabel" position="1285,576" size="600,460" transparent="1" font="Regular;32" halign="left" backgroundColor="tb" foregroundColor="lightgrey" zPosition="5">
+      <convert type="EventName">FullDescription</convert>
+    </widget>
+  </screen>
+  <screen name="cnf">
+    <widget name="config" selectionPixmap="Nacht/e1/sel50.png" itemHeight="50" position="75,75" size="1100,800" zPosition="5" transparent="1" font="Console3; 34" scrollbarMode="showNever" scrollbarSliderBorderWidth="0" scrollbarSliderBorderColor="tb" scrollbarWidth="4" scrollbarSliderForegroundColor="b8" scrollbarSliderPicture="Nacht/e1/scrollbar.png" />
+  </screen>
+  <screen name="list">
+    <widget name="list" backgroundColor="tb" itemHeight="80" selectionPixmap="Nacht/e1/sel80.png" position="75,75" font="Regular; 32" size="1100,820" transparent="1" zPosition="2" fieldMargins="25" nonplayableMargins="25" scrollbarSliderBorderWidth="0" scrollbarSliderBorderColor="tb" scrollbarWidth="4" scrollbarSliderForegroundColor="b8" scrollbarSliderPicture="Nacht/e1/scrollbar.png" enableWrapAround="1" />
+  </screen>
+  <screen name="msg">
+    <widget backgroundColor="tb" font="Regular; 25" name="text" position="512,368" size="837,98" transparent="1" zPosition="2" />
+    <widget alphatest="blend" name="ErrorPixmap" pixmap="icons/input_error.png" position="434,387" size="60,60" />
+    <widget alphatest="blend" name="QuestionPixmap" pixmap="icons/input_question.png" position="434,388" size="60,60" />
+    <widget alphatest="blend" name="InfoPixmap" pixmap="icons/input_info.png" position="436,387" size="60,60" />
+    <widget backgroundColor="tb" itemHeight="45" font="Regular;32" name="list" position="444,492" size="900,200" transparent="1" zPosition="2" />
+    <applet type="onLayoutFinish">
+# this should be factored out into some helper code, but currently demonstrates applets.
+from enigma import eSize, ePoint
+orgwidth = self.instance.size().width()
+orgpos = self.instance.position()
+textsize = self["text"].getSize()
+# y size still must be fixed in font stuff...
+textsize = (textsize[0] + 120, textsize[1] + 120)
+offset = 45
+if self.type == self.TYPE_YESNO:
+	offset = 105
+wsizex = textsize[0] + 180
+wsizey = textsize[1] + offset
+if (1200 &gt; wsizex):
+	wsizex = 1200
+wsize = (wsizex, wsizey)
+# resize
+self.instance.resize(eSize(*wsize))
+# resize label
+self["text"].instance.resize(eSize(*textsize))
+# move list
+listsize = (wsizex - 30, 96)
+self["list"].instance.move(ePoint(15, textsize[1]))
+self["list"].instance.resize(eSize(*listsize))
+# center window
+newwidth = wsize[0]
+self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
+		</applet>
+  </screen>
+  <screen name="msgbx">
+    <widget source="Title" render="Label" position="109,28" size="1080,60" font="Regular; 50" halign="left" valign="center" foregroundColor="white" backgroundColor="tb" borderColor="blue" borderWidth="1" transparent="1" zPosition="1" />
+    <widget name="text" position="10,97" size="1180,60" font="Regular; 40" valign="center" halign="center" foregroundColor="white" />
+    <widget name="ErrorPixmap" pixmap="Nacht/skin_default/icons/input_error.png" position="8,8" size="80,80" alphatest="blend" />
+    <widget name="QuestionPixmap" pixmap="Nacht/skin_default/icons/input_question.png" position="8,8" size="80,80" alphatest="blend" />
+    <widget name="InfoPixmap" pixmap="Nacht/skin_default/icons/input_info.png" position="8,8" size="80,80" alphatest="blend" />
+    <widget name="list" position="14,163" size="1180,330" itemHeight="50" font="Regular; 36" scrollbarMode="showOnDemand"  foregroundColor="white" backgroundColor="tb"  transparent="1" />
+    <applet type="onLayoutFinish">
+# this should be factored out into some helper code,but currently demonstrates applets.
+from enigma import eSize,ePoint, getDesktop
+#orgwidth = self.instance.size().width()
+#orgheight = self.instance.size().height()
+#---
+offset_listposx = 15
+offset_listposy = 135
+offset_listwidth = 15
+offset_listheight = 50
+offset_textwidth = 255
+offset_textheight = 36
+min_width = 600
+min_height = 75
+#----
+deskwidth = getDesktop(0).size().width()
+deskheight = getDesktop(0).size().height()
+textsize = self["text"].getSize()
+textwidth = textsize[0] + offset_textwidth
+textheight = textsize[1] + offset_textheight
+listwidth = 0
+listheight = 0
+if self.list:
+	try:
+		for i in self.list:
+			if len(i[0]) &gt; listwidth:
+				listwidth = len(i[0])
+		listwidth = listwidth * offset_listwidth
+		listheight = len(self.list) * offset_listheight
+	except:
+		pass
+if (min_height &gt; textheight):
+	textheight = min_height
+if (min_width &gt; textwidth):
+	textwidth = min_width
+if (listheight &gt; 0):
+	offset = 38
+else:
+	offset = 20
+if (textwidth &gt; listwidth):
+	wsizex = textwidth + offset_listposx * 2
+else:
+	textwidth = listwidth - offset_listposx
+	wsizex = listwidth + offset_listposx
+wsizey = textheight + listheight + offset
+if ((wsizey + offset_listposy - offset_listposx) &gt; deskheight):
+	textheight = deskheight - listheight - offset - offset_listposy + offset_listposx
+	wsizey = textheight + listheight + offset
+if (wsizex &gt; deskwidth):
+	textwidth = deskwidth - offset_listposx * 2
+	listwidth = wsizex = deskwidth
+wsize = (wsizex,wsizey + offset_listposy - offset_listposx)
+# resize
+self.instance.resize(eSize(*wsize))
+# resize label
+textsize = (textwidth,textheight)
+self["text"].instance.resize(eSize(*textsize))
+# move list
+listsize = (wsizex - offset_listposx * 2,listheight)
+self["list"].instance.move(ePoint(offset_listposx,textheight + offset_listposy))
+self["list"].instance.resize(eSize(*listsize))
+# center window
+newwidth = wsize[0]
+newheight = wsize[1]
+self.instance.move(ePoint(int(deskwidth - newwidth)/2,int(deskheight - newheight)/2))
+		</applet>
+  </screen>
+  <screen name="mtrx">
+    <widget source="titleText" render="Label" position="75,60" size="1100,40" font="Console2; 30" halign="center" valign="top" foregroundColor="b8" backgroundColor="tb" transparent="1" zPosition="1" />
+    <widget source="cancelBtn" render="Label" position="110,975" size="240,40" zPosition="8" valign="center" font="Regular; 27" halign="left" backgroundColor="tb" transparent="0" />
+    <widget source="deleteBtn" render="Label" position="110,975" size="240,40" zPosition="8" valign="center" font="Regular; 27" halign="left" backgroundColor="tb" transparent="0" />
+    <widget source="checkBtn" render="Label" position="385,975" size="240,40" zPosition="8" valign="center" font="Regular; 27" halign="left" backgroundColor="tb" transparent="0" />
+    <widget source="applyBtn" render="Label" position="385,975" size="240,40" zPosition="8" valign="center" font="Regular; 27" halign="left" backgroundColor="tb" transparent="0" />
+    <widget source="loadBtn" render="Label" position="650,975" size="240,40" zPosition="8" valign="center" font="Regular; 27" halign="left" backgroundColor="tb" transparent="0" />
+    <widget source="saveBtn" render="Label" position="650,975" size="240,40" zPosition="8" valign="center" font="Regular; 27" halign="left" backgroundColor="tb" transparent="0" />
+    <widget source="testBtn" render="Label" position="935,975" size="240,40" zPosition="8" valign="center" font="Regular; 27" halign="left" backgroundColor="tb" transparent="0" />
+    <widget name="resulttext" position="1269,800" size="600,217" font="Regular;36" backgroundColor="tb" foregroundColor="white" halign="center" transparent="1" />
+    <widget name="helpertext" position="1269,800" size="600,217" font="Regular; 36" foregroundColor="uncccccc" halign="center" backgroundColor="tb" valign="center" transparent="1" />
+    <widget name="HelpWindow" position="1269,800" size="600,217" zPosition="1" transparent="1" alphatest="blend" />
+    <widget name="helperimage" position="1269,498" size="600,300" backgroundColor="tb" zPosition="8" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="BitrateViewerExtra">
+    <screen name="BitrateViewerExtra" zPosition="22" backgroundColor="transparent" position="200,40" size="273,100" flags="wfNoBorder">
+	  <widget render="Label" source="video_caption" font="Regular; 26" position="0,10" size="100,35" transparent="1" zPosition="5" foregroundColor="black" backgroundColor="gr" halign="center" noWrap="1" valign="center" />
+	  <widget render="Label" source="audio_caption" font="Regular; 26" position="0,60" size="100,35" transparent="1" zPosition="5" foregroundColor="white" backgroundColor="black" halign="center" noWrap="1" valign="center" />
+	  <widget render="Label" source="video" font="Regular; 26" position="100,10" size="170,35" zPosition="6" backgroundColor="gr" transparent="1" foregroundColor="black" noWrap="1" valign="center" />
+	  <widget render="Label" source="audio" font="Regular; 26" position="100,60" size="170,35" zPosition="6" backgroundColor="black" transparent="1" foregroundColor="white" noWrap="1" valign="center" />
+    </screen>
+  </screen>
+</skin>  

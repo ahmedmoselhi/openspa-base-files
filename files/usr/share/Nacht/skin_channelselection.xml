@@ -1,0 +1,42 @@
+<skin>
+  <screen name="channelselection_PIP">
+	  <ePixmap position="0,0" size="1920,1080" zPosition="-55" pixmap="Nacht/e1/ch8.png" />
+	  <panel name="rgyb_name" />
+	  <panel name="pig" />
+	  <panel name="clockneon2" />
+	  <widget name="list" position="75,65" size="1100,670" scrollbarMode="showNever" alphatest="blend" transparent="1" zPosition="1" itemHeight="50" serviceItemHeight="50" 
+	  serviceNumberFont="Regular;40" serviceNameFont="Regular;40" serviceInfoFont="Regular;30" 
+	  foregroundColor="fc" foregroundColorSelected="fcs" 
+	  colorServiceDescription="csd" colorServiceDescriptionSelected="csds" 
+	  colorServiceRecording="red" foregroundColorServiceNotAvail="gr" 
+	  picServiceEventProgressbar="Nacht/e1/ch_progress.png" colorEventProgressbarBorder="cepb" colorEventProgressbarBorderSelected="cepbs" 
+	  scrollbarSliderBorderWidth="0" scrollbarSliderBorderColor="tb" scrollbarWidth="5" scrollbarSliderForegroundColor="ss" scrollbarBackgroundPicture="Nacht/e1/scrollbar.png" 
+	  fieldMargins="15" nonplayableMargins="15" itemsDistances="8" 
+	  progressBarWidth="100" progressbarHeight="21" progressPercentWidth="90" progressbarBorderWidth="0" />
+	  <widget name="list2" valign="bottom" position="1241,425" size="600,556" font="Regular;18" transparent="1" posDuration="220" posEvent="120" posyEvent="1" itemHeight="42" sizey="42" fontBegin="RegularHD;20" fontEvent="RegularHD;20" fontDate="RegularHD;21" fontDuration="RegularHD;0" esFecha="1"/>
+	  <widget source="ServiceEvent" render="Label" position="1266,375" size="600,50" font="Regular; 40" zPosition="5" transparent="1" valign="center" halign="center" noWrap="1" foregroundColor="p6" backgroundColor="tb">
+		<convert type="ServiceName2">Provider</convert>
+	  </widget>
+      <widget source="ServiceEvent" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=90,repeat=5,always=0,startdelay=3000,wrap" position="63,783" size="1115,180" font="Regular; 35" backgroundColor="tb" foregroundColor="p6" transparent="1">
+        <convert type="EventName">ExtendedDescription</convert>
+      </widget>
+  </screen>
+  <screen name="channelselection_noPIP">
+	  <ePixmap position="0,0" size="1920,1080" zPosition="-55" pixmap="Nacht/e1/ch9.png" />
+	  <panel name="rgyb_name" />
+	  <panel name="clockneon2" />
+	  <widget name="list" position="75,65" size="1100,670" scrollbarMode="showNever" alphatest="blend" transparent="1" zPosition="1" itemHeight="50" serviceItemHeight="50" 
+	  serviceNumberFont="Regular;40" serviceNameFont="Regular;40" serviceInfoFont="Regular;30" 
+	  foregroundColor="fc" foregroundColorSelected="fcs" 
+	  colorServiceDescription="csd" colorServiceDescriptionSelected="csds" 
+	  colorServiceRecording="red" foregroundColorServiceNotAvail="gr" 
+	  picServiceEventProgressbar="Nacht/e1/ch_progress.png" colorEventProgressbarBorder="cepb" colorEventProgressbarBorderSelected="cepbs" 
+	  scrollbarSliderBorderWidth="0" scrollbarSliderBorderColor="tb" scrollbarWidth="5" scrollbarSliderForegroundColor="ss" scrollbarBackgroundPicture="Nacht/e1/scrollbar.png" 
+	  fieldMargins="15" nonplayableMargins="15" itemsDistances="8" 
+	  progressBarWidth="100" progressbarHeight="21" progressPercentWidth="90" progressbarBorderWidth="0" />
+	  <widget name="list2" valign="bottom" position="1250,50" size="615,936" font="Regular;18" transparent="1" posDuration="220" posEvent="100" posyevent="3" itemHeight="42" sizey="42" fontBegin="RegularHD;19" fontEvent="RegularHD;20" fontDate="RegularHD;21" fontDuration="RegularHD;0" esFecha="1"/>
+      <widget source="ServiceEvent" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=90,repeat=5,always=0,startdelay=3000,wrap" position="63,783" size="1115,180" font="Regular; 35" backgroundColor="tb" foregroundColor="p6" transparent="1">
+        <convert type="EventName">ExtendedDescription</convert>
+      </widget>
+  </screen>
+</skin>  		

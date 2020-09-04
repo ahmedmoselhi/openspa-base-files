@@ -1,0 +1,99 @@
+<skin>
+  <!-- MENUS -->
+  <screen name="Menu" position="0,0" size="1920,1080">
+    <widget source="title" render="Label" position="78,63" size="1100,120" font="Console3; 90" transparent="1" zPosition="2" foregroundColor="gr2" halign="left" />
+    <widget source="menu" render="Listbox" selectionPixmap="Nacht/e1/sel80.png" position="75,210" size="1100,700" scrollbarMode="showNever" zPosition="0" itemHeight="70" scrollbarSliderBorderWidth="0" scrollbarSliderBorderColor="tb" scrollbarWidth="4" scrollbarSliderForegroundColor="b8" scrollbarSliderPicture="Nacht/e1/scrollbar.png" transparent="1">
+      <convert type="TemplatedMultiContent">
+								{"template": [
+								MultiContentEntryText(pos = (50, 10), size = (800, 70), flags = RT_HALIGN_LEFT, text = 0)
+								],
+								"fonts": [gFont("Console3", 34)],
+								"itemHeight": 70
+								}
+							</convert>
+    </widget>
+    <panel name="ch" />
+    <panel name="rgyb_source" />
+    <panel name="clockneon2" />
+    <panel name="pig" />
+    <ePixmap name="" pixmap="Nacht/e2/system.png" position="1425,499" size="300,300" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="menu_mainmenu" position="0,0" size="1920,1080" title="Main menu" backgroundColor="transparent" flags="wfNoBorder" transparent="0">
+    <panel name="mn" />
+    <ePixmap name="" pixmap="Nacht/e2/home.png" position="1425,499" size="300,300" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="menu_system" position="0,0" size="1920,1080" title="Main menu" backgroundColor="transparent">
+    <panel name="mn" />
+    <ePixmap name="" pixmap="Nacht/e2/system.png" position="1425,499" size="300,300" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="menu_setup" position="0,0" size="1920,1080" title="Main menu" flags="wfNoBorder" backgroundColor="transparent" transparent="0">
+    <panel name="mn" />
+    <ePixmap name="" pixmap="Nacht/e2/setup.png" position="1425,499" size="300,300" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="menu_scan" position="0,0" size="1920,1080" title="Main menu" backgroundColor="transparent">
+    <panel name="mn" />
+    <ePixmap name="" pixmap="Nacht/e2/sat.png" position="1425,499" size="300,300" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="menu_harddisk" position="0,0" size="1920,1080" title="Main menu" backgroundColor="transparent">
+    <panel name="mn" />
+    <ePixmap name="" pixmap="Nacht/e2/hdd.png" position="1425,499" size="300,300" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="menu_shutdown" position="0,0" size="1920,1080" title="Main menu" backgroundColor="transparent">
+    <panel name="mn" />
+    <ePixmap name="" pixmap="Nacht/e2/power.png" position="1425,499" size="300,300" transparent="1" alphatest="blend" />
+  </screen>
+  <screen name="menu_information" position="0,0" size="1920,1080" title="Main menu" backgroundColor="transparent">
+    <panel name="pig" />
+    <widget source="title" render="Label" position="78,63" size="1000,120" font="Console3; 90" transparent="1" zPosition="2" foregroundColor="gr2" halign="left" />
+    <widget source="menu" render="Listbox" selectionPixmap="Nacht/e1/sel80.png" position="100,182" size="1000,269" scrollbarMode="showOnDemand" zPosition="0" itemHeight="70" scrollbarSliderBorderWidth="0" scrollbarSliderBorderColor="tb" scrollbarWidth="4" scrollbarSliderForegroundColor="b8" scrollbarSliderPicture="Nacht/e1/scrollbar.png" transparent="1">
+      <convert type="TemplatedMultiContent">
+										{"template": [
+										MultiContentEntryText(pos = (50, 10), size = (1000, 70), flags = RT_HALIGN_LEFT, text = 0)
+										],
+										"fonts": [gFont("Console3", 40)],
+										"itemHeight": 70
+										}
+									</convert>
+    </widget>
+    <eLabel name="" text="https://github.com/digiteng/" font="Regular; 27" position="1282,827" size="653,50" transparent="1" halign="center" backgroundColor="tb" />
+    <ePixmap name="" pixmap="Nacht/e2/info.png" position="1425,499" size="400,300" transparent="0" alphatest="blend" />
+    <ePixmap name="" pixmap="Nacht/e2/dgtng.png" position="1342,776" size="500,50" transparent="0" alphatest="blend" />
+    <ePixmap name="" pixmap="Nacht/e1/prgrs5b.png" position="100,481" size="1000,10" transparent="1" zPosition="0" alphatest="blend" />
+    <ePixmap name="" pixmap="Nacht/e1/prgrs5b.png" position="100,577" size="1000,10" transparent="1" zPosition="0" alphatest="blend" />
+    <ePixmap name="" pixmap="Nacht/e1/prgrs5b.png" position="100,670" size="1000,10" transparent="1" zPosition="0" alphatest="blend" />
+    <ePixmap name="" pixmap="Nacht/e1/prgrs5b.png" position="100,854" size="1000,10" transparent="1" zPosition="0" alphatest="blend" />
+    <ePixmap name="" pixmap="Nacht/e1/prgrs5b.png" position="100,761" size="1000,10" transparent="1" zPosition="0" alphatest="blend" />
+    <widget source="session.Event_Now" render="Progress" pixmap="Nacht/e1/prgrs7.png" backgroundColor="tb" position="100,481" size="1000,10" alphatest="blend" transparent="1" zPosition="1">
+      <convert type="NachtProgressDiskSpaceInfo">MemTotal</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" zPosition="6" position="100,510" size="1000,40" halign="left" valign="center" font="Regular; 30" transparent="1" backgroundColor="tb" foregroundColor="lightgrey">
+      <convert type="NachtProgressDiskSpaceInfo">MemTotal,Full</convert>
+    </widget>
+    <widget source="session.Event_Now" render="Progress" pixmap="Nacht/e1/prgrs7.png" backgroundColor="tb" position="100,577" size="1000,10" alphatest="blend" transparent="1" zPosition="1">
+      <convert type="NachtProgressDiskSpaceInfo">SwapTotal</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" zPosition="6" position="100,602" size="1000,40" halign="left" valign="center" font="Regular; 30" transparent="1" backgroundColor="tb" foregroundColor="lightgrey">
+      <convert type="NachtProgressDiskSpaceInfo">SwapTotal,Full</convert>
+    </widget>
+    <widget source="session.Event_Now" render="Progress" pixmap="Nacht/e1/prgrs7.png" backgroundColor="tb" position="100,670" size="1000,10" alphatest="blend" transparent="1" zPosition="1">
+      <convert type="NachtProgressDiskSpaceInfo">FleshInfo</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" zPosition="6" position="100,698" size="1000,40" halign="left" valign="center" font="Regular; 30" transparent="1" backgroundColor="tb" foregroundColor="lightgrey">
+      <convert type="NachtProgressDiskSpaceInfo">Flesh,Full</convert>
+    </widget>
+    <widget source="session.Event_Now" render="Progress" pixmap="Nacht/e1/prgrs7.png" backgroundColor="tb" position="100,854" size="1000,10" alphatest="blend" transparent="1" zPosition="1">
+      <convert type="NachtProgressDiskSpaceInfo">UsbInfo</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" zPosition="6" position="100,881" size="1000,40" halign="left" valign="top" font="Regular; 30" transparent="1" backgroundColor="tb" foregroundColor="lightgrey">
+      <convert type="NachtProgressDiskSpaceInfo">UsbInfo,Full</convert>
+    </widget>
+    <widget source="session.Event_Now" render="Progress" pixmap="Nacht/e1/prgrs7.png" backgroundColor="tb" position="100,761" size="1000,10" alphatest="blend" transparent="1" zPosition="1">
+      <convert type="NachtProgressDiskSpaceInfo">HddInfo</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" zPosition="6" position="100,788" size="1000,40" halign="left" valign="center" font="Regular; 30" transparent="1" backgroundColor="tb" foregroundColor="lightgrey">
+      <convert type="NachtProgressDiskSpaceInfo">HddInfo,Full</convert>
+    </widget>
+    <ePixmap position="0,0" size="1920,1080" zPosition="-55" pixmap="Nacht/e1/ch1.png" alphatest="off" transparent="0" />
+  </screen>
+
+</skin>  

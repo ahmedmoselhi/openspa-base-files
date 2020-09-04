@@ -1,0 +1,6 @@
+<skin>
+  <fonts>
+    <font filename="/usr/share/enigma2/Nacht/fonts/Play-Regular.ttf" name="Regular" scale="100" />
+    <font filename="/usr/share/enigma2/Nacht/fonts/Play-Regular.ttf" name="RegularHD" scale="150" />
+  </fonts>
+</skin>  

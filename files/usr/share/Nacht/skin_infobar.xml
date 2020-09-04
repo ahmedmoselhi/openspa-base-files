@@ -1,0 +1,264 @@
+<skin>
+ <screen name="infobar">
+	  <ePixmap position="40,645" size="1840,398" zPosition="-1" pixmap="Nacht/e1/infobar.png" alphatest="off" transparent="0" />
+	  <eLabel name="" text="Nacht" position="1718,847" size="150,40" backgroundColor="tb" foregroundColor="gr2" font="Regular; 30" halign="center" transparent="1" zPosition="4" />
+	  <!--clockneon-->
+	  <widget source="global.CurrentTime" render="NachtFlipClock2" position="1690,895" zPosition="5" size="70,77" alphatest="blend" transparent="1">
+		<convert type="ClockToText">Format:H1 %H</convert>
+	  </widget>
+	  <widget source="global.CurrentTime" render="NachtFlipClock2" position="1716,895" zPosition="5" size="70,77" alphatest="blend" transparent="1">
+		<convert type="ClockToText">Format:H2 %H</convert>
+	  </widget>
+	  <widget source="global.CurrentTime" render="NachtFlipClock2" position="1775,895" zPosition="5" size="70,77" alphatest="blend" transparent="1">
+		<convert type="ClockToText">Format:M1 %M</convert>
+	  </widget>
+	  <widget source="global.CurrentTime" render="NachtFlipClock2" position="1801,895" zPosition="5" size="70,77" alphatest="blend" transparent="1">
+		<convert type="ClockToText">Format:M2 %M</convert>
+	  </widget>
+	  <widget source="global.CurrentTime" render="Pixmap" pixmap="Nacht/clockneon2/blink.png" position="1772,895" alphatest="blend" size="13,74" transparent="1" zPosition="8">
+		<convert type="NachtAlwaysTrue" />
+		<convert type="ConditionalShowHide">Blink</convert>
+	  </widget>
+	  <!--date-->
+	  <widget source="global.CurrentTime" render="Label" position="1675,1000" size="220,40" font="Regular; 30" foregroundColor="lightgrey2" backgroundColor="tb" transparent="1" halign="center">
+		<convert type="ClockToText">Format:%d.%m.%Y</convert>
+	  </widget>
+	  <!--EVENT-->
+	  <widget source="session.CurrentService" render="Label" halign="left" position="498,746" size="1364,94" zPosition="1" font="Regular; 75" transparent="1" backgroundColor="transparent" foregroundColor="white">
+		<convert type="ServiceName">Name</convert>
+	  </widget>
+	  <widget source="session.Event_Now" backgroundColor="tb" font="Regular; 40" zPosition="2" halign="left" position="540,855" render="RunningText" options="movetype=running,startpoint=0,startdelay=1000,steptime=10,wrap=0,always=0,repeat=2,oneshot=1" size="800,50" transparent="1" valign="center">
+		<convert type="EventName">Name</convert>
+	  </widget>
+	  <widget source="session.Event_Next" backgroundColor="tb" font="Regular; 40" halign="left" position="540,935" render="Label" size="800,50" transparent="1" zPosition="5" valign="top">
+		<convert type="EventName">Name</convert>
+	  </widget>
+	  <widget source="session.CurrentService" render="Picon" position="69,761" zPosition="4" size="400,170" transparent="1" alphatest="blend">
+		<convert type="ServiceName">Reference</convert>
+	  </widget>
+	  <eLabel name="" text="(" position="1388,937" size="10,40" font="Console3; 30" foregroundColor="gr2" backgroundColor="tb" zPosition="9" halign="center" transparent="1" />
+	  <eLabel name="" text=")" position="1530,937" size="10,40" font="Console3; 30" foregroundColor="gr2" backgroundColor="tb" zPosition="9" halign="center" transparent="1" />
+	  <widget source="session.Event_Next" render="Label" position="1398,937" size="130,40" backgroundColor="tb" transparent="1" zPosition="5" foregroundColor="lightgrey2" font="Regular; 30" halign="center">
+		<convert type="EventTime">Duration</convert>
+		<convert type="ClockToText">InMinutes</convert>
+	  </widget>
+	  <widget source="session.Event_Now" render="Progress" position="530,905" size="1020,30" backgroundColor="tb" pixmap="Nacht/e1/prgrs2.png" zPosition="3" transparent="1">
+		<convert type="EventTime">Progress</convert>
+	  </widget>
+	  <eLabel name="" text="(" position="1388,861" size="10,40" font="Console3; 30" foregroundColor="gr2" backgroundColor="tb" zPosition="9" halign="center" transparent="1" />
+	  <eLabel name="" text=")" position="1530,861" size="10,40" font="Console3; 30" foregroundColor="gr2" backgroundColor="tb" zPosition="9" halign="center" transparent="1" />
+	  <widget source="session.Event_Now" backgroundColor="tb" font="Regular; 30" halign="center" zPosition="3" position="1398,861" render="Label" size="130,40" transparent="1">
+		<convert type="EventTime">Remaining</convert>
+		<convert type="RemainingToText">InMinutes</convert>
+	  </widget>
+	  <!--SNR-AGC-BER-->
+	  <widget source="session.FrontendStatus" render="Progress" pixmap="Nacht/e1/snr1.png" orientation="orBottomToTop" position="1581,854" size="24,151" backgroundColor="tb" alphatest="blend" transparent="1" zPosition="2">
+		<convert type="FrontendInfo">SNR</convert>
+	  </widget>
+	  <widget source="session.FrontendStatus" render="Progress" orientation="orBottomToTop" backgroundColor="tb" transparent="1" zPosition="2" pixmap="Nacht/e1/snr1.png" position="1642,854" size="24,151">
+		<convert type="FrontendInfo">AGC</convert>
+	  </widget>
+	  <widget source="session.FrontendStatus" render="Label" pixmap="Nacht/e1/snr1.png" font="Console3; 18" position="1599,854" size="50,20" backgroundColor="tb" alphatest="blend" transparent="1" zPosition="3" halign="left">
+		<convert type="FrontendInfo">SNR</convert>
+	  </widget>
+	  <widget source="session.FrontendStatus" render="Label" font="Console3; 18" size="50,20" backgroundColor="tb" transparent="1" zPosition="3" pixmap="Nacht/e1/snr1.png" position="1659,854" halign="center">
+		<convert type="FrontendInfo">AGC</convert>
+	  </widget>
+	  <eLabel name="" text="(" position="1225,1000" size="10,40" font="Console3; 30" foregroundColor="gr2" backgroundColor="tb" zPosition="9" halign="center" transparent="1" />
+	  <eLabel name="" text=")" position="1367,1000" size="10,40" font="Console3; 30" foregroundColor="gr2" backgroundColor="tb" zPosition="9" halign="center" transparent="1" />
+	  <widget source="session.CurrentService" render="Label" position="1236,995" size="130,40" font="Regular; 28" halign="center" valign="center" backgroundColor="tb" transparent="1" zPosition="2">
+		<convert type="ServiceOrbitalPosition" />
+	  </widget>
+	  <widget source="session.CurrentService" backgroundColor="tb" render="Label" position="1385,1000" size="180,40" font="Regular; 30" transparent="1" halign="center" zPosition="2">
+		<convert type="PliExtraInfo">ResolutionString</convert>
+	  </widget>
+	  <!--TUNER-->
+	  <eLabel name="tunerA" text="A" position="695,1000" zPosition="3" size="50,50" backgroundColor="tb" foregroundColor="#929292" halign="center" transparent="1" font="Console3; 30" />
+	  <widget position="695,993" source="session.TunerInfo" render="Pixmap" pixmap="Nacht/e4/aa.png" zPosition="4" size="50,50" alphatest="blend" transparent="1">
+		<convert type="TunerInfo">TunerUseMask</convert>
+		<convert type="ValueBitTest">1</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.FrontendInfo" render="Pixmap" pixmap="Nacht/e4/a.png" position="695,993" zPosition="3" size="50,50" alphatest="blend" transparent="1">
+		<convert type="FrontendInfo">NUMBER</convert>
+		<convert type="ValueRange">0,0</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <eLabel name="tunerB" text="B" position="745,1000" zPosition="3" size="50,50" backgroundColor="tb" foregroundColor="#929292" halign="center" transparent="1" font="Console3; 30" />
+	  <widget position="745,993" source="session.TunerInfo" render="Pixmap" pixmap="Nacht/e4/bb.png" zPosition="4" size="50,50" alphatest="blend" transparent="1">
+		<convert type="TunerInfo">TunerUseMask</convert>
+		<convert type="ValueBitTest">2</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.FrontendInfo" render="Pixmap" pixmap="Nacht/e4/b.png" position="745,993" zPosition="3" size="50,50" alphatest="blend" transparent="1">
+		<convert type="FrontendInfo">NUMBER</convert>
+		<convert type="ValueRange">1,1</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <eLabel name="tunerC" text="C" position="795,1000" zPosition="3" size="50,50" backgroundColor="tb" foregroundColor="#929292" halign="center" transparent="1" font="Console3; 30" />
+	  <widget position="795,993" source="session.TunerInfo" render="Pixmap" pixmap="Nacht/e4/cc.png" zPosition="4" size="50,50" alphatest="blend" transparent="1">
+		<convert type="TunerInfo">TunerUseMask</convert>
+		<convert type="ValueBitTest">4</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.FrontendInfo" render="Pixmap" pixmap="Nacht/e4/c.png" position="795,993" zPosition="3" size="50,50" alphatest="blend" transparent="1">
+		<convert type="FrontendInfo">NUMBER</convert>
+		<convert type="ValueRange">2,2</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <eLabel name="tunerD" text="D" position="845,1000" zPosition="3" size="50,50" backgroundColor="tb" foregroundColor="#929292" halign="center" transparent="1" font="Console3; 30" />
+	  <widget position="845,993" source="session.TunerInfo" render="Pixmap" pixmap="Nacht/e4/dd.png" zPosition="4" size="50,50" alphatest="blend" transparent="1">
+		<convert type="TunerInfo">TunerUseMask</convert>
+		<convert type="ValueBitTest">8</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.FrontendInfo" render="Pixmap" pixmap="Nacht/e4/d.png" position="845,993" zPosition="3" size="50,50" alphatest="blend" transparent="1">
+		<convert type="FrontendInfo">NUMBER</convert>
+		<convert type="ValueRange">3,3</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <eLabel name="tunerE" text="E" position="895,1000" zPosition="3" size="50,50" backgroundColor="tb" foregroundColor="#929292" halign="center" transparent="1" font="Console3; 30" />
+	  <widget position="895,993" source="session.TunerInfo" render="Pixmap" pixmap="Nacht/e4/ee.png" zPosition="4" size="50,50" alphatest="blend" transparent="1">
+		<convert type="TunerInfo">TunerUseMask</convert>
+		<convert type="ValueBitTest">16</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.FrontendInfo" render="Pixmap" pixmap="Nacht/e4/e.png" position="895,993" zPosition="3" size="50,50" alphatest="blend" transparent="1">
+		<convert type="FrontendInfo">NUMBER</convert>
+		<convert type="ValueRange">4,4</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <eLabel name="tunerF" text="F" position="945,1000" zPosition="3" size="50,50" backgroundColor="tb" foregroundColor="#929292" halign="center" transparent="1" font="Console3; 30" />
+	  <widget position="945,993" source="session.TunerInfo" render="Pixmap" pixmap="Nacht/e4/ff.png" zPosition="4" size="50,50" alphatest="blend" transparent="1">
+		<convert type="TunerInfo">TunerUseMask</convert>
+		<convert type="ValueBitTest">32</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.FrontendInfo" render="Pixmap" pixmap="Nacht/e4/f.png" position="945,993" zPosition="3" size="50,50" alphatest="blend" transparent="1">
+		<convert type="FrontendInfo">NUMBER</convert>
+		<convert type="ValueRange">5,5</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <eLabel name="tunerG" text="G" position="995,1000" zPosition="3" size="50,50" backgroundColor="tb" foregroundColor="#929292" halign="center" transparent="1" font="Console3; 30" />
+	  <widget position="995,993" source="session.TunerInfo" render="Pixmap" pixmap="Nacht/e4/gg.png" zPosition="4" size="50,50" alphatest="blend" transparent="1">
+		<convert type="TunerInfo">TunerUseMask</convert>
+		<convert type="ValueBitTest">64</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.FrontendInfo" render="Pixmap" pixmap="Nacht/e4/g.png" position="995,993" zPosition="3" size="50,50" alphatest="blend" transparent="1">
+		<convert type="FrontendInfo">NUMBER</convert>
+		<convert type="ValueRange">6,6</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <eLabel name="tunerH" text="H" position="1045,1000" zPosition="3" size="50,50" backgroundColor="tb" foregroundColor="#929292" halign="center" transparent="1" font="Console3; 30" />
+	  <widget position="1045,993" source="session.TunerInfo" render="Pixmap" pixmap="Nacht/e4/hh.png" zPosition="4" size="50,50" alphatest="blend" transparent="1">
+		<convert type="TunerInfo">TunerUseMask</convert>
+		<convert type="ValueBitTest">128</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.FrontendInfo" render="Pixmap" pixmap="Nacht/e4/h.png" position="1045,993" zPosition="3" size="50,50" alphatest="blend" transparent="1">
+		<convert type="FrontendInfo">NUMBER</convert>
+		<convert type="ValueRange">7,7</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <eLabel name="tunerI" text="I" position="1095,1000" zPosition="3" size="50,50" backgroundColor="tb" foregroundColor="#929292" halign="center" transparent="1" font="Console3; 30" />
+	  <widget position="1095,993" source="session.TunerInfo" render="Pixmap" pixmap="Nacht/e4/ii.png" zPosition="4" size="50,50" alphatest="blend" transparent="1">
+		<convert type="TunerInfo">TunerUseMask</convert>
+		<convert type="ValueBitTest">256</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.FrontendInfo" render="Pixmap" pixmap="Nacht/e4/i.png" position="1095,993" zPosition="3" size="50,50" alphatest="blend" transparent="1">
+		<convert type="FrontendInfo">NUMBER</convert>
+		<convert type="ValueRange">8,8</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <eLabel name="tunerJ" text="J" position="1145,1000" zPosition="3" size="50,50" backgroundColor="tb" foregroundColor="#929292" halign="center" transparent="1" font="Console3; 30" />
+	  <widget position="1145,993" source="session.TunerInfo" render="Pixmap" pixmap="Nacht/e4/jj.png" zPosition="4" size="50,50" alphatest="blend" transparent="1">
+		<convert type="TunerInfo">TunerUseMask</convert>
+		<convert type="ValueBitTest">512</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.FrontendInfo" render="Pixmap" pixmap="Nacht/e4/j.png" position="1145,993" zPosition="3" size="50,50" alphatest="blend" transparent="1">
+		<convert type="FrontendInfo">NUMBER</convert>
+		<convert type="ValueRange">9,9</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <!--SD-HD-FHD-UHD-->
+	  <ePixmap name="" pixmap="Nacht/e4/buton2.png" position="45,993" size="407,49" transparent="0" alphatest="blend" />
+	  <widget source="session.CurrentService" position="378,993" size="100,70" render="Pixmap" pixmap="Nacht/e4/sd.png" zPosition="2" alphatest="blend">
+		<convert type="ServiceInfo">VideoHeight</convert>
+		<convert type="ValueRange">0,719</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.CurrentService" position="378,993" size="100,70" render="Pixmap" pixmap="Nacht/e4/hd.png" zPosition="2" alphatest="blend">
+		<convert type="ServiceInfo">VideoHeight</convert>
+		<convert type="ValueRange">720,1079</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.CurrentService" position="379,993" size="100,70" render="Pixmap" pixmap="Nacht/e4/fhd.png" zPosition="2" alphatest="blend">
+		<convert type="ServiceInfo">VideoHeight</convert>
+		<convert type="ValueRange">721,1080</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.CurrentService" position="379,993" size="100,70" render="Pixmap" pixmap="Nacht/e4/uhd.png" zPosition="2" alphatest="blend">
+		<convert type="ServiceInfo">VideoHeight</convert>
+		<convert type="ValueRange">1081,5000</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <!--INF-->
+	  <widget source="session.CurrentService" render="Pixmap" pixmap="Nacht/e4/dolby.png" position="45,993" size="100,49" zPosition="2" alphatest="blend" transparent="1">
+		<convert type="ServiceInfo">IsMultichannel</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.CurrentService" render="Pixmap" pixmap="Nacht/e4/txt.png" position="219,993" size="50,49" zPosition="2" alphatest="blend">
+		<convert type="ServiceInfo">HasTelext</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.CurrentService" render="Pixmap" pixmap="Nacht/e4/crypt.png" position="262,993" size="40,49" zPosition="2" alphatest="blend">
+		<convert type="ServiceInfo">IsCrypted</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.CurrentService" render="Pixmap" position="298,993" size="100,49" zPosition="2" pixmap="Nacht/e4/hbbtv.png" alphatest="blend" transparent="1">
+		<convert type="ServiceInfo">HasHBBTV</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.CurrentService" render="Pixmap" pixmap="Nacht/e4/sub.png" position="171,993" zPosition="2" size="50,49" alphatest="blend">
+		<convert type="ServiceInfo">SubservicesAvailable</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.CurrentService" render="Pixmap" pixmap="Nacht/e4/43.png" position="114,993" size="60,49" zPosition="2" alphatest="blend" transparent="1">
+		<convert type="ServiceInfo">IsNotWidescreen</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.CurrentService" render="Pixmap" pixmap="Nacht/e4/169.png" position="114,993" size="60,49" zPosition="3" alphatest="blend">
+		<convert type="ServiceInfo">IsWidescreen</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.RecordState" render="Pixmap" pixmap="Nacht/e4/rec.png" position="602,993" zPosition="3" size="75,50">
+		<convert type="ConditionalShowHide">Blink</convert>
+	  </widget>
+	  <!--SOFTCAM-->
+	  <widget source="session.CurrentService" render="Label" position="57,958" size="419,30" font="Regular; 25" halign="center" backgroundColor="tb" transparent="1" zPosition="8" foregroundColor="und6ff98">
+		<convert type="nBmExtendedServiceInfo">TunerInfo</convert>
+	  </widget>
+	  <widget source="session.CurrentService" render="Pixmap" pixmap="Nacht/e4/fta.png" position="496,996" size="71,50" alphatest="blend" zPosition="2">
+		<convert type="NachtServiceInfoEX">IsFta</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <widget source="session.CurrentService" render="Pixmap" pixmap="Nacht/e4/net.png" position="441,996" size="70,50" alphatest="blend" zPosition="2">
+      <convert type="nBmExtendedServiceInfo">InetConection</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  
+	  <widget source="session.CurrentService" render="Pixmap" pixmap="Nacht/e4/emu.png" position="496,996" size="70,50" alphatest="blend" zPosition="4">
+		<convert type="NachtCaidInfo2">Emu</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+	  <ePixmap pixmap="icons/ico_stream_off.png" position="570,1008" size="30,30" zPosition="0" alphatest="blend" />
+	  <widget source="session.CurrentService" render="Pixmap" pixmap="icons/ico_stream.png" position="571,1009" size="30,30" zPosition="3" alphatest="blend">
+		<convert type="NachtServiceInfoEX">IsStreamTV</convert>
+		<convert type="ConditionalShowHide" />
+	  </widget>
+          
+  </screen>
+</skin>  	
