@@ -20,6 +20,8 @@
 		<key id="KEY_RADIO" mapto="radio_long" flags="l" />
 		<key id="KEY_TV" mapto="tv" flags="b" />
 		<key id="KEY_TV" mapto="tv_long" flags="l" />
+		<key id="KEY_TVSAT" mapto="tvsat" flags="b" />
+		<key id="KEY_TVSAT" mapto="tvsat_long" flags="l" />
 		<key id="KEY_TEXT" mapto="text" flags="b" />
 		<key id="KEY_TEXT" mapto="text_long" flags="l" />
 		<key id="KEY_HELP" mapto="displayHelp" flags="b" />
@@ -73,18 +75,26 @@
 		<!-- <key id="KEY_FILE" mapto="filelist" flags="b" /> -->
 		<key id="KEY_FILE" mapto="filelist_long" flags="l" />
 		<!-- <key id="KEY_OK" mapto="ok" flags="m" /> -->
-		<!-- <key id="KEY_EXIT" mapto="exit" flags="m" /> -->
+		<key id="KEY_EXIT" mapto="exit_long" flags="l" />
 		<key id="KEY_F1" mapto="f1" flags="b" />
-		<key id="KEY_F1" mapto="f1_long" flags="b" />
-		<key id="KEY_F2" mapto="f2" flags="l" />
-		<key id="KEY_F2" mapto="f_long" flags="l" />
+		<key id="KEY_F1" mapto="f1_long" flags="l" />
+		<key id="KEY_F2" mapto="f2" flags="b" />
+		<key id="KEY_F2" mapto="f2_long" flags="l" />
 		<key id="KEY_F3" mapto="f3" flags="b" />
 		<key id="KEY_F3" mapto="f3_long" flags="l" />
-		<key id="KEY_F4" mapto="f4" flags="b" />
-		<key id="KEY_F4" mapto="f4_long" flags="l" />
+		<key id="KEY_RECALL" mapto="recall" flags="b" />
+		<key id="KEY_RECALL" mapto="recall_long" flags="l" />
+		<key id="KEY_SPARK" mapto="spark" flags="b" />
+		<key id="KEY_SPARK" mapto="spark_long" flags="l" />
 		<key id="KEY_FAVORITES" mapto="favorites" flags="b" />
 		<key id="KEY_FAVORITES" mapto="favorites_long" flags="l" />
 		<key id="KEY_SLEEP" mapto="sleep" flags="b" />
 		<key id="KEY_SLEEP" mapto="sleep_long" flags="l" />
+		<key id="KEY_PORTAL" mapto="portal" flags="b" />
+		<key id="KEY_PORTAL" mapto="portal_long" flags="l" />
+		<key id="KEY_USB" mapto="usb" flags="b" />
+		<key id="KEY_USB" mapto="usb_long" flags="l" />
+		<key id="KEY_PLAYMODE" mapto="playmode" flags="b" />
+		<key id="KEY_PLAYMODE" mapto="playmode_long" flags="l" />
 </map>
 </keymap>
