@@ -27,12 +27,6 @@ pipmenu(self.session)]]></code>
 </mqbfunction>
 
 <mqbfunction>
-<name>openSPA Quick Buttons</name>
-<code><![CDATA[from Plugins.Extensions.spaQButton.plugin import main
-main(self.session)]]></code>
-</mqbfunction>
-
-<mqbfunction>
 <name>openSPA Information</name>
 <code><![CDATA[from Plugins.Extensions.spazeMenu.spzPlugins.InfoAz.plugin import iniciainfo
 iniciainfo(self.session)]]></code>
@@ -70,6 +64,11 @@ main(self.session)]]></code>
 <name>openSPA Signal info</name>
 <code><![CDATA[from Plugins.SystemPlugins.InfoSignal.plugin import InfoSignal
 self.session.open(InfoSignal)]]></code>
+</mqbfunction>
+<mqbfunction>
+<name>openSPA Quick Buttons</name>
+<code><![CDATA[from Plugins.Extensions.spaQButton.plugin import main
+main(self.session)]]></code>
 </mqbfunction>
 <mqbfunction>
 <name>-----Extensions/Plugins Functions-----</name>
@@ -324,87 +323,15 @@ if InfoBar and InfoBar.instance:
 </mqbfunction>
 
 <mqbfunction>
-<name>Customize</name>
-<module>Screens.Setup</module>
-<screen>Setup, "usage"</screen>
-</mqbfunction>
-
-<mqbfunction>
-<name>User interface</name>
-<module>Screens.Setup</module>
-<screen>Setup, "userinterface"</screen>
-</mqbfunction>
-
-<mqbfunction>
-<name>Timezone</name>
-<module>Screens.Setup</module>
-<screen>Setup, "timezone"</screen>
-</mqbfunction>
-
-<mqbfunction>
-<name>EPG settings</name>
-<module>Screens.Setup</module>
-<screen>Setup, "epgsettings"</screen>
-</mqbfunction>
-
-<mqbfunction>
-<name>Subtitle settings</name>
-<module>Screens.Setup</module>
-<screen>Setup, "subtitlesetup"</screen>
-</mqbfunction>
-
-<mqbfunction>
-<name>Auto language selection</name>
-<module>Screens.Setup</module>
-<screen>Setup, "autolanguagesetup"</screen>
-</mqbfunction>
-
-<mqbfunction>
-<name>Record setup</name>
-<module>Screens.Setup</module>
-<screen>Setup, "recording"</screen>
-</mqbfunction>
-
-<mqbfunction>
-<name>Hard disk setup</name>
-<module>Screens.Setup</module>
-<screen>Setup, "harddisk"</screen>
-</mqbfunction>
-
-<mqbfunction>
-<name>Network setup</name>
-<module>Screens.Setup</module>
-<screen>Setup, "network"</screen>
-</mqbfunction>
-
-<mqbfunction>
-<name>RF output</name>
-<module>Screens.Setup</module>
-<screen>Setup, "RFmod"</screen>
-</mqbfunction>
-
-<mqbfunction>
-<name>Keyboard setup</name>
-<module>Screens.Setup</module>
-<screen>Setup, "keyboard"</screen>
-</mqbfunction>
-
-<mqbfunction>
-<name>OSD settings</name>
-<module>Screens.Setup</module>
-<screen>Setup, "osd"</screen>
-</mqbfunction>
-
-<mqbfunction>
-<name>Display setup</name>
-<module>Screens.Setup</module>
-<screen>Setup, "lcd"</screen>
-</mqbfunction>
-
-<mqbfunction>
 <name>InfoBar Audio Selection</name>
 <code>from Screens.InfoBarGenerics import InfoBarAudioSelection
 self.yellow_key()</code>
+</mqbfunction>
+
+<mqbfunction>
+<name>InfoBar Resolution Selection</name>
+<code>from Screens.InfoBarGenerics import InfoBarAspectSelection
+self.ExGreen_toggleGreen()</code>
 </mqbfunction>
 
 <mqbfunction>
@@ -525,6 +452,47 @@ keyaction.keyPressed("dreambox remote control (native)", 114, int(0))]]></code>
 <code><![CDATA[from enigma import eActionMap
 keyaction = eActionMap.getInstance()
 keyaction.keyPressed("dreambox remote control (native)", 113, int(0))]]></code>
+</mqbfunction>
+
+<mqbfunction>
+<name>-----Satellites Setup &amp; Scanning-----</name>
+<code></code>
+</mqbfunction>
+
+<mqbfunction>
+<name>Tuner Configuration</name>
+<module>Screens.Satconfig</module>
+<screen>NimSelection</screen>
+</mqbfunction>
+
+<mqbfunction>
+<name>Manual Scan</name>
+<module>Screens.ScanSetup</module>
+<screen>ScanSetup</screen>
+</mqbfunction>
+
+<mqbfunction>
+<name>Auto Scan</name>
+<module>Screens.ScanSetup</module>
+<screen>ScanSimple</screen>
+</mqbfunction>
+
+<mqbfunction>
+<name>Blind Scan</name>
+<code><![CDATA[from Plugins.SystemPlugins.Blindscan.plugin import BlindscanMain
+BlindscanMain(self.session)]]></code>
+</mqbfunction>
+
+<mqbfunction>
+<name>Signal Finder</name>
+<code><![CDATA[from Plugins.SystemPlugins.Satfinder.plugin import SatfinderMain
+SatfinderMain(self.session)]]></code>
+</mqbfunction>
+
+<mqbfunction>
+<name>Signal Finder DVB-S2</name>
+<code><![CDATA[from Plugins.SystemPlugins.SignalFinder.plugin import SignalFinderMain
+SignalFinderMain(self.session)]]></code>
 </mqbfunction>
 
 <mqbfunction>
@@ -669,35 +637,6 @@ for key in keys.split(","):
 		key = int(key)
 		keyaction.keyPressed(rcdevicename, key, int(0))
 		keyaction.keyPressed(rcdevicename, key, int(1))</code>
-</mqbfunction>
-
-<mqbfunction>
-<name>-----Satellites Setup &amp; Scanning-----</name>
-<code></code>
-</mqbfunction>
-
-<mqbfunction>
-<name>Tuner Configuration</name>
-<module>Screens.Satconfig</module>
-<screen>NimSelection</screen>
-</mqbfunction>
-
-<mqbfunction>
-<name>Manual Scan</name>
-<module>Screens.ScanSetup</module>
-<screen>ScanSetup</screen>
-</mqbfunction>
-
-<mqbfunction>
-<name>Auto Scan</name>
-<module>Screens.ScanSetup</module>
-<screen>ScanSimple</screen>
-</mqbfunction>
-
-<mqbfunction>
-<name>Signal Finder DVB-S2</name>
-<module>Plugins.SystemPlugins.SignalFinder.plugin</module>
-<screen>SignalFinderMultistreamT2MI</screen>
 </mqbfunction>
 
 <mqbfunction>
